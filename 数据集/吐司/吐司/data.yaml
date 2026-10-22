@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bread']
+
+roboflow:
+  workspace: 2795324900-qq-com
+  project: toast_dataset
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/2795324900-qq-com/toast_dataset/1
