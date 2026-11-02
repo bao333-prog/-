@@ -2,6 +2,17 @@ let predictionController;
 const resultPanel = document.createElement('div');
 resultPanel.setAttribute('aria-live', 'polite');
 $('form').prepend(resultPanel);
+const restartButton = document.createElement('button');
+restartButton.id = 'restart';
+restartButton.type = 'button';
+restartButton.className = 'text-button full';
+restartButton.textContent = '识别下一张';
+restartButton.hidden = true;
+$('draft').after(restartButton);
+restartButton.onclick = () => {
+  reset();
+  $('pick').focus();
+};
 const unknown = '以上都不是';
 const uncertainChoice = '不确定，需要人工确认';
 const clearPrediction = () => {
@@ -9,7 +20,7 @@ const clearPrediction = () => {
   resultPanel.textContent = '';
 };
 const originalReset = reset;
-reset = function () { clearPrediction(); originalReset(); };
+reset = function () { clearPrediction(); originalReset(); restartButton.hidden = true; };
 $('remove').onclick = reset;
 const originalLoad = load;
 load = async function(file) {
@@ -21,6 +32,7 @@ load = async function(file) {
   await pending;
   if (loadVersion !== expectedVersion) return;
   if (!objectUrl) return;
+  restartButton.hidden = false;
   const version = loadVersion;
   const controller = new AbortController();
   predictionController = controller;
