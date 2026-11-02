@@ -123,4 +123,3 @@ class FoodImageDataset:
         # Pillow数组为高×宽×通道，PyTorch卷积需要通道×高×宽。
         tensor = torch.from_numpy(np.transpose(pixels, (2, 0, 1)).copy())
         return tensor, self.class_to_index[record.food_label]
-

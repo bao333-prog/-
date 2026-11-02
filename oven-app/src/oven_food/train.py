@@ -410,4 +410,3 @@ def _validate_epoch(model, loader, criterion, device, torch) -> tuple[float, flo
             correct += (logits.argmax(dim=1) == labels).sum().item()
             count += labels.size(0)
     return loss_sum / count, correct / count
-

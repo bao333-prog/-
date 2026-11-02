@@ -3,4 +3,3 @@
 from .manifest import ManifestRecord, ManifestValidationError
 
 __all__ = ["ManifestRecord", "ManifestValidationError"]
-

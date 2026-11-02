@@ -129,4 +129,3 @@ def extract_video_frames(
     if not records:
         raise ValueError("no frames were extracted after interval and duplicate filtering")
     return records
-

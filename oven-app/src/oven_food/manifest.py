@@ -136,4 +136,3 @@ def write_manifest(path: str | Path, records: Iterable[ManifestRecord]) -> None:
             if not include_split:
                 values.pop("split", None)
             writer.writerow(values)
-

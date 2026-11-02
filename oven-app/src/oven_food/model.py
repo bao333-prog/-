@@ -113,4 +113,3 @@ def build_model(
         for parameter in model.features.parameters():
             parameter.requires_grad = False
     return model
-

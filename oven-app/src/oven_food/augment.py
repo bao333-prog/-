@@ -234,4 +234,3 @@ class ProxyAugmenter:
         left = self._rng.randint(0, max(0, image.width - crop_side))
         top = self._rng.randint(0, max(0, image.height - crop_side))
         return image.crop((left, top, left + crop_side, top + crop_side))
-

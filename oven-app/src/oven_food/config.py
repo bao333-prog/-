@@ -168,4 +168,3 @@ def _validate_config(config: ExperimentConfig) -> None:
             raise ConfigError(f"{name} must be positive")
     if config.num_workers < 0 or config.weight_decay < 0:
         raise ConfigError("num_workers and weight_decay must be nonnegative")
-

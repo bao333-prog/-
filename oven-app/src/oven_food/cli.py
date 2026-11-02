@@ -136,4 +136,3 @@ def main(argv: Sequence[str] | None = None) -> int:
         )
         return 0
     raise AssertionError(f"unhandled command: {args.command}")
-

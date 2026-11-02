@@ -134,7 +134,7 @@ for variant,title in [('gamma_dark','gamma=1.1'),('gamma_light','gamma=0.9'),('s
 lines += ['', '## 逐轮记录','', '| 轮次 | CE损失 | 蒸馏损失 | 有效蒸馏旧样本 | 验证准确率 |','|---|---:|---:|---:|---:|']
 for h in history:lines.append(f"| {h['epoch']} | {h['supervised_loss']:.5f} | {h['distillation_loss']:.5f} | {h['distillation_examples']} | {h['validation_accuracy']:.2%} |")
 lines += ['', '## 核对及局限','',
-          f"69项相关检查及只读复核通过；教师参数/BN/梯度检查通过，部署模型仍为{report['parameter_count']:,}参数，与原C逐层形状相同。", 
+          f"69项相关检查及只读复核通过；教师参数/BN/梯度检查通过，部署模型仍为{report['parameter_count']:,}参数，与原C逐层形状相同。",
           '新进程严格加载、114张新类验证原图输入一致性、旧版本/原图/代码快照哈希及实际回放隔离检查通过。',
           '本轮没有重新给409张已公开测试图片评分。原C测试上的4.07个百分点下降结论保留；此改进候选尚无新的独立测试结论。',
           '验证反复参与方案开发且旧来源有局限，不能代表新场景泛化或烤箱效果。联合修改缺少单项消融，不将收益归因于蒸馏一项。','',

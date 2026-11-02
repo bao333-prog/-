@@ -46,4 +46,3 @@ def classification_metrics(
         "class_names": names,
         "confusion_matrix": matrix,
     }
-

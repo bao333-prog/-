@@ -150,4 +150,3 @@ def _write_confusion_matrix(path: Path, class_names: list[str], matrix: list[lis
         writer.writerow(["true\\predicted", *class_names])
         for name, row in zip(class_names, matrix, strict=True):
             writer.writerow([name, *row])
-

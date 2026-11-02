@@ -67,4 +67,3 @@ def split_by_session(
             offset += count
 
     return [replace(record, split=session_to_split[record.session_id]) for record in materialized]
-
