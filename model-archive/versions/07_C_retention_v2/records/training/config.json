@@ -1,0 +1,44 @@
+{
+  "mode": "train",
+  "experiment_name": "C_retention_v2",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_retention_v2_20261029_231408\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_retention_v2_20261029_231408\\training",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\training\\best.pt",
+  "train_environments": [
+    "proxy"
+  ],
+  "validation_environments": [
+    "proxy"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "gentle_retention",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "target_fraction": null,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "new_classes": [
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "replay_per_class": 20,
+  "distillation_weight": 1.0,
+  "distillation_temperature": 2.0,
+  "backbone_lr_scale": 0.2,
+  "lr_schedule": "cosine"
+}

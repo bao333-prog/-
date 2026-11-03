@@ -1,0 +1,1381 @@
+{
+  "stage": "second_increment_C_10_to_14",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "new_class_names": [
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "parent_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c",
+  "checkpoint_sha256": "effc75d33627295a88616633bb9dcb7260aa523b6b11c1f69201473d83c72595",
+  "best_epoch": 9,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "training_seconds": 530.2599348999793,
+  "verification_seconds": 14.31302499998128,
+  "new_input_count": 800,
+  "new_included": 757,
+  "new_excluded": 43,
+  "new_split": {
+    "土豆": {
+      "train": 139,
+      "val": 30,
+      "test": 30
+    },
+    "香肠": {
+      "train": 139,
+      "test": 30,
+      "val": 30
+    },
+    "薯条": {
+      "train": 137,
+      "test": 30,
+      "val": 30
+    },
+    "可颂": {
+      "train": 114,
+      "test": 24,
+      "val": 24
+    }
+  },
+  "old_replay_per_class": 20,
+  "actual_training_count": 729,
+  "actual_training_counts": {
+    "南瓜": 20,
+    "吐司": 20,
+    "牛排": 20,
+    "玉米": 20,
+    "西兰花": 20,
+    "鸡翅": 20,
+    "芦笋": 20,
+    "培根": 20,
+    "三文鱼": 20,
+    "整鸡": 20,
+    "土豆": 139,
+    "香肠": 139,
+    "薯条": 137,
+    "可颂": 114
+  },
+  "validation_count": 407,
+  "evaluations": {
+    "parent_old_validation": {
+      "loss": 0.024113991193683126,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "吐司": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "牛排": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "玉米": {
+          "correct": 25,
+          "total": 25,
+          "accuracy": 1.0
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "鸡翅": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "培根": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "三文鱼": {
+          "correct": 28,
+          "total": 28,
+          "accuracy": 1.0
+        },
+        "整鸡": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        }
+      },
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          29
+        ]
+      ],
+      "all": {
+        "correct": 292,
+        "total": 293,
+        "accuracy": 0.9965870307167235
+      },
+      "old": {
+        "correct": 292,
+        "total": 293,
+        "accuracy": 0.9965870307167235
+      }
+    },
+    "validation_C": {
+      "loss": 0.1316040691413919,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "吐司": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "牛排": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "玉米": {
+          "correct": 23,
+          "total": 25,
+          "accuracy": 0.92
+        },
+        "西兰花": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "鸡翅": {
+          "correct": 26,
+          "total": 30,
+          "accuracy": 0.8666666666666667
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "培根": {
+          "correct": 26,
+          "total": 30,
+          "accuracy": 0.8666666666666667
+        },
+        "三文鱼": {
+          "correct": 26,
+          "total": 28,
+          "accuracy": 0.9285714285714286
+        },
+        "整鸡": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "土豆": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "香肠": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "薯条": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "可颂": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          23,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          26,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          26,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          26,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24
+        ]
+      ],
+      "all": {
+        "correct": 387,
+        "total": 407,
+        "accuracy": 0.9508599508599509
+      },
+      "old": {
+        "correct": 275,
+        "total": 293,
+        "accuracy": 0.9385665529010239
+      },
+      "new": {
+        "correct": 112,
+        "total": 114,
+        "accuracy": 0.9824561403508771
+      }
+    },
+    "parent_old_test": {
+      "loss": 0.03291314048830704,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "吐司": {
+          "correct": 32,
+          "total": 32,
+          "accuracy": 1.0
+        },
+        "牛排": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "玉米": {
+          "correct": 25,
+          "total": 25,
+          "accuracy": 1.0
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "鸡翅": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "培根": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "三文鱼": {
+          "correct": 28,
+          "total": 28,
+          "accuracy": 1.0
+        },
+        "整鸡": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          25,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30
+        ]
+      ],
+      "all": {
+        "correct": 292,
+        "total": 295,
+        "accuracy": 0.9898305084745763
+      },
+      "old": {
+        "correct": 292,
+        "total": 295,
+        "accuracy": 0.9898305084745763
+      },
+      "initial_six_original_test": {
+        "correct": 158,
+        "total": 159,
+        "accuracy": 0.9937106918238994
+      },
+      "previous_wings_test": {
+        "correct": 16,
+        "total": 18,
+        "accuracy": 0.8888888888888888
+      }
+    },
+    "test_C": {
+      "loss": 0.16327847331798748,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "吐司": {
+          "correct": 31,
+          "total": 32,
+          "accuracy": 0.96875
+        },
+        "牛排": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "玉米": {
+          "correct": 24,
+          "total": 25,
+          "accuracy": 0.96
+        },
+        "西兰花": {
+          "correct": 29,
+          "total": 30,
+          "accuracy": 0.9666666666666667
+        },
+        "鸡翅": {
+          "correct": 26,
+          "total": 30,
+          "accuracy": 0.8666666666666667
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "培根": {
+          "correct": 27,
+          "total": 30,
+          "accuracy": 0.9
+        },
+        "三文鱼": {
+          "correct": 27,
+          "total": 28,
+          "accuracy": 0.9642857142857143
+        },
+        "整鸡": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "土豆": {
+          "correct": 30,
+          "total": 30,
+          "accuracy": 1.0
+        },
+        "香肠": {
+          "correct": 26,
+          "total": 30,
+          "accuracy": 0.8666666666666667
+        },
+        "薯条": {
+          "correct": 28,
+          "total": 30,
+          "accuracy": 0.9333333333333333
+        },
+        "可颂": {
+          "correct": 24,
+          "total": 24,
+          "accuracy": 1.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          31,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          26,
+          0,
+          1,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          27,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          27,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          26,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24
+        ]
+      ],
+      "all": {
+        "correct": 388,
+        "total": 409,
+        "accuracy": 0.9486552567237164
+      },
+      "old": {
+        "correct": 280,
+        "total": 295,
+        "accuracy": 0.9491525423728814
+      },
+      "new": {
+        "correct": 108,
+        "total": 114,
+        "accuracy": 0.9473684210526315
+      },
+      "initial_six_original_test": {
+        "correct": 152,
+        "total": 159,
+        "accuracy": 0.9559748427672956
+      },
+      "previous_wings_test": {
+        "correct": 16,
+        "total": 18,
+        "accuracy": 0.8888888888888888
+      }
+    }
+  },
+  "old_accuracy_drop_percentage_points": 4.067796610169494,
+  "original_initial_six_A_accuracy": 0.9937106918238994,
+  "initial_six_cumulative_drop_percentage_points": 3.7735849056603765,
+  "target_checks": {
+    "old_ten_accuracy_at_least_90pct": true,
+    "old_ten_drop_at_most_2pp": false,
+    "new_four_accuracy_at_least_86pct": true
+  },
+  "initial_six_cumulative_drop_at_most_2pp": false,
+  "new_process_reload": true,
+  "raw_new_inputs_match_prepared": true,
+  "original_images_unchanged": true,
+  "protected_models_unchanged": true,
+  "actual_replay_matches_plan": true,
+  "old_test_is_reused_benchmark": true,
+  "test_errors": [
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\牛排\\牛排_001.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\牛排\\牛排_001.png",
+      "group": "牛排_001",
+      "true_label": "牛排",
+      "predicted_label": "培根",
+      "correct": false,
+      "top1_probability": 0.7295920848846436,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\牛排\\牛排_150.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\牛排\\牛排_150.png",
+      "group": "牛排_150",
+      "true_label": "牛排",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.5538773536682129,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_031.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_031.png",
+      "group": "鸡翅_031",
+      "true_label": "鸡翅",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.681340217590332,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_079.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_079.png",
+      "group": "鸡翅_079",
+      "true_label": "鸡翅",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.7174015641212463,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\吐司\\吐司_037.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\吐司\\吐司_037.png",
+      "group": "吐司_036",
+      "true_label": "吐司",
+      "predicted_label": "可颂",
+      "correct": false,
+      "top1_probability": 0.4973142445087433,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\玉米\\玉米_092.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\玉米\\玉米_092.png",
+      "group": "玉米_092",
+      "true_label": "玉米",
+      "predicted_label": "薯条",
+      "correct": false,
+      "top1_probability": 0.6794772148132324,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\西兰花\\西兰花_099.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\西兰花\\西兰花_099.png",
+      "group": "西兰花_099",
+      "true_label": "西兰花",
+      "predicted_label": "芦笋",
+      "correct": false,
+      "top1_probability": 0.7846004962921143,
+      "cohort": "old",
+      "initial_six_original_test": true,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_090.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_090.png",
+      "group": "Bnew_培根_090",
+      "true_label": "培根",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.8740032315254211,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_142.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_142.png",
+      "group": "Bnew_培根_060",
+      "true_label": "培根",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.5905627608299255,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_159.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_159.png",
+      "group": "Bnew_培根_159",
+      "true_label": "培根",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.9158405065536499,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\三文鱼\\三文鱼_111.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\三文鱼\\三文鱼_111.png",
+      "group": "Bnew_三文鱼_035",
+      "true_label": "三文鱼",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.36083313822746277,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\整鸡\\整鸡_048.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\整鸡\\整鸡_048.png",
+      "group": "Bnew_整鸡_026",
+      "true_label": "整鸡",
+      "predicted_label": "可颂",
+      "correct": false,
+      "top1_probability": 0.2881784737110138,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\整鸡\\整鸡_092.png",
+      "original_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\整鸡\\整鸡_092.png",
+      "group": "Bnew_整鸡_092",
+      "true_label": "整鸡",
+      "predicted_label": "可颂",
+      "correct": false,
+      "top1_probability": 0.4608844816684723,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_103_W0169.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_103_W0169.png",
+      "group": "supp_wings_n103",
+      "true_label": "鸡翅",
+      "predicted_label": "培根",
+      "correct": false,
+      "top1_probability": 0.38850897550582886,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": true
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_194_W0415.jpg",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_194_W0415.jpg",
+      "group": "supp_wings_n194",
+      "true_label": "鸡翅",
+      "predicted_label": "香肠",
+      "correct": false,
+      "top1_probability": 0.882403552532196,
+      "cohort": "old",
+      "initial_six_original_test": false,
+      "previous_wings_test": true
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\香肠\\香肠_118.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\香肠_没背景_200张\\香肠_118_S0231.jpg",
+      "group": "Cnew_香肠_118",
+      "true_label": "香肠",
+      "predicted_label": "鸡翅",
+      "correct": false,
+      "top1_probability": 0.4567267596721649,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\香肠\\香肠_171.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\香肠_没背景_200张\\香肠_171_S0358.jpg",
+      "group": "Cnew_香肠_171",
+      "true_label": "香肠",
+      "predicted_label": "三文鱼",
+      "correct": false,
+      "top1_probability": 0.7088662385940552,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\香肠\\香肠_183.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\香肠_没背景_200张\\香肠_183_S0384.jpg",
+      "group": "Cnew_香肠_183",
+      "true_label": "香肠",
+      "predicted_label": "牛排",
+      "correct": false,
+      "top1_probability": 0.8123107552528381,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\香肠\\香肠_197.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\香肠_没背景_200张\\香肠_197_S0260.png",
+      "group": "Cnew_香肠_197",
+      "true_label": "香肠",
+      "predicted_label": "牛排",
+      "correct": false,
+      "top1_probability": 0.8958700299263,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\薯条\\薯条_076.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\薯条_没背景_200张\\薯条_076_F0264.jpg",
+      "group": "Cnew_薯条_076",
+      "true_label": "薯条",
+      "predicted_label": "玉米",
+      "correct": false,
+      "top1_probability": 0.8690081834793091,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\薯条\\薯条_091.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\薯条_没背景_200张\\薯条_091_F0456.png",
+      "group": "Cnew_薯条_091",
+      "true_label": "薯条",
+      "predicted_label": "芦笋",
+      "correct": false,
+      "top1_probability": 0.7353163957595825,
+      "cohort": "new",
+      "initial_six_original_test": false,
+      "previous_wings_test": false
+    }
+  ],
+  "limits": [
+    "可颂200张无来源记录，含大量近似处理版本；人工保守视觉组不证明独立拍摄，仍可能漏掉同源。",
+    "土豆以黄皮/浅皮整薯和切面为主；薯条以浅色冷冻/预炸待加热形态为主；香肠以生香肠为主；可颂以未烘烤面团为主。",
+    "旧类测试295张已在此前开发过程中使用，其中277张来自历史测试、18张来自鸡翅补强测试；不是全新独立验收。",
+    "父模型与旧验证存在历史来源关联风险，本次维持隔离后的旧训练清单，但不能消除父模型已有知识。",
+    "本轮按有限样本回放，每旧类20张；没有蒸馏或参数隔离对照。",
+    "结果为网图/去背景数据，不是烤箱实拍或RK3506部署验收。"
+  ]
+}

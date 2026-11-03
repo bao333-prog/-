@@ -1,0 +1,765 @@
+{
+  "stage": "chicken_supplement_same_ten_classes",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "parent_sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc",
+  "best_epoch": 19,
+  "epochs": 20,
+  "learning_rate": 5e-05,
+  "training_seconds": 874.8420534999459,
+  "verification_seconds": 3.9326753999921493,
+  "training_count": 1355,
+  "training_counts": {
+    "牛排": 140,
+    "鸡翅": 134,
+    "南瓜": 138,
+    "吐司": 138,
+    "玉米": 116,
+    "西兰花": 139,
+    "芦笋": 138,
+    "培根": 139,
+    "三文鱼": 133,
+    "整鸡": 140
+  },
+  "validation_count": 293,
+  "fresh_chicken_test_count": 18,
+  "evaluations": {
+    "val": {
+      "parent_augmented_B": {
+        "loss": 0.09936908333730779,
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30,
+            "accuracy": 0.9666666666666667
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25,
+            "accuracy": 1.0
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "鸡翅": {
+            "correct": 26,
+            "total": 30,
+            "accuracy": 0.8666666666666667
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "培根": {
+            "correct": 28,
+            "total": 30,
+            "accuracy": 0.9333333333333333
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28,
+            "accuracy": 0.9642857142857143
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "confusion_matrix": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            29,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            26,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            28,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            27,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            29
+          ]
+        ],
+        "all": {
+          "correct": 284,
+          "total": 293,
+          "accuracy": 0.9692832764505119
+        },
+        "historical_chicken_val": {
+          "correct": 11,
+          "total": 12,
+          "accuracy": 0.9166666666666666
+        },
+        "new_chicken_val": {
+          "correct": 15,
+          "total": 18,
+          "accuracy": 0.8333333333333334
+        },
+        "other_nine_val": {
+          "correct": 258,
+          "total": 263,
+          "accuracy": 0.9809885931558935
+        },
+        "historical_all_val": {
+          "correct": 269,
+          "total": 275,
+          "accuracy": 0.9781818181818182
+        }
+      },
+      "chicken_supplement_candidate": {
+        "loss": 0.024113991193683126,
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25,
+            "accuracy": 1.0
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "鸡翅": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "培根": {
+            "correct": 30,
+            "total": 30,
+            "accuracy": 1.0
+          },
+          "三文鱼": {
+            "correct": 28,
+            "total": 28,
+            "accuracy": 1.0
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30,
+            "accuracy": 0.9666666666666667
+          }
+        },
+        "confusion_matrix": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            28,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            29
+          ]
+        ],
+        "all": {
+          "correct": 292,
+          "total": 293,
+          "accuracy": 0.9965870307167235
+        },
+        "historical_chicken_val": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 1.0
+        },
+        "new_chicken_val": {
+          "correct": 18,
+          "total": 18,
+          "accuracy": 1.0
+        },
+        "other_nine_val": {
+          "correct": 262,
+          "total": 263,
+          "accuracy": 0.9961977186311787
+        },
+        "historical_all_val": {
+          "correct": 274,
+          "total": 275,
+          "accuracy": 0.9963636363636363
+        }
+      }
+    },
+    "fresh_chicken_test": {
+      "parent_augmented_B": {
+        "loss": 0.6776441368791792,
+        "per_class": {
+          "鸡翅": {
+            "correct": 14,
+            "total": 18,
+            "accuracy": 0.7777777777777778
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "all": {
+          "correct": 14,
+          "total": 18,
+          "accuracy": 0.7777777777777778
+        },
+        "fresh_chicken_test": {
+          "correct": 14,
+          "total": 18,
+          "accuracy": 0.7777777777777778
+        }
+      },
+      "chicken_supplement_candidate": {
+        "loss": 0.33222063527339035,
+        "per_class": {
+          "鸡翅": {
+            "correct": 16,
+            "total": 18,
+            "accuracy": 0.8888888888888888
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            16,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "all": {
+          "correct": 16,
+          "total": 18,
+          "accuracy": 0.8888888888888888
+        },
+        "fresh_chicken_test": {
+          "correct": 16,
+          "total": 18,
+          "accuracy": 0.8888888888888888
+        }
+      }
+    }
+  },
+  "old_test_evaluated": false,
+  "full_ten_class_independent_test_available": false,
+  "original_old_accuracy_retention_target": "not_evaluated_this_run",
+  "raw_new_images_match_prepared": true,
+  "new_process_reload": true,
+  "protected_models_unchanged": true,
+  "new_originals_unchanged": true,
+  "old_prepared_images_unchanged": true,
+  "checkpoint_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c",
+  "limits": [
+    "这是十类同标签的数据补强微调，使用全部可用旧训练图，不是新类别增量，也不再限制每旧类20张回放。",
+    "虽然本轮隔离7张旧训练图，父模型仍可能学过它们；旧验证275张存在历史同源遗漏风险，只作开发对照。",
+    "新测试只有18张鸡翅，不能代表其他九类或检验六类相对A的独立精度下降。",
+    "来源域和视觉分组仍可能遗漏转载；所有结果是网图效果，不等于烤箱或RK3506验收。"
+  ],
+  "fresh_chicken_test_errors": [
+    {
+      "image_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_103_W0169.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_103_W0169.png",
+      "true_label": "鸡翅",
+      "predicted_label": "培根",
+      "correct": "False",
+      "top1_probability": "0.8006848096847534",
+      "subset": "fresh_chicken_test"
+    },
+    {
+      "image_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_135_W0256.png",
+      "original_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\鸡翅_没背景_200张\\鸡翅_135_W0256.png",
+      "true_label": "鸡翅",
+      "predicted_label": "培根",
+      "correct": "False",
+      "top1_probability": "0.6695501804351807",
+      "subset": "fresh_chicken_test"
+    }
+  ]
+}

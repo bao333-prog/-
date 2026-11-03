@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "training_images": 1355,
+  "validation_images": 293,
+  "new_test_images": 18,
+  "new_raw_input_count": 200,
+  "old_prepared_count": 1831,
+  "unique_paths": true,
+  "group_separation": true,
+  "known_old_holdout_guard": true,
+  "removed_old_train_count": 7,
+  "class_counts": {
+    "牛排": 140,
+    "鸡翅": 134,
+    "南瓜": 138,
+    "吐司": 138,
+    "玉米": 116,
+    "西兰花": 139,
+    "芦笋": 138,
+    "培根": 139,
+    "三文鱼": 133,
+    "整鸡": 140
+  },
+  "sampler": "full_training_set_no_old_class_subsampling"
+}

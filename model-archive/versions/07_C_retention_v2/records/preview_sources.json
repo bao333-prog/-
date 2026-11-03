@@ -1,0 +1,26 @@
+[
+  {
+    "food_class": "鸡翅",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_069.png"
+  },
+  {
+    "food_class": "玉米",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\玉米\\玉米_198.png"
+  },
+  {
+    "food_class": "培根",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_095.png"
+  },
+  {
+    "food_class": "香肠",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\香肠\\香肠_001.png"
+  },
+  {
+    "food_class": "薯条",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\薯条\\薯条_001.png"
+  },
+  {
+    "food_class": "可颂",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\prepared_images\\可颂\\可颂_001.png"
+  }
+]

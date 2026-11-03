@@ -1,0 +1,21 @@
+{"epoch": 1, "train_loss": 0.5286766137667154, "validation_loss": 0.0503582173163534, "validation_accuracy": 0.9936305732484076}
+{"epoch": 2, "train_loss": 0.05680195776175897, "validation_loss": 0.023016449284241507, "validation_accuracy": 0.9936305732484076}
+{"epoch": 3, "train_loss": 0.043550822811663684, "validation_loss": 0.012740486088208113, "validation_accuracy": 0.9936305732484076}
+{"epoch": 4, "train_loss": 0.03472888696107078, "validation_loss": 0.00327055712702653, "validation_accuracy": 1.0}
+{"epoch": 5, "train_loss": 0.022446641563061007, "validation_loss": 0.003573741977567233, "validation_accuracy": 1.0}
+{"epoch": 6, "train_loss": 0.0159199260282541, "validation_loss": 0.010715922405122065, "validation_accuracy": 0.9872611464968153}
+{"epoch": 7, "train_loss": 0.007730971338976027, "validation_loss": 0.0038171200957416206, "validation_accuracy": 1.0}
+{"epoch": 8, "train_loss": 0.011373296956670156, "validation_loss": 0.0023084009080428436, "validation_accuracy": 1.0}
+{"epoch": 9, "train_loss": 0.006242720156756967, "validation_loss": 0.001206152850801309, "validation_accuracy": 1.0}
+{"epoch": 10, "train_loss": 0.003931213121184765, "validation_loss": 0.014231183208750596, "validation_accuracy": 0.9936305732484076}
+{"epoch": 11, "train_loss": 0.030227923338443288, "validation_loss": 0.24154374240689977, "validation_accuracy": 0.9490445859872612}
+{"epoch": 12, "train_loss": 0.010151088748456825, "validation_loss": 0.2070834476380812, "validation_accuracy": 0.9363057324840764}
+{"epoch": 13, "train_loss": 0.01663411613715051, "validation_loss": 0.20153448613115296, "validation_accuracy": 0.9490445859872612}
+{"epoch": 14, "train_loss": 0.023576621878435466, "validation_loss": 0.11848920855958753, "validation_accuracy": 0.9681528662420382}
+{"epoch": 15, "train_loss": 0.026474027737779657, "validation_loss": 0.15976376178521282, "validation_accuracy": 0.9681528662420382}
+{"epoch": 16, "train_loss": 0.03090330702859515, "validation_loss": 0.1268716581048263, "validation_accuracy": 0.9554140127388535}
+{"epoch": 17, "train_loss": 0.01641064316602181, "validation_loss": 0.060423191139440405, "validation_accuracy": 0.9745222929936306}
+{"epoch": 18, "train_loss": 0.035855345007681144, "validation_loss": 0.6649171337539768, "validation_accuracy": 0.8726114649681529}
+{"epoch": 19, "train_loss": 0.04888625436314587, "validation_loss": 0.4555019644496126, "validation_accuracy": 0.8980891719745223}
+{"epoch": 20, "train_loss": 0.014809956449591884, "validation_loss": 0.26104174239350586, "validation_accuracy": 0.9363057324840764}
+{"status": "completed", "threads": 4, "stage": "A_candidate_v2", "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\A_candidate_v2_20261025_123002\\training\\best.pt", "checkpoint_sha256": "7594d45fd8a2a8bf05452bac0311c144c3dbb74a7d8aef7847b5e2774843112b", "training_seconds": 529.0757962999996}

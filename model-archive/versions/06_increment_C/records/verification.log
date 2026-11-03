@@ -1,0 +1,14 @@
+{"evaluation": "parent_old_validation", "scores": {"all": {"correct": 292, "total": 293, "accuracy": 0.9965870307167235}, "old": {"correct": 292, "total": 293, "accuracy": 0.9965870307167235}}}
+{"evaluation": "validation_C", "scores": {"all": {"correct": 387, "total": 407, "accuracy": 0.9508599508599509}, "old": {"correct": 275, "total": 293, "accuracy": 0.9385665529010239}, "new": {"correct": 112, "total": 114, "accuracy": 0.9824561403508771}}}
+{"evaluation": "parent_old_test", "scores": {"all": {"correct": 292, "total": 295, "accuracy": 0.9898305084745763}, "old": {"correct": 292, "total": 295, "accuracy": 0.9898305084745763}, "initial_six_original_test": {"correct": 158, "total": 159, "accuracy": 0.9937106918238994}, "previous_wings_test": {"correct": 16, "total": 18, "accuracy": 0.8888888888888888}}}
+{"evaluation": "test_C", "scores": {"all": {"correct": 388, "total": 409, "accuracy": 0.9486552567237164}, "old": {"correct": 280, "total": 295, "accuracy": 0.9491525423728814}, "new": {"correct": 108, "total": 114, "accuracy": 0.9473684210526315}, "initial_six_original_test": {"correct": 152, "total": 159, "accuracy": 0.9559748427672956}, "previous_wings_test": {"correct": 16, "total": 18, "accuracy": 0.8888888888888888}}}
+{
+  "best_epoch": 9,
+  "old_drop_pp": 4.067796610169494,
+  "target_checks": {
+    "old_ten_accuracy_at_least_90pct": true,
+    "old_ten_drop_at_most_2pp": false,
+    "new_four_accuracy_at_least_86pct": true
+  },
+  "initial_six_cumulative_drop_pp": 3.7735849056603765
+}

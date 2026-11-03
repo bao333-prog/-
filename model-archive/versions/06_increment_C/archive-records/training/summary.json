@@ -1,0 +1,6 @@
+{
+  "experiment_name": "second_increment_C_four_new_classes",
+  "best_validation_accuracy": 0.9508599508599509,
+  "best_validation_loss": 0.13160406914182093,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_C_20261029_213932\\training\\best.pt"
+}

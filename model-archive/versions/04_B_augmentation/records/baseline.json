@@ -1,0 +1,16 @@
+{
+  "parent_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459",
+  "parent_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+  "old_manifest_sha256": "622d4c3afd931c39a91ae5599fed606d08df753de6d81ce1e271516e10c70cec",
+  "new_classes": [
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "comparator_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256",
+  "comparator_checkpoint_sha256": "a493202adfc9f1803716266cf35e2526141e7b0d72ee8e25af861975546a6e7a",
+  "manifest_sha256": "38529f5256a0a5ebdc9df6db2694a318371fe5f4aa733a713cd3a8b4563d45d3",
+  "comparison_policy": "validation_only_no_test_evaluation",
+  "epochs": 20
+}

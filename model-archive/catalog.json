@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "archive_date": "2026-11-03",
+  "task": "single_label_classification",
+  "architecture": "mobilenet_v3_small",
+  "trained_version_count": 8,
+  "models": [
+    {
+      "id": "00_smoke_six_class",
+      "title": "六类临时试跑",
+      "status": "temporary",
+      "trained": true,
+      "parent_version": null,
+      "initialization": "official_imagenet_pretrained_fresh_start",
+      "run_id": "smoke_six_class_20261021_171146",
+      "directory": "versions/00_smoke_six_class",
+      "checkpoint": "versions/00_smoke_six_class/models/TEMP_best.pt",
+      "checkpoint_sha256": "603aa73b9f4c3eac58ce03acc62590778aa9a58adada88cc817b6d599f314f2a",
+      "checkpoint_bytes": 6227287,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅"
+      ],
+      "class_count": 6,
+      "best_epoch": 8,
+      "epochs": 8,
+      "validation_accuracy": 0.8235294117647058,
+      "preprocessing": {
+        "resize_mode": "center_crop",
+        "note": "Legacy checkpoint: use its original version code and reference configuration."
+      },
+      "result_summary": "验证14/17（82.35%）；仅流程试跑，未作为正式A起点。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+      "delivery_archive_sha256": "76f5fc842d39aedfb7c0f15d53e2dbc5f5ae7a5c77613f37face7612d339c664",
+      "original_archive_file_count": 22
+    },
+    {
+      "id": "01_formal_A",
+      "title": "正式六类A",
+      "status": "baseline",
+      "trained": true,
+      "parent_version": null,
+      "initialization": "official_imagenet_pretrained_fresh_start",
+      "run_id": "formal_A_20261025_113459",
+      "directory": "versions/01_formal_A",
+      "checkpoint": "versions/01_formal_A/models/model_A.pt",
+      "checkpoint_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+      "checkpoint_bytes": 6227799,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅"
+      ],
+      "class_count": 6,
+      "best_epoch": 1,
+      "epochs": 20,
+      "validation_accuracy": 1.0,
+      "preprocessing": {
+        "exif_transpose": true,
+        "alpha_background": "white",
+        "resize": "aspect_ratio_pad",
+        "size": 224,
+        "resample": "bilinear",
+        "padding_color": "white",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ]
+      },
+      "result_summary": "历史网图测试158/159（99.37%）。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+      "delivery_archive_sha256": "3f30f8f36c3fa4ba95cc0011b42214ae28f7aa582e0f236290248ea8a659e608",
+      "original_archive_file_count": 39
+    },
+    {
+      "id": "02_A_candidate_v2",
+      "title": "六类A优化候选v2",
+      "status": "candidate",
+      "trained": true,
+      "parent_version": null,
+      "initialization": "official_imagenet_pretrained_fresh_start",
+      "run_id": "A_candidate_v2_20261025_123002",
+      "directory": "versions/02_A_candidate_v2",
+      "checkpoint": "versions/02_A_candidate_v2/models/A_candidate_v2.pt",
+      "checkpoint_sha256": "7594d45fd8a2a8bf05452bac0311c144c3dbb74a7d8aef7847b5e2774843112b",
+      "checkpoint_bytes": 6227607,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅"
+      ],
+      "class_count": 6,
+      "best_epoch": 9,
+      "epochs": 20,
+      "validation_accuracy": 1.0,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "验证157/157（100%）；没有独立测试成绩，未作为B起点。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+      "delivery_archive_sha256": "4f9b8654f14133222484165918f31c9a618ebce4be10f63bda24e80eea8e53f9",
+      "original_archive_file_count": 41
+    },
+    {
+      "id": "03_increment_B",
+      "title": "第一次增量十类B",
+      "status": "increment",
+      "trained": true,
+      "parent_version": "01_formal_A",
+      "initialization": "01_formal_A",
+      "run_id": "increment_B_20261025_165256",
+      "directory": "versions/03_increment_B",
+      "checkpoint": "versions/03_increment_B/models/model_B.pt",
+      "checkpoint_sha256": "a493202adfc9f1803716266cf35e2526141e7b0d72ee8e25af861975546a6e7a",
+      "checkpoint_bytes": 6244759,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡"
+      ],
+      "class_count": 10,
+      "best_epoch": 7,
+      "epochs": 20,
+      "validation_accuracy": 0.9781818181818182,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "历史测试270/277（97.47%）；旧六类下降3.14个百分点，未达≤2个百分点目标。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+      "delivery_archive_sha256": "fb92860cff7e3bfdc947ca8eadcafe72495a15342de55c48d2f158aa2855f022",
+      "original_archive_file_count": 54
+    },
+    {
+      "id": "04_B_augmentation",
+      "title": "十类B增强候选",
+      "status": "candidate",
+      "trained": true,
+      "parent_version": "01_formal_A",
+      "initialization": "01_formal_A",
+      "run_id": "B_augmentation_trial_20261026_123837",
+      "directory": "versions/04_B_augmentation",
+      "checkpoint": "versions/04_B_augmentation/models/model_B_augmentation_candidate.pt",
+      "checkpoint_sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc",
+      "checkpoint_bytes": 6244759,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡"
+      ],
+      "class_count": 10,
+      "best_epoch": 9,
+      "epochs": 20,
+      "validation_accuracy": 0.9781818181818182,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "验证269/275（97.82%）；与B同起点重做增量，不是从B继续训练；未重测历史测试。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+      "delivery_archive_sha256": "71ee14d7904f1f6c496522c93c5c9d3d733d190f1ebd7287f9c544ad823295a9",
+      "original_archive_file_count": 55
+    },
+    {
+      "id": "05_B_wings_supplement",
+      "title": "十类B鸡翅补强",
+      "status": "supplement",
+      "trained": true,
+      "parent_version": "04_B_augmentation",
+      "initialization": "04_B_augmentation",
+      "run_id": "B_wings_supplement_20261029_174246",
+      "directory": "versions/05_B_wings_supplement",
+      "checkpoint": "versions/05_B_wings_supplement/models/model_B_chicken_supplement.pt",
+      "checkpoint_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c",
+      "checkpoint_bytes": 6244311,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡"
+      ],
+      "class_count": 10,
+      "best_epoch": 19,
+      "epochs": 20,
+      "validation_accuracy": 0.9965870307167235,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "验证292/293（99.66%）；新增鸡翅测试16/18（88.89%），该成绩只针对新增鸡翅子集。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+      "delivery_archive_sha256": "949b8aa6ac90da50bcecbceba701b82336d8d56621e8f6a0a54647ac925f3d91",
+      "original_archive_file_count": 56
+    },
+    {
+      "id": "06_increment_C",
+      "title": "第二次增量十四类C",
+      "status": "increment",
+      "trained": true,
+      "parent_version": "05_B_wings_supplement",
+      "initialization": "05_B_wings_supplement",
+      "run_id": "increment_C_20261029_213932",
+      "directory": "versions/06_increment_C",
+      "checkpoint": "versions/06_increment_C/models/model_C.pt",
+      "checkpoint_sha256": "effc75d33627295a88616633bb9dcb7260aa523b6b11c1f69201473d83c72595",
+      "checkpoint_bytes": 6261335,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 9,
+      "epochs": 20,
+      "validation_accuracy": 0.9508599508599509,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "历史复用测试388/409（94.87%）；旧十类下降4.07个百分点，未达保持目标。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+      "delivery_archive_sha256": "bdbb17d732b36ce317ead1f1b4a6480f05a8cbcf2d99c19912da2005e3f0e6e3",
+      "original_archive_file_count": 60
+    },
+    {
+      "id": "07_C_retention_v2",
+      "title": "十四类C知识保持与增强候选v2",
+      "status": "candidate",
+      "trained": true,
+      "parent_version": "05_B_wings_supplement",
+      "initialization": "05_B_wings_supplement",
+      "run_id": "C_retention_v2_20261029_231408",
+      "directory": "versions/07_C_retention_v2",
+      "checkpoint": "versions/07_C_retention_v2/models/model_C_v2.pt",
+      "checkpoint_sha256": "47ef7311038b5b39cba0cba5ba9eefce773cdabbc00e1e5ac864c5ca2a36e917",
+      "checkpoint_bytes": 6261783,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 12,
+      "epochs": 20,
+      "validation_accuracy": 0.9705159705159705,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "验证395/407（97.05%）；旧类287/293、新类108/114；旧类验证下降1.71个百分点，未重测测试集，不能宣称测试通过。",
+      "real_oven_acceptance": "not_verified",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+      "delivery_archive_sha256": "499f6735fd2fa04f72968d403f6d427ef7a5a176c8b0240916b02892232fd445",
+      "original_archive_file_count": 84
+    }
+  ],
+  "auxiliary": [
+    {
+      "checkpoint": "auxiliary/environment_check/UNTRAINED_environment_check.pt",
+      "checkpoint_sha256": "3f451412b4cdb7522c3cc1de6c7eaeb675271f728119b1e37faafc026162a5af",
+      "trained": false,
+      "class_names": [
+        "牛排",
+        "鸡翅",
+        "南瓜",
+        "吐司",
+        "玉米",
+        "西兰花"
+      ]
+    }
+  ]
+}

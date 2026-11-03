@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "tests": 69,
+  "epochs": 20,
+  "best_epoch": 12,
+  "old_validation_correct": 287,
+  "new_validation_correct": 108,
+  "total_validation_correct": 395,
+  "total_validation": 407,
+  "parameter_count": 1532206,
+  "inference_structure_unchanged": true,
+  "teacher_frozen": true,
+  "test_scored": false,
+  "old_test_target_status": "not_evaluated",
+  "actual_replay_same": true,
+  "protected_models": "passed",
+  "archive_and_new_process_prediction": "passed"
+}

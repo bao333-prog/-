@@ -1,0 +1,77 @@
+{
+  "input_count": 200,
+  "decoded_count": 200,
+  "metadata_hash_matches": 200,
+  "manual_review_count": 200,
+  "byte_identical_old_count": 0,
+  "confirmed_old_processed_image_count": 77,
+  "confirmed_old_matches_by_split": {
+    "train": 56,
+    "val": 11,
+    "test": 10
+  },
+  "status_counts": {
+    "unlinked_candidate": 117,
+    "old_image_not_new": 77,
+    "new_image_old_train_source": 2,
+    "quality_hold": 3,
+    "old_holdout_source_link": 1
+  },
+  "proposed_new_data_counts": {
+    "train": 83,
+    "test": 18,
+    "val": 18
+  },
+  "candidate_groups": 107,
+  "quality_holds": {
+    "56": "画面存在明显蓝紫色偏，先暂缓用于训练，不认定为熟制或错类。",
+    "82": "主体周围有明显深色抠图边框，先暂缓。",
+    "200": "主体边缘有明显深色光晕/抠图残留，先暂缓。"
+  },
+  "original_images_unchanged": true,
+  "old_wing_originals_available": false,
+  "old_wing_visual_comparison_count": 82,
+  "training_started": false,
+  "grouping_conflicts": [
+    {
+      "group": "n7",
+      "old_ids": [
+        "鸡翅_035",
+        "鸡翅_057"
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "group": "n11",
+      "old_ids": [
+        "鸡翅_038",
+        "鸡翅_067",
+        "鸡翅_072"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ]
+    },
+    {
+      "group": "n72",
+      "old_ids": [
+        "鸡翅_064",
+        "鸡翅_074"
+      ],
+      "splits": [
+        "train",
+        "val"
+      ]
+    }
+  ],
+  "limits": [
+    "来源说明来自随数据提供的记录，未逐站核实或审计生成方式。",
+    "旧90张鸡翅原图已不在原路径；比对使用旧SHA记录与82张已采用的准备副本，8张旧排除图缺视觉复核条件。",
+    "同域名保守分组不证明同一拍摄批次；查重未发现也不证明独立，可能遗漏转载、旋转和局部重构。",
+    "这里只提供新增鸡翅建议划分；尚未生成新的十类训练清单，未重新训练或评估模型。"
+  ]
+}

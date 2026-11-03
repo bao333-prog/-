@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "stage": "formal_A",
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "device": "cpu",
+  "threads": 4,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\training\\best.pt",
+  "checkpoint_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+  "original_image_hashes_unchanged": true,
+  "training_seconds": 224.26171310000063
+}

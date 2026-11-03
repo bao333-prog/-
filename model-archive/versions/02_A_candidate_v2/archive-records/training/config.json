@@ -1,0 +1,33 @@
+{
+  "mode": "train",
+  "experiment_name": "A_candidate_v2_gentle_balanced",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\A_candidate_v2_20261025_123002\\training",
+  "checkpoint": null,
+  "train_environments": [
+    "proxy"
+  ],
+  "validation_environments": [
+    "proxy"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "gentle",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": true,
+  "freeze_backbone": false,
+  "target_fraction": null,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true
+}

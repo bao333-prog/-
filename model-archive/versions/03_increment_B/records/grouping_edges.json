@@ -1,0 +1,912 @@
+[
+  {
+    "left": "芦笋_012",
+    "right": "芦笋_013",
+    "reason": "('source_domain', 'www.pngwing.com')"
+  },
+  {
+    "left": "芦笋_013",
+    "right": "芦笋_014",
+    "reason": "('source_domain', 'www.pngwing.com')"
+  },
+  {
+    "left": "芦笋_015",
+    "right": "芦笋_016",
+    "reason": "('source_domain', 'toppng.com')"
+  },
+  {
+    "left": "芦笋_002",
+    "right": "芦笋_019",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_027",
+    "right": "芦笋_029",
+    "reason": "('source_domain', 'forums.unrealengine.com')"
+  },
+  {
+    "left": "芦笋_034",
+    "right": "芦笋_035",
+    "reason": "('source_domain', 'macaro-ni.jp')"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_054",
+    "reason": "('source_domain', 'imagemo.studio')"
+  },
+  {
+    "left": "芦笋_054",
+    "right": "芦笋_055",
+    "reason": "('source_domain', 'imagemo.studio')"
+  },
+  {
+    "left": "芦笋_019",
+    "right": "芦笋_056",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_055",
+    "right": "芦笋_069",
+    "reason": "('source_domain', 'imagemo.studio')"
+  },
+  {
+    "left": "芦笋_018",
+    "right": "芦笋_070",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_056",
+    "right": "芦笋_071",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_058",
+    "right": "芦笋_074",
+    "reason": "('source_domain', 'news.livedoor.com')"
+  },
+  {
+    "left": "芦笋_071",
+    "right": "芦笋_076",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_070",
+    "right": "芦笋_078",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_041",
+    "right": "芦笋_084",
+    "reason": "('source_domain', 'unsplash.com')"
+  },
+  {
+    "left": "芦笋_017",
+    "right": "芦笋_091",
+    "reason": "('source_domain', 'cookpad.com')"
+  },
+  {
+    "left": "芦笋_090",
+    "right": "芦笋_099",
+    "reason": "('source_domain', 'nichinichi-magazine.com')"
+  },
+  {
+    "left": "芦笋_076",
+    "right": "芦笋_105",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_032",
+    "right": "芦笋_107",
+    "reason": "('source_domain', 'note.com')"
+  },
+  {
+    "left": "芦笋_105",
+    "right": "芦笋_110",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "芦笋_026",
+    "right": "芦笋_114",
+    "reason": "('source_domain', 'www.instacart.com')"
+  },
+  {
+    "left": "芦笋_078",
+    "right": "芦笋_126",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_036",
+    "right": "芦笋_144",
+    "reason": "('source_domain', 'yomuno.jp')"
+  },
+  {
+    "left": "芦笋_126",
+    "right": "芦笋_152",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_035",
+    "right": "芦笋_160",
+    "reason": "('source_domain', 'macaro-ni.jp')"
+  },
+  {
+    "left": "芦笋_160",
+    "right": "芦笋_163",
+    "reason": "('source_domain', 'macaro-ni.jp')"
+  },
+  {
+    "left": "芦笋_152",
+    "right": "芦笋_166",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_166",
+    "right": "芦笋_167",
+    "reason": "('source_domain', 'www.cucchiaio.it')"
+  },
+  {
+    "left": "芦笋_091",
+    "right": "芦笋_171",
+    "reason": "('source_domain', 'cookpad.com')"
+  },
+  {
+    "left": "芦笋_177",
+    "right": "芦笋_178",
+    "reason": "('source_domain', 'www.rawpixel.com')"
+  },
+  {
+    "left": "芦笋_186",
+    "right": "芦笋_190",
+    "reason": "('source_domain', 'food52.com')"
+  },
+  {
+    "left": "芦笋_084",
+    "right": "芦笋_194",
+    "reason": "('source_domain', 'unsplash.com')"
+  },
+  {
+    "left": "芦笋_194",
+    "right": "芦笋_198",
+    "reason": "('source_domain', 'unsplash.com')"
+  },
+  {
+    "left": "培根_001",
+    "right": "培根_002",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_002",
+    "right": "培根_003",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_003",
+    "right": "培根_004",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_004",
+    "right": "培根_005",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_005",
+    "right": "培根_006",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_006",
+    "right": "培根_007",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_007",
+    "right": "培根_008",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_008",
+    "right": "培根_009",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_009",
+    "right": "培根_010",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_010",
+    "right": "培根_011",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_011",
+    "right": "培根_012",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_012",
+    "right": "培根_013",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_013",
+    "right": "培根_014",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_014",
+    "right": "培根_015",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_015",
+    "right": "培根_016",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_016",
+    "right": "培根_017",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_017",
+    "right": "培根_018",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_018",
+    "right": "培根_019",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_019",
+    "right": "培根_020",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_020",
+    "right": "培根_021",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_021",
+    "right": "培根_022",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_022",
+    "right": "培根_023",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_023",
+    "right": "培根_024",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_024",
+    "right": "培根_025",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_025",
+    "right": "培根_026",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_026",
+    "right": "培根_027",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_027",
+    "right": "培根_028",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_028",
+    "right": "培根_029",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_029",
+    "right": "培根_030",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_030",
+    "right": "培根_031",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_031",
+    "right": "培根_032",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_032",
+    "right": "培根_033",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_033",
+    "right": "培根_034",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_034",
+    "right": "培根_035",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_035",
+    "right": "培根_036",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_036",
+    "right": "培根_037",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_037",
+    "right": "培根_038",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_038",
+    "right": "培根_039",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_039",
+    "right": "培根_040",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_040",
+    "right": "培根_041",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_041",
+    "right": "培根_042",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_042",
+    "right": "培根_043",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_043",
+    "right": "培根_044",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_044",
+    "right": "培根_045",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_045",
+    "right": "培根_046",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_046",
+    "right": "培根_047",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_047",
+    "right": "培根_048",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_066",
+    "right": "培根_083",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_059",
+    "right": "培根_086",
+    "reason": "('source_domain', 'www.gfsstore.com')"
+  },
+  {
+    "left": "培根_083",
+    "right": "培根_087",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_079",
+    "right": "培根_088",
+    "reason": "('source_domain', 'wallpapers.com')"
+  },
+  {
+    "left": "培根_087",
+    "right": "培根_099",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_048",
+    "right": "培根_101",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_101",
+    "right": "培根_102",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_102",
+    "right": "培根_103",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_103",
+    "right": "培根_104",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_104",
+    "right": "培根_105",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_105",
+    "right": "培根_106",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_106",
+    "right": "培根_107",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_107",
+    "right": "培根_108",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_108",
+    "right": "培根_109",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_109",
+    "right": "培根_110",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_110",
+    "right": "培根_111",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_111",
+    "right": "培根_112",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_112",
+    "right": "培根_113",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_113",
+    "right": "培根_114",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_114",
+    "right": "培根_115",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_115",
+    "right": "培根_116",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_116",
+    "right": "培根_117",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_117",
+    "right": "培根_118",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_118",
+    "right": "培根_119",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_119",
+    "right": "培根_120",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_120",
+    "right": "培根_121",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_121",
+    "right": "培根_122",
+    "reason": "('legacy_source', '原有数据集')"
+  },
+  {
+    "left": "培根_099",
+    "right": "培根_123",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_123",
+    "right": "培根_129",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_054",
+    "right": "培根_133",
+    "reason": "('source_domain', 'onlinemeats.co.nz')"
+  },
+  {
+    "left": "培根_088",
+    "right": "培根_135",
+    "reason": "('source_domain', 'wallpapers.com')"
+  },
+  {
+    "left": "培根_129",
+    "right": "培根_136",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "培根_135",
+    "right": "培根_137",
+    "reason": "('source_domain', 'wallpapers.com')"
+  },
+  {
+    "left": "培根_060",
+    "right": "培根_142",
+    "reason": "('source_domain', 'butchershoppedirect.com')"
+  },
+  {
+    "left": "培根_100",
+    "right": "培根_160",
+    "reason": "('source_domain', 'shop.bianchi.ch')"
+  },
+  {
+    "left": "培根_085",
+    "right": "培根_166",
+    "reason": "('source_domain', 'storage.googleapis.com')"
+  },
+  {
+    "left": "培根_154",
+    "right": "培根_172",
+    "reason": "('source_domain', 'www.chowhound.com')"
+  },
+  {
+    "left": "培根_080",
+    "right": "培根_174",
+    "reason": "('source_domain', 'www.sligro.nl')"
+  },
+  {
+    "left": "培根_143",
+    "right": "培根_177",
+    "reason": "('source_domain', 'kemavlees.nl')"
+  },
+  {
+    "left": "培根_179",
+    "right": "培根_180",
+    "reason": "('source_domain', 'www.sayweee.com')"
+  },
+  {
+    "left": "三文鱼_093",
+    "right": "三文鱼_106",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "三文鱼_106",
+    "right": "三文鱼_110",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "三文鱼_110",
+    "right": "三文鱼_116",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "三文鱼_091",
+    "right": "三文鱼_124",
+    "reason": "('source_domain', 'v.daum.net')"
+  },
+  {
+    "left": "三文鱼_108",
+    "right": "三文鱼_129",
+    "reason": "('source_domain', 'www.frais-livre.fr')"
+  },
+  {
+    "left": "三文鱼_117",
+    "right": "三文鱼_139",
+    "reason": "('source_domain', 'seafoodfactory.com')"
+  },
+  {
+    "left": "三文鱼_113",
+    "right": "三文鱼_148",
+    "reason": "('source_domain', 'www.blibli.com')"
+  },
+  {
+    "left": "三文鱼_098",
+    "right": "三文鱼_150",
+    "reason": "('source_domain', 'congelatsdiego.com')"
+  },
+  {
+    "left": "三文鱼_133",
+    "right": "三文鱼_153",
+    "reason": "('source_domain', 'granjamagdalena.cl')"
+  },
+  {
+    "left": "三文鱼_080",
+    "right": "三文鱼_159",
+    "reason": "('source_domain', 'oceanmarketbasket.com')"
+  },
+  {
+    "left": "三文鱼_082",
+    "right": "三文鱼_187",
+    "reason": "('source_domain', 'shop.yamaseafood.com')"
+  },
+  {
+    "left": "三文鱼_187",
+    "right": "三文鱼_188",
+    "reason": "('source_domain', 'shop.yamaseafood.com')"
+  },
+  {
+    "left": "三文鱼_139",
+    "right": "三文鱼_192",
+    "reason": "('source_domain', 'seafoodfactory.com')"
+  },
+  {
+    "left": "三文鱼_192",
+    "right": "三文鱼_193",
+    "reason": "('source_domain', 'seafoodfactory.com')"
+  },
+  {
+    "left": "整鸡_009",
+    "right": "整鸡_011",
+    "reason": "('source_domain', 'toppng.com')"
+  },
+  {
+    "left": "整鸡_011",
+    "right": "整鸡_012",
+    "reason": "('source_domain', 'toppng.com')"
+  },
+  {
+    "left": "整鸡_014",
+    "right": "整鸡_015",
+    "reason": "('source_domain', 'www.hiclipart.com')"
+  },
+  {
+    "left": "整鸡_012",
+    "right": "整鸡_016",
+    "reason": "('source_domain', 'toppng.com')"
+  },
+  {
+    "left": "整鸡_016",
+    "right": "整鸡_017",
+    "reason": "('source_domain', 'toppng.com')"
+  },
+  {
+    "left": "整鸡_006",
+    "right": "整鸡_028",
+    "reason": "('source_domain', 'www.ariztiaatunegocio.cl')"
+  },
+  {
+    "left": "整鸡_029",
+    "right": "整鸡_033",
+    "reason": "('source_domain', 'www.instacart.com')"
+  },
+  {
+    "left": "整鸡_008",
+    "right": "整鸡_034",
+    "reason": "('source_domain', 'www.markys.com')"
+  },
+  {
+    "left": "整鸡_035",
+    "right": "整鸡_036",
+    "reason": "('source_domain', 'butchershoppedirect.com')"
+  },
+  {
+    "left": "整鸡_022",
+    "right": "整鸡_039",
+    "reason": "('source_domain', 'www.brava.com')"
+  },
+  {
+    "left": "整鸡_026",
+    "right": "整鸡_048",
+    "reason": "('source_domain', 'www.academiedugout.fr')"
+  },
+  {
+    "left": "整鸡_027",
+    "right": "整鸡_063",
+    "reason": "('source_domain', 'www.tridge.com')"
+  },
+  {
+    "left": "整鸡_056",
+    "right": "整鸡_065",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "整鸡_066",
+    "right": "整鸡_067",
+    "reason": "('source_domain', 'www.beefexclusief.nl')"
+  },
+  {
+    "left": "整鸡_068",
+    "right": "整鸡_072",
+    "reason": "('source_domain', 'r-express.com')"
+  },
+  {
+    "left": "整鸡_069",
+    "right": "整鸡_074",
+    "reason": "('source_domain', 'elfabshop.com')"
+  },
+  {
+    "left": "整鸡_047",
+    "right": "整鸡_086",
+    "reason": "('source_domain', 'locavor.fr')"
+  },
+  {
+    "left": "整鸡_089",
+    "right": "整鸡_105",
+    "reason": "('source_domain', 'agriple.com')"
+  },
+  {
+    "left": "整鸡_065",
+    "right": "整鸡_138",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "整鸡_107",
+    "right": "整鸡_146",
+    "reason": "('source_domain', 'www.bigbasket.com')"
+  },
+  {
+    "left": "整鸡_138",
+    "right": "整鸡_149",
+    "reason": "('source_domain', 'depositphotos.com')"
+  },
+  {
+    "left": "整鸡_097",
+    "right": "整鸡_168",
+    "reason": "('source_domain', 'backtonaturefarms.org')"
+  },
+  {
+    "left": "整鸡_094",
+    "right": "整鸡_192",
+    "reason": "('source_domain', 'www.fairprice.com.sg')"
+  },
+  {
+    "left": "整鸡_036",
+    "right": "整鸡_197",
+    "reason": "('source_domain', 'butchershoppedirect.com')"
+  },
+  {
+    "left": "整鸡_197",
+    "right": "整鸡_198",
+    "reason": "('source_domain', 'butchershoppedirect.com')"
+  },
+  {
+    "left": "芦笋_012",
+    "right": "芦笋_174",
+    "reason": "visual_similarity phash=2,mae=0.0856"
+  },
+  {
+    "left": "芦笋_014",
+    "right": "芦笋_039",
+    "reason": "visual_similarity phash=6,mae=0.0310"
+  },
+  {
+    "left": "芦笋_015",
+    "right": "芦笋_050",
+    "reason": "visual_similarity phash=6,mae=0.0433"
+  },
+  {
+    "left": "芦笋_027",
+    "right": "芦笋_030",
+    "reason": "visual_similarity phash=6,mae=0.0075"
+  },
+  {
+    "left": "培根_021",
+    "right": "培根_069",
+    "reason": "visual_similarity phash=4,mae=0.0966"
+  },
+  {
+    "left": "三文鱼_041",
+    "right": "三文鱼_043",
+    "reason": "visual_similarity phash=6,mae=0.0608"
+  },
+  {
+    "left": "三文鱼_050",
+    "right": "三文鱼_077",
+    "reason": "visual_similarity phash=4,mae=0.0651"
+  },
+  {
+    "left": "三文鱼_062",
+    "right": "三文鱼_063",
+    "reason": "visual_similarity phash=6,mae=0.0553"
+  },
+  {
+    "left": "整鸡_109",
+    "right": "整鸡_194",
+    "reason": "visual_similarity phash=4,mae=0.0389"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_054",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_055",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_069",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_112",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "芦笋_006",
+    "right": "芦笋_116",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "培根_162",
+    "right": "培根_163",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "三文鱼_062",
+    "right": "三文鱼_063",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "三文鱼_062",
+    "right": "三文鱼_105",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "三文鱼_035",
+    "right": "三文鱼_083",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "三文鱼_035",
+    "right": "三文鱼_111",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "三文鱼_102",
+    "right": "三文鱼_104",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "整鸡_034",
+    "right": "整鸡_035",
+    "reason": "manual_conservative_visual_group"
+  },
+  {
+    "left": "整鸡_034",
+    "right": "整鸡_036",
+    "reason": "manual_conservative_visual_group"
+  }
+]

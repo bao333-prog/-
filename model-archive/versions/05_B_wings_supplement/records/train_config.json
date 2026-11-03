@@ -1,0 +1,30 @@
+{
+  "mode": "train",
+  "experiment_name": "ten_class_B_chicken_supplement",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\training",
+  "train_environments": [
+    "proxy"
+  ],
+  "validation_environments": [
+    "proxy"
+  ],
+  "augmentation": "gentle_plus",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_augmentation_trial_20261026_123837\\training\\best.pt",
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "new_classes": [],
+  "replay_per_class": 20
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "class_count": 14,
+  "new_input": 800,
+  "new_kept": 757,
+  "epochs": 20,
+  "best_epoch": 9,
+  "actual_train": 729,
+  "validation": 407,
+  "old_test_correct": 280,
+  "old_test_total": 295,
+  "new_test_correct": 108,
+  "new_test_total": 114,
+  "archive_integrity": "passed",
+  "new_process_prediction": "passed",
+  "source_and_report_match": "passed",
+  "old_retention_target_met": false,
+  "initial_six_cumulative_target_met": false
+}

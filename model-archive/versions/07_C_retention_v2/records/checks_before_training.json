@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "related_tests": 69,
+  "review": "no_blocking_findings",
+  "train_count": 729,
+  "val_count": 407,
+  "same_training_manifest_as_original_C": true,
+  "teacher_source": "same_B_as_original_C",
+  "test_policy": "no_test_scoring"
+}

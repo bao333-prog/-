@@ -1,0 +1,6 @@
+{
+  "experiment_name": "B_gentle_plus_controlled_trial",
+  "best_validation_accuracy": 0.9781818181818182,
+  "best_validation_loss": 0.06501302278812297,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_augmentation_trial_20261026_123837\\training\\best.pt"
+}

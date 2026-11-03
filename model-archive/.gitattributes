@@ -1,0 +1,5 @@
+# 保留历史交付文件字节，避免换行转换改变校验值。
+* -text
+*.pt binary
+*.jpg binary
+*.png binary

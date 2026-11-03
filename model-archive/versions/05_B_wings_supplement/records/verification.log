@@ -1,0 +1,5 @@
+{"split": "val", "model": "parent_augmented_B", "counts": {"correct": 284, "total": 293, "accuracy": 0.9692832764505119}}
+{"split": "val", "model": "chicken_supplement_candidate", "counts": {"correct": 292, "total": 293, "accuracy": 0.9965870307167235}}
+{"split": "fresh_chicken_test", "model": "parent_augmented_B", "counts": {"correct": 14, "total": 18, "accuracy": 0.7777777777777778}}
+{"split": "fresh_chicken_test", "model": "chicken_supplement_candidate", "counts": {"correct": 16, "total": 18, "accuracy": 0.8888888888888888}}
+{"best_epoch": 19, "report": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\鸡翅补强训练_结果报告.md"}

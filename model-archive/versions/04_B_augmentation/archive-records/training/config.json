@@ -1,0 +1,40 @@
+{
+  "mode": "train",
+  "experiment_name": "B_gentle_plus_controlled_trial",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_augmentation_trial_20261026_123837\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_augmentation_trial_20261026_123837\\training",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\training\\best.pt",
+  "train_environments": [
+    "proxy"
+  ],
+  "validation_environments": [
+    "proxy"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "gentle_plus",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "target_fraction": null,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "new_classes": [
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "replay_per_class": 20
+}

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "stage": "B_augmentation_trial",
+  "threads": 4,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_augmentation_trial_20261026_123837\\training\\best.pt",
+  "checkpoint_sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc",
+  "training_seconds": 462.00755439998466,
+  "parent_A_unchanged": true
+}

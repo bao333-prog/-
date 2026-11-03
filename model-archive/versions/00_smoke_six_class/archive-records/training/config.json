@@ -1,0 +1,31 @@
+{
+  "mode": "train",
+  "experiment_name": "TEMP_smoke_six_class_8epochs_lr0002",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\smoke_six_class_20261021_171146\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\smoke_six_class_20261021_171146",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\smoke_six_class_20261021_171146\\training",
+  "checkpoint": null,
+  "train_environments": [
+    "proxy"
+  ],
+  "validation_environments": [
+    "proxy"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "baseline",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 8,
+  "num_workers": 0,
+  "epochs": 8,
+  "learning_rate": 0.002,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": true,
+  "freeze_backbone": false,
+  "target_fraction": null
+}

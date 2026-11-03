@@ -1,0 +1,14 @@
+{
+  "trained": false,
+  "class_names": [
+    "牛排",
+    "鸡翅",
+    "南瓜",
+    "吐司",
+    "玉米",
+    "西兰花"
+  ],
+  "model_name": "mobilenet_v3_small",
+  "checkpoint_sha256": "3f451412b4cdb7522c3cc1de6c7eaeb675271f728119b1e37faafc026162a5af",
+  "use": "环境检查；不用于识别效果评估或正式训练起点。"
+}

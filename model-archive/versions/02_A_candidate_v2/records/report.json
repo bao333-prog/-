@@ -1,0 +1,84 @@
+{
+  "candidate": "A_v2",
+  "epochs": 20,
+  "learning_rate": 0.0003,
+  "best_epoch": 9,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.001206152850801309,
+  "last_epoch_validation_accuracy": 0.9363057324840764,
+  "per_class_validation": {
+    "南瓜": 1.0,
+    "吐司": 1.0,
+    "牛排": 1.0,
+    "玉米": 1.0,
+    "西兰花": 1.0,
+    "鸡翅": 1.0
+  },
+  "baseline_validation_accuracy": 1.0,
+  "baseline_validation_loss": 0.028884543247586176,
+  "class_weights": {
+    "南瓜": 0.8804347826086957,
+    "吐司": 0.8804347826086957,
+    "牛排": 0.8678571428571429,
+    "玉米": 1.0474137931034482,
+    "西兰花": 0.8741007194244604,
+    "鸡翅": 2.0948275862068964
+  },
+  "validation_stress": {
+    "A_v1": {
+      "horizontal_flip": {
+        "correct": 157,
+        "total": 157,
+        "accuracy": 1.0
+      },
+      "brightness_0.7": {
+        "correct": 155,
+        "total": 157,
+        "accuracy": 0.9872611464968153
+      },
+      "brightness_1.3": {
+        "correct": 155,
+        "total": 157,
+        "accuracy": 0.9872611464968153
+      },
+      "rotation_15": {
+        "correct": 154,
+        "total": 157,
+        "accuracy": 0.9808917197452229
+      }
+    },
+    "A_candidate_v2": {
+      "horizontal_flip": {
+        "correct": 157,
+        "total": 157,
+        "accuracy": 1.0
+      },
+      "brightness_0.7": {
+        "correct": 157,
+        "total": 157,
+        "accuracy": 1.0
+      },
+      "brightness_1.3": {
+        "correct": 156,
+        "total": 157,
+        "accuracy": 0.9936305732484076
+      },
+      "rotation_15": {
+        "correct": 157,
+        "total": 157,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "training_seconds": 529.0757962999996,
+  "original_A_unchanged": true,
+  "original_images_unchanged": true,
+  "raw_and_dataset_tensors_equal": true,
+  "test_not_evaluated_for_v2": true,
+  "training_loss_log_definition": "本轮运行启动于日志汇总修正前，train_loss为按样本数平均的加权批次均值；不影响梯度、未加权验证损失或模型选择。交付代码已改为按标签权重总量汇总。",
+  "limits": [
+    "验证集用于选模型，扰动诊断不等同独立测试。",
+    "代码修正已验证，不保证所有新图片更准。",
+    "缺少来源、近重复遗漏和数据范围不足不能靠这些代码修改消除。"
+  ]
+}
