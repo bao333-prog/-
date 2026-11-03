@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "stage": "chicken_supplement_same_ten_classes",
+  "threads": 4,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\training\\best.pt",
+  "checkpoint_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c",
+  "training_seconds": 874.8420534999459,
+  "protected_models_unchanged": true
+}

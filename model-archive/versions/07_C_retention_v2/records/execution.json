@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "stage": "C_retention_v2",
+  "threads": 4,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_retention_v2_20261029_231408\\training\\best.pt",
+  "checkpoint_sha256": "47ef7311038b5b39cba0cba5ba9eefce773cdabbc00e1e5ac864c5ca2a36e917",
+  "teacher_parameters_and_bn_unchanged": true,
+  "teacher_has_no_gradients": true,
+  "training_seconds": 322.106698699994,
+  "protected_models_unchanged": true
+}

@@ -1,0 +1,904 @@
+{
+  "stage": "B_augmentation_trial",
+  "best_epoch": 9,
+  "epochs": 20,
+  "training_seconds": 462.00755439998466,
+  "evaluation_seconds": 34.973465800023405,
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "training_counts": {
+    "南瓜": 20,
+    "吐司": 20,
+    "牛排": 20,
+    "玉米": 20,
+    "西兰花": 20,
+    "鸡翅": 20,
+    "芦笋": 138,
+    "培根": 139,
+    "三文鱼": 133,
+    "整鸡": 140
+  },
+  "fixed_validation_count": 275,
+  "evaluations": {
+    "clean": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 11,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 29,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 26,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.08472157106819478,
+        "old": {
+          "correct": 155,
+          "total": 157,
+          "accuracy": 0.9872611464968153
+        },
+        "new": {
+          "correct": 114,
+          "total": 118,
+          "accuracy": 0.9661016949152542
+        },
+        "all": {
+          "correct": 269,
+          "total": 275,
+          "accuracy": 0.9781818181818182
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 11,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 28,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.0650130227885463,
+        "old": {
+          "correct": 155,
+          "total": 157,
+          "accuracy": 0.9872611464968153
+        },
+        "new": {
+          "correct": 114,
+          "total": 118,
+          "accuracy": 0.9661016949152542
+        },
+        "all": {
+          "correct": 269,
+          "total": 275,
+          "accuracy": 0.9781818181818182
+        }
+      }
+    },
+    "scale_translate": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 10,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 25,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 24,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 28,
+            "total": 30
+          }
+        },
+        "loss": 0.12474937764081089,
+        "old": {
+          "correct": 155,
+          "total": 157,
+          "accuracy": 0.9872611464968153
+        },
+        "new": {
+          "correct": 107,
+          "total": 118,
+          "accuracy": 0.9067796610169492
+        },
+        "all": {
+          "correct": 262,
+          "total": 275,
+          "accuracy": 0.9527272727272728
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 28,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 24,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 10,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 25,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.1030235159617256,
+        "old": {
+          "correct": 152,
+          "total": 157,
+          "accuracy": 0.9681528662420382
+        },
+        "new": {
+          "correct": 111,
+          "total": 118,
+          "accuracy": 0.940677966101695
+        },
+        "all": {
+          "correct": 263,
+          "total": 275,
+          "accuracy": 0.9563636363636364
+        }
+      }
+    },
+    "blur": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 12,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 28,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 24,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 28,
+            "total": 30
+          }
+        },
+        "loss": 0.09874844552441077,
+        "old": {
+          "correct": 156,
+          "total": 157,
+          "accuracy": 0.9936305732484076
+        },
+        "new": {
+          "correct": 110,
+          "total": 118,
+          "accuracy": 0.9322033898305084
+        },
+        "all": {
+          "correct": 266,
+          "total": 275,
+          "accuracy": 0.9672727272727273
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 12,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 27,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.06894402074881575,
+        "old": {
+          "correct": 157,
+          "total": 157,
+          "accuracy": 1.0
+        },
+        "new": {
+          "correct": 113,
+          "total": 118,
+          "accuracy": 0.9576271186440678
+        },
+        "all": {
+          "correct": 270,
+          "total": 275,
+          "accuracy": 0.9818181818181818
+        }
+      }
+    },
+    "jpeg": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 10,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 28,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 24,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 28,
+            "total": 30
+          }
+        },
+        "loss": 0.1232888931535523,
+        "old": {
+          "correct": 153,
+          "total": 157,
+          "accuracy": 0.9745222929936306
+        },
+        "new": {
+          "correct": 110,
+          "total": 118,
+          "accuracy": 0.9322033898305084
+        },
+        "all": {
+          "correct": 263,
+          "total": 275,
+          "accuracy": 0.9563636363636364
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 28,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 10,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 28,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 25,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 28,
+            "total": 30
+          }
+        },
+        "loss": 0.10222786752253094,
+        "old": {
+          "correct": 152,
+          "total": 157,
+          "accuracy": 0.9681528662420382
+        },
+        "new": {
+          "correct": 111,
+          "total": 118,
+          "accuracy": 0.940677966101695
+        },
+        "all": {
+          "correct": 263,
+          "total": 275,
+          "accuracy": 0.9563636363636364
+        }
+      }
+    },
+    "resolution": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 12,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 29,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 25,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 27,
+            "total": 30
+          }
+        },
+        "loss": 0.11430416109887036,
+        "old": {
+          "correct": 156,
+          "total": 157,
+          "accuracy": 0.9936305732484076
+        },
+        "new": {
+          "correct": 111,
+          "total": 118,
+          "accuracy": 0.940677966101695
+        },
+        "all": {
+          "correct": 267,
+          "total": 275,
+          "accuracy": 0.9709090909090909
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 30,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 11,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 26,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 28,
+            "total": 30
+          }
+        },
+        "loss": 0.08267665171318433,
+        "old": {
+          "correct": 155,
+          "total": 157,
+          "accuracy": 0.9872611464968153
+        },
+        "new": {
+          "correct": 111,
+          "total": 118,
+          "accuracy": 0.940677966101695
+        },
+        "all": {
+          "correct": 266,
+          "total": 275,
+          "accuracy": 0.9672727272727273
+        }
+      }
+    },
+    "warm": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 7,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 27,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 25,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.1062184552949938,
+        "old": {
+          "correct": 150,
+          "total": 157,
+          "accuracy": 0.9554140127388535
+        },
+        "new": {
+          "correct": 111,
+          "total": 118,
+          "accuracy": 0.940677966101695
+        },
+        "all": {
+          "correct": 261,
+          "total": 275,
+          "accuracy": 0.9490909090909091
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 22,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 9,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 27,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 27,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.09514836711047048,
+        "old": {
+          "correct": 150,
+          "total": 157,
+          "accuracy": 0.9554140127388535
+        },
+        "new": {
+          "correct": 113,
+          "total": 118,
+          "accuracy": 0.9576271186440678
+        },
+        "all": {
+          "correct": 263,
+          "total": 275,
+          "accuracy": 0.9563636363636364
+        }
+      }
+    },
+    "cool": {
+      "original_B": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 29,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 8,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 27,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 24,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.10695713709023866,
+        "old": {
+          "correct": 151,
+          "total": 157,
+          "accuracy": 0.9617834394904459
+        },
+        "new": {
+          "correct": 110,
+          "total": 118,
+          "accuracy": 0.9322033898305084
+        },
+        "all": {
+          "correct": 261,
+          "total": 275,
+          "accuracy": 0.9490909090909091
+        }
+      },
+      "augmented_B_candidate": {
+        "per_class": {
+          "南瓜": {
+            "correct": 30,
+            "total": 30
+          },
+          "吐司": {
+            "correct": 29,
+            "total": 30
+          },
+          "牛排": {
+            "correct": 30,
+            "total": 30
+          },
+          "玉米": {
+            "correct": 25,
+            "total": 25
+          },
+          "西兰花": {
+            "correct": 30,
+            "total": 30
+          },
+          "鸡翅": {
+            "correct": 10,
+            "total": 12
+          },
+          "芦笋": {
+            "correct": 30,
+            "total": 30
+          },
+          "培根": {
+            "correct": 25,
+            "total": 30
+          },
+          "三文鱼": {
+            "correct": 28,
+            "total": 28
+          },
+          "整鸡": {
+            "correct": 29,
+            "total": 30
+          }
+        },
+        "loss": 0.08150708972053095,
+        "old": {
+          "correct": 154,
+          "total": 157,
+          "accuracy": 0.9808917197452229
+        },
+        "new": {
+          "correct": 112,
+          "total": 118,
+          "accuracy": 0.9491525423728814
+        },
+        "all": {
+          "correct": 266,
+          "total": 275,
+          "accuracy": 0.9672727272727273
+        }
+      }
+    }
+  },
+  "test_evaluated": false,
+  "raw_image_tensor_matches_prepared": true,
+  "original_images_checked": 1884,
+  "original_images_unchanged": true,
+  "parent_A_unchanged": true,
+  "original_B_unchanged": true,
+  "same_replay_and_validation": true,
+  "new_process_reload": true,
+  "related_tests_passed": 63,
+  "checkpoint_sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc",
+  "limits": [
+    "候选与原B均用同一验证集选模，本轮结果只是开发对照，不能当独立验收。",
+    "没有重新评估原测试集，不判断候选是否达到旧类精度下降不超过2个百分点的目标。",
+    "一次固定种子组合增强试验不能确定各增强单项的贡献，也不能证明稳定优于原方案。",
+    "网图与去背景数据，非烤箱实拍或RK3506部署效果。"
+  ]
+}

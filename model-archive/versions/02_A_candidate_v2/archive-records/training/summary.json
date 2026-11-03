@@ -1,0 +1,6 @@
+{
+  "experiment_name": "A_candidate_v2_gentle_balanced",
+  "best_validation_accuracy": 1.0,
+  "best_validation_loss": 0.001206152850801309,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\A_candidate_v2_20261025_123002\\training\\best.pt"
+}

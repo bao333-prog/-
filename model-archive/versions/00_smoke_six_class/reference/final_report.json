@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "temporary_model_only": true,
+  "epochs": 8,
+  "learning_rate": 0.002,
+  "train_count": 42,
+  "validation_count": 17,
+  "excluded_count": 1,
+  "best_epoch": 8,
+  "validation_accuracy": 0.8235294117647058,
+  "correct": 14,
+  "per_class": {
+    "南瓜": {
+      "correct": 3,
+      "total": 3
+    },
+    "吐司": {
+      "correct": 2,
+      "total": 3
+    },
+    "牛排": {
+      "correct": 2,
+      "total": 3
+    },
+    "玉米": {
+      "correct": 3,
+      "total": 3
+    },
+    "西兰花": {
+      "correct": 2,
+      "total": 2
+    },
+    "鸡翅": {
+      "correct": 2,
+      "total": 3
+    }
+  },
+  "new_process_reload_verified": true,
+  "single_image_predictions": 17,
+  "no_group_overlap": true,
+  "original_images_unchanged": true,
+  "execution": {
+    "status": "completed",
+    "optimizer": "AdamW",
+    "threads": 4,
+    "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\smoke_six_class_20261021_171146\\training\\best.pt",
+    "original_images_unchanged": true,
+    "training_process_seconds_including_weights_download": 17.2632838000427
+  },
+  "preprocessing": "EXIF transpose; RGBA composited onto white; aspect-preserving pad to 224x224; ImageNet normalization",
+  "weight_source": "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth",
+  "limitations": [
+    "Small temporary validation set selected best checkpoint; not independent final test accuracy.",
+    "Visual conservative grouping does not establish true independent sources.",
+    "No target oven data or RK3506 deployment verification.",
+    "Do not resume formal A from this temporary checkpoint."
+  ]
+}

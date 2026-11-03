@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "threads": 4,
+  "stage": "A_candidate_v2",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\A_candidate_v2_20261025_123002\\training\\best.pt",
+  "checkpoint_sha256": "7594d45fd8a2a8bf05452bac0311c144c3dbb74a7d8aef7847b5e2774843112b",
+  "training_seconds": 529.0757962999996
+}

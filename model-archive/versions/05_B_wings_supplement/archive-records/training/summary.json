@@ -1,0 +1,6 @@
+{
+  "experiment_name": "ten_class_B_chicken_supplement",
+  "best_validation_accuracy": 0.9965870307167235,
+  "best_validation_loss": 0.024113991219111727,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\training\\best.pt"
+}

@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "files_hashed": 492,
+  "original_delivery_members": 411,
+  "trained_versions": 8,
+  "untrained_auxiliary": 1,
+  "test_set_scored": false,
+  "model_checks": [
+    {
+      "id": "00_smoke_six_class",
+      "status": "passed",
+      "classes": 6,
+      "epoch": 8,
+      "parameters": 1524006,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "01_formal_A",
+      "status": "passed",
+      "classes": 6,
+      "epoch": 1,
+      "parameters": 1524006,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "02_A_candidate_v2",
+      "status": "passed",
+      "classes": 6,
+      "epoch": 9,
+      "parameters": 1524006,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "03_increment_B",
+      "status": "passed",
+      "classes": 10,
+      "epoch": 7,
+      "parameters": 1528106,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "04_B_augmentation",
+      "status": "passed",
+      "classes": 10,
+      "epoch": 9,
+      "parameters": 1528106,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "05_B_wings_supplement",
+      "status": "passed",
+      "classes": 10,
+      "epoch": 19,
+      "parameters": 1528106,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "06_increment_C",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 9,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    },
+    {
+      "id": "07_C_retention_v2",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 12,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false
+    }
+  ],
+  "untrained_metadata_checked": true,
+  "archive_date": "2026-11-03",
+  "base_commit": "39b95ff1254ac3c3781b659858fac0200e456955",
+  "runtime": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0"
+  },
+  "original_package_members_byte_identical": true,
+  "primary_checkpoints_match_run_files": true,
+  "new_accuracy_results_generated": false,
+  "credential_pattern_scan_matches": 0,
+  "source_images_added": false,
+  "model_training_performed": false,
+  "scope": "Archive identity and synthetic-input loading; no real-food accuracy or deployment acceptance.",
+  "files_hashed_at_original_model_load_check": 491,
+  "independent_archive_review": "no_blocking_or_important_findings",
+  "staged_files_byte_exact": 493,
+  "unrelated_repository_paths_changed": false,
+  "initial_base_commit": "9d83e47fc924d01ae6e2610f3dbb1a1a02b6c0d9",
+  "concurrent_remote_update_preserved": true
+}

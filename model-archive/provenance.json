@@ -1,0 +1,2468 @@
+[
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/__init__.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/__main__.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/augment.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "670d8057e8cecfc5985c8b4234328bcc1a3611a314252726aa581de73f059160"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/cli.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/config.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "64f9783926acc024044cd3c980a4d9d606762b3977dc7b7f1d3e265ad4044e80"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/dataset.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "1d033575c953503bbdce98b427465d2207d2d9fa9fd455f933065ffed01284d0"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/evaluate.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "1c88eb6dde6440a3e74e34ff927cebd592854a68396112590f992e25fa4cc001"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/manifest.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/metrics.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/model.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "cc81c0d4503b9e9034330daeebceef5d764db98a1950b15409bf8c6966a43526"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/report.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/split.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/train.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "e4b92e22cd827d5feee9d735b04ca4b759cb434c5ce9bc540b9df8453bffcde5"
+  },
+  {
+    "path": "versions/00_smoke_six_class/src/oven_food/video.py",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/00_smoke_six_class/pyproject.toml",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/00_smoke_six_class/README.md",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "README.md",
+    "sha256": "e5f4178d0fe11d9538cfec07cbb3d41a0dbef79420bb49b4c75f0f00cebda326"
+  },
+  {
+    "path": "versions/00_smoke_six_class/models/TEMP_best.pt",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "models/TEMP_best.pt",
+    "sha256": "603aa73b9f4c3eac58ce03acc62590778aa9a58adada88cc817b6d599f314f2a"
+  },
+  {
+    "path": "versions/00_smoke_six_class/reference/train_config.json",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "reference/train_config.json",
+    "sha256": "6aa018758dc3a52f5c5268025a145c36a2be0ee415b7e94db329f8935cbaf6a9"
+  },
+  {
+    "path": "versions/00_smoke_six_class/reference/evaluate_config.json",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "reference/evaluate_config.json",
+    "sha256": "47122ba8bf076826ce483e08a845c5fb78a5fab3cecf77ca092c389e8c063327"
+  },
+  {
+    "path": "versions/00_smoke_six_class/reference/试跑结果.md",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "reference/试跑结果.md",
+    "sha256": "8490ca0d255896dc8353fca31644e7a671a8e7f50e1e184e83e00b7b66e689bb"
+  },
+  {
+    "path": "versions/00_smoke_six_class/reference/final_report.json",
+    "source_archive": "outputs/模型代码包/微波炉项目_模型代码与试跑权重.zip",
+    "archive_member": "reference/final_report.json",
+    "sha256": "228522e1c497a6e63e9eb5389ba34107f57067b31f210938aad46450887fcb3f"
+  },
+  {
+    "path": "versions/01_formal_A/README.md",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "3faffd8b7730f877f0939cb2531156b609d148b66ec4e3e19258ddaadb6f1c4b"
+  },
+  {
+    "path": "versions/01_formal_A/pyproject.toml",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/__init__.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/__main__.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/augment.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "670d8057e8cecfc5985c8b4234328bcc1a3611a314252726aa581de73f059160"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/cli.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/config.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "64f9783926acc024044cd3c980a4d9d606762b3977dc7b7f1d3e265ad4044e80"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/dataset.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "0ea9f00cfa38daa0a4d7b1d474a48b076a68623d469aa083421091e5e296fb45"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/evaluate.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "d063ec8d535a7289159654e540ca70321192ad6eaa1b01cd384214187548ce35"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/manifest.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/metrics.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/model.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "b9ecb47413c0c65d7651d9a1a3afb79674b47e9ed46e313309655fa7bd3b58e2"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/report.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/split.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/train.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "0c96c7ff2dba44d448f5d7d10f611c61f34df724121d2eef0d9d7e4a92216f80"
+  },
+  {
+    "path": "versions/01_formal_A/src/oven_food/video.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/01_formal_A/predict.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "afee9ccb0fc02cb9bb0e1b584c0626d70ac8bd758ae9657fb04497e17de326ec"
+  },
+  {
+    "path": "versions/01_formal_A/models/model_A.pt",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "models/model_A.pt",
+    "sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7"
+  },
+  {
+    "path": "versions/01_formal_A/records/正式模型A_结果报告.md",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/正式模型A_结果报告.md",
+    "sha256": "478b4ffe67a677ea987241a350e839bd3ac6181aa95d7d48577c1d4775730d6d"
+  },
+  {
+    "path": "versions/01_formal_A/records/final_report.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "96359eb1c89ac9658f27830f2201a9bcb38e326ce8f13ad5c9bf3aa1d19bcaa5"
+  },
+  {
+    "path": "versions/01_formal_A/records/execution.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "d0a268630e030d91da1edf5f2ababd727625e39336f600781da747a2e6b5376f"
+  },
+  {
+    "path": "versions/01_formal_A/records/train_config.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "bf22908c95e189aeecf5ee0b2a4ddef814cc9033d8af3d0a7c492b1510c01adb"
+  },
+  {
+    "path": "versions/01_formal_A/records/manifest.csv",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "622d4c3afd931c39a91ae5599fed606d08df753de6d81ce1e271516e10c70cec"
+  },
+  {
+    "path": "versions/01_formal_A/records/split_summary.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/split_summary.json",
+    "sha256": "bfd26d7329aa0d4f510714c4599d001d63f9780a19490dd5af6184bfe6181ac6"
+  },
+  {
+    "path": "versions/01_formal_A/records/review_and_split.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/review_and_split.json",
+    "sha256": "dc53d738ee61a1131f94334efd7495499ea3d6f72dff2f50e7320a97d9dfe8fd"
+  },
+  {
+    "path": "versions/01_formal_A/records/grouping_edges.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/grouping_edges.json",
+    "sha256": "c8fc92869b09ef3a6a11a38f882ee017973338302bb6773c6e8b2e6ea9807b59"
+  },
+  {
+    "path": "versions/01_formal_A/records/training/config.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "565b313aae552922620e716a1082cd92046099e2f63d2da1293c40351da35e8f"
+  },
+  {
+    "path": "versions/01_formal_A/records/training/history.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "6d4cf77b431be95a6f1f66cb6a3ae6b8388c282107e104a30d3fc3eef8dcd43b"
+  },
+  {
+    "path": "versions/01_formal_A/records/training/summary.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "83bd3ace38bc737575dad4a580f3ab724cf87ee387b3e147c44f3905c44b1b4e"
+  },
+  {
+    "path": "versions/01_formal_A/records/val/confusion_matrix.csv",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/val/confusion_matrix.csv",
+    "sha256": "761c903dee7d0d590e2a04e5ec56ff78234e98bbb3429e72754a5c824a73d270"
+  },
+  {
+    "path": "versions/01_formal_A/records/val/metrics.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/val/metrics.json",
+    "sha256": "d078e4b6b53176ccabc24fd53c7833792cc3f6bb539a017609e213b8743e9516"
+  },
+  {
+    "path": "versions/01_formal_A/records/val/predictions.csv",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/val/predictions.csv",
+    "sha256": "7527f11304b71b1cbb1323d7b5d2871ee99e65017e8280a6864e4f6171f36387"
+  },
+  {
+    "path": "versions/01_formal_A/records/test/confusion_matrix.csv",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/test/confusion_matrix.csv",
+    "sha256": "afb61294fa3f01d9ee1aaa4ad0ce06fec2e39e30e6ebf7dfee23ec364db16a43"
+  },
+  {
+    "path": "versions/01_formal_A/records/test/metrics.json",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/test/metrics.json",
+    "sha256": "caa527b324229e9698bf2427367f10d4f7b95d1c65d7ad2cc66e53e573b081ca"
+  },
+  {
+    "path": "versions/01_formal_A/records/test/predictions.csv",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "records/test/predictions.csv",
+    "sha256": "681331221411ef11c4de5e16732b179e577db23e47b6eee02973c10aec98244e"
+  },
+  {
+    "path": "versions/01_formal_A/reproduce/prepare_data.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "reproduce/prepare_data.py",
+    "sha256": "1218b633b8d8f2a8557a80fed1593176779186e37d5bbb77b9e7305fea717d38"
+  },
+  {
+    "path": "versions/01_formal_A/reproduce/run_training.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "f9f411ddd917feac14c196af3af55fd35efc01906b26a42d7a4e87ab1b130b92"
+  },
+  {
+    "path": "versions/01_formal_A/reproduce/verify_and_report.py",
+    "source_archive": "outputs/正式模型A_20261025/正式六类模型A_中文注释代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "7484b3905bc2a0308cc5e3885adc14bd2f3699b403123d614fcbb4452776440d"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/README.md",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "a0f607ea97387ca796f3644d7016265ffbaca7459b4bf2b36e203248335e0cb8"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/pyproject.toml",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/augment.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "ea3882c919c4fa5c7d3669ebc080527821d88971e4cee1de3285fd1a73ac9e1e"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/cli.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/config.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "36781b1b33a99efddeabedb7a1b8f63171b6de7f9a408840dcdf5ccd7549dba4"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/dataset.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/evaluate.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/manifest.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/metrics.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/model.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "60943628a4e9ccce682d13e2ed71b3e930bbd3109a57086216dc778ce198e885"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/report.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/split.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/train.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "7593b3290e2c14e977f14c25a06354e0ed2ca1ba752b61bc5470e827ea1e2e6b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/video.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/__init__.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/src/oven_food/__main__.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/predict.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "43a8b8aecab833942d9fb2d4f4746c24577506fb0f18a7c38ce2127957982940"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/models/A_candidate_v2.pt",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "models/A_candidate_v2.pt",
+    "sha256": "7594d45fd8a2a8bf05452bac0311c144c3dbb74a7d8aef7847b5e2774843112b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/改进说明与验证结果.md",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/改进说明与验证结果.md",
+    "sha256": "370d4805c78608ecf688734804857af75ebf57a047d70ed76c018651d00e50a5"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/report.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/report.json",
+    "sha256": "cece3fa9063fc87b1c957c207fa9b99ac276ee397dfacdcf412d350948011e16"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/execution.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "9bb46a890eda209b6ac2e78b7225f7ec631171a898261bde6f4fbd3a9f28d158"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/train_config.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "3dde4dc9ad66eb2bf3c2973b8c6e4a583fc0847566d7f1155eeb8193b440e05b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/training.log",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "c16669835eac6de3587a43b9f71d1221bca4980dee67af30022e3eeed20e5ce9"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/training/config.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "284c372fd7506ea650f45f30e1d1795a3e225cfe732d47eae77f7ef3a208efcc"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/training/history.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "4db1f1e04aacdd733214544aeab2464c5ac2a833a90b420b278df696af713ea3"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/training/summary.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "501a2019a48f76a8d6c4a47e00f1bfbbd6587802f53a7bb12ab0a7922d28435e"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/validation/confusion_matrix.csv",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/validation/confusion_matrix.csv",
+    "sha256": "761c903dee7d0d590e2a04e5ec56ff78234e98bbb3429e72754a5c824a73d270"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/validation/metrics.json",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/validation/metrics.json",
+    "sha256": "429f4c2dde3b1042536a2bbaf84b79a3c6a4f31536502553d90e540fd82f173d"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/records/validation/predictions.csv",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "records/validation/predictions.csv",
+    "sha256": "9ab199f6aa75fd25cc0215a51920c575b1a6c88d6491d01fb45a9c650c2da276"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_augment.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_augment.py",
+    "sha256": "2c08ba9480173a7896dc0492b70546e35ff2f8844512908a7af54d215c30a163"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_checkpoint_contract.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_checkpoint_contract.py",
+    "sha256": "710042f4e91843a337a9cf02d05e6890744e798ca3782d4bf9e6039335d62aef"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_config.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_config.py",
+    "sha256": "1f347a08003b4d9e2b9dc4c3c9f1b4addd37b3e76647b3dfd1bd24cc81e19023"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_dataset.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_dataset.py",
+    "sha256": "ff95e8729a49bdc67aa123618eef46ffd1b72dbbb1efcb09d2916d933634ff76"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_manifest.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_manifest.py",
+    "sha256": "c135cb3c2281910730e5a6fa69f408e1d1e252e1ec429403cef6b160d7e5082b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_metrics.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_metrics.py",
+    "sha256": "fc80c1dd49527481146cb03f91c4256e4b2efec719db5067e196d66003999ba4"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_training_improvements.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_training_improvements.py",
+    "sha256": "c1a9c33f41e05b78d356cc44ba2c5590c5e422f8d2b4a4a146646aea4c9aa5ee"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/test_train_guard.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/test_train_guard.py",
+    "sha256": "9fcfdded5d5b7b44fffd843d5c799657b9623f72e1152b1d4a0d65808546f301"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/tests/__init__.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "tests/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/reproduce/run_training.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "29fd9ade0be792ab6d082dc2896eec3caaf04bc8d43144c6f0c5fd80d8b42294"
+  },
+  {
+    "path": "versions/02_A_candidate_v2/reproduce/verify_and_report.py",
+    "source_archive": "outputs/A候选v2_20261025/六类模型A候选v2_改进代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "a635354d22c4574db997da3e60401661410a2f5046ffdf2141932ce2e065d735"
+  },
+  {
+    "path": "versions/03_increment_B/README.md",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "8d8e39413a8951cc1618d73a12ef47a0a93f8ae09abb2d0705d3fda34143e5fb"
+  },
+  {
+    "path": "versions/03_increment_B/pyproject.toml",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/augment.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "ea3882c919c4fa5c7d3669ebc080527821d88971e4cee1de3285fd1a73ac9e1e"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/cli.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/config.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "9126c52ca3a165062432d68594f9c2e3f7c01f85a071c9aa1fd64fd2cf4a30f0"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/dataset.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/evaluate.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/manifest.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/metrics.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/model.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/report.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/split.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/train.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "3df4c17f802425508b1914bf0c1f0d2ca98d653045173edae0307bd5c4e4a647"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/video.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/__init__.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/03_increment_B/src/oven_food/__main__.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/03_increment_B/predict.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "fe202ab7b1281a57f9ba1128adb3d090b64d97f40cf2f18c298fc40d099d36b5"
+  },
+  {
+    "path": "versions/03_increment_B/models/model_B.pt",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "models/model_B.pt",
+    "sha256": "a493202adfc9f1803716266cf35e2526141e7b0d72ee8e25af861975546a6e7a"
+  },
+  {
+    "path": "versions/03_increment_B/models/parent_A.pt",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "models/parent_A.pt",
+    "sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7"
+  },
+  {
+    "path": "versions/03_increment_B/records/第一次增量B_结果报告.md",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/第一次增量B_结果报告.md",
+    "sha256": "77733efcadf257eae044ba5409a72b1ab592e905802fc1fd55709ee389a2bc07"
+  },
+  {
+    "path": "versions/03_increment_B/records/final_report.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "6693a74b6e9eec43b3bace6bb232a3481c8e8aba0e1a46324d16f498020d06da"
+  },
+  {
+    "path": "versions/03_increment_B/records/baseline.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/baseline.json",
+    "sha256": "08ead25159716b682a390958052a0a73554b80c4d618c675a7b301484f844322"
+  },
+  {
+    "path": "versions/03_increment_B/records/execution.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "3f44bb3aadb46259434d78c9ac43eca196b4fd2633a83893b07a37a0976a98c2"
+  },
+  {
+    "path": "versions/03_increment_B/records/initialization_audit.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/initialization_audit.json",
+    "sha256": "33d7af9530401dd559ef8e149109a3742aa5787e970188ac69cfd06b0bacc949"
+  },
+  {
+    "path": "versions/03_increment_B/records/train_config.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "014fe6ba9646ef5556a58f0e0bda9d71d3b2e2e82144adba72981d62461db6a0"
+  },
+  {
+    "path": "versions/03_increment_B/records/manifest.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "38529f5256a0a5ebdc9df6db2694a318371fe5f4aa733a713cd3a8b4563d45d3"
+  },
+  {
+    "path": "versions/03_increment_B/records/review_and_split.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/review_and_split.json",
+    "sha256": "81808a65cca518b402dd0e04c59b4c9233af3b71d329fa5caf060c7480246910"
+  },
+  {
+    "path": "versions/03_increment_B/records/new_split_summary.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/new_split_summary.json",
+    "sha256": "64f315c0558c38b6fcddef0f075455cbb5d50f42a14e54a48ca8660584429565"
+  },
+  {
+    "path": "versions/03_increment_B/records/grouping_edges.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/grouping_edges.json",
+    "sha256": "81a7ac398bc6ee28faf3c4dd5b7f81de2bc66e2fcaa625bfd3bf3ab6e3a7a4d1"
+  },
+  {
+    "path": "versions/03_increment_B/records/training.log",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "671fcc3f2955d21956d934b6958bb177af50c79678e9891ac5988cc411f9c5ee"
+  },
+  {
+    "path": "versions/03_increment_B/records/training/config.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "63952f32be4ff5c97c2918a5625435563e134da65c1af1b0ef24273a6389c1dd"
+  },
+  {
+    "path": "versions/03_increment_B/records/training/history.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "068a9328df5b0fd8114f773e128c15e354b676fe581b854754b6ecbb07220a6f"
+  },
+  {
+    "path": "versions/03_increment_B/records/training/summary.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "3c3c3a65ad925ea785aca4c257b40eb8e2027d71dd9560b091bb0ca443dffa14"
+  },
+  {
+    "path": "versions/03_increment_B/records/training/training_manifest.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/training/training_manifest.csv",
+    "sha256": "09a836efc750cc5e93f5b48abf5c7b843e1bfab5440f5ce13337752a84706776"
+  },
+  {
+    "path": "versions/03_increment_B/records/val/confusion_matrix.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/val/confusion_matrix.csv",
+    "sha256": "ca35422a4df579d3a296b8dcd675287cf2db988ea590d5060739a29addb6ba83"
+  },
+  {
+    "path": "versions/03_increment_B/records/val/metrics.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/val/metrics.json",
+    "sha256": "4a4fd2ffd5a1fc6600d3240432f06897a2235f4884c4f67a3e80eed223e5dcf9"
+  },
+  {
+    "path": "versions/03_increment_B/records/val/predictions.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/val/predictions.csv",
+    "sha256": "4375c1e63400b60e063596b2d7c11ec3d08a871d7366afa4c8d6836a3794fa38"
+  },
+  {
+    "path": "versions/03_increment_B/records/test/confusion_matrix.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/test/confusion_matrix.csv",
+    "sha256": "a1269461ba43074db3b3c98a871f877669d751d948fb1087f359abf6339ba752"
+  },
+  {
+    "path": "versions/03_increment_B/records/test/metrics.json",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/test/metrics.json",
+    "sha256": "a431d2acd67a2fb1e1a5484d2a0b0b12a19cbf5bda024c464b2d36a9cef95183"
+  },
+  {
+    "path": "versions/03_increment_B/records/test/predictions.csv",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "records/test/predictions.csv",
+    "sha256": "47ef44eb08f54618953ffe55177ac9f080c3e26261d482fb3250214f0434dfc9"
+  },
+  {
+    "path": "versions/03_increment_B/reproduce/prepare_data.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "reproduce/prepare_data.py",
+    "sha256": "6bf829e11fab451f99006b1d83f8dca43ebbed2843e98638bd7c9b2961197fe7"
+  },
+  {
+    "path": "versions/03_increment_B/reproduce/run_training.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "eac4caa2bc56161c5fc75ecfdbb75ddd402ac3a219942e9b96f9a5ceae29cd02"
+  },
+  {
+    "path": "versions/03_increment_B/reproduce/verify_and_report.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "e4e62a88540424e60d80f2d9694adce13517c92e6aea628a74f3587de978c14e"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_incremental.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_incremental.py",
+    "sha256": "5293df843731b5c545e6f07d456a6f6f81557209197eb255335807e701ab499b"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_training_improvements.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_training_improvements.py",
+    "sha256": "c1a9c33f41e05b78d356cc44ba2c5590c5e422f8d2b4a4a146646aea4c9aa5ee"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_config.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_config.py",
+    "sha256": "1f347a08003b4d9e2b9dc4c3c9f1b4addd37b3e76647b3dfd1bd24cc81e19023"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_augment.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_augment.py",
+    "sha256": "2c08ba9480173a7896dc0492b70546e35ff2f8844512908a7af54d215c30a163"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_dataset.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_dataset.py",
+    "sha256": "ff95e8729a49bdc67aa123618eef46ffd1b72dbbb1efcb09d2916d933634ff76"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_manifest.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_manifest.py",
+    "sha256": "c135cb3c2281910730e5a6fa69f408e1d1e252e1ec429403cef6b160d7e5082b"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_metrics.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_metrics.py",
+    "sha256": "fc80c1dd49527481146cb03f91c4256e4b2efec719db5067e196d66003999ba4"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_checkpoint_contract.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_checkpoint_contract.py",
+    "sha256": "710042f4e91843a337a9cf02d05e6890744e798ca3782d4bf9e6039335d62aef"
+  },
+  {
+    "path": "versions/03_increment_B/tests/test_train_guard.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/test_train_guard.py",
+    "sha256": "9fcfdded5d5b7b44fffd843d5c799657b9623f72e1152b1d4a0d65808546f301"
+  },
+  {
+    "path": "versions/03_increment_B/tests/__init__.py",
+    "source_archive": "outputs/第一次增量B_20261025/十类增量模型B_中文注释代码与权重.zip",
+    "archive_member": "tests/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "versions/04_B_augmentation/README.md",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "4aaecba6263897bdfccde7b6a4fa0e7fa38fa2370c5286d88c3b165b293f7729"
+  },
+  {
+    "path": "versions/04_B_augmentation/pyproject.toml",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/04_B_augmentation/predict.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "fe202ab7b1281a57f9ba1128adb3d090b64d97f40cf2f18c298fc40d099d36b5"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/augment.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "a63f6778b4917e98bfe1e3c94e250a1324802ae467d36eff60d07115cb12e3eb"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/cli.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/config.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6dc9179477e01823cb57a5f6686eb7d99a62544d9e2ae527bcaa1ce4bd630069"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/dataset.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/evaluate.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/manifest.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/metrics.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/model.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/report.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/split.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/train.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "3df4c17f802425508b1914bf0c1f0d2ca98d653045173edae0307bd5c4e4a647"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/video.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/__init__.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/04_B_augmentation/src/oven_food/__main__.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/04_B_augmentation/models/model_B_augmentation_candidate.pt",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "models/model_B_augmentation_candidate.pt",
+    "sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc"
+  },
+  {
+    "path": "versions/04_B_augmentation/models/parent_A.pt",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "models/parent_A.pt",
+    "sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/baseline.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/baseline.json",
+    "sha256": "3dcc0d99adc5764b17fff6a5585c12e2d033ab69397f3b81343275a2bce7b21d"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/trial_protocol.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/trial_protocol.json",
+    "sha256": "066341b56aac55c911f4709e1debe828df0f3744ddddf7cad23a213b00d678fa"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/train_config.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "f9c9ca0640e013549937527c632dc1e186a40c58c6a501a97bdf3731af54f5cc"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/manifest.csv",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "38529f5256a0a5ebdc9df6db2694a318371fe5f4aa733a713cd3a8b4563d45d3"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/execution.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "258303cf822fbb229747e5e2082f56f30c6351a4454a384126a304948c98266f"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/initialization_audit.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/initialization_audit.json",
+    "sha256": "33d7af9530401dd559ef8e149109a3742aa5787e970188ac69cfd06b0bacc949"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/comparison.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/comparison.json",
+    "sha256": "be5c20501b96b8922ecf4bfc6a0aa84a22350f2e7655012a65923419226cbb37"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/增强对照结果.md",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/增强对照结果.md",
+    "sha256": "2d824da10e0aa100e66fd2adfdf21831f549c17be1be1e05db8f1360e4189988"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/training.log",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "32d6f45971930663ec993e8b50a9a9afc117107d50225d6c195de03897bf162a"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/validation_predictions.csv",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/validation_predictions.csv",
+    "sha256": "35e7a11c0d3259a97b77608467eaefb67f0fa253e1e8fb343db9d07243dadb73"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/preview_sources.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/preview_sources.json",
+    "sha256": "a3d1b5e86ab167b03c3b52fbbf6e38bc78c4078893cb6d8d83160b1b29380e92"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/增强示例.jpg",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/增强示例.jpg",
+    "sha256": "c1975ce91ae045d34ba8dfad5423fa6e81da22a0fd0492a4e21dafb3b7706850"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/training/config.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "1bd5bd518a36495e7df4109fca8ba7c1df8220f1956a41d9533c740be10a37d7"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/training/history.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "886b8fd60ce55e6ac6f8eeca3c67134b560a068defdb825d641857bee132443b"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/training/summary.json",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "91dbdfeff647e5dfbbda88f6c0fabfc6d787f5590cd3a0aecc3f0c3bc6a0ec1b"
+  },
+  {
+    "path": "versions/04_B_augmentation/records/training/training_manifest.csv",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "records/training/training_manifest.csv",
+    "sha256": "09a836efc750cc5e93f5b48abf5c7b843e1bfab5440f5ce13337752a84706776"
+  },
+  {
+    "path": "versions/04_B_augmentation/reproduce/run_training.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "31541e2a75d52630e7403d4b0bd88931e0727221ef3f7a4e342410aa0cacfc69"
+  },
+  {
+    "path": "versions/04_B_augmentation/reproduce/verify_and_report.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "19495f73a108708e44fc36bcb89161734259724315d77df8abf5ac7ea3acabe8"
+  },
+  {
+    "path": "versions/04_B_augmentation/reproduce/preview.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "reproduce/preview.py",
+    "sha256": "a13fc87076e3b270c3960c7ecdaf2f673f7a3fdf5a2a008d8af8486ef6f4c6b3"
+  },
+  {
+    "path": "versions/04_B_augmentation/reproduce/package_delivery.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "reproduce/package_delivery.py",
+    "sha256": "8b32cb0e3d1a95d75d2cdd923bdb73e3f23314dc59c492c07935bba421a30621"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_augment.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_augment.py",
+    "sha256": "2c08ba9480173a7896dc0492b70546e35ff2f8844512908a7af54d215c30a163"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_checkpoint_contract.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_checkpoint_contract.py",
+    "sha256": "710042f4e91843a337a9cf02d05e6890744e798ca3782d4bf9e6039335d62aef"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_cli.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_cli.py",
+    "sha256": "0cd238279a99fb7df174958bfce9fc9912ac8745e9777457fb9fc44fe85d2dd5"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_config.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_config.py",
+    "sha256": "1f347a08003b4d9e2b9dc4c3c9f1b4addd37b3e76647b3dfd1bd24cc81e19023"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_dataset.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_dataset.py",
+    "sha256": "ff95e8729a49bdc67aa123618eef46ffd1b72dbbb1efcb09d2916d933634ff76"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_gentle_plus.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_gentle_plus.py",
+    "sha256": "c81af4e803da99c02bc93154b2dd1508077ad6b48a9cdb55b73f2464a622c85c"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_incremental.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_incremental.py",
+    "sha256": "5293df843731b5c545e6f07d456a6f6f81557209197eb255335807e701ab499b"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_manifest.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_manifest.py",
+    "sha256": "c135cb3c2281910730e5a6fa69f408e1d1e252e1ec429403cef6b160d7e5082b"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_metrics.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_metrics.py",
+    "sha256": "fc80c1dd49527481146cb03f91c4256e4b2efec719db5067e196d66003999ba4"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_report.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_report.py",
+    "sha256": "88017faf111e14c6da4a4f04d0101a7f446afe0c1f0e7c747ba3856704a37d10"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_split.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_split.py",
+    "sha256": "34eaac3e79cf7043bc6b9041a9d8f374b806e317c2350d479133f5d00ec51c73"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_split_corn_strict.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_split_corn_strict.py",
+    "sha256": "87b42d8b2000db3b0ca01ed0ce00a4a871af9d00b411314a37cb6f1a02f99bf2"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_training_improvements.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_training_improvements.py",
+    "sha256": "c1a9c33f41e05b78d356cc44ba2c5590c5e422f8d2b4a4a146646aea4c9aa5ee"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/test_train_guard.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/test_train_guard.py",
+    "sha256": "9fcfdded5d5b7b44fffd843d5c799657b9623f72e1152b1d4a0d65808546f301"
+  },
+  {
+    "path": "versions/04_B_augmentation/tests/__init__.py",
+    "source_archive": "outputs/B新增增强试验_20261026/十类B_新增增强候选_代码与权重.zip",
+    "archive_member": "tests/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/README.md",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "f1f56676b34d039fe07ca354dafe493400b83411d14bc5620144b84922e82664"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/pyproject.toml",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/predict.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "fe202ab7b1281a57f9ba1128adb3d090b64d97f40cf2f18c298fc40d099d36b5"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/models/model_B_chicken_supplement.pt",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "models/model_B_chicken_supplement.pt",
+    "sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/models/parent_augmented_B.pt",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "models/parent_augmented_B.pt",
+    "sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/augment.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "a63f6778b4917e98bfe1e3c94e250a1324802ae467d36eff60d07115cb12e3eb"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/cli.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/config.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6dc9179477e01823cb57a5f6686eb7d99a62544d9e2ae527bcaa1ce4bd630069"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/dataset.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/evaluate.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/manifest.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/metrics.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/model.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/report.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/split.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/train.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "3df4c17f802425508b1914bf0c1f0d2ca98d653045173edae0307bd5c4e4a647"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/video.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/__init__.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/src/oven_food/__main__.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/鸡翅补强训练_结果报告.md",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/鸡翅补强训练_结果报告.md",
+    "sha256": "d429170c6b672975c726b5115950bf45054b340568c2599ada11eba8347f3053"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/final_report.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "56994cbab5ad1fa6c93aef410aadee3dbe91f6dbe0f92d04fbae271d2573aa6b"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/data_audit.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "0f3298452a406377748af4df29920c2b84927e24efb2e97eb99c1fb52a4e170a"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/execution.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "4dd327fd71461baf3e40a15a861adaef7567d369c8fa20ebafa74a31330c9497"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/preflight_checks.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/preflight_checks.json",
+    "sha256": "7f3dd9e16e76ce9db6df75a7b105f14c8bd343275c2bc9b6febde0788e2385f7"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/incoming_data_review_summary.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/incoming_data_review_summary.json",
+    "sha256": "05c50f0c4d2db437a995f9b7def828c36912614d1e644ee8befeff8ad3a98028"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/train_config.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "caef7e208dc0127218e6bbd64155d779f94f2178ff741aade5df4d1868e10523"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/manifest.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "19dfdfe1b5fda484496385c86f581389a48bf9122d7d6911fcee74de7a949a57"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/frozen_new_chicken_test.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/frozen_new_chicken_test.csv",
+    "sha256": "5d12f26bd8e1c8a97e4e87942d9ef57ee54dec8e7193c8b95fb4e0b8ba33086d"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/training.log",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "fc77c86d9138299de9539c1cd8353dae37accd766a39a35a187dc48afc363a4d"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/verification.log",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/verification.log",
+    "sha256": "156754d849b05b7c46a18c2b0e9a107e0e7b01900a7920c2baa5a3d7da177ac7"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/执行计划与记录.md",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/执行计划与记录.md",
+    "sha256": "0301b2d2e386e4adf921fbd7705e8d4ccccc0c160babae28a47c65de88373460"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/training/config.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "604604fefce85fd6ebcb461bb6c0db218b15218cdfb9189286ea07d480cabb49"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/training/history.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "7d122a7b9de86f24d24e3ee657941128c879a4596ea94ba84afad1d7b00903e1"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/training/summary.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "14d7619ea6fe331eb21762d110f97a758f7f949e67a6ba3a1c720e81e6a9d936"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/training/training_manifest.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/training/training_manifest.csv",
+    "sha256": "19dfdfe1b5fda484496385c86f581389a48bf9122d7d6911fcee74de7a949a57"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/chicken_supplement_candidate/confusion_matrix.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/chicken_supplement_candidate/confusion_matrix.csv",
+    "sha256": "4f4a71bfea33591fef8be362830fcaf983c2c6234d4bb5d60a0a11adc92b9f90"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/chicken_supplement_candidate/metrics.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/chicken_supplement_candidate/metrics.json",
+    "sha256": "965164f335310048f52e1da3651e4a8864cf88a835b43811bffdde3ee2c400e5"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/chicken_supplement_candidate/predictions.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/chicken_supplement_candidate/predictions.csv",
+    "sha256": "3fba758a1e888db568444272e07bacaeda2ba32827bdbbe17fedaf98adca96cf"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/parent_augmented_B/confusion_matrix.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/parent_augmented_B/confusion_matrix.csv",
+    "sha256": "f2d5164eb08b0b7822e2dfaf4896eb378849d088ace74f41237fbe0cfcea901e"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/parent_augmented_B/metrics.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/parent_augmented_B/metrics.json",
+    "sha256": "8f5899ac7e4e2d185ee38227e5945c9cfa0cd29eaeab7efc633b8f151db9fd8c"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/val/parent_augmented_B/predictions.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/val/parent_augmented_B/predictions.csv",
+    "sha256": "8a30cbd917d4443c2c1bd7872fd0cc553eeb689c5bccf41572b14a3399dd726c"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/chicken_supplement_candidate/confusion_matrix.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/chicken_supplement_candidate/confusion_matrix.csv",
+    "sha256": "4e3554d499c1eb4a430ba6ff9befe52fff3330c844be8ca188a86677f8225393"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/chicken_supplement_candidate/metrics.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/chicken_supplement_candidate/metrics.json",
+    "sha256": "4e6a09710acfd7585e2b054d99f2ee2ee97134b02a33ab9573e3a20a077f41db"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/chicken_supplement_candidate/predictions.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/chicken_supplement_candidate/predictions.csv",
+    "sha256": "dc8f3ef57022c72eff4233bff36cc9155a43abdc0d8fb9e1c4954967d3cf8382"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/parent_augmented_B/confusion_matrix.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/parent_augmented_B/confusion_matrix.csv",
+    "sha256": "309c2cb5cbbd8e3412f5fa8612a924b5929fffd7c508a590878b04f5b255bee9"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/parent_augmented_B/metrics.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/parent_augmented_B/metrics.json",
+    "sha256": "8d24c31218a431b9f7e7c91e16bc9297aa483fc7d16b7834424b253098861c3f"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/fresh_chicken_test/parent_augmented_B/predictions.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/fresh_chicken_test/parent_augmented_B/predictions.csv",
+    "sha256": "af36eae069c8245104a0555b80e079610b62df20a54acf3242d5225db221e3cb"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/reproduce/prepare_run.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/prepare_run.py",
+    "sha256": "e10fa59481dcd35dccf38e4356f98abb4bd80b77b1495b7c1f7322db24abfb1f"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/reproduce/run_training.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "9527cb2604d1545b15d731583b722d1a3b95fd78d71d98e9ca743157a4507b07"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/reproduce/verify_and_report.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "7a7210e7f216ab0ca56d75aa841bd5b57d57df2e3c4ee8d0704efa76168a07cd"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/reproduce/package_delivery.py",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/package_delivery.py",
+    "sha256": "a3bd5a2b1df285912159cde481bf93aab33a897fd0109e91818955e2dd6cedbf"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/incoming_review/usage_summary.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/incoming_review/usage_summary.json",
+    "sha256": "05c50f0c4d2db437a995f9b7def828c36912614d1e644ee8befeff8ad3a98028"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/incoming_review/reviewed_inventory.json",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/incoming_review/reviewed_inventory.json",
+    "sha256": "17eb4e7c9eaf7545e38a7f163bfea8b7f3c94cf9a861371d2e7536c36b95e332"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/incoming_review/逐张复核与使用建议.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/incoming_review/逐张复核与使用建议.csv",
+    "sha256": "da0a9411ac7087e5560cf8e196fd2b52cdc338ed5ebff97fefa84a46cd2ec57a"
+  },
+  {
+    "path": "versions/05_B_wings_supplement/records/incoming_review/新增候选建议划分.csv",
+    "source_archive": "outputs/鸡翅补强模型B_20261029/十类B_鸡翅补强_中文注释代码与权重.zip",
+    "archive_member": "records/incoming_review/新增候选建议划分.csv",
+    "sha256": "4a98669399d5c101a3a82c71340af75f24b5649fdc5e959b8a1b274a6f30c322"
+  },
+  {
+    "path": "versions/06_increment_C/README.md",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "483f75e659601e1fcedc64425f8f083bd14c05b1f0abd8e941975c33ec593011"
+  },
+  {
+    "path": "versions/06_increment_C/pyproject.toml",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/06_increment_C/predict.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/06_increment_C/models/model_C.pt",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "models/model_C.pt",
+    "sha256": "effc75d33627295a88616633bb9dcb7260aa523b6b11c1f69201473d83c72595"
+  },
+  {
+    "path": "versions/06_increment_C/models/parent_B_chicken_supplement.pt",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "models/parent_B_chicken_supplement.pt",
+    "sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/augment.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "a63f6778b4917e98bfe1e3c94e250a1324802ae467d36eff60d07115cb12e3eb"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/cli.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/config.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6dc9179477e01823cb57a5f6686eb7d99a62544d9e2ae527bcaa1ce4bd630069"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/dataset.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/evaluate.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/manifest.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/metrics.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/model.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/report.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/split.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/train.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "3df4c17f802425508b1914bf0c1f0d2ca98d653045173edae0307bd5c4e4a647"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/video.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/__init__.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/06_increment_C/src/oven_food/__main__.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/06_increment_C/records/第二次增量C_结果报告.md",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/第二次增量C_结果报告.md",
+    "sha256": "e8f778ebaeaea1e7c25e4c5068a7fed3dce483b00b13fe85cef86ce90e783c3a"
+  },
+  {
+    "path": "versions/06_increment_C/records/final_report.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "9aa708ffcc8f0797a0b44ac6b5cbf20c1317932c712114e4731e9eab24611d97"
+  },
+  {
+    "path": "versions/06_increment_C/records/data_audit.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "838e91a60c5c2fae455edab84eab234b6cb73aa4f55d25167e694a3ed41d26a4"
+  },
+  {
+    "path": "versions/06_increment_C/records/inventory_summary.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/inventory_summary.json",
+    "sha256": "095dbc1b0c8462693988e69ce1206444846b4a2631e78fe3baca3a8f5330bc75"
+  },
+  {
+    "path": "versions/06_increment_C/records/review_and_split.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/review_and_split.json",
+    "sha256": "71a6934da195b98834d0bb998e1995e6f535486690b300daf3034cc3cd4f0bc1"
+  },
+  {
+    "path": "versions/06_increment_C/records/grouping_edges.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/grouping_edges.json",
+    "sha256": "ad8926c206c58d570c0ec77c1dc2c87bb8dfc0475d0379ba8073b97fd5a8012b"
+  },
+  {
+    "path": "versions/06_increment_C/records/new_split_summary.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/new_split_summary.json",
+    "sha256": "3fdfc696c73598209fd94b1aa8a659a0b5e89fa409cde20e4d90bfcb6b7ce2b9"
+  },
+  {
+    "path": "versions/06_increment_C/records/manifest.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "dfe2d8d8201c0e7f56432df3ba65fb943f763a3debf9b5b3efca1ee1ed90651a"
+  },
+  {
+    "path": "versions/06_increment_C/records/expected_training_manifest.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/expected_training_manifest.csv",
+    "sha256": "a65491be132f6a46e96894621563b45f352de3b5705d2e49eb0d86e21c6b9c55"
+  },
+  {
+    "path": "versions/06_increment_C/records/train_config.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "aec88c01b4d65b6d864755053d6b7cb10c289ac88007fcedf6630dc80a946b29"
+  },
+  {
+    "path": "versions/06_increment_C/records/execution.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "c9f9069c5a6361b2e85c24f45e136b6b7499fa02602f7cec46a275cf94f2a524"
+  },
+  {
+    "path": "versions/06_increment_C/records/initialization_audit.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/initialization_audit.json",
+    "sha256": "2f7ad8e17fe5308e9a78eec8905ff9bf44d19f4cab852338b9849331986c2ff1"
+  },
+  {
+    "path": "versions/06_increment_C/records/执行计划与记录.md",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/执行计划与记录.md",
+    "sha256": "259332dce5b2c1b8bdee5a4aea02b44ca9eb098ee32dde3f0b7bb9b0c6c2beeb"
+  },
+  {
+    "path": "versions/06_increment_C/records/training.log",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "a4226593cf4dd2355eabb74c5243d5b59b5b3d8ae62e2243b81d09c61ecca354"
+  },
+  {
+    "path": "versions/06_increment_C/records/verification.log",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/verification.log",
+    "sha256": "ca93304aa8eea2b79608ca173d764d1f672b1089e733ba7f084a6e42aa719e7b"
+  },
+  {
+    "path": "versions/06_increment_C/records/old_visual_overlap_candidates.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/old_visual_overlap_candidates.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "versions/06_increment_C/records/cross_check.log",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/cross_check.log",
+    "sha256": "acb8bfb9fcebb42ec0a8f24672f7fee571acba2bb685d383febfba8a072a5e8a"
+  },
+  {
+    "path": "versions/06_increment_C/records/数据复核与划分说明.md",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/数据复核与划分说明.md",
+    "sha256": "c17f2a26510088666c9b8a5db8c3498908a213efeefe28c0dfd3770b3dace53d"
+  },
+  {
+    "path": "versions/06_increment_C/records/training/config.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "8efe838591265c04f9f267452ffab28fb3bc73377758b765015009de9675548b"
+  },
+  {
+    "path": "versions/06_increment_C/records/training/history.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "4254b278ba0f0112d169a1d00c27cef930f58916c616ba4444065c458e46c194"
+  },
+  {
+    "path": "versions/06_increment_C/records/training/summary.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "8c1e3889e201d36c21985decafbd4e294b7d56c78280470e0de24e3024045d4e"
+  },
+  {
+    "path": "versions/06_increment_C/records/training/training_manifest.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/training/training_manifest.csv",
+    "sha256": "a65491be132f6a46e96894621563b45f352de3b5705d2e49eb0d86e21c6b9c55"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_validation/confusion_matrix.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_validation/confusion_matrix.csv",
+    "sha256": "4f4a71bfea33591fef8be362830fcaf983c2c6234d4bb5d60a0a11adc92b9f90"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_validation/metrics.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_validation/metrics.json",
+    "sha256": "8cfb949950de6e48b9e55b80d7bf5e9933f6a567c054db1c5bc9081be832afb0"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_validation/predictions.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_validation/predictions.csv",
+    "sha256": "ca263895d7059db0b2a2379fbe372ad43de586b5572c1320034d7e5ff362c7b8"
+  },
+  {
+    "path": "versions/06_increment_C/records/validation_C/confusion_matrix.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/validation_C/confusion_matrix.csv",
+    "sha256": "66d883c881758d10126043179c357b0b9db81a9f502f19f2a163e0fa42a7b772"
+  },
+  {
+    "path": "versions/06_increment_C/records/validation_C/metrics.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/validation_C/metrics.json",
+    "sha256": "0de7bd4df0e33f78b98b21aa5853df5192b076853e7b4d9c7121d2fa3f295b06"
+  },
+  {
+    "path": "versions/06_increment_C/records/validation_C/predictions.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/validation_C/predictions.csv",
+    "sha256": "4cabc3562e06a5e9607a39b75809dd3016b3af138494753ad51516cd54553508"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_test/confusion_matrix.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_test/confusion_matrix.csv",
+    "sha256": "d71458161d1d626341d1a342d6221bd29aa216acedc7d1ac845313ea98f56a01"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_test/metrics.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_test/metrics.json",
+    "sha256": "d853e7597cc8d79f22bf6d60ccbcb93ddff8823732baa1710ba58ea6e690bc96"
+  },
+  {
+    "path": "versions/06_increment_C/records/parent_old_test/predictions.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/parent_old_test/predictions.csv",
+    "sha256": "e86d2061a97ecb33628decbf366caa518b49bc68c67fcecce09d32f67535a7e8"
+  },
+  {
+    "path": "versions/06_increment_C/records/test_C/confusion_matrix.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/test_C/confusion_matrix.csv",
+    "sha256": "14b9efa25569686a299c2de5a4fc7f22e884b5dfe2810c394a5df8fa60c7a0f4"
+  },
+  {
+    "path": "versions/06_increment_C/records/test_C/metrics.json",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/test_C/metrics.json",
+    "sha256": "5afaad2761c79bdd0b1559bc9d37af8376383f66d6f46959602392f9022de850"
+  },
+  {
+    "path": "versions/06_increment_C/records/test_C/predictions.csv",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "records/test_C/predictions.csv",
+    "sha256": "ad4bb9d0ceb9c3173e798865b6c17e744706f2fb48e0ef5615e3f77e420229fe"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/inventory_and_preview.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/inventory_and_preview.py",
+    "sha256": "a00f5761c17d37c02ea37fc8d4f190430cacb39484c829db11a032daf039f0b8"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/check_old_visual_overlap.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/check_old_visual_overlap.py",
+    "sha256": "956243858699992876322747ab213c0bcdd2152c0a96b7689957a13e9e4db983"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/prepare_training.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/prepare_training.py",
+    "sha256": "d244249bba2f1436c0f7e5159d5555d6f51d3ae62659e228b6b53e9677742d5e"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/run_training.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "0cda26cb35ccc5755745d0c4ac097ad34942d5e49e23efc1e4fe61b858dd7af2"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/verify_and_report.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "ea8cc3e25cf1e63b6bfb63db7b0fcdf0c41449aca5428ee430d4749843a84ca8"
+  },
+  {
+    "path": "versions/06_increment_C/reproduce/package_delivery.py",
+    "source_archive": "outputs/第二次增量C_20261029/十四类模型C_第二次增量_中文注释代码与权重.zip",
+    "archive_member": "reproduce/package_delivery.py",
+    "sha256": "30531c84f052d0069d240ed7867fb222d1949c6374885bb807355c7fb2094599"
+  },
+  {
+    "path": "versions/07_C_retention_v2/README.md",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "ebee22fa0ba1dfe0bb2a402c5cac4d67d83eb6dd91fb8466e846877004c5f02f"
+  },
+  {
+    "path": "versions/07_C_retention_v2/pyproject.toml",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/07_C_retention_v2/predict.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/07_C_retention_v2/models/model_C_v2.pt",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "models/model_C_v2.pt",
+    "sha256": "47ef7311038b5b39cba0cba5ba9eefce773cdabbc00e1e5ac864c5ca2a36e917"
+  },
+  {
+    "path": "versions/07_C_retention_v2/models/teacher_B.pt",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "models/teacher_B.pt",
+    "sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/augment.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1544fdfe7cf02367b70611eb086d947f864baa8ba2d028e956a4189fac56bb02"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/cli.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/config.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6c954bdc6a07ff8686597b436f616ffc9dabb429111244d69dc0787847d1f46f"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/continual.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/dataset.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/manifest.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/metrics.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/model.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/report.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/split.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/train.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "62cd1f01adc31f3202f8240a5e94b57d4cd1f6fe1d075b960d7eac7511426d04"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/video.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/__init__.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/07_C_retention_v2/src/oven_food/__main__.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/训练框架与增强改进_结果报告.md",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/训练框架与增强改进_结果报告.md",
+    "sha256": "86a1be0dea03d6b981e6a46153854145f6aca4de5d141a22f018d57829a5016e"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/final_report.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "a55f1d38109d7a7a522f7486bf14b16fc2eefe847365b6282a272ea30c7a4f3f"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/data_audit.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "888bb180710523e3822e2de11d065df2bf48c161bcd80a15b2212dc53a433d92"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/checks_before_training.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/checks_before_training.json",
+    "sha256": "dd5ae365aac9796516f847d79c336d3d749c8546c9825b6e85565efeb287399a"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/代码复核记录.md",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/代码复核记录.md",
+    "sha256": "00ea28cbb5341974b0b1c3b1d610def38c13824eb367c01bad451261b177535d"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/train_config.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "b4cbfa9f1fd984cb048cc5293923f1d8a51ecdb056fa0a3d2a5d239f2d7e47b0"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/manifest.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "dfe2d8d8201c0e7f56432df3ba65fb943f763a3debf9b5b3efca1ee1ed90651a"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/expected_training_manifest.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/expected_training_manifest.csv",
+    "sha256": "a65491be132f6a46e96894621563b45f352de3b5705d2e49eb0d86e21c6b9c55"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/execution.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "94ca95a3a9412462ed2d6f2ceba87bcc4d8b612d8b3476965ddabf7d51547d23"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/training.log",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "730ab4f43cd7bdb6ef220d493e27c35788ea2a58feb9070e8f2b9358aaa7859a"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/verification.log",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/verification.log",
+    "sha256": "3c1d918582a1542d039c832b18dcedae1fc51c24bc348f55b191a75ce80d9acf"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/preview_sources.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/preview_sources.json",
+    "sha256": "6dc5db91bf7c40c9204c085ecf263194c44a3c75368f1d6907f6202f66624699"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/增强方案对照.jpg",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/增强方案对照.jpg",
+    "sha256": "43b02ab9928e7af03fabefb84bbd5ce1c5909bd9b77530bbc00e33434c4b1dcb"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/数据复核与划分说明.md",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/数据复核与划分说明.md",
+    "sha256": "c17f2a26510088666c9b8a5db8c3498908a213efeefe28c0dfd3770b3dace53d"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/new_split_summary.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/new_split_summary.json",
+    "sha256": "3fdfc696c73598209fd94b1aa8a659a0b5e89fa409cde20e4d90bfcb6b7ce2b9"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/training/config.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/training/config.json",
+    "sha256": "1b8a2306ba324dc5a683eb639d553ea50a532bd280012c7331d3b55486e5d4e4"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/training/history.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "4c51b209ac6daf8d9801cfc023e7581e8862e446adddde3e36197e7dcf1d2965"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/training/summary.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/training/summary.json",
+    "sha256": "e8b815238d47c8d730c3c0bc24dc559a605c73047793d07ac9dbb497189bd43b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/training/training_manifest.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/training/training_manifest.csv",
+    "sha256": "a65491be132f6a46e96894621563b45f352de3b5705d2e49eb0d86e21c6b9c55"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/clean/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/clean/original_C/metrics.json",
+    "sha256": "0de7bd4df0e33f78b98b21aa5853df5192b076853e7b4d9c7121d2fa3f295b06"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/clean/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/clean/original_C/predictions.csv",
+    "sha256": "8e3afd7b4fe582dde8420cafb4ef74e53d8fc7a861fb147cd905c5852c0a5d83"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/clean/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/clean/retention_C_v2/metrics.json",
+    "sha256": "4dd85a9e609026427181dbd9aa3521779bdc6b13207d4d17669fe0f95e273635"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/clean/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/clean/retention_C_v2/predictions.csv",
+    "sha256": "07f633d793a4c40facbfdbb06f88c0783ca614a5d92f89f2922de95444f9488e"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_dark/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_dark/original_C/metrics.json",
+    "sha256": "a1fbe99ece6f224f7ab2b56265857822b9f6f85bfc1c612c4ef06d3f7983ecd2"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_dark/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_dark/original_C/predictions.csv",
+    "sha256": "bd2589b65c060485b267050faab68a04afab48294c27ff386df04a2edbdbad25"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_dark/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_dark/retention_C_v2/metrics.json",
+    "sha256": "a036e140aeb2db3747aeffb1fac24840ef14376508c97922294dc9570643a792"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_dark/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_dark/retention_C_v2/predictions.csv",
+    "sha256": "484d72c2f29b28dfefc9e0205a83c8b9796a6f04b1ff2c5ee00fa401397ef4a6"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_light/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_light/original_C/metrics.json",
+    "sha256": "38dee58e6894af48018264167b7177df9655077ba4955c43c91b6d224551f5a7"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_light/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_light/original_C/predictions.csv",
+    "sha256": "8761f773aedd512eb31523ab295220419f687952d9cddc02b2a8cbfb2a2eef2a"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_light/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_light/retention_C_v2/metrics.json",
+    "sha256": "e82891875028e95a77f89ff728ff30111ebde869385110c10e21c65b2a211939"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/gamma_light/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/gamma_light/retention_C_v2/predictions.csv",
+    "sha256": "9f0b26c7ed0e433ec59d504d24eb482b51473f4e7175a78176f508a5f39882b3"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/jpeg/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/jpeg/original_C/metrics.json",
+    "sha256": "35298dbb6b015d9cc5e07001dca8bcfdae7698e69676472cbd6da44c984ce866"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/jpeg/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/jpeg/original_C/predictions.csv",
+    "sha256": "0f5676402150d86997472feaea78e60e1508cca1a18f1c8d6c583ca884d0fc43"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/jpeg/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/jpeg/retention_C_v2/metrics.json",
+    "sha256": "058eed40744a463f602d1af78a922847336898ecad3d4f2099109185265c4da1"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/jpeg/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/jpeg/retention_C_v2/predictions.csv",
+    "sha256": "a0b0d4e3230bf8a82a1a12d7bbfa7be2e0e462d9a77d6d8ac988e17a072f004b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/scale_translate/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/scale_translate/original_C/metrics.json",
+    "sha256": "894e877dbbf0fd58cbd90c228bbde76d725e9e1e86dabc5db370a664f4ed43c6"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/scale_translate/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/scale_translate/original_C/predictions.csv",
+    "sha256": "0bf3c6d99284554e11f53ad296c1e96c958eaf842986f5c4800423dda6e4947f"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/scale_translate/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/scale_translate/retention_C_v2/metrics.json",
+    "sha256": "8102ace11894fe990e4af32c1d9fc20a1d641d077ee52db257cd97651e00ea91"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/scale_translate/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/scale_translate/retention_C_v2/predictions.csv",
+    "sha256": "1e8a88b245200bfff18291c9b16f26ad6c1fe65c81519a9fc41a1d6575cb8465"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/sensor_noise/original_C/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/sensor_noise/original_C/metrics.json",
+    "sha256": "098b223a48c184b56ba43c9ac83889422cc048d2ff4e683b813de4160af1dea6"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/sensor_noise/original_C/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/sensor_noise/original_C/predictions.csv",
+    "sha256": "1412478d22836593a99929416f842a665b43f059d4921d52a16ef501a59517c0"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/sensor_noise/retention_C_v2/metrics.json",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/sensor_noise/retention_C_v2/metrics.json",
+    "sha256": "3fe95e690c30209ad7cb9704b074107b675953de16c724fc1f8b7f31d1e0ce73"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/validation/sensor_noise/retention_C_v2/predictions.csv",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/validation/sensor_noise/retention_C_v2/predictions.csv",
+    "sha256": "75f65ed4b507b2a4f52ce11a434123aabac068598e4000f99140c8f1272ee364"
+  },
+  {
+    "path": "versions/07_C_retention_v2/reproduce/run_training.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/run_training.py",
+    "sha256": "a28376bd187e1daaa87e9301f33905429206f2e720455fa5c064c712e633762f"
+  },
+  {
+    "path": "versions/07_C_retention_v2/reproduce/preview.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/preview.py",
+    "sha256": "3dd03461ce5dbd735b91a9242622a333ce8bca4b6f080740786fd3d134dc0ff9"
+  },
+  {
+    "path": "versions/07_C_retention_v2/reproduce/verify_and_report.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/verify_and_report.py",
+    "sha256": "730723ceb3618354fc9fa3138f7fd8977a73f44461a8d82168171bc469baf827"
+  },
+  {
+    "path": "versions/07_C_retention_v2/reproduce/package_delivery.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "reproduce/package_delivery.py",
+    "sha256": "23b184b00101e104cdb1c9d97ccb3e2fdfb27a6b4c0caf1000993be210b4cc29"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_retention_training.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_retention_training.py",
+    "sha256": "65a7db067f9e062bec0617ce93e10404349cf88a9f68b4f59afd4f33f6dbf235"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_gentle_plus.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_gentle_plus.py",
+    "sha256": "c81af4e803da99c02bc93154b2dd1508077ad6b48a9cdb55b73f2464a622c85c"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_incremental.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_incremental.py",
+    "sha256": "5293df843731b5c545e6f07d456a6f6f81557209197eb255335807e701ab499b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_training_improvements.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_training_improvements.py",
+    "sha256": "c1a9c33f41e05b78d356cc44ba2c5590c5e422f8d2b4a4a146646aea4c9aa5ee"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_augment.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_augment.py",
+    "sha256": "2c08ba9480173a7896dc0492b70546e35ff2f8844512908a7af54d215c30a163"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_config.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_config.py",
+    "sha256": "1f347a08003b4d9e2b9dc4c3c9f1b4addd37b3e76647b3dfd1bd24cc81e19023"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_checkpoint_contract.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_checkpoint_contract.py",
+    "sha256": "710042f4e91843a337a9cf02d05e6890744e798ca3782d4bf9e6039335d62aef"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_dataset.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_dataset.py",
+    "sha256": "ff95e8729a49bdc67aa123618eef46ffd1b72dbbb1efcb09d2916d933634ff76"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_train_guard.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_train_guard.py",
+    "sha256": "9fcfdded5d5b7b44fffd843d5c799657b9623f72e1152b1d4a0d65808546f301"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_manifest.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_manifest.py",
+    "sha256": "c135cb3c2281910730e5a6fa69f408e1d1e252e1ec429403cef6b160d7e5082b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_metrics.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_metrics.py",
+    "sha256": "fc80c1dd49527481146cb03f91c4256e4b2efec719db5067e196d66003999ba4"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_cli.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_cli.py",
+    "sha256": "0cd238279a99fb7df174958bfce9fc9912ac8745e9777457fb9fc44fe85d2dd5"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_split.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_split.py",
+    "sha256": "34eaac3e79cf7043bc6b9041a9d8f374b806e317c2350d479133f5d00ec51c73"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/test_report.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/test_report.py",
+    "sha256": "88017faf111e14c6da4a4f04d0101a7f446afe0c1f0e7c747ba3856704a37d10"
+  },
+  {
+    "path": "versions/07_C_retention_v2/tests/__init__.py",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "tests/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "versions/07_C_retention_v2/records/设计说明.md",
+    "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
+    "archive_member": "records/设计说明.md",
+    "sha256": "847cf8717dccf1958b5585e2ebfa7564412f1123c79420992c53e9df84da59f9"
+  }
+]

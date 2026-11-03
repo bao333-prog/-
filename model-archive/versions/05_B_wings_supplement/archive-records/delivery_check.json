@@ -1,0 +1,9 @@
+{
+  "archive": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\鸡翅补强模型B_20261029\\十类B_鸡翅补强_中文注释代码与权重.zip",
+  "size_bytes": 11824755,
+  "archive_sha256": "949b8aa6ac90da50bcecbceba701b82336d8d56621e8f6a0a54647ac925f3d91",
+  "integrity": "passed",
+  "weights_match": "passed",
+  "source_snapshot_matches": "passed",
+  "extracted_prediction": "passed"
+}

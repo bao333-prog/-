@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "epochs": 20,
+  "best_epoch": 19,
+  "validation_correct": 292,
+  "validation_total": 293,
+  "new_chicken_test_correct": 16,
+  "new_chicken_test_total": 18,
+  "old_test_evaluated": false,
+  "retained_model_hashes": "passed",
+  "archive_integrity": "passed",
+  "archive_report_and_source_match": "passed",
+  "new_process_prediction": "passed"
+}

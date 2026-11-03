@@ -1,0 +1,6 @@
+{
+  "old_outputs": 6,
+  "new_outputs": 10,
+  "old_head_rows_identical_before_training": true,
+  "backbone_unchanged_during_expansion": true
+}

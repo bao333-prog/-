@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_retention_v2",
+  "best_validation_accuracy": 0.9705159705159705,
+  "best_validation_loss": 0.10089101516973474,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_retention_v2_20261029_231408\\training\\best.pt"
+}

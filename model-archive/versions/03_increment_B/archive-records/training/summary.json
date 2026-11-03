@@ -1,0 +1,6 @@
+{
+  "experiment_name": "first_increment_B_replay20",
+  "best_validation_accuracy": 0.9781818181818182,
+  "best_validation_loss": 0.08472157106819478,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\training\\best.pt"
+}

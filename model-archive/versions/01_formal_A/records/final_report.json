@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "model_stage": "formal_A_web_v1",
+  "data_version": "formal_A_20261025_113459",
+  "input_count": 1090,
+  "included_count": 1045,
+  "excluded_count": 45,
+  "split_summary": {
+    "牛排": {
+      "train": 140,
+      "val": 30,
+      "test": 30
+    },
+    "鸡翅": {
+      "train": 58,
+      "val": 12,
+      "test": 12
+    },
+    "南瓜": {
+      "train": 138,
+      "val": 30,
+      "test": 30
+    },
+    "吐司": {
+      "train": 138,
+      "val": 30,
+      "test": 32
+    },
+    "玉米": {
+      "train": 116,
+      "val": 25,
+      "test": 25
+    },
+    "西兰花": {
+      "train": 139,
+      "val": 30,
+      "test": 30
+    }
+  },
+  "epochs_completed": 20,
+  "learning_rate": 0.0003,
+  "best_epoch": 1,
+  "evaluations": {
+    "val": {
+      "correct": 157,
+      "total": 157,
+      "overall_accuracy": 1.0,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30
+        },
+        "吐司": {
+          "correct": 30,
+          "total": 30
+        },
+        "牛排": {
+          "correct": 30,
+          "total": 30
+        },
+        "玉米": {
+          "correct": 25,
+          "total": 25
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30
+        },
+        "鸡翅": {
+          "correct": 12,
+          "total": 12
+        }
+      },
+      "macro_class_accuracy": 1.0
+    },
+    "test": {
+      "correct": 158,
+      "total": 159,
+      "overall_accuracy": 0.9937106918238994,
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30
+        },
+        "吐司": {
+          "correct": 32,
+          "total": 32
+        },
+        "牛排": {
+          "correct": 30,
+          "total": 30
+        },
+        "玉米": {
+          "correct": 25,
+          "total": 25
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30
+        },
+        "鸡翅": {
+          "correct": 11,
+          "total": 12
+        }
+      },
+      "macro_class_accuracy": 0.9861111111111112
+    }
+  },
+  "new_process_reload": true,
+  "raw_input_preprocessing_verified": true,
+  "group_overlap": false,
+  "exact_duplicate_cross_split": false,
+  "original_image_hashes_unchanged": true,
+  "backbone_weight_max_change": 0.008090496063232422,
+  "execution": {
+    "status": "completed",
+    "stage": "formal_A",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "device": "cpu",
+    "threads": 4,
+    "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\training\\best.pt",
+    "checkpoint_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+    "original_image_hashes_unchanged": true,
+    "training_seconds": 224.26171310000063
+  },
+  "limits": [
+    "网页/去背景数据上的基准，不代表目标烤箱或RK3506性能。",
+    "鸡翅无来源元数据；感知哈希和保守来源分组不能保证所有转载、近重复已识别。",
+    "来源说明由数据包提供，尚未逐站核实真实性、图像生成方式或来源独立性。",
+    "单标签六类分类，对其他食品仍会给出六类之一；不支持检测、计数或未知类拒识。",
+    "没有设精度门槛，不因测试结果追加调参；后续增量应固定本次旧类测试集合。"
+  ]
+}

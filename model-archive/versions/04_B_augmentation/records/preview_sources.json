@@ -1,0 +1,102 @@
+[
+  {
+    "class": "南瓜",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\南瓜\\南瓜_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "吐司",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\吐司\\吐司_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "牛排",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\牛排\\牛排_002.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "玉米",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\玉米\\玉米_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "西兰花",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\西兰花\\西兰花_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "鸡翅",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\prepared_images\\鸡翅\\鸡翅_002.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "芦笋",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\芦笋\\芦笋_002.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "培根",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\培根\\培根_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "三文鱼",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\三文鱼\\三文鱼_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "class": "整鸡",
+    "image_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\prepared_images\\整鸡\\整鸡_001.png",
+    "seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  }
+]

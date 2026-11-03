@@ -1,0 +1,21 @@
+{"epoch": 1, "train_loss": 0.16121129877270102, "validation_loss": 0.09541501477678582, "validation_accuracy": 0.9658703071672355}
+{"epoch": 2, "train_loss": 0.1250546091056548, "validation_loss": 0.07584456654119308, "validation_accuracy": 0.9795221843003413}
+{"epoch": 3, "train_loss": 0.11307437372553371, "validation_loss": 0.060919066322109194, "validation_accuracy": 0.9829351535836177}
+{"epoch": 4, "train_loss": 0.08884624840923386, "validation_loss": 0.06028742873373699, "validation_accuracy": 0.9829351535836177}
+{"epoch": 5, "train_loss": 0.08526099574395143, "validation_loss": 0.05586791481288728, "validation_accuracy": 0.9829351535836177}
+{"epoch": 6, "train_loss": 0.0731128168341437, "validation_loss": 0.05463421224606932, "validation_accuracy": 0.9863481228668942}
+{"epoch": 7, "train_loss": 0.06832969321565514, "validation_loss": 0.05498221410444776, "validation_accuracy": 0.9897610921501706}
+{"epoch": 8, "train_loss": 0.06524749966924842, "validation_loss": 0.06280832902334453, "validation_accuracy": 0.9761092150170648}
+{"epoch": 9, "train_loss": 0.0707544610522036, "validation_loss": 0.05513320846718326, "validation_accuracy": 0.9795221843003413}
+{"epoch": 10, "train_loss": 0.04525665055376937, "validation_loss": 0.06061049846697077, "validation_accuracy": 0.9795221843003413}
+{"epoch": 11, "train_loss": 0.0605617974209469, "validation_loss": 0.04542417856371952, "validation_accuracy": 0.9829351535836177}
+{"epoch": 12, "train_loss": 0.04829562308186268, "validation_loss": 0.04949422396160026, "validation_accuracy": 0.9795221843003413}
+{"epoch": 13, "train_loss": 0.05374192432290557, "validation_loss": 0.045769966216980394, "validation_accuracy": 0.9863481228668942}
+{"epoch": 14, "train_loss": 0.04323030787740293, "validation_loss": 0.05067973622397453, "validation_accuracy": 0.9795221843003413}
+{"epoch": 15, "train_loss": 0.04603137685225207, "validation_loss": 0.03812550744375551, "validation_accuracy": 0.9829351535836177}
+{"epoch": 16, "train_loss": 0.04483169437740035, "validation_loss": 0.02888980074769757, "validation_accuracy": 0.9931740614334471}
+{"epoch": 17, "train_loss": 0.037511092683775185, "validation_loss": 0.0346813897662653, "validation_accuracy": 0.9829351535836177}
+{"epoch": 18, "train_loss": 0.03431671491420999, "validation_loss": 0.03276524042755162, "validation_accuracy": 0.9863481228668942}
+{"epoch": 19, "train_loss": 0.02164834555442234, "validation_loss": 0.024113991219111727, "validation_accuracy": 0.9965870307167235}
+{"epoch": 20, "train_loss": 0.027042806267277876, "validation_loss": 0.031033341855497287, "validation_accuracy": 0.9897610921501706}
+{"status": "completed", "stage": "chicken_supplement_same_ten_classes", "threads": 4, "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\B_wings_supplement_20261029_174246\\training\\best.pt", "checkpoint_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c", "training_seconds": 874.8420534999459, "protected_models_unchanged": true}

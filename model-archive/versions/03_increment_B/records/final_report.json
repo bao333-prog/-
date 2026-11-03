@@ -1,0 +1,222 @@
+{
+  "stage": "first_increment_B",
+  "parent_stage": "formal_A_web_v1",
+  "parent_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "old_classes": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅"
+  ],
+  "new_classes": [
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡"
+  ],
+  "new_input_count": 794,
+  "new_included": 786,
+  "new_excluded": 8,
+  "actual_training_counts": {
+    "南瓜": 20,
+    "吐司": 20,
+    "牛排": 20,
+    "玉米": 20,
+    "西兰花": 20,
+    "鸡翅": 20,
+    "芦笋": 138,
+    "培根": 139,
+    "三文鱼": 133,
+    "整鸡": 140
+  },
+  "training_count": 670,
+  "replay_per_old_class": 20,
+  "new_split": {
+    "芦笋": {
+      "train": 138,
+      "val": 30,
+      "test": 30
+    },
+    "培根": {
+      "train": 139,
+      "val": 30,
+      "test": 30
+    },
+    "三文鱼": {
+      "train": 133,
+      "val": 28,
+      "test": 28
+    },
+    "整鸡": {
+      "train": 140,
+      "val": 30,
+      "test": 30
+    }
+  },
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "best_epoch": 7,
+  "evaluations": {
+    "val": {
+      "old": {
+        "correct": 155,
+        "total": 157,
+        "accuracy": 0.9872611464968153
+      },
+      "new": {
+        "correct": 114,
+        "total": 118,
+        "accuracy": 0.9661016949152542
+      },
+      "all": {
+        "correct": 269,
+        "total": 275,
+        "accuracy": 0.9781818181818182
+      },
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30
+        },
+        "吐司": {
+          "correct": 30,
+          "total": 30
+        },
+        "牛排": {
+          "correct": 29,
+          "total": 30
+        },
+        "玉米": {
+          "correct": 25,
+          "total": 25
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30
+        },
+        "鸡翅": {
+          "correct": 11,
+          "total": 12
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30
+        },
+        "培根": {
+          "correct": 29,
+          "total": 30
+        },
+        "三文鱼": {
+          "correct": 26,
+          "total": 28
+        },
+        "整鸡": {
+          "correct": 29,
+          "total": 30
+        }
+      }
+    },
+    "test": {
+      "old": {
+        "correct": 153,
+        "total": 159,
+        "accuracy": 0.9622641509433962
+      },
+      "new": {
+        "correct": 117,
+        "total": 118,
+        "accuracy": 0.9915254237288136
+      },
+      "all": {
+        "correct": 270,
+        "total": 277,
+        "accuracy": 0.9747292418772563
+      },
+      "per_class": {
+        "南瓜": {
+          "correct": 30,
+          "total": 30
+        },
+        "吐司": {
+          "correct": 32,
+          "total": 32
+        },
+        "牛排": {
+          "correct": 29,
+          "total": 30
+        },
+        "玉米": {
+          "correct": 24,
+          "total": 25
+        },
+        "西兰花": {
+          "correct": 30,
+          "total": 30
+        },
+        "鸡翅": {
+          "correct": 8,
+          "total": 12
+        },
+        "芦笋": {
+          "correct": 30,
+          "total": 30
+        },
+        "培根": {
+          "correct": 29,
+          "total": 30
+        },
+        "三文鱼": {
+          "correct": 28,
+          "total": 28
+        },
+        "整鸡": {
+          "correct": 30,
+          "total": 30
+        }
+      }
+    }
+  },
+  "A_old_test_accuracy": 0.9937106918238994,
+  "B_old_test_accuracy": 0.9622641509433962,
+  "old_accuracy_drop_percentage_points": 3.1446540880503138,
+  "original_target_checks": {
+    "old_accuracy_at_least_90pct": true,
+    "old_drop_at_most_2pp": false,
+    "new_accuracy_at_least_86pct": true
+  },
+  "parent_A_unchanged": true,
+  "original_images_unchanged": true,
+  "test_or_val_in_replay": false,
+  "raw_input_matches_dataset": true,
+  "new_process_reload": true,
+  "execution": {
+    "status": "completed",
+    "stage": "first_increment_B",
+    "threads": 4,
+    "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\increment_B_20261025_165256\\training\\best.pt",
+    "checkpoint_sha256": "a493202adfc9f1803716266cf35e2526141e7b0d72ee8e25af861975546a6e7a",
+    "training_seconds": 441.175813400012,
+    "parent_A_unchanged": true
+  },
+  "limits": [
+    "本轮为网图/去背景数据上的类增量，不等于烤箱或RK3506验收。",
+    "三文鱼70张无来源记录；来源记录与转载独立性未逐站核实，仍可能漏掉近重复。",
+    "只做样本回放，没有蒸馏/参数隔离对照；不能断言此算法最优。",
+    "旧类成绩按完整十类输出计算；新增竞争类别也可能影响旧类表现。",
+    "不依据测试结果追加调参或自动开启第二次增量。"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-26T12:46:20.092701+08:00",
+  "experiment": "B_gentle_plus_controlled_trial",
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "training_images": 670,
+  "validation_images": 275,
+  "comparison_checkpoint": "increment_B_20261025_165256/training/best.pt",
+  "variants": {
+    "clean": {},
+    "scale_translate": {
+      "scale": 0.8,
+      "position_seed": "42+validation_index"
+    },
+    "blur": {
+      "radius": 0.6
+    },
+    "jpeg": {
+      "quality": 70
+    },
+    "resolution": {
+      "intermediate_size": 160
+    },
+    "warm": {
+      "factor": 1.05
+    },
+    "cool": {
+      "factor": 0.95
+    }
+  },
+  "selection": "highest validation accuracy, tie lowest validation loss",
+  "test_evaluation": false,
+  "automatic_extra_training": false,
+  "automatic_model_replacement": false
+}

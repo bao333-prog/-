@@ -1,0 +1,5 @@
+{
+  "experiment_name": "formal_A_six_class_web_v1",
+  "best_validation_accuracy": 1.0,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\formal_A_20261025_113459\\training\\best.pt"
+}
