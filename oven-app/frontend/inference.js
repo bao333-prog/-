@@ -37,14 +37,18 @@ load = async function(file) {
   const version = loadVersion;
   const controller = new AbortController();
   predictionController = controller;
-  resultPanel.textContent = '正在识别，请稍候……';
-  const timeout = setTimeout(() => controller.abort(), 30000);
+  resultPanel.textContent = window.browserModel ? '正在加载模型并识别，首次使用请稍候……' : '正在识别，请稍候……';
+  const timeout = setTimeout(() => controller.abort(), window.browserModel ? 120000 : 30000);
   try {
+    let data;
+    if (window.browserModel) { data = await window.browserModel.predict(file, controller.signal); } else {
     const body = new FormData(); body.append('image', file);
     const response = await fetch('/api/predict', {method:'POST', body, signal:controller.signal});
-    const data = await response.json();
+    data = await response.json();
     if (version !== loadVersion) return;
     if (!response.ok) throw new Error(data.error || '识别失败');
+    }
+    if (version !== loadVersion || controller.signal.aborted) return;
     resultPanel.replaceChildren();
     const message = document.createElement('p');
     message.textContent = data.uncertain ? '结果不确定，请人工确认。' : '识别完成，请核对后手动选择食材。';
@@ -60,12 +64,12 @@ load = async function(file) {
   } finally { clearTimeout(timeout); }
 };
 $('file').onchange = e => load(e.target.files[0]);
-fetch('/api/classes').then(async response => {
+(window.browserModel ? window.browserModel.classes().then(classes => ({ok:true,json:async()=>({classes})})) : fetch('/api/classes')).then(async response => {
   if (!response.ok) throw new Error('无法读取模型类别');
   const data = await response.json();
   $('ingredient').replaceChildren(new Option('请选择并确认食材', ''));
   for (const name of [...data.classes, uncertainChoice, unknown]) $('ingredient').add(new Option(name,name));
-}).catch(() => { $('error').textContent = '模型服务未连接，请通过后端地址打开页面并刷新。'; });
+}).catch(() => { $('error').textContent = '模型加载失败，请检查网络连接并刷新页面。'; });
 const originalNext = $('next').onclick;
 $('next').onclick = () => {
   if ([unknown, uncertainChoice].includes($('ingredient').value)) {
