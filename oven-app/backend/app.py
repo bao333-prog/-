@@ -3,6 +3,7 @@ import io
 import os
 import threading
 import warnings
+import time
 from pathlib import Path
 
 from flask import Flask, jsonify, request, send_from_directory
@@ -16,7 +17,9 @@ def create_app(model_path=None):
     app = Flask(__name__)
     app.config['MAX_CONTENT_LENGTH'] = 11 * 1024 * 1024
     torch.set_num_threads(4)
-    model, names, checkpoint = load_classifier(model_path or os.environ.get('OVEN_MODEL', ROOT / 'models/model_C_v2.pt'))
+    selected_path = Path(model_path or os.environ.get('OVEN_MODEL', ROOT / 'models/model_C_v2.pt'))
+    model, names, checkpoint = load_classifier(selected_path)
+    model_version = selected_path.stem
     lock = threading.Lock()
 
     @app.get('/')
@@ -29,7 +32,7 @@ def create_app(model_path=None):
 
     @app.get('/api/classes')
     def classes():
-        return jsonify(classes=names, model='C_v2')
+        return jsonify(classes=names, model=model_version, version=model_version, name='本机食材分类模型')
 
     @app.errorhandler(413)
     def too_large(error):
@@ -56,12 +59,15 @@ def create_app(model_path=None):
             return jsonify(error='图片损坏或尺寸不受支持'), 400
         try:
             with lock, torch.inference_mode():
+                started = time.perf_counter()
                 probabilities = model(tensor).softmax(1)[0]
+                inference_ms = (time.perf_counter() - started) * 1000
             if not torch.isfinite(probabilities).all():
                 raise ValueError('non-finite prediction')
             scores, indices = probabilities.topk(min(3, len(names)))
             candidates = [{'name': names[i], 'confidence': float(p)} for i, p in zip(indices.tolist(), scores.tolist())]
-            return jsonify(candidates=candidates, requires_confirmation=True,
+            return jsonify(candidates=candidates, requires_confirmation=True, model=model_version,
+                           model_version=model_version, timing={'inference_ms': inference_ms},
                            uncertain=candidates[0]['confidence'] < 0.8,
                            note='预测置信度不是准确率；模型不能可靠判断未知食材，请人工确认。')
         except Exception:
