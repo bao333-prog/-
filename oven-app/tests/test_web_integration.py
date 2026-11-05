@@ -10,12 +10,16 @@ def client():
     return create_app().test_client()
 
 def test_real_inference(client):
-    names=client.get('/api/classes').json['classes']
+    metadata=client.get('/api/classes').json
+    names=metadata['classes']
+    assert metadata['version'] == metadata['model']
     assert len(names)==14 and '香肠' in names
     stream=io.BytesIO();Image.new('RGB',(64,64),'white').save(stream,format='PNG');stream.seek(0)
     result=client.post('/api/predict',data={'image':(stream,'image.png')})
     assert result.status_code==200
     assert result.json['requires_confirmation'] is True
+    assert result.json['model_version'] == metadata['version']
+    assert result.json['timing']['inference_ms'] >= 0
     assert len(result.json['candidates'])==3
     assert all(0<=x['confidence']<=1 and x['name'] in names for x in result.json['candidates'])
     assert client.get('/').status_code==200
