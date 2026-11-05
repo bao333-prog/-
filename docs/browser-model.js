@@ -13,7 +13,9 @@ function getSession(metadata) {
     if (!window.ort) throw Error('推理组件加载失败，请检查网络并刷新页面');
     ort.env.wasm.numThreads = 1;
     ort.env.wasm.wasmPaths = 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/';
-    const session = await ort.InferenceSession.create(metadata.file, {executionProviders:['wasm']});
+    const modelUrl = new URL(metadata.file, window.location.href);
+    if (metadata.sha256) modelUrl.searchParams.set('sha256', metadata.sha256);
+    const session = await ort.InferenceSession.create(modelUrl.href, {executionProviders:['wasm']});
     if (!session.inputNames.includes(metadata.input_name) || !session.outputNames.includes(metadata.output_name)) {
       await session.release();
       throw Error('模型输入输出名称与配置不匹配');

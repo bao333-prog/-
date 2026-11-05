@@ -3,16 +3,16 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const contract = require('../frontend/model-contract.js');
-const good = {schema_version:1,task:'classification',id:'test',name:'test',version:'1',file:'./model.onnx',classes:['a','b'],size:2,mean:[0,0,0],std:[1,1,1],resize_mode:'letterbox',color:'RGB',layout:'NCHW',input_name:'pixels',output_name:'scores',output_type:'logits',threshold:.8};
+const good = {schema_version:1,task:'classification',id:'test',name:'test',version:'1',file:'./model.onnx',classes:['a','b'],size:2,mean:[0,0,0],std:[1,1,1],resize_mode:'letterbox',color:'RGB',layout:'NCHW',input_name:'pixels',output_name:'scores',output_type:'logits',threshold:.8,sha256:'1'.repeat(64)};
 function setup({fetchFail=false,sessionFail=false,run}={}) {
   let fetches=0,loads=0,closed=0;
-  const window={modelContract:contract};
-  const ort={env:{wasm:{}},Tensor:class {constructor(type,data,dims){Object.assign(this,{type,data,dims});}},InferenceSession:{create:async()=>{
+  const window={modelContract:contract,location:{href:'http://localhost:4173/'}};
+  const ort={env:{wasm:{}},Tensor:class {constructor(type,data,dims){Object.assign(this,{type,data,dims});}},InferenceSession:{create:async(url)=>{assert.equal(new URL(url).searchParams.get('sha256'),good.sha256);
     if(sessionFail && ++loads===1) throw Error('load failed');
     return {inputNames:['pixels'],outputNames:['scores'],run:run || (async feeds=>{assert.ok(feeds.pixels);return {scores:{dims:[1,2],data:[1,2]}}})};
   }}};
   window.ort=ort;
-  const context=vm.createContext({window,ort,DOMException,Float32Array,performance,
+  const context=vm.createContext({window,ort,URL,DOMException,Float32Array,performance,
     fetch:async()=>{if(fetchFail && ++fetches===1) throw Error('offline');return {ok:true,json:async()=>good};},
     createImageBitmap:async()=>({width:2,height:2,close(){closed++;}}),
     document:{createElement:()=>({getContext:()=>({fillRect(){},drawImage(){},getImageData:()=>({data:new Uint8Array(16).fill(255)})})})}});
