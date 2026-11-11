@@ -30,6 +30,14 @@ def create_app(model_path=None):
     def script():
         return send_from_directory(ROOT / 'frontend', 'inference.js')
 
+    @app.get('/camera-session.js')
+    def camera_session_script():
+        return send_from_directory(ROOT / 'frontend', 'camera-session.js')
+
+    @app.get('/camera.js')
+    def camera_script():
+        return send_from_directory(ROOT / 'frontend', 'camera.js')
+
     @app.get('/api/classes')
     def classes():
         return jsonify(classes=names, model=model_version, version=model_version, name='本机食材分类模型')

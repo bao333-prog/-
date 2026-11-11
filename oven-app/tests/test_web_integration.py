@@ -23,6 +23,8 @@ def test_real_inference(client):
     assert len(result.json['candidates'])==3
     assert all(0<=x['confidence']<=1 and x['name'] in names for x in result.json['candidates'])
     assert client.get('/').status_code==200
+    assert client.get('/camera.js').status_code==200
+    assert client.get('/camera-session.js').status_code==200
 
 def test_invalid_upload(client):
     assert client.post('/api/predict').status_code==400
