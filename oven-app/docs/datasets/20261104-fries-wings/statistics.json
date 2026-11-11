@@ -1,0 +1,46 @@
+{
+  "review_date": "2026-11-06",
+  "collector": "MascoTxTs",
+  "capture_dates": {
+    "2026-11-04": 251
+  },
+  "image_count": 251,
+  "metadata_count": 251,
+  "counts": {
+    "fries": 122,
+    "chicken_wings": 129
+  },
+  "naming_groups": {
+    "chips_a_high_have": 10,
+    "chips_a_low_have": 10,
+    "chips_a_low_no": 10,
+    "chips_a_mid_have": 10,
+    "chips_a_mid_no": 27,
+    "chips_single_high_have": 10,
+    "chips_single_high_no": 13,
+    "chips_single_low_no": 10,
+    "chips_single_mid_no": 12,
+    "chips_single_mid_have": 10,
+    "wings_high_have_much": 10,
+    "wings_high_have_single": 14,
+    "wings_high_no_much": 22,
+    "wings_high_no_single": 10,
+    "wings_low_have_much": 10,
+    "wings_low_have_single": 11,
+    "wings_low_no_single": 11,
+    "wings_mid_have_much": 10,
+    "wings_mid_have_single": 10,
+    "wings_mid_no_much": 11,
+    "wings_mid_no_single": 10
+  },
+  "renamed_image_files": 22,
+  "stale_sidecars_corrected": 10,
+  "decode_failures": 0,
+  "exact_duplicate_files": 0,
+  "post_review_pairing_errors": 0,
+  "pixel_bytes_changed": 0,
+  "human_review": "collector confirmed",
+  "near_duplicate_review": "not automatically measured",
+  "images_uploaded": false,
+  "source_archive_sha256": "c6eec3a95d32d922bc63e196f170e5fceca404a77f5d5235bae2c443714e81f8"
+}
