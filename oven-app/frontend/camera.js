@@ -15,7 +15,7 @@
     $('camera-continuous').textContent=continuous?'停止连续识别':'开始连续识别';
   };
   function stopLoop() {continuous=false; ++loopVersion; clearTimeout(loopTimer);controls();}
-  function cancelFrame() {++captureVersion;++loadVersion;clearPrediction();clearDraft();enable();}
+  function cancelFrame() {++captureVersion;++loadVersion;clearPrediction();clearDraft();enable();if(cameraMode && classesReady) $('model-status').textContent='等待摄像头截图';}
   function disconnected() {stopLoop();cancelFrame();connected=false;connecting=false;video.srcObject=null;controls();}
   const session=new window.ovenCamera.CameraSession(media,(state,message,stream)=>{
     if(state==='connecting') {connecting=true;say(message);controls();return;}
