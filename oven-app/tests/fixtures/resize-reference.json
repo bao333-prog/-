@@ -1,0 +1,58 @@
+[
+  {
+    "width": 3,
+    "height": 2,
+    "size": 8,
+    "transparent": false,
+    "tensor_sha256": "d219f79b9991e919a9cea5f92b5ab00d77a5fafc0283adcb12dd5880a9d43875"
+  },
+  {
+    "width": 257,
+    "height": 129,
+    "size": 17,
+    "transparent": false,
+    "tensor_sha256": "f1dfda91c3c5c46d63c97b27ce11cfe731f271e54a5d0fe691c12739d803bfe0"
+  },
+  {
+    "width": 129,
+    "height": 257,
+    "size": 17,
+    "transparent": false,
+    "tensor_sha256": "f80bfef2e7dc8b4420024e11afa3289c38c09b93f6f0a70cd17078ab7689e511"
+  },
+  {
+    "width": 2048,
+    "height": 1366,
+    "size": 224,
+    "transparent": false,
+    "tensor_sha256": "67321f6bc98ecb8bf8558bf2bce5527d6d0f688b957b7f5fbc08f93d0ba8c8fe"
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "size": 5,
+    "transparent": true,
+    "tensor_sha256": "3c06904596e488f41166ab83f4b9909392ff9132464cd9544c7173944d814d17"
+  },
+  {
+    "width": 31,
+    "height": 23,
+    "size": 11,
+    "transparent": true,
+    "tensor_sha256": "67f230cc75e1e7610051c7ed8b9dfc1b0b8679db09fcee44e6a0be573977a5b2"
+  },
+  {
+    "width": 224,
+    "height": 224,
+    "size": 224,
+    "transparent": false,
+    "tensor_sha256": "f541fa911053684b170ca99505db8584a292d0022f3c1c4c52522297f0b95416"
+  },
+  {
+    "width": 10,
+    "height": 6,
+    "size": 7,
+    "transparent": false,
+    "tensor_sha256": "d9d04645d5c20ffd617cbde31e837a814ec5f52a2aa0f9d894e03e170cd62316"
+  }
+]

@@ -43,20 +43,19 @@ window.browserModel = {
       onStage('正在处理图片');
       const bitmap = await createImageBitmap(file, {imageOrientation:'from-image'});
       const size = metadata.size;
-      const canvas = document.createElement('canvas'); canvas.width = canvas.height = size;
-      const context = canvas.getContext('2d', {willReadFrequently:true});
+      let values;
       try {
         checkAbort(signal);
         if (bitmap.width * bitmap.height > 20000000) throw Error('图片像素总数不能超过两千万');
-        if (!context) throw Error('浏览器无法处理图片');
-        context.fillStyle = '#fff'; context.fillRect(0,0,size,size);
-        const scale = Math.min(size/bitmap.width, size/bitmap.height);
-        const width = Math.round(bitmap.width*scale), height = Math.round(bitmap.height*scale);
-        context.drawImage(bitmap, Math.floor((size-width)/2), Math.floor((size-height)/2), width, height);
+        const canvas=document.createElement('canvas');canvas.width=bitmap.width;canvas.height=bitmap.height;
+        const context=canvas.getContext('2d',{willReadFrequently:true});
+        if(!context)throw Error('浏览器无法处理图片');
+        // Decode at native resolution. Model resizing is deterministic and does
+        // not depend on the browser's default Canvas downsampling quality.
+        context.drawImage(bitmap,0,0);
+        const rgba=context.getImageData(0,0,bitmap.width,bitmap.height).data;
+        values=window.modelContract.tensorFromRGBA(rgba,bitmap.width,bitmap.height,metadata);
       } finally { bitmap.close(); }
-      const rgba = context.getImageData(0,0,size,size).data;
-      const count = size*size, values = new Float32Array(3*count);
-      for(let i=0;i<count;i++) for(let c=0;c<3;c++) values[c*count+i] = (rgba[4*i+c]/255-metadata.mean[c])/metadata.std[c];
       checkAbort(signal);
       onStage('正在识别食材');
       const beforeInference = performance.now();

@@ -46,6 +46,7 @@
     const scale=Math.min(1,1280/Math.max(video.videoWidth,video.videoHeight));
     const canvas=createCanvas(); canvas.width=Math.max(1,Math.round(video.videoWidth*scale)); canvas.height=Math.max(1,Math.round(video.videoHeight*scale));
     const context=canvas.getContext('2d'); if(!context) throw Error('浏览器无法截取画面');
+    context.imageSmoothingEnabled=true;context.imageSmoothingQuality='high';
     context.drawImage(video,0,0,canvas.width,canvas.height);
     const blob=await new Promise((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(Error('截图失败，请重试')),'image/jpeg',.9));
     return new FileType([blob],'摄像头-'+Date.now()+'.jpg',{type:'image/jpeg'});
