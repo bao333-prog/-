@@ -61,5 +61,26 @@
   "new_groups_count": 38,
   "new_groups_exactly_30": 20,
   "near_duplicates_checked": false,
-  "images_uploaded": false
+  "images_uploaded": false,
+  "layer_review": {
+    "date": "2026-11-12",
+    "confirmed_by": "MascoTxTs",
+    "group": "Broccoli_two_yes",
+    "count": 61,
+    "confirmed_layer": "low",
+    "original_filenames_preserved": true
+  },
+  "manual_screening": {
+    "reported_by": "MascoTxTs",
+    "removed_reasons": [
+      "visible_hand",
+      "blur",
+      "ghosting",
+      "incorrect_name"
+    ],
+    "removed_count": null,
+    "capture_interval_seconds": 2,
+    "condition_target_count": 30,
+    "remaining_new_jpg_images": 1332
+  }
 }
