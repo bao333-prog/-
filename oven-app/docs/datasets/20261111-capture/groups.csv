@@ -5,7 +5,7 @@ Broccoli_one_no_mid,29,30,-1,count_differs
 Broccoli_two_no_high,29,30,-1,count_differs
 Broccoli_two_no_low,31,30,1,count_differs
 Broccoli_two_no_mid,30,30,0,count_matches
-Broccoli_two_yes,61,30,31,layer_missing
+Broccoli_two_yes,61,30,31,layer_low_collector_confirmed
 Broccoli_two_yes_high,30,30,0,count_matches
 Broccoli_two_yes_mid,30,30,0,count_matches
 chips_much_no_high,30,30,0,count_matches
