@@ -1,0 +1,10 @@
+----------------------------------------------------------------------
+Ran 73 tests in 10.863s
+
+OK
+{"epoch": 1, "train_loss": 1.5220136642456055, "validation_loss": 1.5464262962341309, "validation_accuracy": 0.0}
+{"epoch": 1, "train_loss": 3.4724325736363726, "validation_loss": 1.098737398783366, "validation_accuracy": 0.3333333333333333, "supervised_loss": 1.3377747138341267, "distillation_loss": 2.134657859802246, "distillation_examples": 2, "backbone_learning_rate": 0.0002, "head_learning_rate": 0.001}
+{"epoch": 2, "train_loss": 3.02982493241628, "validation_loss": 1.098704179128011, "validation_accuracy": 0.3333333333333333, "supervised_loss": 1.1393792231877644, "distillation_loss": 1.8904457092285156, "distillation_examples": 2, "backbone_learning_rate": 0.000105, "head_learning_rate": 0.0005250000000000001}
+{"epoch": 1, "train_loss": 1.1156044006347656, "validation_loss": 1.0986679395039876, "validation_accuracy": 0.3333333333333333}
+{"epoch": 1, "train_loss": 0.8307907780011495, "validation_loss": 0.6932215094566345, "validation_accuracy": 0.5}
+{"epoch": 2, "train_loss": 1.0881972114245098, "validation_loss": 0.6932494640350342, "validation_accuracy": 0.5}

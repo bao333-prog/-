@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_real_food_adaptation",
+  "best_validation_accuracy": 0.9778869778869779,
+  "best_validation_loss": 0.10761622170155699,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\training\\best.pt"
+}

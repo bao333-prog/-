@@ -1,0 +1,63 @@
+{
+  "raw_images": 1428,
+  "raw_by_class": {
+    "三文鱼": 93,
+    "可颂": 110,
+    "吐司": 104,
+    "土豆": 114,
+    "培根": 97,
+    "牛排": 79,
+    "玉米": 252,
+    "芦笋": 112,
+    "薯条": 122,
+    "西兰花": 119,
+    "香肠": 97,
+    "鸡翅": 129
+  },
+  "selected_real": {
+    "三文鱼": 36,
+    "可颂": 36,
+    "吐司": 54,
+    "土豆": 36,
+    "培根": 36,
+    "牛排": 18,
+    "玉米": 71,
+    "芦笋": 36,
+    "薯条": 60,
+    "西兰花": 36,
+    "香肠": 36,
+    "鸡翅": 66
+  },
+  "selected_real_total": 521,
+  "named_sequences": 87,
+  "replay_by_class": {
+    "南瓜": 60,
+    "吐司": 60,
+    "牛排": 60,
+    "玉米": 60,
+    "西兰花": 60,
+    "鸡翅": 60,
+    "芦笋": 60,
+    "培根": 60,
+    "三文鱼": 60,
+    "整鸡": 60,
+    "土豆": 60,
+    "香肠": 60,
+    "薯条": 60,
+    "可颂": 60
+  },
+  "old_validation": 407,
+  "parent_sha256": "47ef7311038b5b39cba0cba5ba9eefce773cdabbc00e1e5ac864c5ca2a36e917",
+  "physical_independence": "Not established between sequences of the same class and session.",
+  "real_evaluation": "training_related_diagnostic_only",
+  "training_manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\manifest.csv",
+  "visual_review": "Each sequence first/middle/last representatives inspected across all 12 classes, not exhaustive per-frame review.",
+  "quality_training_holds": [
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\玉米\\corn_one_mid_b_0020.png"
+  ],
+  "label_authority": "User-provided food folders checked against sequence representative images; stale JSON candidate_class_key_unreviewed ignored.",
+  "missing_target_classes": [
+    "南瓜",
+    "整鸡"
+  ]
+}

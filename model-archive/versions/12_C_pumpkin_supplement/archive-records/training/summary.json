@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_pumpkin_real_supplement",
+  "best_validation_accuracy": 0.897196261682243,
+  "best_validation_loss": 0.4356979840548239,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_pumpkin_supplement_20261107\\training\\best.pt"
+}

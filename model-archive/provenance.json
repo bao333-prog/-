@@ -2464,5 +2464,1229 @@
     "source_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
     "archive_member": "records/设计说明.md",
     "sha256": "847cf8717dccf1958b5585e2ebfa7564412f1123c79420992c53e9df84da59f9"
+  },
+  {
+    "path": "versions/08_C_real_sampled/README.md",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "3e0d54c42c3b913a9c997ee64437fe6030aa367f600dec7146a6fc9047fbac27"
+  },
+  {
+    "path": "versions/08_C_real_sampled/models/model_C_real.pt",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "models/model_C_real.pt",
+    "sha256": "d66f52f1d26d75364751f913c5e76d1002d71f1742aa10cb2e9ad02528d4548c"
+  },
+  {
+    "path": "versions/08_C_real_sampled/pyproject.toml",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/08_C_real_sampled/predict.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/augment.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1544fdfe7cf02367b70611eb086d947f864baa8ba2d028e956a4189fac56bb02"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/cli.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/config.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6c954bdc6a07ff8686597b436f616ffc9dabb429111244d69dc0787847d1f46f"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/continual.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/dataset.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/manifest.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/metrics.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/model.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/report.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/split.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/train.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "62cd1f01adc31f3202f8240a5e94b57d4cd1f6fe1d075b960d7eac7511426d04"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/video.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/__init__.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/08_C_real_sampled/src/oven_food/__main__.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/final_report.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "2c70f3e7034dcb81a1939b5380b66f32a34a9b9b2bf3c3033cb10f65a2cf7e89"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/实拍适配结果.md",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/实拍适配结果.md",
+    "sha256": "f44db4050b71400e8dfd618b5cf20d4fe711d8dc7f658eeddba8b3417a2af9f3"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/data_audit.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "d131ef0cae71052b3a198389d99db12cef670adce5c61200e4742583fd91ce17"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/inventory.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/inventory.json",
+    "sha256": "8361fef00f962239ea6a1188df0d8e9919f743701b76920c873b7687854c6e1f"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/train_config.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "3bb2016d5d19ed91101cb6df90255d80c6d939ba59576a365d610490adbba26a"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/manifest.csv",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "8c0e81b7c1070047d3d378657b2865e418349882f0966c23b71f0384852f044f"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/training.log",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "985431c39824b04cf7b02db0bc45b92e4b90cbb932408a5b2e78da6a89389cb7"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/execution.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "04576d7d1bcfce3b2b489ec6a93b63371b88cbe6c26763b5e0040907c26f1a51"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/training/history.json",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "ba0f3fe62016a0fa63061ca57706e5002604c1f80b7caccf1eb2c9867d403855"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/run_training.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/run_training.py",
+    "sha256": "9f17421449bffd2e03e2dc3123776bf3b9e7bfb86d9159054fce9d219f5d4246"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/verify_and_package.py",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/verify_and_package.py",
+    "sha256": "337a8b0bcd9ad1d38d65b46af0ca66bbfcce5af9b5e2201c98d9ba6dfcf704b2"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/old_validation_after_predictions.csv",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/old_validation_after_predictions.csv",
+    "sha256": "9fd0920ae0726973a148949ff4eee15c03840f9bb0eb3c53ae6e103d54740029"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/old_validation_before_predictions.csv",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/old_validation_before_predictions.csv",
+    "sha256": "9b021aef44d46e996be536fd19a25f7a41bd2687a3e15f4d692b82a503fcda6a"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/real_after_predictions.csv",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/real_after_predictions.csv",
+    "sha256": "2b7b600fb45511f6833f74cc9d65c46e1ecd4a01bb9ead6cccc0a856323ea1fe"
+  },
+  {
+    "path": "versions/08_C_real_sampled/records/real_before_predictions.csv",
+    "source_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+    "archive_member": "records/real_before_predictions.csv",
+    "sha256": "6135a7450b1506841d5f27dde96a79fd7d9309500dbdef549a747afbcbfe9a83"
+  },
+  {
+    "path": "versions/09_C_real_all/README.md",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "07b477c35d55a1d87e7b309fa2598a1effd88b7d7f03e9d798a2409adfc16a37"
+  },
+  {
+    "path": "versions/09_C_real_all/models/model_C_real.pt",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "models/model_C_real.pt",
+    "sha256": "aefdc23b66aef1ca14d6c2d2b1c1f6c737595680e4b277dd997f2c14391ee494"
+  },
+  {
+    "path": "versions/09_C_real_all/pyproject.toml",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/09_C_real_all/predict.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/augment.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1544fdfe7cf02367b70611eb086d947f864baa8ba2d028e956a4189fac56bb02"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/cli.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/config.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6c954bdc6a07ff8686597b436f616ffc9dabb429111244d69dc0787847d1f46f"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/continual.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/dataset.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/manifest.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/metrics.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/model.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/report.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/split.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/train.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "62cd1f01adc31f3202f8240a5e94b57d4cd1f6fe1d075b960d7eac7511426d04"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/video.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/__init__.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/09_C_real_all/src/oven_food/__main__.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/09_C_real_all/records/final_report.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "afb48b972bf58236e2c99ad5977895c089a32a0fb973a5604675157118b620ff"
+  },
+  {
+    "path": "versions/09_C_real_all/records/实拍适配结果.md",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/实拍适配结果.md",
+    "sha256": "d2dfc2008b1586e1fed81e8e75843135027a2b38c8d228169bf5edcf4d20f23d"
+  },
+  {
+    "path": "versions/09_C_real_all/records/data_audit.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "fe3660776cd09e7e85f903b6673addcc5e10cd2d3c400845969c86f9afb93600"
+  },
+  {
+    "path": "versions/09_C_real_all/records/inventory.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/inventory.json",
+    "sha256": "e60bbacb3f23330eb02f10c197313c9b23c1b8944197dd8ff7a924d93c5bf05b"
+  },
+  {
+    "path": "versions/09_C_real_all/records/train_config.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "4600849f51833e439f84d310d56cdac949dd0ea5b2a24aed8f2b4d85714df235"
+  },
+  {
+    "path": "versions/09_C_real_all/records/manifest.csv",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "dc8c975fbaea85cb75e537447d330f87ae25de41651e034da56db7b373ed2761"
+  },
+  {
+    "path": "versions/09_C_real_all/records/sample_counts.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/sample_counts.json",
+    "sha256": "31e7418111c327c3951794e030d1fe8116471ff81ad1697ff3856a3b8f14055e"
+  },
+  {
+    "path": "versions/09_C_real_all/records/training.log",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "91271c708778055f4cbda20c37040b3699e18e83be061c3c5ef1bb211617c4dd"
+  },
+  {
+    "path": "versions/09_C_real_all/records/execution.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "1078caf568cc5062be04cd43b2f1de7071f422ffd77812febb2ba5c04f17d237"
+  },
+  {
+    "path": "versions/09_C_real_all/records/training/history.json",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "d32cf38cd5961ef99f872502b13bb63318f150b6dc85ce4a3da27aa924adc202"
+  },
+  {
+    "path": "versions/09_C_real_all/records/run_training.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/run_training.py",
+    "sha256": "e5f42fbc1678722b37669ac631722b9be200e0e0bbad62380deae3780f43b601"
+  },
+  {
+    "path": "versions/09_C_real_all/records/verify_and_package.py",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/verify_and_package.py",
+    "sha256": "a7577d3a9c3b0241e162fdfac36a11d28048e1cd16dca2677dbb102820c36046"
+  },
+  {
+    "path": "versions/09_C_real_all/records/old_validation_after_predictions.csv",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/old_validation_after_predictions.csv",
+    "sha256": "e5598f434fe18e3d4f5e282c871806fe52425aaac8bf9c978c89f28d7a3571e2"
+  },
+  {
+    "path": "versions/09_C_real_all/records/old_validation_before_predictions.csv",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/old_validation_before_predictions.csv",
+    "sha256": "9b021aef44d46e996be536fd19a25f7a41bd2687a3e15f4d692b82a503fcda6a"
+  },
+  {
+    "path": "versions/09_C_real_all/records/real_after_predictions.csv",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/real_after_predictions.csv",
+    "sha256": "181bf8459dda4192fcc202b3bd3837217c75d99d9a109a5527a2fcb4632518ed"
+  },
+  {
+    "path": "versions/09_C_real_all/records/real_before_predictions.csv",
+    "source_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+    "archive_member": "records/real_before_predictions.csv",
+    "sha256": "6135a7450b1506841d5f27dde96a79fd7d9309500dbdef549a747afbcbfe9a83"
+  },
+  {
+    "path": "versions/10_C_real_retrain/README.md",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "b86cdec886469c44659ee093287d511ae4363de730d933dd983b46690ce2222a"
+  },
+  {
+    "path": "versions/10_C_real_retrain/models/model_C_real.pt",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "models/model_C_real.pt",
+    "sha256": "fc0a94bb39de8ab618ed5ec742bbaf4ca47b37f254ec1cb6c940398c4bfb2777"
+  },
+  {
+    "path": "versions/10_C_real_retrain/pyproject.toml",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/10_C_real_retrain/predict.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/augment.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1544fdfe7cf02367b70611eb086d947f864baa8ba2d028e956a4189fac56bb02"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/cli.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/config.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "6c954bdc6a07ff8686597b436f616ffc9dabb429111244d69dc0787847d1f46f"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/continual.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/dataset.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/manifest.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/metrics.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/model.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/report.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/split.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/train.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "62cd1f01adc31f3202f8240a5e94b57d4cd1f6fe1d075b960d7eac7511426d04"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/video.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/__init__.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/10_C_real_retrain/src/oven_food/__main__.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/final_report.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "b93b56ed84a4c0cdc9753fd2ddd23072eedf80f6f5010aea213c98a79357e79a"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/实拍适配结果.md",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/实拍适配结果.md",
+    "sha256": "f2f58c78ad6ff10d1ed986d473293c9db07c42e6c6b84ec14c26608d4505ee7b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/data_audit.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "bd295856d71d30073edabc478c4dbff3169db79b06dd088084d1c65a910b6d99"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/inventory.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/inventory.json",
+    "sha256": "e60bbacb3f23330eb02f10c197313c9b23c1b8944197dd8ff7a924d93c5bf05b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/train_config.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "7b033f4bc371a682d8d4d09ae91b36b11052a2465d1595418ad6d2621ee08de2"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/manifest.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "f828351d9cd6c92454287a4a15d00d3b9e4f967866cf71db0de8c94f32ba44fb"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/sample_counts.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/sample_counts.json",
+    "sha256": "75096c60ddac80cd629c3bf59e47a08c48824d8e9f6ed7afc25fd46c4f206d9b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/training.log",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "316098e039c272ffe2e0ce45697a286f08da088036486a849cee632c68a4f049"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/execution.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "8c87092129ed090b119d8065722ba8203c1b639215bf77ef184826768b1e3d93"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/training/history.json",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "3cbbf6e6ab0945acd51b6e65934f312e6b2e9de096974171b00f5c611a05359a"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/run_training.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/run_training.py",
+    "sha256": "e5f42fbc1678722b37669ac631722b9be200e0e0bbad62380deae3780f43b601"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/verify_and_package.py",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/verify_and_package.py",
+    "sha256": "2ae725d9ffb29ba1c7849c267d12948c2094fba676cbd67ee941f14c80108112"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/real_after_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/real_after_predictions.csv",
+    "sha256": "f79fab928dc5db9a930d9b5eb39cd9fea7a5753e52f46fa98b01de1d2b4a7963"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/real_before_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/real_before_predictions.csv",
+    "sha256": "181bf8459dda4192fcc202b3bd3837217c75d99d9a109a5527a2fcb4632518ed"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/real_validation_after_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/real_validation_after_predictions.csv",
+    "sha256": "3a4bdfce3f865c9423aaceb760857a81e8ac872e9f3034fdfd7391d8a55bbcec"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/real_validation_before_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/real_validation_before_predictions.csv",
+    "sha256": "37c758b6f5dbddc1be64bbf1a72e37805f7b0de6061b56964a0beda1aa4ba56b"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/verify_test_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/verify_test_predictions.csv",
+    "sha256": "b0dfda6d4b04d957f2c06da8f39abe0938ed3edf7b1ab35b65725c3b19841b07"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/web_validation_after_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/web_validation_after_predictions.csv",
+    "sha256": "351bc6147ada5049d486195a2f5fffaea941719f1de92c2388828d09ee6adbbc"
+  },
+  {
+    "path": "versions/10_C_real_retrain/records/web_validation_before_predictions.csv",
+    "source_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+    "archive_member": "records/web_validation_before_predictions.csv",
+    "sha256": "e5598f434fe18e3d4f5e282c871806fe52425aaac8bf9c978c89f28d7a3571e2"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/README.md",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "525d3ce0f29b37af5060b3f39f24a33e628888769921bada9b47a88b54882502"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/models/model_C_real.pt",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "models/model_C_real.pt",
+    "sha256": "d584f010817d4265edcda28d46451bfef235537d180ace7372a8447e8561d2c3"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/pyproject.toml",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/predict.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/augment.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1ff652a8b18e8d909cc2affc32e308d30182f1d1861482606b38c4770f43aec2"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/cli.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/config.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "f5b9f4ff986d41a8342d7b32779eea2b39cc312c5f631dd7cfb0ed2e0f9d3217"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/continual.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/dataset.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/manifest.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/metrics.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/model.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/report.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/split.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/train.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "20be5139d6a85a3eef52950bc426574151a1dfec369a0ab9fbe5013ea1f4885d"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/video.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/__init__.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/src/oven_food/__main__.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/__init__.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_oven_real.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_oven_real.py",
+    "sha256": "7e670876566fe7a3e6564377ab6c0d6b12ca3342f57136188e93bf06ed2fafaa"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_retention_training.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_retention_training.py",
+    "sha256": "65a7db067f9e062bec0617ce93e10404349cf88a9f68b4f59afd4f33f6dbf235"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_gentle_plus.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_gentle_plus.py",
+    "sha256": "c81af4e803da99c02bc93154b2dd1508077ad6b48a9cdb55b73f2464a622c85c"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_incremental.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_incremental.py",
+    "sha256": "5293df843731b5c545e6f07d456a6f6f81557209197eb255335807e701ab499b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_training_improvements.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_training_improvements.py",
+    "sha256": "c1a9c33f41e05b78d356cc44ba2c5590c5e422f8d2b4a4a146646aea4c9aa5ee"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_augment.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_augment.py",
+    "sha256": "2c08ba9480173a7896dc0492b70546e35ff2f8844512908a7af54d215c30a163"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_config.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_config.py",
+    "sha256": "1f347a08003b4d9e2b9dc4c3c9f1b4addd37b3e76647b3dfd1bd24cc81e19023"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_checkpoint_contract.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_checkpoint_contract.py",
+    "sha256": "710042f4e91843a337a9cf02d05e6890744e798ca3782d4bf9e6039335d62aef"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_dataset.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_dataset.py",
+    "sha256": "ff95e8729a49bdc67aa123618eef46ffd1b72dbbb1efcb09d2916d933634ff76"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_train_guard.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_train_guard.py",
+    "sha256": "9fcfdded5d5b7b44fffd843d5c799657b9623f72e1152b1d4a0d65808546f301"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_manifest.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_manifest.py",
+    "sha256": "c135cb3c2281910730e5a6fa69f408e1d1e252e1ec429403cef6b160d7e5082b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_metrics.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_metrics.py",
+    "sha256": "fc80c1dd49527481146cb03f91c4256e4b2efec719db5067e196d66003999ba4"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_cli.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_cli.py",
+    "sha256": "0cd238279a99fb7df174958bfce9fc9912ac8745e9777457fb9fc44fe85d2dd5"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_split.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_split.py",
+    "sha256": "34eaac3e79cf7043bc6b9041a9d8f374b806e317c2350d479133f5d00ec51c73"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/tests/test_report.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "tests/test_report.py",
+    "sha256": "88017faf111e14c6da4a4f04d0101a7f446afe0c1f0e7c747ba3856704a37d10"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/augmentation_preview.jpg",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/augmentation_preview.jpg",
+    "sha256": "779d41a202f6a12ed24f7dc9f88d597f1de0341b1c44527dc9fdc83ac1cfb1d7"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/final_report.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "0f53921490b59480a2e346f1ab83d397bc28b153e7934e47a22b3ef740293c04"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/实拍适配结果.md",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/实拍适配结果.md",
+    "sha256": "da9457c94f1a6874170e9d5747722e398b1882ec9f3e48df9c9a2079bd55b3f9"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/data_audit.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "bd295856d71d30073edabc478c4dbff3169db79b06dd088084d1c65a910b6d99"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/inventory.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/inventory.json",
+    "sha256": "e60bbacb3f23330eb02f10c197313c9b23c1b8944197dd8ff7a924d93c5bf05b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/train_config.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "9e44c86aa3989c0de7356f86c478d7db90f2d75573697ec3c0c221d0a83781f3"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/manifest.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "f828351d9cd6c92454287a4a15d00d3b9e4f967866cf71db0de8c94f32ba44fb"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/sample_counts.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/sample_counts.json",
+    "sha256": "75096c60ddac80cd629c3bf59e47a08c48824d8e9f6ed7afc25fd46c4f206d9b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/training.log",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "75ff888157fe20b3c03f4e191e1aff5914a1327e3119ab7c787dfb3ce0d3ff13"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/execution.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "6b9ff7d2688d5dfd0c90225888b6e15c3c739062b934e8b0a3f8b18a245c955b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/training/history.json",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "e3ac8f3092ffc900851f025e456962532619c781fa6f4e40b9bd9c1fa78885d7"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/run_training.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/run_training.py",
+    "sha256": "e5f42fbc1678722b37669ac631722b9be200e0e0bbad62380deae3780f43b601"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/verify_and_package.py",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/verify_and_package.py",
+    "sha256": "4994f435ea368edf577576abdd9bad10f9bf888c6d4658808b56e3c195a5cd24"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/real_after_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/real_after_predictions.csv",
+    "sha256": "776e2a3b142ef22888d0f6c1cbb073ff3d0e0e4bc7c89c8393b81d8fa6ad6d57"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/real_before_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/real_before_predictions.csv",
+    "sha256": "181bf8459dda4192fcc202b3bd3837217c75d99d9a109a5527a2fcb4632518ed"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/real_validation_after_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/real_validation_after_predictions.csv",
+    "sha256": "ae169e2362251ec392606cf5d1e04145053505c15d00aaf6e6b8f8e1e2011c05"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/real_validation_before_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/real_validation_before_predictions.csv",
+    "sha256": "37c758b6f5dbddc1be64bbf1a72e37805f7b0de6061b56964a0beda1aa4ba56b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/verify_test_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/verify_test_predictions.csv",
+    "sha256": "bb790d1cf0aac99a80967c428203dfa4775750cc5d036bb302b58839476b972b"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/web_validation_after_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/web_validation_after_predictions.csv",
+    "sha256": "0e9f4927992cf656c20537b0ed36972dcc55fe6542419047191fc5f137ce030f"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/web_validation_before_predictions.csv",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/web_validation_before_predictions.csv",
+    "sha256": "e5598f434fe18e3d4f5e282c871806fe52425aaac8bf9c978c89f28d7a3571e2"
+  },
+  {
+    "path": "versions/11_C_oven_real_v2/records/related_checks.log",
+    "source_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+    "archive_member": "records/related_checks.log",
+    "sha256": "8acf15a82b7680cc2556b44767c1b89a88603666125e95dfe1585c855b327e51"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/README.md",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "README.md",
+    "sha256": "b31b3b5e95b03d9f72ab466a62d23a391f94a9f57470efd73fe164ce2f73085d"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/models/model_C_pumpkin.pt",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "models/model_C_pumpkin.pt",
+    "sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/pyproject.toml",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "pyproject.toml",
+    "sha256": "e2e7cb1efc8120d57d94056b73ed74677abe5c09266900ac67fd4d293b5cd094"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/predict.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "predict.py",
+    "sha256": "45b05236d435d40e6e280886e3b58117da8d5a4a1b070811a2dc1421fdc31751"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/augment.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/augment.py",
+    "sha256": "1ff652a8b18e8d909cc2affc32e308d30182f1d1861482606b38c4770f43aec2"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/cli.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/cli.py",
+    "sha256": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/config.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/config.py",
+    "sha256": "f5b9f4ff986d41a8342d7b32779eea2b39cc312c5f631dd7cfb0ed2e0f9d3217"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/continual.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/continual.py",
+    "sha256": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/corn_rebuild.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/corn_rebuild.py",
+    "sha256": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/dataset.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/dataset.py",
+    "sha256": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/evaluate.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/evaluate.py",
+    "sha256": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/manifest.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/manifest.py",
+    "sha256": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/metrics.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/metrics.py",
+    "sha256": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/model.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/model.py",
+    "sha256": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/report.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/report.py",
+    "sha256": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/split.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/split.py",
+    "sha256": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/train.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/train.py",
+    "sha256": "20be5139d6a85a3eef52950bc426574151a1dfec369a0ab9fbe5013ea1f4885d"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/video.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/video.py",
+    "sha256": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/__init__.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/__init__.py",
+    "sha256": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/src/oven_food/__main__.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "src/oven_food/__main__.py",
+    "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/manifest.csv",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/manifest.csv",
+    "sha256": "6e4364f9d37e8da954980f33af0473dc6da9d08b0e08e168c848d50bff8c7081"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/inventory.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/inventory.json",
+    "sha256": "35787dbe57504a4aa5bd5843b48bcb801ee132291c24b5de064ccb45caea4cbd"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/data_audit.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/data_audit.json",
+    "sha256": "22214d579cbbd0b39471824d301c9d61043ef36cd496049290dfde6e87abf702"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/train_config.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/train_config.json",
+    "sha256": "e83b2db649dd0fdda9416f4c1953ef7a63e00291f674c7822e76e412834914c7"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/sample_counts.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/sample_counts.json",
+    "sha256": "68ad88319e7338e78cf46df58c987bd0f2fd56d2c55cf1bc1a0250aedce48fbc"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/training.log",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/training.log",
+    "sha256": "a5cde65bc67425845eeb9f47d32e7e6cd62eb4a9ddcbf6ad6f8ce0cfd7b18a00"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/execution.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/execution.json",
+    "sha256": "dcfef68cf00789f8da68fb7adfe5d138d75e11272b828af88896940b47e6de19"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/training/history.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/training/history.json",
+    "sha256": "bf33b9b2a6d2826a0c2ccfb10aa4a29172d32b3b36963af0cd9ee6a36f57dbc8"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/final_report.json",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/final_report.json",
+    "sha256": "77da6df3b2cfeff7f1c7392271197479b1068c7e6fd6fb15b84b9567926add85"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/南瓜补强结果.md",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/南瓜补强结果.md",
+    "sha256": "ba5f0500947f769e98cfa0cfac9180ee7e74cec66c6556aff7f922ba742e138e"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/run_training.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/run_training.py",
+    "sha256": "2d830fe2c0f033726af021945cf920339ffb7d929efd824ce287c4b3af17dc7c"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/verify_and_package.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/verify_and_package.py",
+    "sha256": "ace1a186882bfc42b84035ddb4c04d14bdf98e71b3a1c774f20725be88ff3993"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/previous_evaluator.py",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/previous_evaluator.py",
+    "sha256": "4994f435ea368edf577576abdd9bad10f9bf888c6d4658808b56e3c195a5cd24"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/pumpkin_training_predictions.csv",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/pumpkin_training_predictions.csv",
+    "sha256": "bd4b338c94154a0666a657d5b8fb9ccda967cc32e8a35b084d4777d5bc0e4db3"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/real_validation_predictions.csv",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/real_validation_predictions.csv",
+    "sha256": "fe82604e8376a74c4f6270706cef1d6c2cb4f9ec708c6c4520bf38c202b0245f"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/verify_test_predictions.csv",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/verify_test_predictions.csv",
+    "sha256": "83bfcc81ec7ae61e308c2ad1c6dde8317dbf0c8eb9547f3df2ffceac6f504286"
+  },
+  {
+    "path": "versions/12_C_pumpkin_supplement/records/web_validation_predictions.csv",
+    "source_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+    "archive_member": "records/web_validation_predictions.csv",
+    "sha256": "581658a84f0a985f6834321a0e5c0d88bc21f9b849425fea02afa95ada0777c1"
   }
 ]

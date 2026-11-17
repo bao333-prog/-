@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_real_retrain_real_validation",
+  "best_validation_accuracy": 0.7523364485981309,
+  "best_validation_loss": 1.2399099101530058,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_retrain_20261107\\training\\best.pt"
+}

@@ -1,0 +1,17 @@
+{
+  "new_pumpkin_images": 89,
+  "total_real_images": 1517,
+  "old_replay_images": 840,
+  "train_images": 2357,
+  "real_validation": 214,
+  "test": 213,
+  "missing_metadata": [
+    "pumkin_no_high_data_0015.jpg"
+  ],
+  "parent_sha256": "d584f010817d4265edcda28d46451bfef235537d180ace7372a8447e8561d2c3",
+  "class_count": 14,
+  "missing_real_training_classes": [
+    "整鸡"
+  ],
+  "test_scope": "Previously exposed benchmark with consecutive photos crossing splits."
+}

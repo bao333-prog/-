@@ -1,0 +1,40 @@
+{
+  "mode": "train",
+  "experiment_name": "C_real_retrain_real_validation",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_retrain_20261107\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_retrain_20261107\\training",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_all_20261105\\training\\best.pt",
+  "train_environments": [
+    "proxy",
+    "target"
+  ],
+  "validation_environments": [
+    "target"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "gentle_retention",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "epochs": 15,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cpu",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "target_fraction": null,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "new_classes": [],
+  "replay_per_class": 20,
+  "distillation_weight": 0.0,
+  "distillation_temperature": 2.0,
+  "backbone_lr_scale": 0.3,
+  "lr_schedule": "cosine"
+}

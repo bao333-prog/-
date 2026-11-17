@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C固定机位增强优化_20261107\\十四类食材识别_光照增强优化_代码与权重.zip",
+  "package_sha256": "93067514e318e21afc8fa8d3fa5b52c7c1b34500db48ac58da9013c8fe2ee5e9",
+  "checkpoint_sha256": "d584f010817d4265edcda28d46451bfef235537d180ace7372a8447e8561d2c3",
+  "raw_images_unchanged": 1428,
+  "class_count": 14,
+  "epochs": 15,
+  "independent_real_test": false,
+  "related_tests_passed": 73,
+  "extracted_package_prediction": "passed",
+  "code_review": "no_important_or_blocking_findings",
+  "all_real_training_images": 1428,
+  "each_training_image_reads": 15,
+  "best_epoch": 14,
+  "validation_correct": 181,
+  "validation_total": 214,
+  "test_correct": 168,
+  "test_total": 213
+}

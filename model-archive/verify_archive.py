@@ -32,9 +32,9 @@ def verify(load_models=False):
             raise ValueError('SHA256 mismatch: ' + relative)
     catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
     models = catalog['models']
-    assert len(models) == catalog['trained_version_count'] == 8
+    assert len(models) == catalog['trained_version_count'] and len(models) > 0
     by_id = {entry['id']: entry for entry in models}
-    assert len(by_id) == 8
+    assert len(by_id) == len(models)
     for entry in models:
         assert entry['trained'] is True
         assert digest(archive_path(entry['checkpoint'])) == entry['checkpoint_sha256']

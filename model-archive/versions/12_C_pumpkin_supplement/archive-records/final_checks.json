@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "epochs": 10,
+  "class_count": 14,
+  "raw_real_images_unchanged": 1517,
+  "new_pumpkin_images": 89,
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C南瓜实拍补强_20261107\\十四类食材识别_南瓜实拍补强_代码与权重.zip",
+  "package_sha256": "c7c21998dd4e5ace01581706fd8e01593a4ea68cc26a308697ca5046a9979540",
+  "checkpoint_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+  "extracted_package_prediction": "passed",
+  "best_epoch": 6,
+  "training_reads_per_image": 10,
+  "prediction_tables_cross_checked": true,
+  "pumpkin_validation": "13/15",
+  "pumpkin_test": "15/15"
+}

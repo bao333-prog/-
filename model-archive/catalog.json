@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "archive_date": "2026-11-03",
+  "archive_date": "2026-11-17",
   "task": "single_label_classification",
   "architecture": "mobilenet_v3_small",
-  "trained_version_count": 8,
+  "trained_version_count": 13,
   "models": [
     {
       "id": "00_smoke_six_class",
@@ -388,6 +388,271 @@
       "delivery_archive": "outputs/C框架与增强改进_v2_20261029/十四类C_v2_知识保持与增强_中文注释代码与权重.zip",
       "delivery_archive_sha256": "499f6735fd2fa04f72968d403f6d427ef7a5a176c8b0240916b02892232fd445",
       "original_archive_file_count": 84
+    },
+    {
+      "id": "08_C_real_sampled",
+      "title": "十四类实拍抽样适配",
+      "status": "real_domain_adaptation",
+      "trained": true,
+      "parent_version": "07_C_retention_v2",
+      "initialization": "07_C_retention_v2",
+      "run_id": "C_real_adapt_20261105",
+      "directory": "versions/08_C_real_sampled",
+      "checkpoint": "versions/08_C_real_sampled/models/model_C_real.pt",
+      "checkpoint_sha256": "d66f52f1d26d75364751f913c5e76d1002d71f1742aa10cb2e9ad02528d4548c",
+      "checkpoint_bytes": 6260951,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 20,
+      "epochs": 20,
+      "validation_accuracy": 0.9778869778869779,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "521张抽样实拍参与训练；训练关联诊断1300/1428（91.04%），不是独立测试。旧网图验证398/407（97.79%）。",
+      "real_oven_acceptance": "development_only_not_independent_acceptance",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C十四类实拍适配_20261105/十四类食材识别_实拍适配_代码与权重.zip",
+      "delivery_archive_sha256": "3d5ce0ed35673e9e630b67b477e63b1e9c1a168bcca48ebd7f49a43eb42f0336",
+      "original_archive_file_count": 35
+    },
+    {
+      "id": "09_C_real_all",
+      "title": "十四类全部实拍适配",
+      "status": "real_domain_adaptation",
+      "trained": true,
+      "parent_version": "07_C_retention_v2",
+      "initialization": "07_C_retention_v2",
+      "run_id": "C_real_all_20261105",
+      "directory": "versions/09_C_real_all",
+      "checkpoint": "versions/09_C_real_all/models/model_C_real.pt",
+      "checkpoint_sha256": "aefdc23b66aef1ca14d6c2d2b1c1f6c737595680e4b277dd997f2c14391ee494",
+      "checkpoint_bytes": 6260951,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 6,
+      "epochs": 20,
+      "validation_accuracy": 0.9778869778869779,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "1428张实拍均入训练池；训练关联诊断1280/1428（89.64%），不是独立测试。旧网图验证398/407（97.79%）。",
+      "real_oven_acceptance": "development_only_not_independent_acceptance",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C十四类全部实拍适配_20261105/十四类食材识别_全部实拍适配_代码与权重.zip",
+      "delivery_archive_sha256": "4373dba9d1b4732a3cdc23c68a0452be60750a711597274100c5cd7e906aa7db",
+      "original_archive_file_count": 36
+    },
+    {
+      "id": "10_C_real_retrain",
+      "title": "十四类实拍再训练",
+      "status": "real_domain_adaptation",
+      "trained": true,
+      "parent_version": "09_C_real_all",
+      "initialization": "09_C_real_all",
+      "run_id": "C_real_retrain_20261107",
+      "directory": "versions/10_C_real_retrain",
+      "checkpoint": "versions/10_C_real_retrain/models/model_C_real.pt",
+      "checkpoint_sha256": "fc0a94bb39de8ab618ed5ec742bbaf4ca47b37f254ec1cb6c940398c4bfb2777",
+      "checkpoint_bytes": 6260951,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 2,
+      "epochs": 15,
+      "validation_accuracy": 0.7523364485981309,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "实拍验证161/214（75.23%）；复用实拍测试153/213（71.83%）。",
+      "real_oven_acceptance": "development_only_not_independent_acceptance",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C十四类实拍再训练_20261107/十四类食材识别_实拍再训练_代码与权重.zip",
+      "delivery_archive_sha256": "60536f97f306dd804284b13bb455ee90bf4f5afd3814a44dd0490cb74f7033f6",
+      "original_archive_file_count": 39
+    },
+    {
+      "id": "11_C_oven_real_v2",
+      "title": "十四类固定机位增强优化",
+      "status": "real_domain_adaptation",
+      "trained": true,
+      "parent_version": "09_C_real_all",
+      "initialization": "09_C_real_all",
+      "run_id": "C_oven_real_v2_20261107",
+      "directory": "versions/11_C_oven_real_v2",
+      "checkpoint": "versions/11_C_oven_real_v2/models/model_C_real.pt",
+      "checkpoint_sha256": "d584f010817d4265edcda28d46451bfef235537d180ace7372a8447e8561d2c3",
+      "checkpoint_bytes": 6260951,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 14,
+      "epochs": 15,
+      "validation_accuracy": 0.8457943925233645,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "实拍验证181/214（84.58%）；复用实拍测试168/213（78.87%）。",
+      "real_oven_acceptance": "development_only_not_independent_acceptance",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C固定机位增强优化_20261107/十四类食材识别_光照增强优化_代码与权重.zip",
+      "delivery_archive_sha256": "93067514e318e21afc8fa8d3fa5b52c7c1b34500db48ac58da9013c8fe2ee5e9",
+      "original_archive_file_count": 57
+    },
+    {
+      "id": "12_C_pumpkin_supplement",
+      "title": "十四类南瓜实拍补强",
+      "status": "real_domain_adaptation",
+      "trained": true,
+      "parent_version": "11_C_oven_real_v2",
+      "initialization": "11_C_oven_real_v2",
+      "run_id": "C_pumpkin_supplement_20261107",
+      "directory": "versions/12_C_pumpkin_supplement",
+      "checkpoint": "versions/12_C_pumpkin_supplement/models/model_C_pumpkin.pt",
+      "checkpoint_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+      "checkpoint_bytes": 6260951,
+      "model_name": "mobilenet_v3_small",
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "class_count": 14,
+      "best_epoch": 6,
+      "epochs": 10,
+      "validation_accuracy": 0.897196261682243,
+      "preprocessing": {
+        "resize_mode": "letterbox",
+        "mean": [
+          0.48500001430511475,
+          0.4560000002384186,
+          0.4059999883174896
+        ],
+        "std": [
+          0.2290000021457672,
+          0.2240000069141388,
+          0.22499999403953552
+        ]
+      },
+      "result_summary": "实拍验证192/214（89.72%）；复用实拍测试184/213（86.38%），旧网图验证401/407（98.53%）。",
+      "real_oven_acceptance": "development_only_not_independent_acceptance",
+      "board_acceptance": "not_verified",
+      "delivery_archive": "outputs/C南瓜实拍补强_20261107/十四类食材识别_南瓜实拍补强_代码与权重.zip",
+      "delivery_archive_sha256": "c7c21998dd4e5ace01581706fd8e01593a4ea68cc26a308697ca5046a9979540",
+      "original_archive_file_count": 37
     }
   ],
   "auxiliary": [

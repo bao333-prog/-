@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C十四类实拍再训练_20261107\\十四类食材识别_实拍再训练_代码与权重.zip",
+  "package_sha256": "60536f97f306dd804284b13bb455ee90bf4f5afd3814a44dd0490cb74f7033f6",
+  "checkpoint_sha256": "fc0a94bb39de8ab618ed5ec742bbaf4ca47b37f254ec1cb6c940398c4bfb2777",
+  "raw_images_unchanged": 1428,
+  "class_count": 14,
+  "epochs": 15,
+  "independent_real_test": false,
+  "extracted_package_prediction": "passed",
+  "real_images_per_epoch": 1428,
+  "reads_per_training_image": 15,
+  "training_images": 2268,
+  "best_epoch": 2,
+  "validation_count": 214,
+  "test_count": 213,
+  "test_scope": "Previously exposed benchmark; consecutive photos may cross validation/test.",
+  "prediction_tables_cross_checked": true
+}

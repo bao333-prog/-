@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C十四类实拍适配_20261105\\十四类食材识别_实拍适配_代码与权重.zip",
+  "package_sha256": "3d5ce0ed35673e9e630b67b477e63b1e9c1a168bcca48ebd7f49a43eb42f0336",
+  "checkpoint_sha256": "d66f52f1d26d75364751f913c5e76d1002d71f1742aa10cb2e9ad02528d4548c",
+  "raw_images_unchanged": 1428,
+  "class_count": 14,
+  "epochs": 20,
+  "independent_real_test": false,
+  "extracted_package_new_process_prediction": "passed"
+}
