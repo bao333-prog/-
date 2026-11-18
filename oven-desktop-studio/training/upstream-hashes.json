@@ -1,0 +1,58 @@
+[
+  {
+    "path": "upstream\\model_C_v2.pt",
+    "sha256": "47EF7311038B5B39CBA0CBA5BA9EEFCE773CDABBC00E1E5AC864C5CA2A36E917"
+  },
+  {
+    "path": "upstream\\train_config.json",
+    "sha256": "B4CBFA9F1FD984CB048CC5293923F1D8A51ECDB056FA0A3D2A5D239F2D7E47B0"
+  },
+  {
+    "path": "upstream\\oven_food\\__init__.py",
+    "sha256": "A5C7D4222C0756AB81298522E38E48DCECDD7D3A6CBAC63C93CD6E4E59CDABBD"
+  },
+  {
+    "path": "upstream\\oven_food\\augment.py",
+    "sha256": "1544FDFE7CF02367B70611EB086D947F864BAA8BA2D028E956A4189FAC56BB02"
+  },
+  {
+    "path": "upstream\\oven_food\\config.py",
+    "sha256": "6C954BDC6A07FF8686597B436F616FFC9DABB429111244D69DC0787847D1F46F"
+  },
+  {
+    "path": "upstream\\oven_food\\continual.py",
+    "sha256": "07606ED2F2B5BA523F0010359EBAE56D1F89A3DBB3E58F3D2844EAC77CF4D2CE"
+  },
+  {
+    "path": "upstream\\oven_food\\dataset.py",
+    "sha256": "4F5FD650A14A478A65007E9918C0A06300B0FBC6A8AADB5AB623A14087E00BC9"
+  },
+  {
+    "path": "upstream\\oven_food\\evaluate.py",
+    "sha256": "2FFA1FC3A67A3FE6D4FAC63CC1653B627CA869B74B569CC5892BB35503D5BB4C"
+  },
+  {
+    "path": "upstream\\oven_food\\manifest.py",
+    "sha256": "D465181513D80A3223E940FC72EB64C281CC8C2CEB87D84C817A9D39D1B8DC93"
+  },
+  {
+    "path": "upstream\\oven_food\\metrics.py",
+    "sha256": "53122428BA2618C349F5746DFAC18A9DF409D3F5C62649279EAFC6BFAFC30635"
+  },
+  {
+    "path": "upstream\\oven_food\\model.py",
+    "sha256": "F9F7654E3411BE4D54203FF2A953A5AB4A08423FD0A2457FFFE514D17013B669"
+  },
+  {
+    "path": "upstream\\oven_food\\report.py",
+    "sha256": "0EFEBCAF67E5F7B91BD6D11AA85E556CC0192296BF06C486926B64F916AE45AA"
+  },
+  {
+    "path": "upstream\\oven_food\\split.py",
+    "sha256": "2CF8103C73BA88CCD22477715FF190E26BA235B3DB6A711612129729763B7B94"
+  },
+  {
+    "path": "upstream\\oven_food\\train.py",
+    "sha256": "62CD1F01ADC31F3202F8240A5E94B57D4CD1F6FE1D075B960D7EAC7511426D04"
+  }
+]
