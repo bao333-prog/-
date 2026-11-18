@@ -1,0 +1,16 @@
+{
+  "base_provenance.json": "cd0892e0eb9575ff3992a73746683cd12ce9bb9e9bfb5df9cd014ae02ed7b5fb",
+  "comparison_predictions.csv": "1f1270227b90d91749ba5b777af92bb6dbfa78a4bd52861095b827a5705f73f3",
+  "config.json": "da483b8120eb32fee5332f25a71bdedc6e2e7867a7f7721519faf9c710f1cc34",
+  "data_summary.json": "1b6332b3dfb321aec079de657860fe9520e57b7310bf4aeb9044df08f73a69e5",
+  "evaluate_candidate.py": "8c39bfd59a24af7cc9aadc1e13ae314b1f8841573f7c72b20ad494f99d6661ac",
+  "history.json": "973f9f9373ca5cd037bdd695a2b9d0a6b9f1c1bbaa75fc0081a0e7109073b03b",
+  "model_C_real_head_candidate.pt": "0a179bd77d373fb86005517a03befbe0cce93f2d9b435178593eedd62cf7a707",
+  "public_manifest.csv": "1592e9aa5d6cc7e120cd5fc510bca2c7fb0ee0d2b7563304fdfe6b903e83043e",
+  "README.md": "10d843b1cdecd01d56d3dc714242307fb4830e8be143bbee558a6af8302b6dff",
+  "report.json": "ed3cbdd1b627766bfec03669a23edfe5887a9a24b2f8038d7bdda981c5d2ac48",
+  "train_candidate.py": "903907d49194d9054feff263609c69d8fbf8a1da5bd8744380c0c08c1c1918af",
+  "verification.json": "5ee41beff53c72ab790332c1facff8ffd1f9424ad315b555c49ef012acd32db7",
+  "web-export\\model.json": "cdd37665353fbf22c4c19086c620f168abb3a1f9fc4be7af7d78a3cce791b68b",
+  "web-export\\model.onnx": "389471e33ee12d416250774c97ee9693acdddb8f9398ca4432d1bbacf50febd9"
+}

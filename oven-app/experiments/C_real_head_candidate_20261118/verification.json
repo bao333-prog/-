@@ -1,0 +1,14 @@
+{
+  "candidate_fresh_load_and_full_network_comparison": true,
+  "all_143_predictions_recomputed_for_both_models": true,
+  "training_images_hash_checked": 2676,
+  "comparison_images_hash_checked": 143,
+  "cross_split_exact_duplicates": 0,
+  "frozen_tensors_unchanged": true,
+  "untrained_class_final_rows_unchanged": true,
+  "full_pipeline_cache_agreement_checked_images": 8,
+  "onnx_same_tensor_max_logit_error": 4.351139068603516e-06,
+  "independent_test": false,
+  "python": "3.12.14",
+  "website_replaced": false
+}

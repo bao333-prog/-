@@ -1,0 +1,48 @@
+{
+  "train_count": 2811,
+  "unique_train_images": 2810,
+  "comparison_count": 167,
+  "train_counts": {
+    "三文鱼": 49,
+    "吐司": 223,
+    "土豆": 127,
+    "培根": 85,
+    "玉米": 355,
+    "芦笋": 110,
+    "薯条": 614,
+    "西兰花": 302,
+    "香肠": 95,
+    "鸡翅": 331,
+    "牛排": 205,
+    "南瓜": 172,
+    "可颂": 143
+  },
+  "comparison_counts": {
+    "牛排": 6,
+    "西兰花": 21,
+    "鸡翅": 6,
+    "玉米": 12,
+    "薯条": 21,
+    "芦笋": 28,
+    "培根": 6,
+    "土豆": 13,
+    "三文鱼": 6,
+    "香肠": 12,
+    "吐司": 12,
+    "南瓜": 12,
+    "可颂": 12
+  },
+  "removed_occluded_pumpkin_hashes": [
+    "47848c157ff5a625b6e9fd9c30dc4eb12a57d601df1891d9fc40c16804568d19",
+    "a7b0d47772275a8e55918f268c61a0f9df505285b024d907f2daf553cfd94669",
+    "0940f3d5cc3a19208770e1e2defaa05947edc58d80a79892ac85973c9523839e",
+    "39e394b8bc3326f8279d264b8bcffa89bfbaa46014dea916c2110decb0ce758d",
+    "36f9e858e764f63c03907d0581599e9c877f7343ef2694f563caab1c2bc5982a",
+    "b9112091354631d01d8f3a4dbffc174cc49a90f646cd58a1620f0a88e3f68946",
+    "81e0bc609fe1531328ddc9d3e87ba47e10a98c3d07991997641cfdb14c4acae3",
+    "2075348adfac80e976f7ac7743ede451c3fa3ae4b935e5dfc9ee9d450a3b156d"
+  ],
+  "cross_split_exact_duplicates": 0,
+  "independent_test": false,
+  "pumpkin_comparison_same_source": true
+}

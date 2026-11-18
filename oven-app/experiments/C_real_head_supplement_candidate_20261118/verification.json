@@ -1,0 +1,15 @@
+{
+  "train_records": 2811,
+  "unique_train_hashes": 2810,
+  "comparison_records": 167,
+  "removed_pumpkin": 8,
+  "duplicate_training_excess": 1,
+  "cross_split_exact_duplicates": 0,
+  "metadata_hash_errors": 0,
+  "three_fresh_models_evaluated": true,
+  "original_143_baseline_reproduced": 122,
+  "original_143_previous_reproduced": 127,
+  "onnx_same_tensor_max_logit_error": 5.27501106262207e-06,
+  "website_replaced": false,
+  "independent_test": false
+}
