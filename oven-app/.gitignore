@@ -13,3 +13,4 @@ tmp/
 # Keep published website checkpoints reproducible. Other weights remain ignored.
 !models/model_C_real_head_candidate.pt
 !models/model_C_pumpkin_croissant.pt
+!models/model_optimized_A.pt

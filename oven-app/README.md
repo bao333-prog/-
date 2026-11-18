@@ -7,8 +7,8 @@
 工作记录见 [docs/工作日志-2026-11-02.md](docs/工作日志-2026-11-02.md)。
 
 在此目录运行 `.venv/Scripts/python.exe -m backend.app`，打开 http://127.0.0.1:8000。
-首次安装步骤见启动文档。默认加载随仓库提供的 models/model_C_pumpkin_croissant.pt；可用 OVEN_MODEL 指定其他权重。上传图片不随 Git 提交。
+首次安装步骤见启动文档。默认加载随仓库提供的 models/model_optimized_A.pt；可用 OVEN_MODEL 指定其他权重。上传图片不随 Git 提交。
 
 本项目为本机课程演示，未连接真实烤箱；不确定或“以上都不是”交由人工处理。
 
-当前网页模型：`C_pumpkin_croissant_9db30ce0`。发布与回滚见 [南瓜可颂模型发布记录](docs/南瓜可颂模型发布记录.md)。此前的 [分类头候选版接入记录](docs/模型替换记录-20261118.md) 保留。
+当前网页模型：`optimized_A_001bf328`。发布与回滚见 [采样优化A发布记录](docs/采样优化A发布记录.md)。此前的 [南瓜可颂模型发布记录](docs/南瓜可颂模型发布记录.md) 和 [分类头候选版接入记录](docs/模型替换记录-20261118.md) 保留。
