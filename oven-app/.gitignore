@@ -9,3 +9,6 @@ records/
 data/
 outputs/
 tmp/
+
+# Keep the active website checkpoint reproducible. Other weights remain ignored.
+!models/model_C_real_head_candidate.pt

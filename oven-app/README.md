@@ -7,6 +7,8 @@
 工作记录见 [docs/工作日志-2026-11-02.md](docs/工作日志-2026-11-02.md)。
 
 在此目录运行 `.venv/Scripts/python.exe -m backend.app`，打开 http://127.0.0.1:8000。
-首次安装步骤见启动文档。权重放入 models/model_C_v2.pt，模型与图片不随 Git 提交。
+首次安装步骤见启动文档。默认加载随仓库提供的 models/model_C_real_head_candidate.pt；可用 OVEN_MODEL 指定其他权重。上传图片不随 Git 提交。
 
 本项目为本机课程演示，未连接真实烤箱；不确定或“以上都不是”交由人工处理。
+
+当前网页模型：`C_real_head_candidate_20261118`。接入配置、转换校验与局限见 [模型替换记录](docs/模型替换记录-20261118.md)。
