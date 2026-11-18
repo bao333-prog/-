@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "epochs": 24,
+  "learning_rate": 0.0003,
+  "batch_size": 128,
+  "feature_batch_size": 16,
+  "distillation_weight": 0.5,
+  "temperature": 2.0,
+  "threads": 4,
+  "augmentation": "none",
+  "trainable": "classifier final linear layer only",
+  "selection": "fixed final epoch; comparison set never used for selection"
+}
