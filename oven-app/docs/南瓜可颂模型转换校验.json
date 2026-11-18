@@ -1,0 +1,117 @@
+{
+  "version": "C_pumpkin_croissant_9db30ce0",
+  "source_sha256": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
+  "onnx_sha256": "366c38043e1c4d520d734f949dae64832cce085778204726737796a7d1bd2156",
+  "metadata_matches_checkpoint": true,
+  "image_count": 15,
+  "top1_matches": 15,
+  "max_logit_error": 4.863739013671875e-05,
+  "note": "数值一致性抽查，含重复样例；无独立真值标签，不能据此推断准确率。",
+  "cases": [
+    {
+      "image": "0.jpg",
+      "pytorch_top1": "芦笋",
+      "onnx_top1": "芦笋",
+      "pytorch_confidence": 0.599966824054718,
+      "max_logit_error": 2.199411392211914e-05
+    },
+    {
+      "image": "1.jpg",
+      "pytorch_top1": "南瓜",
+      "onnx_top1": "南瓜",
+      "pytorch_confidence": 0.9701012372970581,
+      "max_logit_error": 2.5033950805664062e-05
+    },
+    {
+      "image": "10.jpg",
+      "pytorch_top1": "芦笋",
+      "onnx_top1": "芦笋",
+      "pytorch_confidence": 0.2939809262752533,
+      "max_logit_error": 3.6954879760742188e-06
+    },
+    {
+      "image": "11.jpg",
+      "pytorch_top1": "牛排",
+      "onnx_top1": "牛排",
+      "pytorch_confidence": 0.2848646342754364,
+      "max_logit_error": 1.33514404296875e-05
+    },
+    {
+      "image": "12.jpg",
+      "pytorch_top1": "牛排",
+      "onnx_top1": "牛排",
+      "pytorch_confidence": 0.43918269872665405,
+      "max_logit_error": 4.172325134277344e-06
+    },
+    {
+      "image": "13.jpg",
+      "pytorch_top1": "芦笋",
+      "onnx_top1": "芦笋",
+      "pytorch_confidence": 0.9769922494888306,
+      "max_logit_error": 2.3484230041503906e-05
+    },
+    {
+      "image": "14.jpg",
+      "pytorch_top1": "芦笋",
+      "onnx_top1": "芦笋",
+      "pytorch_confidence": 0.9827210307121277,
+      "max_logit_error": 3.5762786865234375e-05
+    },
+    {
+      "image": "2.jpg",
+      "pytorch_top1": "南瓜",
+      "onnx_top1": "南瓜",
+      "pytorch_confidence": 0.9701012372970581,
+      "max_logit_error": 2.5033950805664062e-05
+    },
+    {
+      "image": "3.jpg",
+      "pytorch_top1": "南瓜",
+      "onnx_top1": "南瓜",
+      "pytorch_confidence": 0.8985730409622192,
+      "max_logit_error": 3.2067298889160156e-05
+    },
+    {
+      "image": "4.jpg",
+      "pytorch_top1": "吐司",
+      "onnx_top1": "吐司",
+      "pytorch_confidence": 0.7844902276992798,
+      "max_logit_error": 1.3709068298339844e-05
+    },
+    {
+      "image": "5.jpg",
+      "pytorch_top1": "芦笋",
+      "onnx_top1": "芦笋",
+      "pytorch_confidence": 0.6784520745277405,
+      "max_logit_error": 1.329183578491211e-05
+    },
+    {
+      "image": "6.jpg",
+      "pytorch_top1": "玉米",
+      "onnx_top1": "玉米",
+      "pytorch_confidence": 0.4326745569705963,
+      "max_logit_error": 1.1205673217773438e-05
+    },
+    {
+      "image": "7.jpg",
+      "pytorch_top1": "培根",
+      "onnx_top1": "培根",
+      "pytorch_confidence": 0.9736838936805725,
+      "max_logit_error": 4.863739013671875e-05
+    },
+    {
+      "image": "8.jpg",
+      "pytorch_top1": "培根",
+      "onnx_top1": "培根",
+      "pytorch_confidence": 0.9377802014350891,
+      "max_logit_error": 4.2498111724853516e-05
+    },
+    {
+      "image": "9.jpg",
+      "pytorch_top1": "培根",
+      "onnx_top1": "培根",
+      "pytorch_confidence": 0.8480930328369141,
+      "max_logit_error": 1.895427703857422e-05
+    }
+  ]
+}

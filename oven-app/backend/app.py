@@ -17,7 +17,7 @@ def create_app(model_path=None):
     app = Flask(__name__)
     app.config['MAX_CONTENT_LENGTH'] = 11 * 1024 * 1024
     torch.set_num_threads(4)
-    selected_path = Path(model_path or os.environ.get('OVEN_MODEL', ROOT / 'models/model_C_real_head_candidate.pt'))
+    selected_path = Path(model_path or os.environ.get('OVEN_MODEL', ROOT / 'models/model_C_pumpkin_croissant.pt'))
     model, names, checkpoint = load_classifier(selected_path)
     model_version = selected_path.stem
     lock = threading.Lock()

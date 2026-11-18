@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
   "task": "classification",
-  "id": "C_real_head_candidate",
-  "name": "十四类实拍分类头候选版",
-  "version": "C_real_head_candidate_20261118",
+  "id": "C_pumpkin_croissant",
+  "name": "十四类南瓜可颂补充版",
+  "version": "C_pumpkin_croissant_9db30ce0",
   "file": "./model.onnx",
+  "source_checkpoint": "model_C_pumpkin_croissant.pt",
+  "source_sha256": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
   "resize_mode": "letterbox",
   "color": "RGB",
   "layout": "NCHW",
@@ -12,7 +14,7 @@
   "output_name": "logits",
   "output_type": "logits",
   "threshold": 0.8,
-  "sha256": "389471e33ee12d416250774c97ee9693acdddb8f9398ca4432d1bbacf50febd9",
+  "sha256": "366c38043e1c4d520d734f949dae64832cce085778204726737796a7d1bd2156",
   "classes": [
     "南瓜",
     "吐司",
@@ -39,7 +41,5 @@
     0.2290000021457672,
     0.2240000069141388,
     0.22499999403953552
-  ],
-  "source_checkpoint": "model_C_real_head_candidate.pt",
-  "source_sha256": "0a179bd77d373fb86005517a03befbe0cce93f2d9b435178593eedd62cf7a707"
+  ]
 }
