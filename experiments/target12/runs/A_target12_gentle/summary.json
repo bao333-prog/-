@@ -1,0 +1,6 @@
+{
+  "experiment_name": "A_target12_gentle",
+  "best_validation_accuracy": 0.967479674796748,
+  "best_validation_loss": 0.10403840999693079,
+  "checkpoint": "/Users/katzegott/Desktop/烤箱——项目制课程/experiments/runs/A_target12_gentle/best.pt"
+}

@@ -1,0 +1,328 @@
+{
+ "三文鱼": {
+  "total": 93,
+  "groups": 6,
+  "train": {
+   "n": 63,
+   "groups": [
+    "salmon-high-with_foil",
+    "salmon-low-without_foil",
+    "salmon-mid-with_foil",
+    "salmon-mid-without_foil"
+   ]
+  },
+  "val": {
+   "n": 15,
+   "groups": [
+    "salmon-low-with_foil"
+   ]
+  },
+  "test": {
+   "n": 15,
+   "groups": [
+    "salmon-high-without_foil"
+   ]
+  },
+  "ratio": "68%/16%/16%"
+ },
+ "可颂": {
+  "total": 110,
+  "groups": 6,
+  "train": {
+   "n": 74,
+   "groups": [
+    "croissant-high-without_foil-cooked",
+    "croissant-low-without_foil-cooked",
+    "croissant-mid-with_foil-cooked",
+    "croissant-mid-without_foil-cooked"
+   ]
+  },
+  "val": {
+   "n": 18,
+   "groups": [
+    "croissant-low-with_foil-cooked"
+   ]
+  },
+  "test": {
+   "n": 18,
+   "groups": [
+    "croissant-high-with_foil-cooked"
+   ]
+  },
+  "ratio": "67%/16%/16%"
+ },
+ "吐司": {
+  "total": 104,
+  "groups": 9,
+  "train": {
+   "n": 65,
+   "groups": [
+    "photo mid",
+    "photo up",
+    "toast_high_02",
+    "toast_low_01",
+    "toast_mid_02"
+   ]
+  },
+  "val": {
+   "n": 20,
+   "groups": [
+    "toast_b_low_02",
+    "toast_b_mid_02"
+   ]
+  },
+  "test": {
+   "n": 19,
+   "groups": [
+    "toast_b_high_02",
+    "toast_low_02"
+   ]
+  },
+  "ratio": "62%/19%/18%"
+ },
+ "土豆": {
+  "total": 114,
+  "groups": 6,
+  "train": {
+   "n": 78,
+   "groups": [
+    "potato-low-with_foil-whole_unpeeled",
+    "potato-low-without_foil-whole_unpeeled",
+    "potato-mid-with_foil-whole_unpeeled",
+    "potato-mid-without_foil-whole_unpeeled"
+   ]
+  },
+  "val": {
+   "n": 18,
+   "groups": [
+    "potato-high-without_foil-whole_unpeeled"
+   ]
+  },
+  "test": {
+   "n": 18,
+   "groups": [
+    "potato-high-with_foil-whole_unpeeled"
+   ]
+  },
+  "ratio": "68%/16%/16%"
+ },
+ "培根": {
+  "total": 97,
+  "groups": 6,
+  "train": {
+   "n": 69,
+   "groups": [
+    "bacon-high-with_foil",
+    "bacon-low-with_foil",
+    "bacon-mid-with_foil",
+    "bacon-mid-without_foil"
+   ]
+  },
+  "val": {
+   "n": 14,
+   "groups": [
+    "bacon-low-without_foil"
+   ]
+  },
+  "test": {
+   "n": 14,
+   "groups": [
+    "bacon-high-without_foil"
+   ]
+  },
+  "ratio": "71%/14%/14%"
+ },
+ "牛排": {
+  "total": 79,
+  "groups": 3,
+  "train": {
+   "n": 33,
+   "groups": [
+    "beef_low_have_001"
+   ]
+  },
+  "val": {
+   "n": 31,
+   "groups": [
+    "beef_mid_have_001"
+   ]
+  },
+  "test": {
+   "n": 15,
+   "groups": [
+    "beef_have_have_001"
+   ]
+  },
+  "ratio": "42%/39%/19%"
+ },
+ "玉米": {
+  "total": 252,
+  "groups": 12,
+  "train": {
+   "n": 172,
+   "groups": [
+    "corn_half_high",
+    "corn_half_mid_b",
+    "corn_one_high",
+    "corn_one_high_b",
+    "corn_one_low",
+    "corn_one_low_b",
+    "corn_one_mid",
+    "corn_one_mid_b"
+   ]
+  },
+  "val": {
+   "n": 40,
+   "groups": [
+    "corn_half_low_b",
+    "corn_half_mid"
+   ]
+  },
+  "test": {
+   "n": 40,
+   "groups": [
+    "corn_half_high_b",
+    "corn_half_low"
+   ]
+  },
+  "ratio": "68%/16%/16%"
+ },
+ "芦笋": {
+  "total": 112,
+  "groups": 6,
+  "train": {
+   "n": 77,
+   "groups": [
+    "asparagus-high-with_foil-long",
+    "asparagus-high-without_foil-long",
+    "asparagus-mid-with_foil-long",
+    "asparagus-mid-without_foil-long"
+   ]
+  },
+  "val": {
+   "n": 18,
+   "groups": [
+    "asparagus-low-with_foil-long"
+   ]
+  },
+  "test": {
+   "n": 17,
+   "groups": [
+    "asparagus-low-without_foil-long"
+   ]
+  },
+  "ratio": "69%/16%/15%"
+ },
+ "薯条": {
+  "total": 122,
+  "groups": 9,
+  "train": {
+   "n": 82,
+   "groups": [
+    "chips_a_mid_have",
+    "chips_a_mid_no",
+    "chips_single_high_no",
+    "chips_single_mid_have",
+    "chips_single_mids_no"
+   ]
+  },
+  "val": {
+   "n": 20,
+   "groups": [
+    "chips_single_high_have",
+    "chips_single_low_no"
+   ]
+  },
+  "test": {
+   "n": 20,
+   "groups": [
+    "chips_a_low_have_001",
+    "chips_a_low_no"
+   ]
+  },
+  "ratio": "67%/16%/16%"
+ },
+ "西兰花": {
+  "total": 119,
+  "groups": 6,
+  "train": {
+   "n": 85,
+   "groups": [
+    "broccoli-high-with_foil",
+    "broccoli-high-without_foil",
+    "broccoli-low-without_foil",
+    "broccoli-mid-with_foil"
+   ]
+  },
+  "val": {
+   "n": 17,
+   "groups": [
+    "broccoli-mid-without_foil"
+   ]
+  },
+  "test": {
+   "n": 17,
+   "groups": [
+    "broccoli-low-with_foil"
+   ]
+  },
+  "ratio": "71%/14%/14%"
+ },
+ "香肠": {
+  "total": 97,
+  "groups": 6,
+  "train": {
+   "n": 67,
+   "groups": [
+    "sausage_high_no_001",
+    "sausage_low_have_001",
+    "sausage_low_no_001",
+    "sausage_mid_no_001"
+   ]
+  },
+  "val": {
+   "n": 15,
+   "groups": [
+    "sausage_mid_have_001"
+   ]
+  },
+  "test": {
+   "n": 15,
+   "groups": [
+    "sausage_high_have_001"
+   ]
+  },
+  "ratio": "69%/15%/15%"
+ },
+ "鸡翅": {
+  "total": 129,
+  "groups": 11,
+  "train": {
+   "n": 89,
+   "groups": [
+    "wings_high_have_single",
+    "wings_high_no_much",
+    "wings_low_have_single",
+    "wings_low_no_single",
+    "wings_mid_have_single",
+    "wings_mid_no_much",
+    "wings_mid_no_single"
+   ]
+  },
+  "val": {
+   "n": 20,
+   "groups": [
+    "wings_low_have_much",
+    "wings_mid_have_much"
+   ]
+  },
+  "test": {
+   "n": 20,
+   "groups": [
+    "wings_high_have_much",
+    "wings_high_no_single"
+   ]
+  },
+  "ratio": "69%/16%/16%"
+ }
+}

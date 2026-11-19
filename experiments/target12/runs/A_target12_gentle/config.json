@@ -1,0 +1,34 @@
+{
+  "mode": "train",
+  "experiment_name": "A_target12_gentle",
+  "manifest": "/Users/katzegott/Desktop/烤箱——项目制课程/experiments/dataset/manifest.csv",
+  "data_root": "/Users/katzegott/Desktop/烤箱——项目制课程",
+  "output_dir": "/Users/katzegott/Desktop/烤箱——项目制课程/experiments/runs/A_target12_gentle",
+  "checkpoint": null,
+  "train_environments": [
+    "target"
+  ],
+  "validation_environments": [
+    "target"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "gentle",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 16,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "mps",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "target_fraction": null,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "init_backbone_from": "/Users/katzegott/Desktop/烤箱——项目制课程/六类模型A候选v2_改进代码与权重/models/A_candidate_v2.pt"
+}

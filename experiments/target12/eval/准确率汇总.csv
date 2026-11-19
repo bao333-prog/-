@@ -1,0 +1,4 @@
+﻿模型,实验目录,最佳轮,验证集准确率,独立test准确率,test_macro_F1,test样本数,验证集样本数
+A′ gentle,experiments/runs/A_target12_gentle,16,96.75%,96.05%,95.91%,228,246
+B′ gentle_plus,experiments/runs/B_target12_gentle_plus,11,93.50%,87.72%,86.49%,228,246
+B+ gentle_plus lr3e-4,experiments/runs/B_target12_gentle_plus_lr3e4,17,97.56%,91.23%,88.59%,228,246
