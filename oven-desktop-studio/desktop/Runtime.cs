@@ -28,7 +28,17 @@ internal static class RuntimeFiles
             return BitConverter.ToString(sha.ComputeHash(stream)).Replace("-", "").ToLowerInvariant();
     }
 
+    private static readonly System.Collections.Generic.Dictionary<string,string> prepared = new System.Collections.Generic.Dictionary<string,string>();
     internal static string Prepare(string resource, string prefix)
+    {
+        lock (prepared) {
+            string path;
+            if (prepared.TryGetValue(resource, out path) && Directory.Exists(path)) return path;
+            return prepared[resource] = VerifyRuntime(resource, prefix);
+        }
+    }
+
+    private static string VerifyRuntime(string resource, string prefix)
     {
         using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resource))
         {

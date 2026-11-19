@@ -22,6 +22,15 @@ internal static class DatasetImport
                 string validationFile = Path.Combine(RuntimeFiles.Root, "validation-folder.txt");
                 string validation = File.Exists(validationFile) ? File.ReadAllText(validationFile).Trim() : "";
                 string validationArgs = Directory.Exists(validation) ? " --validation " + RuntimeFiles.Quote(validation) : "";
+                string setting = Path.Combine(RuntimeFiles.Root, "replay-base.txt");
+                string library = File.Exists(setting) ? File.ReadAllText(setting).Trim() : "";
+                if (!Directory.Exists(library)) {
+                    using (var picker = new FolderBrowserDialog { Description = "首次选择14类底库：含 train、val、test 三个目录，或 manifest.csv 及对应照片" }) {
+                        if (picker.ShowDialog(owner) != DialogResult.OK) return false;
+                        library = picker.SelectedPath;
+                    }
+                }
+                validationArgs += " --base " + RuntimeFiles.Quote(library);
                 var info = new System.Diagnostics.ProcessStartInfo(python,
                     RuntimeFiles.Quote(script) + " --source " + RuntimeFiles.Quote(source.SelectedPath) +
                     " --output " + RuntimeFiles.Quote(output) + validationArgs) {
@@ -34,9 +43,20 @@ internal static class DatasetImport
                 using (var process = System.Diagnostics.Process.Start(info)) {
                     var stdout = process.StandardOutput.ReadToEndAsync();
                     var stderr = process.StandardError.ReadToEndAsync();
-                    process.WaitForExit();
+                    using (var progress = new Form { Text = "准备训练数据", Width = 420, Height = 130,
+                        StartPosition = FormStartPosition.CenterParent, ControlBox = false }) {
+                        progress.Controls.Add(new Label { Text = "正在校验照片、整理训练和测试数据…", Dock = DockStyle.Fill, TextAlign = System.Drawing.ContentAlignment.MiddleCenter });
+                        progress.Controls.Add(new ProgressBar { Dock = DockStyle.Bottom, Style = ProgressBarStyle.Marquee });
+                        progress.Shown += async (s,e) => {
+                            await System.Threading.Tasks.Task.Run(() => process.WaitForExit());
+                            progress.Close();
+                        };
+                        progress.ShowDialog(owner);
+                    }
                     if (process.ExitCode != 0) throw new InvalidDataException(stderr.Result);
+                    if (MessageBox.Show(owner, stdout.Result.Trim() + "\n\n开始训练这个版本？", "训练前核对", MessageBoxButtons.YesNo) != DialogResult.Yes) return false;
                     Directory.CreateDirectory(RuntimeFiles.Root);
+                    File.WriteAllText(setting, library);
                     File.WriteAllText(Path.Combine(RuntimeFiles.Root, "training-settings.json"),
                         new JavaScriptSerializer().Serialize(new TrainingSettings {
                             samples = Path.Combine(output, "samples.zip"),
@@ -80,3 +100,5 @@ internal static class DatasetImport
         } finally { if (File.Exists(stage)) File.Delete(stage); }
     }
 }
+
+

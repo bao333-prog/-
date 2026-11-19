@@ -69,7 +69,7 @@ internal static class ModelLibrary
         } finally { if (Directory.Exists(staging)) Directory.Delete(staging, true); }
     }
 
-    internal static async Task<string> Manage(Form owner)
+    internal static async Task<string> Manage(Form owner, Action<Classifier> useReady)
     {
         using (var dialog = new Form { Text = "模型管理", Width = 760, Height = 420, StartPosition = FormStartPosition.CenterParent })
         {
@@ -107,18 +107,22 @@ internal static class ModelLibrary
             use.Click += async (sender, args) => {
                 if (working) return;
                 working = true;
+                Classifier probe = null;
                 try {
                     string folder = list.SelectedIndex == 0 ? null : (string)list.SelectedItem;
-                    Prediction result = await Task.Run(() => { using (var probe = new Classifier(folder)) return probe.Run(null); });
+                    probe = new Classifier(folder);
+                    details.Text = "正在加载所选模型…";
+                    Prediction result = await Task.Run(() => probe.Run(null));
                     string summary = "版本：" + result.modelVersion + "\n类别：" + String.Join("、", result.classes);
                     if (MessageBox.Show(dialog, summary + "\n使用这个版本？", "模型检查通过", MessageBoxButtons.YesNo) == DialogResult.Yes) {
                         Activate(folder);
+                        useReady(probe); probe = null;
                         chosen = folder ?? "";
                         working = false;
                         dialog.Close();
                     }
                 } catch (Exception ex) { details.Text = "启用失败：" + ex.Message; }
-                finally { working = false; }
+                finally { if (probe != null) probe.Dispose(); working = false; }
             };
             dialog.FormClosing += (sender, args) => { if (working) args.Cancel = true; };
             buttons.Controls.Add(import);

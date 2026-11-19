@@ -206,6 +206,12 @@ def train_experiment(config: ExperimentConfig) -> Path:
     )
 
     sampler = None
+    if getattr(config, "balance_sessions", False):
+        from collections import Counter
+        batches = Counter((r.food_label, r.session_id) for r in train_records)
+        groups = Counter(label for label, session in batches)
+        weights = [1 / (groups[r.food_label] * batches[r.food_label, r.session_id]) for r in train_records]
+        sampler = WeightedRandomSampler(weights, len(weights), replacement=True, generator=torch.Generator().manual_seed(config.seed))
     if config.target_fraction is not None:
         sampler = _weighted_sampler(
             train_records, config.target_fraction, torch, WeightedRandomSampler
@@ -291,6 +297,8 @@ def train_experiment(config: ExperimentConfig) -> Path:
     # 一轮(epoch)遍历一次训练加载器；验证只检查表现，不更新模型参数。
     for epoch in range(1, config.epochs + 1):
         model.train()
+        if config.freeze_backbone:
+            model.features.eval()
         train_loss_sum = 0.0
         train_loss_mass = 0.0
         distillation_sum = 0.0
@@ -410,4 +418,5 @@ def _validate_epoch(model, loader, criterion, device, torch) -> tuple[float, flo
             correct += (logits.argmax(dim=1) == labels).sum().item()
             count += labels.size(0)
     return loss_sum / count, correct / count
+
 

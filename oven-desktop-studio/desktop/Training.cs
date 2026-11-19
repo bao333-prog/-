@@ -98,6 +98,7 @@ internal static class Training
                 RedirectStandardOutput = true, RedirectStandardError = true,
                 WorkingDirectory = workspace
             };
+            info.EnvironmentVariables["OVENDESK_COMPARE_MODEL"] = ModelLibrary.Active() ?? RuntimeFiles.Prepare("OvenDesk.DesktopAI.zip", "ai");
             info.EnvironmentVariables["PYTHONUTF8"] = "1";
             using (var dialog = new Form { Text = "训练进度", Width = 850, Height = 600, StartPosition = FormStartPosition.CenterParent })
             using (var process = new Process { StartInfo = info, EnableRaisingEvents = true })
@@ -156,3 +157,4 @@ internal static class Training
         }
     }
 }
+

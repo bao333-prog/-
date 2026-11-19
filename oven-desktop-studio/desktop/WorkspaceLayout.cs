@@ -60,15 +60,16 @@ internal static class WorkspaceLayout
         };
         left.Controls.Add(preview, 0, 0);
         left.Controls.Add(camera, 0, 1);
-        var device = Grid(2);
-        var actions = Grid(4);
+        var device = Grid(3);
+        var actions = Grid(3);
         Func<string, Control> take = name => commands.Controls.Cast<Control>().First(c => c.Text == name);
         var cameras = commands.Controls.OfType<ComboBox>().Single();
         cameras.Anchor = AnchorStyles.Left | AnchorStyles.Right;
         device.Controls.Add(cameras, 0, 0);
         device.Controls.Add(take("打开 / 关闭摄像头"), 1, 0);
+        device.Controls.Add(take("实时识别"), 2, 0);
         int col = 0;
-        foreach (var name in new[] { "打开图片", "拍照并定格", "识别这张", "重新拍摄" })
+        foreach (var name in new[] { "打开图片", "识别并拍照", "照片参数" })
             actions.Controls.Add(take(name), col++, 0);
         left.Controls.Add(device, 0, 2); left.Controls.Add(actions, 0, 3); root.Controls.Add(left, 0, 1);
 
@@ -114,5 +115,7 @@ internal static class WorkspaceLayout
         form.Controls.Remove(old); old.Dispose(); form.Controls.Add(root);
     }
 }
+
+
 
 

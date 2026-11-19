@@ -77,6 +77,16 @@ internal sealed class Desk : Form
     private readonly Button export;
     private CameraStream camera;
     private byte[] displayed;
+    private int brightness, contrast = 100, liveGeneration;
+    private decimal exposureEv;
+    private int saturation = 100;
+    private bool OriginalColors { get { return brightness == 0 && contrast == 100 && exposureEv == 0 && saturation == 100; } }
+    private string openedPhoto;
+    private byte[] frozenFrame;
+    private bool liveRunning;
+    private DateTime nextLive;
+    private readonly CheckBox live = new CheckBox { Text = "实时识别", AutoSize = true, Anchor = AnchorStyles.Left };
+    private bool reviewing;
     private bool wantsCamera;
     private bool busy;
     private bool updatingDevices;
@@ -109,22 +119,37 @@ internal sealed class Desk : Form
                 if (dialog.ShowDialog(this) == DialogResult.OK) await OpenImage(dialog.FileName);
         }));
         commands.Controls.Add(cameras);
+        commands.Controls.Add(live);
+        commands.Controls.Add(Button("照片参数", EditPhoto));
+        live.CheckedChanged += async (s,e) => {
+            liveGeneration++;
+            if (!live.Checked) { cameraStatus.Text = "实时识别已关闭"; return; }
+            if (busy) { live.Checked = false; return; }
+            reviewing = false; SetPrediction(null);
+            wantsCamera = true;
+            try { if (camera == null && !openingCamera) await StartCamera(); }
+            catch (Exception ex) { live.Checked = false; status.Text = ex.Message; }
+        };
         commands.Controls.Add(Button("打开 / 关闭摄像头", async () => {
             wantsCamera = !wantsCamera;
             if (!wantsCamera) { StopCamera(); status.Text = "摄像头已关闭。"; return; }
             SetPrediction(null);
             await StartCamera();
         }));
-        capture = Button("拍照并定格", CapturePhoto);
+        capture = Button("识别并拍照", CapturePhoto);
         capture.Enabled = false;
         commands.Controls.Add(capture);
-        commands.Controls.Add(Button("识别这张", async () => {
-            if (inputPath == null) throw new InvalidOperationException("请先打开图片或拍照。");
-            busy = true;
-            try { await Recognize(inputPath, "当前照片"); } finally { busy = false; }
-        }));
-        commands.Controls.Add(Button("重新拍摄", async () => { wantsCamera = true; SetPrediction(null); await StartCamera(); }));
         commands.Controls.Add(Button("检查程序", SelfTest));
+        commands.Controls.Add(Button("选择训练底库", () => {
+            using (var picker = new FolderBrowserDialog { Description = "选择含 train、val、test 或 manifest.csv 的14类原始数据集" }) {
+                if (picker.ShowDialog(this) == DialogResult.OK) {
+                    Directory.CreateDirectory(RuntimeFiles.Root);
+                    File.WriteAllText(Path.Combine(RuntimeFiles.Root,"replay-base.txt"),picker.SelectedPath);
+                    status.Text = "训练底库：" + picker.SelectedPath;
+                }
+            }
+            return Task.FromResult(0);
+        }));
         commands.Controls.Add(Button("验证集", () => {
             using (var options = new Form { Text = "验证集", Width = 400, Height = 155, StartPosition = FormStartPosition.CenterParent }) {
                 var row = new FlowLayoutPanel { Dock = DockStyle.Fill };
@@ -133,7 +158,7 @@ internal sealed class Desk : Form
                 options.Controls.Add(row);
                 var choice = options.ShowDialog(this);
                 if (choice == DialogResult.Yes) {
-                    wantsCamera = false; StopCamera(); Collection.Show(this, true);
+                    wantsCamera = false; StopCamera(); Collection.Show(this, true, false, cameras.SelectedItem as CameraDevice);
                     return Task.FromResult(0);
                 }
                 if (choice != DialogResult.No) return Task.FromResult(0);
@@ -151,12 +176,12 @@ internal sealed class Desk : Form
             wantsCamera = false;
             StopCamera();
             Training.ModelAdded = false;
-            Collection.Show(this, false, true);
+            Collection.Show(this, false, true, cameras.SelectedItem as CameraDevice);
             if (Training.ModelAdded) status.Text = "新模型已加入模型管理，可手动切换。";
             return Task.FromResult(0);
         }));
         commands.Controls.Add(Button("普通拍照", () => {
-            wantsCamera = false; StopCamera(); Collection.Show(this);
+            wantsCamera = false; StopCamera(); Collection.Show(this, false, false, cameras.SelectedItem as CameraDevice);
             return Task.FromResult(0);
         }));
         commands.Controls.Add(Button("选择数据集并训练", () => {
@@ -170,10 +195,8 @@ internal sealed class Desk : Form
         commands.Controls.Add(Button("模型管理 / 切换版本", async () => {
             busy = true;
             try {
-                string chosen = await ModelLibrary.Manage(this);
+                string chosen = await ModelLibrary.Manage(this, ready => { var previous = classifier; classifier = ready; previous.Dispose(); });
                 if (chosen != null) {
-                    classifier.Dispose();
-                    classifier = new Classifier();
                     ingredient.Items.Clear(); ingredient.Items.AddRange(ModelLibrary.FoodNames());
                     SetPrediction(null);
                     status.Text = "模型已切换，请重新选择图片或拍摄。当前：" + (chosen.Length == 0 ? "内置模型" : Path.GetFileName(chosen));
@@ -252,10 +275,12 @@ internal sealed class Desk : Form
             try { await Tick(); }
             catch (Exception ex) { status.Text = ex.Message; }
         };
-        Shown += (sender, args) => {
-            try { RefreshDevices(); }
+        Shown += async (sender, args) => {
+            try { await RefreshDevices(); }
             catch (Exception ex) { status.Text = "无法枚举摄像头。 " + ex.Message; }
             timer.Start();
+            try { cameraRuntime = await Task.Run(() => RuntimeFiles.Prepare("OvenDesk.DesktopAI.zip", "ai")); }
+            catch (Exception ex) { if (!IsDisposed) cameraStatus.Text = ex.Message; }
         };
         FormClosing += (sender, args) => {
             if (busy) { args.Cancel = true; status.Text = "请等当前识别完成。"; }
@@ -297,8 +322,9 @@ internal sealed class Desk : Form
         try
         {
             status.Text = "正在读取图片…";
-            ReplacePreview(await Task.Run(() => ReadImage(path)));
-            inputPath = Records.Snapshot(path);
+            openedPhoto = path;
+            using (var original = await Task.Run(() => ReadImage(path))) ReplacePreview(Adjust(original));
+            inputPath = OriginalColors ? Records.Snapshot(path) : SnapshotPreview();
             await Recognize(inputPath, Path.GetFileName(path));
         }
         finally { busy = false; }
@@ -341,10 +367,15 @@ internal sealed class Desk : Form
         if (image != null && !wantsCamera) quality.Text = Records.Quality(image);
     }
 
-    private void RefreshDevices()
+    private bool enumerating;
+    private async Task RefreshDevices()
     {
+        if (enumerating) return;
+        enumerating = true;
+        System.Collections.Generic.List<CameraDevice> devices;
+        try { devices = await Task.Run(() => Cameras.List()); } finally { enumerating = false; }
+        if (IsDisposed) return;
         var selected = cameras.SelectedItem as CameraDevice;
-        var devices = Cameras.List();
         if (cameras.Items.Cast<CameraDevice>().Select(d => d.Id).SequenceEqual(devices.Select(d => d.Id)))
             return;
         updatingDevices = true;
@@ -382,8 +413,76 @@ internal sealed class Desk : Form
         }
     }
 
+    private Bitmap Adjust(Image source)
+    {
+        if (OriginalColors) return new Bitmap(source);
+        float scale = contrast / 100f, shift = brightness / 100f + (1 - scale) / 2;
+        var matrix = new System.Drawing.Imaging.ColorMatrix();
+        // Approximate linear-light exposure for the gamma-encoded camera image.
+        scale *= (float)Math.Pow(2, (double)exposureEv / 2.2);
+        float chroma = saturation / 100f;
+        float gray = scale * (1 - chroma);
+        matrix.Matrix00 = matrix.Matrix01 = matrix.Matrix02 = gray * 0.2126f;
+        matrix.Matrix10 = matrix.Matrix11 = matrix.Matrix12 = gray * 0.7152f;
+        matrix.Matrix20 = matrix.Matrix21 = matrix.Matrix22 = gray * 0.0722f;
+        matrix.Matrix00 += scale * chroma; matrix.Matrix11 += scale * chroma; matrix.Matrix22 += scale * chroma;
+        matrix.Matrix40 = matrix.Matrix41 = matrix.Matrix42 = shift;
+        var result = new Bitmap(source.Width, source.Height);
+        using (var graphics = Graphics.FromImage(result))
+        using (var attr = new System.Drawing.Imaging.ImageAttributes()) {
+            attr.SetColorMatrix(matrix);
+            graphics.DrawImage(source, new Rectangle(Point.Empty, result.Size), 0, 0, source.Width, source.Height, GraphicsUnit.Pixel, attr);
+        }
+        return result;
+    }
+
+    private string SnapshotPreview()
+    {
+        string path = Path.GetTempFileName();
+        try { preview.Image.Save(path, System.Drawing.Imaging.ImageFormat.Png); return Records.Snapshot(path); }
+        finally { File.Delete(path); }
+    }
+
+    private async Task EditPhoto()
+    {
+        using (var dialog = new Form { Text = "照片参数", Width = 450, Height = 405, StartPosition = FormStartPosition.CenterParent })
+        using (var panel = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 135, AutoScroll = true })
+        using (var sample = new PictureBox { Dock = DockStyle.Fill, SizeMode = PictureBoxSizeMode.Zoom })
+        using (var stream = new MemoryStream(frozenFrame ?? displayed ?? new byte[0]))
+        using (var original = openedPhoto != null ? ReadImage(openedPhoto) : stream.Length > 0 ? Image.FromStream(stream) : null) {
+            var light = new NumericUpDown { Minimum = -75, Maximum = 75, Value = brightness, Width = 65 };
+            var gain = new NumericUpDown { Minimum = 25, Maximum = 200, Value = contrast, Width = 68 };
+            var exposure = new NumericUpDown { Minimum = -3, Maximum = 3, DecimalPlaces = 1, Increment = 0.1m, Value = exposureEv, Width = 68 };
+            var color = new NumericUpDown { Minimum = 0, Maximum = 200, Value = saturation, Width = 68 };
+            decimal oldEv = exposureEv;
+            int oldColor = saturation;
+            int oldLight = brightness, oldGain = contrast;
+            Action refresh = () => {
+                brightness = (int)light.Value; contrast = (int)gain.Value; exposureEv = exposure.Value; saturation = (int)color.Value;
+                if (original != null) { var old = sample.Image; sample.Image = Adjust(original); if (old != null) old.Dispose(); }
+            };
+            var reset = new Button { Text = "恢复默认", AutoSize = true };
+            reset.Click += (s,e) => { light.Value = 0; gain.Value = 100; exposure.Value = 0; color.Value = 100; };
+            exposure.ValueChanged += (s,e) => refresh(); color.ValueChanged += (s,e) => refresh();
+            light.ValueChanged += (s,e) => refresh(); gain.ValueChanged += (s,e) => refresh();
+            panel.Controls.AddRange(new Control[] { new Label { Text = "亮度", AutoSize = true }, light, new Label { Text = "对比度 %", AutoSize = true }, gain, new Label { Text = "曝光补偿 EV", AutoSize = true }, exposure, new Label { Text = "饱和度 %", AutoSize = true }, color, reset, new Button { Text = "应用", DialogResult = DialogResult.OK } });
+            dialog.Controls.Add(sample); dialog.Controls.Add(panel);
+            busy = true;
+            try {
+                refresh();
+                if (dialog.ShowDialog(this) != DialogResult.OK) { brightness = oldLight; contrast = oldGain; exposureEv = oldEv; saturation = oldColor; return; }
+                liveGeneration++;
+                if (original != null && (reviewing || openedPhoto != null)) {
+                    ReplacePreview(Adjust(original)); inputPath = SnapshotPreview(); await Recognize(inputPath, "调整后的照片");
+                }
+            } finally { busy = false; if (sample.Image != null) sample.Image.Dispose(); }
+        }
+    }
+
     private void StopCamera()
     {
+        reviewing = false;
+        openedPhoto = null; frozenFrame = null; liveGeneration++;
         cameraRequest++;
         openingCamera = false;
         if (camera != null) { camera.Dispose(); camera = null; }
@@ -398,7 +497,8 @@ internal sealed class Desk : Form
         if (deviceRefresh.ElapsedMilliseconds >= 1000)
         {
             deviceRefresh.Restart();
-            RefreshDevices();
+            await RefreshDevices();
+            if (IsDisposed || !wantsCamera || busy) return;
         }
         if (camera == null)
         {
@@ -416,14 +516,36 @@ internal sealed class Desk : Form
             return;
         }
         cameraStatus.Text = "摄像头已连接，画面正常";
+        if (reviewing) { cameraStatus.Text = "摄像头已连接 · 正在查看已拍照片"; return; }
         if (ReferenceEquals(frame, displayed)) return;
         using (var stream = new MemoryStream(frame))
         using (var image = Image.FromStream(stream))
-            ReplacePreview(new Bitmap(image));
+            ReplacePreview(Adjust(image));
         displayed = frame;
+        if (live.Checked && !liveRunning && DateTime.UtcNow >= nextLive) {
+            liveRunning = true;
+            int generation = liveGeneration;
+            string temp = Path.GetTempFileName();
+            try {
+                var worker = classifier;
+                using (var adjusted = OriginalColors ? null : new Bitmap(preview.Image)) {
+                    var prediction = await Task.Run(() => {
+                        if (adjusted == null) File.WriteAllBytes(temp, frame);
+                        else adjusted.Save(temp, System.Drawing.Imaging.ImageFormat.Png);
+                        return worker.Run(temp);
+                    });
+                if (!IsDisposed && !busy && !reviewing && live.Checked && generation == liveGeneration && worker == classifier) {
+                    var top = prediction.candidates[0];
+                    status.Text = "实时 · " + top.name + "  " + top.score.ToString("P0") +
+                        (top.score < 0.65 || top.score - prediction.candidates[1].score < 0.15 ? "（待确认）" : "");
+                }
+                }
+            } catch (Exception ex) { if (!IsDisposed && generation == liveGeneration) { live.Checked = false; status.Text = ex.Message; } }
+            finally { File.Delete(temp); nextLive = DateTime.UtcNow.AddSeconds(1); liveRunning = false; }
+        }
     }
 
-    private Task CapturePhoto()
+    private async Task CapturePhoto()
     {
         byte[] frame = camera == null ? null : camera.FreshFrame();
         if (frame == null) throw new InvalidOperationException("请等摄像头恢复画面后再拍摄。");
@@ -435,21 +557,21 @@ internal sealed class Desk : Form
             File.WriteAllBytes(temp, frame);
             using (var stream = new MemoryStream(frame))
             using (var image = Image.FromStream(stream))
-                ReplacePreview(new Bitmap(image));
-            inputPath = Records.Snapshot(temp);
+                ReplacePreview(Adjust(image));
+            frozenFrame = frame; openedPhoto = null; liveGeneration++;
+            inputPath = OriginalColors ? Records.Snapshot(temp) : SnapshotPreview();
             var selectedDevice = cameras.SelectedItem as CameraDevice;
             sampleFields.SetDevice(selectedDevice == null ? "" : selectedDevice.Name + " | " + selectedDevice.Id);
-            wantsCamera = false;
-            StopCamera();
+            reviewing = true;
+            cameraStatus.Text = "摄像头已连接 · 正在查看已拍照片";
             quality.Text = Records.Quality(preview.Image);
-            status.Text = "照片已定格，点击“识别这张”，或重新拍摄。";
+            await Recognize(inputPath, "摄像头拍照");
         }
         finally
         {
             busy = false;
             File.Delete(temp);
         }
-        return Task.FromResult(0);
     }
 
     private async Task Recognize(string path, string description)
@@ -574,5 +696,9 @@ internal sealed class Desk : Form
         diagnosticImage = null;
     }
 }
+
+
+
+
 
 

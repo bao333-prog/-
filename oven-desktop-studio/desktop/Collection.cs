@@ -6,7 +6,7 @@ using System.Web.Script.Serialization;
 
 internal static class Collection
 {
-    internal static void Show(Form owner, bool validation = false, bool training = false)
+    internal static void Show(Form owner, bool validation = false, bool training = false, CameraDevice preferred = null)
     {
         using (var form = new Form { Text = validation ? "采集验证照片" : training ? "拍照并训练" : "普通拍照", Width = 850, Height = 650, StartPosition = FormStartPosition.CenterParent })
         {
@@ -17,7 +17,7 @@ internal static class Collection
             var count = new NumericUpDown { Minimum = 1, Maximum = 10000, Value = 30 };
             var status = new Label { AutoSize = true, Text = "填写正确食材名称，拍摄不同摆放和批次。" };
             var fields = new SampleFields { Dock = DockStyle.None, Width = 780 };
-            var save = new Button { Text = "拍照并保存", AutoSize = true };
+            var save = new Button { Text = "单拍一张", AutoSize = true };
             var train = new Button { Text = "用已确认照片训练新版本", AutoSize = true, Enabled = false };
             var folder = new Button { Text = "选择保存文件夹", AutoSize = true };
             var batch = new Button { Text = "开始新拍摄批次", AutoSize = true };
@@ -63,7 +63,10 @@ internal static class Collection
                             review.Controls.Add(new PictureBox { Dock = DockStyle.Fill, Image = frozen, SizeMode = PictureBoxSizeMode.Zoom });
                             review.Controls.Add(new Button { Text = "确认是“" + name + "”，加入训练集", Dock = DockStyle.Bottom, Height = 42, DialogResult = DialogResult.OK });
                             review.Controls.Add(new Button { Text = "放弃这张", Dock = DockStyle.Bottom, DialogResult = DialogResult.Cancel });
-                            if (review.ShowDialog(form) != DialogResult.OK) return;
+                            bool resume = shots.Enabled;
+                            shots.Stop();
+                            if (review.ShowDialog(form) != DialogResult.OK) { stop(); return; }
+                            if (resume) shots.Start();
                         }
                     }
                     Directory.CreateDirectory(target);
@@ -86,7 +89,7 @@ internal static class Collection
                 burst.Text = "暂停连拍"; shots.Start(); save.PerformClick();
             };
             shots.Tick += (s,e) => save.PerformClick();
-            burst.Visible = interval.Visible = !training; train.Visible = training; train.Enabled = training && Directory.Exists(location.Text);
+            train.Visible = training; train.Enabled = training && Directory.Exists(location.Text);
             count.ValueChanged += (sender, args) => train.Enabled = training && Directory.Exists(location.Text);
             train.Click += (sender, args) => {
                 stop();
@@ -106,12 +109,14 @@ internal static class Collection
             };
             form.Shown += async (sender, args) => {
                 try {
-                    var devices = Cameras.List();
+                    var devices = await System.Threading.Tasks.Task.Run(() => Cameras.List());
                     if (devices.Count == 0) throw new IOException("未找到摄像头。");
                     string runtime = await System.Threading.Tasks.Task.Run(() => RuntimeFiles.Prepare("OvenDesk.DesktopAI.zip", "ai"));
                     if (form.IsDisposed) return;
-                    deviceIndex = devices[0].Index; camera = new CameraStream(runtime, deviceIndex);
-                    fields.SetDevice(devices[0].Name);
+                    var selected = preferred == null ? devices[0] : devices.Find(d => d.Id == preferred.Id);
+                    if (selected == null) throw new IOException("所选摄像头已断开，请重新连接。");
+                    deviceIndex = selected.Index; camera = new CameraStream(runtime, deviceIndex);
+                    fields.SetDevice(selected.Name);
                     timer.Start();
                 } catch (Exception ex) { status.Text = ex.Message; }
             };
@@ -121,6 +126,7 @@ internal static class Collection
         }
     }
 }
+
 
 
 

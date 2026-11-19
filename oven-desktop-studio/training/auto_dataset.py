@@ -73,6 +73,13 @@ def prepare(source, output, validation=None):
     train = sum(splits[item[3]] == "train" for item in items)
     warning = "" if all(item[4] for item in items) else "\n部分照片没有拍摄批次，已按图片划分；连拍或相似图片仍可能跨集合，验证成绩需谨慎使用。"
     message = f"整理完成，去重后共 {len(items)} 张。训练 {train} 张，验证 {len(items)-train} 张。" + warning
+    from collections import Counter
+    totals = Counter((row[1], splits[row[3]]) for row in items)
+    labels = sorted({row[1] for row in items})
+    message += "\n" + "\n".join(f"{label}：训练 {totals[label, 'train']} 张，验证 {totals[label, 'val']} 张" for label in labels)
+    if len({label for label in labels if totals[label, 'train']}) == 1:
+        message += "\n本次只训练一种食材，其他食材的识别能力可能退步。"
+    message += "\n以上为训练和验证数据，本流程未使用独立测试集。"
     (output / "summary.txt").write_text(message, encoding="utf-8")
     return message
 
@@ -82,11 +89,15 @@ if __name__ == "__main__":
     parser.add_argument("--source", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--validation", type=Path)
+    parser.add_argument("--base", type=Path)
+    from replay import prepare
     args = parser.parse_args()
     try:
-        print(prepare(args.source, args.output, args.validation))
+        print(prepare(args.source, args.output, args.validation, args.base))
     except (ValueError, OSError) as error:
         print(str(error), file=__import__("sys").stderr)
         raise SystemExit(1)
+
+
 
 

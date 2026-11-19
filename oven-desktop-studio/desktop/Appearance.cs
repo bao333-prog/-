@@ -20,9 +20,8 @@ internal static class Appearance
         { "开始训练", "依次选择素材包、批次文件、起点权重和输出位置。" },
         { "打开图片", "选择食材照片，程序会显示照片并开始识别。也可以把照片拖入画面。" },
         { "打开 / 关闭摄像头", "打开摄像头预览；再次点击即可关闭。" },
-        { "拍照并定格", "保存当前画面。检查照片清楚后，再点“识别这张”。" },
+        { "识别并拍照", "拍下当前画面并识别。再次点击可拍下一张。" },
         { "识别这张", "让当前模型识别这张照片。看错时可以修改食材名称。" },
-        { "重新拍摄", "恢复摄像头画面，重新拍一张照片。" },
         { "检查程序", "检查模型能否运行、摄像头能否返回画面，并显示每一步的结果。" },
         { "训练与升级", "用已确认的照片继续训练，生成新模型和对比报告。需要训练环境、素材包及批次划分文件。" },
         { "模型管理 / 切换版本", "导入新版 ONNX 模型包并切换。只有内置模型时，需先导入新版本才能比较或切换。" },
@@ -53,7 +52,7 @@ internal static class Appearance
                 button.FlatAppearance.BorderSize = 0;
                 string name = button.Text;
                 Color fill = Color.FromArgb(240, 242, 245), ink = Color.FromArgb(48, 55, 67);
-                if (name == "识别这张") { fill = Color.FromArgb(166, 66, 33); ink = Color.White; }
+                if (name == "识别并拍照") { fill = Color.FromArgb(166, 66, 33); ink = Color.White; }
                 else if (name == "确认并保存训练素材") { fill = Color.FromArgb(30, 107, 93); ink = Color.White; }
                 else if (name.Contains("训练") || name.Contains("模型") || name == "验证集") {
                     fill = Color.FromArgb(236, 231, 250); ink = Color.FromArgb(77, 59, 129);

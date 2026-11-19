@@ -38,6 +38,7 @@ class ExperimentConfig:
     seed: int = 42
     device: str = "auto"
     pretrained: bool = True
+    balance_sessions: bool = False
     freeze_backbone: bool = False
     target_fraction: float | None = None
     # 旧配置保持原有行为；新候选显式启用补边和按训练样本数计算的类别权重。
@@ -168,4 +169,5 @@ def _validate_config(config: ExperimentConfig) -> None:
             raise ConfigError(f"{name} must be positive")
     if config.num_workers < 0 or config.weight_decay < 0:
         raise ConfigError("num_workers and weight_decay must be nonnegative")
+
 

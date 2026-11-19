@@ -84,7 +84,7 @@ def main():
         train_environments=("target",), validation_environments=("target",),
         augmentation="gentle", model_name=parent["model_name"], image_size=size,
         batch_size=batch_size, epochs=args.epochs, learning_rate=0.0001, device="cpu",
-        pretrained=False, resize_mode=resize, freeze_backbone=True,
+        pretrained=False, resize_mode=resize, freeze_backbone=True, balance_sessions=True,
     )
     best = train_experiment(config)
 
@@ -133,6 +133,12 @@ def main():
     metadata = {"names": names, "size": size, "resize_mode": resize, "mean": mean.tolist(), "std": std.tolist(),
                 "version": "confirmed-" + datetime.now().strftime("%Y%m%d-%H%M%S")}
     (args.output / "food.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+    heldout = args.samples.parent / "heldout.json"
+    if heldout.exists():
+        import os
+        from replay import evaluate
+        current = Path(os.environ.get("OVENDESK_COMPARE_MODEL", str(Path(__file__).resolve().parents[1] / "model")))
+        evaluate(heldout, current, args.output)
     with zipfile.ZipFile(args.output / "model-package.zip", "w", zipfile.ZIP_DEFLATED) as archive:
         for name in ("food.onnx", "food.json", "comparison.json"):
             archive.write(args.output / name, name)
@@ -141,3 +147,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
