@@ -1,0 +1,8 @@
+/build/
+__pycache__/
+*.pyc
+/OvenDesk.il.txt
+/training/.venv/
+
+/training-runs/
+*.lnk
