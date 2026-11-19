@@ -1,0 +1,21 @@
+{"epoch": 1, "train_loss": 1.4470882196926758, "validation_loss": 1.331675929630675, "validation_accuracy": 0.4796747967479675}
+{"epoch": 2, "train_loss": 0.23246477556719913, "validation_loss": 0.7260449436356927, "validation_accuracy": 0.7439024390243902}
+{"epoch": 3, "train_loss": 0.09301198185967507, "validation_loss": 0.23145010860729584, "validation_accuracy": 0.9227642276422764}
+{"epoch": 4, "train_loss": 0.04436713302745409, "validation_loss": 0.24723970712866725, "validation_accuracy": 0.9308943089430894}
+{"epoch": 5, "train_loss": 0.10466474468142649, "validation_loss": 0.37550401930343286, "validation_accuracy": 0.8739837398373984}
+{"epoch": 6, "train_loss": 0.05520024617787844, "validation_loss": 0.27884237904330567, "validation_accuracy": 0.9349593495934959}
+{"epoch": 7, "train_loss": 0.049834873480720014, "validation_loss": 0.7214607489775635, "validation_accuracy": 0.8333333333333334}
+{"epoch": 8, "train_loss": 0.04633465847305926, "validation_loss": 0.16767741226386734, "validation_accuracy": 0.9390243902439024}
+{"epoch": 9, "train_loss": 0.02010918426889835, "validation_loss": 0.26537877640864865, "validation_accuracy": 0.8902439024390244}
+{"epoch": 10, "train_loss": 0.023130478741541532, "validation_loss": 0.34815010488150655, "validation_accuracy": 0.8577235772357723}
+{"epoch": 11, "train_loss": 0.019303025213607668, "validation_loss": 0.12771407114372615, "validation_accuracy": 0.9512195121951219}
+{"epoch": 12, "train_loss": 0.021200507025423015, "validation_loss": 0.13112205224743087, "validation_accuracy": 0.9512195121951219}
+{"epoch": 13, "train_loss": 0.01097589207779202, "validation_loss": 0.13136739453258583, "validation_accuracy": 0.959349593495935}
+{"epoch": 14, "train_loss": 0.035536259790465, "validation_loss": 0.2581582299605905, "validation_accuracy": 0.9105691056910569}
+{"epoch": 15, "train_loss": 0.010505053914576078, "validation_loss": 0.15888969426987573, "validation_accuracy": 0.9308943089430894}
+{"epoch": 16, "train_loss": 0.012621536285577158, "validation_loss": 0.10403840999693079, "validation_accuracy": 0.967479674796748}
+{"epoch": 17, "train_loss": 0.010067047169049985, "validation_loss": 0.1435158144232128, "validation_accuracy": 0.9471544715447154}
+{"epoch": 18, "train_loss": 0.050650133304803016, "validation_loss": 0.6259356041011075, "validation_accuracy": 0.8699186991869918}
+{"epoch": 19, "train_loss": 0.02856768222074394, "validation_loss": 0.43546384657253756, "validation_accuracy": 0.8658536585365854}
+{"epoch": 20, "train_loss": 0.021526243658083134, "validation_loss": 0.12173452619316504, "validation_accuracy": 0.9552845528455285}
+Best checkpoint: /Users/katzegott/Desktop/烤箱——项目制课程/experiments/runs/A_target12_gentle/best.pt
