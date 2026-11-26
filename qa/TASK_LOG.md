@@ -35,6 +35,8 @@
 | ---: | --- | --- |
 | 57 | `057_wings_wings_mid_have_single_0004.jpg` | 框完全偏离目标，框内只有空锡纸；画面右下方的鸡翅位于框外，未得到有效标注。 |
 
+证据图：[057_wings_wings_mid_have_single_0004.jpg](evidence/057_wings_wings_mid_have_single_0004.jpg)
+
 ## 说明
 
 - 本次质检只评估标注框与食物目标的对应关系，不评价图片清晰度、曝光或食物状态。
