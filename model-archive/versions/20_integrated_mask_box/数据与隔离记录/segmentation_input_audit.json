@@ -1,0 +1,109 @@
+{
+  "clean_inventory_rows": {
+    "train": 5470,
+    "validation": 193,
+    "test": 167
+  },
+  "selected_unique_real_sources": 2011,
+  "selected_sources_by_label": {
+    "香肠": 184,
+    "鸡翅": 240,
+    "可颂": 132,
+    "三文鱼": 118,
+    "芦笋": 219,
+    "薯条": 554,
+    "西兰花": 409,
+    "玉米": 40,
+    "土豆": 38,
+    "吐司": 40,
+    "培根": 37
+  },
+  "mask_usage_unique_sources": {
+    "full_food_only": 1641,
+    "visible_bbox_only": 197,
+    "forbidden_for_rotation": 3,
+    "none": 170
+  },
+  "sources_with_boxes": 2011,
+  "latest_explicit_boxes": 50,
+  "obvious_omission_old_masks_forbidden_for_rotation": [
+    "0147_7dd406db8b8e",
+    "1191_4163efe0b2b8",
+    "1241_bf917ec8f060"
+  ],
+  "formal_320": {
+    "accepted": 266,
+    "previous_91_quarantine": 10,
+    "previous_quality_hand_occlusion": 4,
+    "previous_first_batch_beef_exclusion": 40
+  },
+  "synthetic_samples": 94,
+  "synthetic_unique_sources": 47,
+  "synthetic_replaced": 6,
+  "synthetic_label_counts": {
+    "薯条": 22,
+    "西兰花": 24,
+    "芦笋": 24,
+    "三文鱼": 24
+  },
+  "catalog_outcomes": {
+    "three": {
+      "full_food_only": 542,
+      "unverified_mask": 211,
+      "source_not_in_clean_training_gate": 18
+    },
+    "four_final": {
+      "unresolved_mask": 66,
+      "full_food_only": 1100,
+      "visible_bbox_only": 197,
+      "forbidden_for_rotation": 3,
+      "source_not_in_clean_training_gate": 34
+    },
+    "formal_320": {
+      "accepted": 266,
+      "previous_91_quarantine": 10,
+      "previous_quality_hand_occlusion": 4,
+      "previous_first_batch_beef_exclusion": 40
+    }
+  },
+  "issues": [],
+  "rejected_annotation_count": 383,
+  "rejected_reasons": {
+    "unverified_mask": 211,
+    "source_not_in_clean_training_gate": 52,
+    "unresolved_mask": 66,
+    "previous_91_quarantine": 10,
+    "previous_quality_hand_occlusion": 4,
+    "previous_first_batch_beef_exclusion": 40
+  },
+  "cross_split_sources_selected": 0,
+  "source_gate_cross_split_overlaps": {
+    "raw_sha256": {
+      "train/validation": 0,
+      "train/test": 0,
+      "validation/test": 0
+    },
+    "input_sha256": {
+      "train/validation": 0,
+      "train/test": 0,
+      "validation/test": 0
+    },
+    "pixel_sha256": {
+      "train/validation": 0,
+      "train/test": 0,
+      "validation/test": 0
+    },
+    "source_session": {
+      "train/validation": 0,
+      "train/test": 0,
+      "validation/test": 0
+    },
+    "sampling_group": {
+      "train/validation": 0,
+      "train/test": 0,
+      "validation/test": 0
+    }
+  },
+  "independence_limit": "Unique file identity is not proof of independent physical food specimens; sampling/source groups are inherited.",
+  "raw_empty_sha_rows_not_deduplicated_as_photos": 1744
+}

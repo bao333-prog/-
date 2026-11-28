@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "files_hashed": 745,
-  "original_delivery_members": 615,
-  "trained_versions": 13,
+  "files_hashed": 1582,
+  "original_delivery_members": 1399,
+  "trained_versions": 25,
   "untrained_auxiliary": 1,
   "test_set_scored": false,
   "model_checks": [
@@ -13,7 +13,9 @@
       "epoch": 8,
       "parameters": 1524006,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "603aa73b9f4c3eac58ce03acc62590778aa9a58adada88cc817b6d599f314f2a",
+      "prediction_source_sha256": "b187d5645a5d682bb15dda2fc95552621b9a057d9f714eba0b74d476ac9eb54f"
     },
     {
       "id": "01_formal_A",
@@ -22,7 +24,9 @@
       "epoch": 1,
       "parameters": 1524006,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "b5e14dcdcd1232749cd5e219ef38b712c46b122e7767e09551bab81ae363a6b7",
+      "prediction_source_sha256": "d23c08e8ac991aedf6051eaad1acb6bbda43de3a7d0961ac59d7bf8723275fe1"
     },
     {
       "id": "02_A_candidate_v2",
@@ -31,7 +35,9 @@
       "epoch": 9,
       "parameters": 1524006,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "7594d45fd8a2a8bf05452bac0311c144c3dbb74a7d8aef7847b5e2774843112b",
+      "prediction_source_sha256": "c55548d844be874887ce18e7b65ddcfd4b46e53f9ae83e2ec441ded00d9d6e45"
     },
     {
       "id": "03_increment_B",
@@ -40,7 +46,9 @@
       "epoch": 7,
       "parameters": 1528106,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "a493202adfc9f1803716266cf35e2526141e7b0d72ee8e25af861975546a6e7a",
+      "prediction_source_sha256": "7f40c518d15921f713debbe53327ece0abfc29c47da9685b2a5c323cea0fea20"
     },
     {
       "id": "04_B_augmentation",
@@ -49,7 +57,9 @@
       "epoch": 9,
       "parameters": 1528106,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "d8477ab8f121e02d56e1a376e661c6f5ff32178432fc150dcc287afe427c74bc",
+      "prediction_source_sha256": "d89fe271fa57fbd880b6f91dce2c2564265cf5d3f19133f2826d1164c8214be5"
     },
     {
       "id": "05_B_wings_supplement",
@@ -58,7 +68,9 @@
       "epoch": 19,
       "parameters": 1528106,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "56049073954e469114bbd2e18b214471c354332327daee1f13680dc0f184712c",
+      "prediction_source_sha256": "d89fe271fa57fbd880b6f91dce2c2564265cf5d3f19133f2826d1164c8214be5"
     },
     {
       "id": "06_increment_C",
@@ -67,7 +79,9 @@
       "epoch": 9,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "effc75d33627295a88616633bb9dcb7260aa523b6b11c1f69201473d83c72595",
+      "prediction_source_sha256": "d89fe271fa57fbd880b6f91dce2c2564265cf5d3f19133f2826d1164c8214be5"
     },
     {
       "id": "07_C_retention_v2",
@@ -76,7 +90,9 @@
       "epoch": 12,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "47ef7311038b5b39cba0cba5ba9eefce773cdabbc00e1e5ac864c5ca2a36e917",
+      "prediction_source_sha256": "2968e51d473aadbca96dbb40d3558a81d527764c12918e6ecaee9a62d944a354"
     },
     {
       "id": "08_C_real_sampled",
@@ -85,7 +101,9 @@
       "epoch": 20,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "d66f52f1d26d75364751f913c5e76d1002d71f1742aa10cb2e9ad02528d4548c",
+      "prediction_source_sha256": "2968e51d473aadbca96dbb40d3558a81d527764c12918e6ecaee9a62d944a354"
     },
     {
       "id": "09_C_real_all",
@@ -94,7 +112,9 @@
       "epoch": 6,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "aefdc23b66aef1ca14d6c2d2b1c1f6c737595680e4b277dd997f2c14391ee494",
+      "prediction_source_sha256": "2968e51d473aadbca96dbb40d3558a81d527764c12918e6ecaee9a62d944a354"
     },
     {
       "id": "10_C_real_retrain",
@@ -103,7 +123,9 @@
       "epoch": 2,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "fc0a94bb39de8ab618ed5ec742bbaf4ca47b37f254ec1cb6c940398c4bfb2777",
+      "prediction_source_sha256": "2968e51d473aadbca96dbb40d3558a81d527764c12918e6ecaee9a62d944a354"
     },
     {
       "id": "11_C_oven_real_v2",
@@ -112,7 +134,9 @@
       "epoch": 14,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "d584f010817d4265edcda28d46451bfef235537d180ace7372a8447e8561d2c3",
+      "prediction_source_sha256": "4cd3189f40242e23528f7c257bf5df81d6351fed18b789fe29f8cc6b78917959"
     },
     {
       "id": "12_C_pumpkin_supplement",
@@ -121,17 +145,157 @@
       "epoch": 6,
       "parameters": 1532206,
       "input": "synthetic_tensor",
-      "accuracy_measured": false
+      "accuracy_measured": false,
+      "checkpoint_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+      "prediction_source_sha256": "4cd3189f40242e23528f7c257bf5df81d6351fed18b789fe29f8cc6b78917959"
+    },
+    {
+      "id": "13_C_batch2",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 1,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "664a397e796479a7e1638e880a25347d1dcdb4f9e18051ba4048b44cfa2f39f6",
+      "prediction_source_sha256": "4cd3189f40242e23528f7c257bf5df81d6351fed18b789fe29f8cc6b78917959"
+    },
+    {
+      "id": "14_C_geometry",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 10,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "15_C_pumpkin_croissant",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 10,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "16_joint_A",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 7,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "6194eed2636895f0f6af58e81615c9b51d476a8475fc4b878c9bef4e05165ebd",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "17_joint_B",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 19,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "a7a49ca21f7f1bf810d4ab7a3371b1e3bc86a9e69e695c40c6abf7a41341ff3b",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "18_sampling_A",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 14,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "001bf3284aa37bd00172eba198e1f081140adce7eed741c95ffab2dfb5213837",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "19_sampling_B",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 15,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "e7347651a08ac8720c8ddfc0ca9db326d75cd7f8d544e2175670541d400e8b7c",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "20_integrated_mask_box",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 18,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "1d9a83de53d1a4b144d93bd57eb36071afaa9cfe3443a383fd7875f43f2c5bf8",
+      "prediction_source_sha256": "724d95843ad9d9cfa07104dcb321efdce5d72d56265ba2fa1397bf335b802e96"
+    },
+    {
+      "id": "21_asparagus_half",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 17,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "e2e6c3199fba10dc3ab52df6159f7043b9f05b529aa1009dc5ba1856d7102460",
+      "prediction_source_sha256": "a4738bd4f1e2a7e484be0ab32728e90ef310c86c5ea7e6830d5d2517b0dd7332"
+    },
+    {
+      "id": "22_geometry_A224",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 13,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "f3084bc947d30ed8c68e7cfaa443c7ec0a77c94db265322d2ff35f0115fd8ed3",
+      "prediction_source_sha256": "decb1219b59c19e7b2090363cde6074ce93127f622a99b265f38056200d0726c"
+    },
+    {
+      "id": "23_geometry_B320_ema",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 13,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+      "prediction_source_sha256": "decb1219b59c19e7b2090363cde6074ce93127f622a99b265f38056200d0726c"
+    },
+    {
+      "id": "24_geometry_C320",
+      "status": "passed",
+      "classes": 14,
+      "epoch": 17,
+      "parameters": 1532206,
+      "input": "synthetic_tensor",
+      "accuracy_measured": false,
+      "checkpoint_sha256": "54922c402b7a4ef7951b9ef681c825989c33fd7ce5605bf98affe8fde82b7d19",
+      "prediction_source_sha256": "decb1219b59c19e7b2090363cde6074ce93127f622a99b265f38056200d0726c"
     }
   ],
   "untrained_metadata_checked": true,
-  "archive_date": "2026-11-17",
-  "base_commit": "54b5d0e9778f838fbc8d38dd2697e333cfd63fcf",
-  "original_package_members_byte_identical": true,
+  "archive_date": "2026-11-28",
+  "base_commit": "505ea5ccff7622de88b1bd0b2f536abba894cd2c",
+  "authenticated_user": "DRderder-dudulu",
+  "new_trained_versions": 12,
+  "original_retained_files_byte_identical": true,
   "primary_checkpoints_match_run_files": true,
+  "old_13_version_files_unchanged": true,
+  "synthetic_image_cli_checks": 12,
+  "synthetic_prediction_record": "prediction-entry-verification-20261128.json",
+  "shared_record_relocation_preserves_model_and_source_bytes": true,
   "new_accuracy_results_generated": false,
   "source_images_added": false,
   "model_training_performed": false,
-  "authenticated_user": "DRderder-dudulu",
-  "scope": "13 archived models: file digests and fresh-process synthetic-input loading; no food-data scoring or board acceptance."
+  "board_acceptance": false,
+  "scope": "25 independently loaded final checkpoints; 12 new predict.py entrypoints tested on one generated synthetic image; final archive hashes/provenance checked. No food test scoring or board deployment."
 }

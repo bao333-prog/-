@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "epochs": 10,
+  "training_images": 3516,
+  "each_image_reads": 10,
+  "class_count": 14,
+  "source_images_unchanged": true,
+  "model_reloaded_in_new_process": true,
+  "raw_cpu_predict_checked": true,
+  "validation_matches_training": true,
+  "independent_test": false,
+  "validation_test_shared_source_groups": 11,
+  "parent_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+  "checkpoint_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C第二批几何增强_20261118_105452\\十四类食材识别_第二批几何增强_代码与权重.zip",
+  "package_sha256": "2f2faa4a0979995529d3c17dfdd7bc5205d3103e3ef6eae51676ad2eb70d14ed",
+  "report": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C第二批几何增强_20261118_105452\\第二批几何增强训练结果.md",
+  "split_directory": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批数据_验证测试1比1_20261118_105452"
+}

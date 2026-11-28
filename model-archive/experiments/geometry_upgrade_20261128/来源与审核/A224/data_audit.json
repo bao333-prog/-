@@ -1,0 +1,23 @@
+{
+  "raw_rows": 5591,
+  "train_views": 7696,
+  "source_families": 5590,
+  "validation": 193,
+  "test": 167,
+  "view_counts": {
+    "original": 5591,
+    "annotation_roi": 2011,
+    "reviewed_food_geometry": 94
+  },
+  "options": {
+    "arm": "A224",
+    "input_size": 224,
+    "ema_decay": 0.99,
+    "scene_balanced": false,
+    "foreground_rotation": false,
+    "fixed_target_background": false,
+    "selection": "macro_min_overall_negative_loss",
+    "nominal_epochs": 20,
+    "maximum_epochs": 60
+  }
+}

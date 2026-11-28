@@ -1,0 +1,26 @@
+{
+  "raw_rows": 5591,
+  "train_views": 7755,
+  "source_families": 5590,
+  "validation": 193,
+  "test": 167,
+  "view_counts": {
+    "original": 5591,
+    "annotation_roi": 2011,
+    "reviewed_food_geometry": 94,
+    "foreground_rotation": 59
+  },
+  "options": {
+    "arm": "C320",
+    "input_size": 320,
+    "ema_decay": 0.99,
+    "scene_balanced": true,
+    "foreground_rotation": true,
+    "fixed_target_background": true,
+    "selection": "macro_min_overall_negative_loss",
+    "nominal_epochs": 20,
+    "maximum_epochs": 60,
+    "foreground_review_sha256": "0a932da15e717b1ee72a16b979287c10919fd332ae9acbf46cace15359e323d7",
+    "foreground_views": 59
+  }
+}

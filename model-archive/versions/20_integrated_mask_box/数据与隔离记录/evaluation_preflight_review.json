@@ -1,0 +1,113 @@
+{
+  "schema": "independent-evaluation-preflight-v1",
+  "created_at": "2026-11-26T04:30:46.531434+00:00",
+  "review_status": "APPROVED",
+  "checks": {
+    "completed_gate_before_best_load": true,
+    "strict_reload_of_best_checkpoint": true,
+    "validation_records_filtered_to_val_only": true,
+    "test_records_from_separate_test_only_manifest": true,
+    "manifest_path_order_asserted_against_frozen_base": true,
+    "baseline_full_image_224_letterbox": true,
+    "fixed_14_class_order_checked_against_checkpoint": true,
+    "worst_three_excludes_zero_sample_classes": true,
+    "worst_three_tie_break_uses_fixed_class_order": true,
+    "cpu_gpu_check": "One validation full-image example; compares top-1 and records max logit difference. No device-wide or all-class equivalence proven.",
+    "predict_requires_bbox": false,
+    "predict_accepts_complete_original_image": true,
+    "predict_normalization_matches_training": true,
+    "html_explicitly_discloses_13_test_classes_and_missing_whole_chicken": true,
+    "text_discloses_missing_beef_whole_chicken_validation": true,
+    "text_discloses_historical_test_reuse_not_blind": true,
+    "all_existing_preflight_locked_files_unchanged": true,
+    "new_code_syntax_valid": true,
+    "fixed_checkpoint_sha_checked_before_load": true,
+    "all_preflight_locks_checked_before_load": true,
+    "eval_cache_sha_checked_before_split_scoring": true,
+    "finite_probabilities_asserted": true,
+    "text_explicitly_discloses_13_test_classes": true,
+    "cpu_gpu_claim_scoped_to_one_validation_full_image": true,
+    "current_360_evaluation_cache_sha_matches": true
+  },
+  "findings": [],
+  "source_sha256": {
+    "evaluate_final.py": "d41178f2bccd6349a3b124ebb04b5be110ddc69d3178b94ae0a19cc8311ec456",
+    "predict.py": "082aff6cb6641aa780f43873c9b4cc3559a6c82d1d637b3c5bc7ca82844d328c",
+    "build_delivery.py": "4b88adea7bfaa3209525a538ea0ad2b11209d9c90487d1cbc254a9c7f7b5bcdb"
+  },
+  "existing_preflight_locks_unchanged": {
+    "prepare_data.py": true,
+    "prepare_integrated.py": true,
+    "train_integrated.py": true,
+    "joint_support.py": true,
+    "validation_monitor.py": true,
+    "training_base.json": true,
+    "validation_base.json": true,
+    "test_base.json": true,
+    "training_integrated.json": true,
+    "train_validation.csv": true,
+    "test_only.csv": true,
+    "prepared_data_audit.json": true,
+    "sampling_weights.json": true,
+    "train_config.json": true,
+    "official_class_names.json": true,
+    "official_initialization.pt": true,
+    "boxes320_matches.json": true,
+    "effective_annotation_sources.json": true,
+    "segmentation_inputs.json": true,
+    "family_sampler.py": true,
+    "expected_sampling_counts.json": true
+  },
+  "data_scope": {
+    "model_classes": 14,
+    "validation_images": 193,
+    "validation_represented_classes": 12,
+    "validation_missing": [
+      "牛排",
+      "整鸡"
+    ],
+    "test_images": 167,
+    "test_represented_classes": 13,
+    "test_missing": [
+      "整鸡"
+    ],
+    "test_is_new_blind_set": false,
+    "physical_individual_independence_proven": false
+  },
+  "read_or_executed_classifier_predictions": false,
+  "loaded_checkpoint_weights": false,
+  "gpu_used": false,
+  "source_code_or_data_modified": false,
+  "note": "APPROVED for evaluation after training completes and runtime gates pass. Read-only static code/data-fingerprint review; no best-checkpoint load, inference, prediction-output read, or GPU use.",
+  "resolved_findings": [
+    {
+      "id": "E1",
+      "priority": "P2",
+      "blocking_before_test_evaluation": true,
+      "title": "Scoring lacks direct checks against frozen model and test-data fingerprints",
+      "evidence": "evaluate_final.py checks execution.status and base/manifest path order, but does not compare best.pt to execution.checkpoint_sha256 or compare evaluation manifests/base inventories to preflight file_sha256 before scoring.",
+      "consequence": "The claimed fixed-model/frozen-test scoring is a procedural assumption rather than an enforced artifact contract. Current frozen files are unchanged; no actual mismatch was found.",
+      "minimal_fix": "Before scoring, verify execution completed/epochs20, best SHA equals execution SHA, audited manifest/base/config fingerprints remain unchanged, and current eval cache files match their recorded prepared SHA. Store the loaded model SHA and ensure it remains unchanged through scoring.",
+      "resolution": "Verified in re-read source; resolved."
+    },
+    {
+      "id": "E2",
+      "priority": "P3",
+      "blocking_before_delivery": true,
+      "title": "TXT report should explicitly say 13 test classes",
+      "evidence": "HTML states 13 classes and whole-chicken absence; TXT says 167 images and missing whole-chicken test but does not explicitly say 13 represented test classes.",
+      "minimal_fix": "Add test covers 13 classes to TXT and scope CPU/GPU verification to one validation example.",
+      "resolution": "Verified in re-read source; resolved."
+    }
+  ],
+  "can_start_after_training_completed": true,
+  "launch_preconditions": [
+    "execution.status == completed",
+    "best.pt SHA equals execution.checkpoint_sha256",
+    "all 21 preflight-locked files match SHA",
+    "validation/test cached actual_input files match prepared SHA",
+    "final_evaluation.json does not already exist"
+  ],
+  "eval_cache_files_checked": 360,
+  "completed_at": "2026-11-26T04:33:52.804298+00:00"
+}

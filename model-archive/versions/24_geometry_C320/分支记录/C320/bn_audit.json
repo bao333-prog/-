@@ -1,0 +1,6 @@
+{
+  "split": "train",
+  "images": 5590,
+  "training_families": 5590,
+  "validation_or_test_used_for_bn": false
+}

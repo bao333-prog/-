@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "training_images": 3651,
+  "each_image_reads": 10,
+  "epochs": 10,
+  "class_count": 14,
+  "model_reloaded_in_new_process": true,
+  "source_images_unchanged": true,
+  "parent_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+  "checkpoint_sha256": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
+  "selection_only77": true,
+  "pumpkin6_validation_only_diagnostic": true,
+  "test84_not_training": true,
+  "independent_test": false,
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C南瓜可颂补充_20261118_160802\\十四类食材识别_南瓜可颂补充_代码与权重.zip",
+  "package_sha256": "925bb3feac481a1eb0310bdd50f6fd75355a49eddcb76dd4bc6708019ca021d9",
+  "report": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C南瓜可颂补充_20261118_160802\\补充训练结果.md"
+}

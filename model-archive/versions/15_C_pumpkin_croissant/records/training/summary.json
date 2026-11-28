@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_geometry_pumpkin_croissant_quality_only",
+  "best_validation_accuracy": 0.961038961038961,
+  "best_validation_loss": 0.2684697083064488,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_pumpkin_croissant_20261118_160802\\training\\best.pt"
+}

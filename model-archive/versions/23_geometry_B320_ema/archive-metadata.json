@@ -1,0 +1,60 @@
+{
+  "id": "23_geometry_B320_ema",
+  "title": "框架与增强优化B320 EMA（当前采用）",
+  "status": "current_selected",
+  "trained": true,
+  "parent_version": null,
+  "initialization": "official_imagenet_backbone_random_14_class_head",
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "run_id": "geometry_upgrade_20261128_092947",
+  "directory": "versions/23_geometry_B320_ema",
+  "source_directory": "code",
+  "checkpoint": "versions/23_geometry_B320_ema/model.pt",
+  "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+  "checkpoint_bytes": 6265495,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 320,
+  "best_epoch": 13,
+  "epochs": 20,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.09935238768245272,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "ema",
+  "result_summary": "320输入、EMA第13轮；验证193/193；最终开发测试164/167（98.20%）。当前采用版本，板端转换和内存验收未完成。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": null,
+  "original_retained_file_count": 28,
+  "arm": "B320",
+  "test_scored": true,
+  "shared_experiment_directory": "experiments/geometry_upgrade_20261128"
+}

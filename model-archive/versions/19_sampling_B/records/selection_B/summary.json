@@ -1,0 +1,6 @@
+{
+  "experiment_name": "joint_optimized_bounded_sampling",
+  "best_validation_accuracy": 0.9948186528497409,
+  "best_validation_loss": 0.18907835081682922,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_optimized_20261118_202521\\selection_B\\best.pt"
+}

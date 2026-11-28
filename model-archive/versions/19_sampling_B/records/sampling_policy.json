@@ -1,0 +1,17 @@
+{
+  "name": "bounded_hierarchical_periodic_coverage_v2",
+  "target_share": 0.75,
+  "max_expected_draws_per_weighted_epoch": 4,
+  "coverage_interval": 4,
+  "coverage_epochs": [
+    1,
+    5,
+    9,
+    13,
+    17
+  ],
+  "weighted_epochs": 15,
+  "duplicate_aware_within_group": true,
+  "original_sessions_unchanged": true,
+  "public_validator_unchanged": true
+}

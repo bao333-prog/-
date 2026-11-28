@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "epochs": 23,
+  "seconds": 1923.2411273999996,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training\\best.pt",
+  "checkpoint_sha256": "e2e6c3199fba10dc3ab52df6159f7043b9f05b529aa1009dc5ba1856d7102460",
+  "training_started": true,
+  "test_used_for_selection": false,
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "sample_reads": 128570
+}

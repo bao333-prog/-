@@ -1,0 +1,60 @@
+{
+  "id": "22_geometry_A224",
+  "title": "框架与增强优化A224候选",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": null,
+  "initialization": "official_imagenet_backbone_random_14_class_head",
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "run_id": "geometry_upgrade_20261128_092947",
+  "directory": "versions/22_geometry_A224",
+  "source_directory": "code",
+  "checkpoint": "versions/22_geometry_A224/model.pt",
+  "checkpoint_sha256": "f3084bc947d30ed8c68e7cfaa443c7ec0a77c94db265322d2ff35f0115fd8ed3",
+  "checkpoint_bytes": 6265495,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 13,
+  "epochs": 20,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.16751623736607596,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "224输入、raw第13轮，验证193/193；未运行本分支测试，不能套用B320测试成绩。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": null,
+  "original_retained_file_count": 28,
+  "arm": "A224",
+  "test_scored": false,
+  "shared_experiment_directory": "experiments/geometry_upgrade_20261128"
+}

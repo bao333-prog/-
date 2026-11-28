@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "epochs": 20,
+  "seconds": 1222.4778201,
+  "sample_reads": 111800,
+  "selected": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\training\\best_ema.pt",
+  "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+  "test_used_for_selection": false,
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d"
+}

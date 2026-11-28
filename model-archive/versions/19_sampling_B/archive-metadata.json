@@ -1,0 +1,58 @@
+{
+  "id": "19_sampling_B",
+  "title": "采样优化B：第一批验证选模",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": null,
+  "initialization": "official_imagenet_backbone_random_14_class_head",
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "run_id": "joint_optimized_20261118_202521",
+  "directory": "versions/19_sampling_B",
+  "source_directory": "src",
+  "checkpoint": "versions/19_sampling_B/models/model_optimized_B.pt",
+  "checkpoint_sha256": "e7347651a08ac8720c8ddfc0ca9db326d75cd7f8d544e2175670541d400e8b7c",
+  "checkpoint_bytes": 6264279,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 15,
+  "epochs": 20,
+  "validation_accuracy": 0.9948186528497409,
+  "validation_loss": 0.18907835081682922,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "第一批验证192/193；第二批开发测试161/167（96.41%）。修订抽样分组及单图期望频次，与A共用一次训练。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": "outputs/采样优化_AB_20261118_202521/采样优化B_第一批验证_代码与权重.zip",
+  "original_retained_file_count": 93,
+  "delivery_archive_sha256": "88705487c35f1a7e5495e36377111208d4b5ab0e8fd44e8b2d6f5a03a5ec0da9"
+}

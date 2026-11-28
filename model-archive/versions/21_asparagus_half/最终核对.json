@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "epochs": 23,
+  "best_epoch": 17,
+  "frozen_source_metadata_and_input_files_unchanged": 17852,
+  "old_model_unchanged": true,
+  "frozen_code_manifests_unchanged": true,
+  "sampling_counts_equal_expected": true,
+  "new_old_eval_same_sources_labels": true,
+  "added_training_images_actually_sampled": 121,
+  "added_training_images_min_reads": 7,
+  "added_training_images_max_reads": 24,
+  "added_training_images_total_reads": 1594,
+  "packaged_checkpoint_sha256": "e2e6c3199fba10dc3ab52df6159f7043b9f05b529aa1009dc5ba1856d7102460",
+  "standalone_cpu_full_image_prediction_agrees": true,
+  "cpu_example": {
+    "image": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\三文鱼\\验证集\\salmon-high-without_0001.jpg",
+    "top3": [
+      {
+        "label": "三文鱼",
+        "confidence": 0.9296034574508667
+      },
+      {
+        "label": "玉米",
+        "confidence": 0.016500012949109077
+      },
+      {
+        "label": "南瓜",
+        "confidence": 0.009966970421373844
+      }
+    ]
+  }
+}

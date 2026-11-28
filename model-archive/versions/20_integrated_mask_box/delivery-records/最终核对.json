@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "completed_epochs": 20,
+  "best_epoch_matches_validation_only_rule": true,
+  "original_source_files_checked_unchanged": 5830,
+  "prepared_input_files_checked_unchanged": 7934,
+  "sampling_counts_match_deterministic_preview": true,
+  "checkpoint_matches_delivery": true,
+  "initialization_unchanged": true,
+  "per_class_metrics_recomputed_from_predictions": true,
+  "standalone_package_full_original_prediction": {
+    "image": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\三文鱼\\验证集\\salmon-high-without_0001.jpg",
+    "top3": [
+      {
+        "label": "三文鱼",
+        "confidence": 0.983812689781189
+      },
+      {
+        "label": "南瓜",
+        "confidence": 0.0034938494209200144
+      },
+      {
+        "label": "玉米",
+        "confidence": 0.0029590558260679245
+      }
+    ]
+  },
+  "cpu_gpu_scope": "one full validation image, top1 agreement",
+  "test_evaluated_after_training_only": true,
+  "source_files_and_known_sessions_disjoint": true,
+  "physical_individual_independence_proven": false
+}

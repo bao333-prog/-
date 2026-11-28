@@ -1,0 +1,11 @@
+{
+  "arm": "B320",
+  "input_size": 320,
+  "ema_decay": 0.99,
+  "scene_balanced": false,
+  "foreground_rotation": false,
+  "fixed_target_background": false,
+  "selection": "macro_min_overall_negative_loss",
+  "nominal_epochs": 20,
+  "maximum_epochs": 60
+}

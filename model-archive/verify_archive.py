@@ -59,7 +59,7 @@ def verify(load_models=False):
 import json,sys,torch
 from pathlib import Path
 root=Path(sys.argv[1]); entry=json.loads(sys.argv[2])
-sys.path.insert(0,str(root/entry['directory']/'src'))
+sys.path.insert(0,str(root/entry['directory']/entry.get('source_directory','src')))
 from oven_food.model import build_model
 torch.set_num_threads(4)
 cp=torch.load(root/entry['checkpoint'],map_location='cpu',weights_only=True)

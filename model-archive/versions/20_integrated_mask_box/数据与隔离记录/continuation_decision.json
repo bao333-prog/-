@@ -1,0 +1,28 @@
+{
+  "user_condition": "如果20轮准确率仍上升则继续直到拐点",
+  "selection_data": "validation_only",
+  "test_scores_consulted": false,
+  "last_three_epochs": [
+    {
+      "epoch": 18,
+      "train_loss": 0.33900350193847445,
+      "validation_loss": 0.22115380738721918,
+      "validation_accuracy": 0.9844559585492227
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.33617915499469747,
+      "validation_loss": 0.225891721671341,
+      "validation_accuracy": 0.9844559585492227
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.33666241604376373,
+      "validation_loss": 0.22151394583130438,
+      "validation_accuracy": 0.9844559585492227
+    }
+  ],
+  "decision": "do_not_extend",
+  "reason": "第18、19、20轮验证正确数均190/193，20轮未继续上升，且验证损失未优于18轮。此为观察到的平台，不声称已证明全局最优。",
+  "best_epoch": 18
+}

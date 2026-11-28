@@ -1,0 +1,785 @@
+[
+  null,
+  {
+    "source_sha256": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+    "label": "鸡翅",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\原图副本\\0363_986948c3e284_wings_low_have_single_0001.png",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\鸡翅\\wings_low_have_single_0001.png",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\鸡翅\\986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5.png",
+    "input_sha256": "8eaf5f2a1691caeb206efff97f2c402ea29be8f3539bd68bccecef5c619350a8",
+    "source_group": "real|鸡翅|session-20261104-2c7625390e90",
+    "sampling_group": "session-20261104-2c7625390e90|wings_low_have_single",
+    "source_session": "session-20261104-2c7625390e90",
+    "physical_sample_id": "wings_low_have_single",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\鸡翅\\wings_low_have_single_0001.png"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\掩码\\0363_986948c3e284.png",
+    "current_mask_sha256": "6608169b5e0386264d1a37b622775063ee41eedd7c5d96a202c17d858d519d72",
+    "box_xyxy": [
+      705,
+      540,
+      1035,
+      711
+    ],
+    "box_evidence": {
+      "kind": "formal_320_revised_csv_box",
+      "index": 45,
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\index.csv",
+      "catalog_sha256": "d35881fb6bc45025be64520c736dce76d09ef688a8cc1d6bd1cc93bbd82e9d57",
+      "case_id": "wings_low_have_single_0001",
+      "box_xyxy": [
+        705,
+        540,
+        1035,
+        711
+      ],
+      "box_origin": "人工覆盖（暖色最大连通域重定框（原自动框错位/裁切））",
+      "preview_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\boxed\\045_wings_wings_low_have_single_0001.jpg",
+      "preview_sha256": "cfd0c2d1603218227c23b859d2f00f91726452beeff38d0492c0e1003e689ff6",
+      "source_match": "class_and_unique_exact_source_filename_stem",
+      "source_input_sha256": "8eaf5f2a1691caeb206efff97f2c402ea29be8f3539bd68bccecef5c619350a8",
+      "preview_to_original_small_image_MAD": 0.6765,
+      "review_evidence": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\revision\\qa_results_original.json",
+      "corrected_057": false
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "0363_986948c3e284",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\manifest.json",
+        "catalog_sha256": "3284a22f4ab1bbeb076abc3cf4283b86f5047fa2017746cc6525a31544f79afe",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\掩码\\0363_986948c3e284.png",
+        "current_mask_sha256": "6608169b5e0386264d1a37b622775063ee41eedd7c5d96a202c17d858d519d72",
+        "recorded_mask_sha256": "6608169b5e0386264d1a37b622775063ee41eedd7c5d96a202c17d858d519d72",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\原图副本\\0363_986948c3e284_wings_low_have_single_0001.png",
+        "source_copy_sha256": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          714,
+          531,
+          1024,
+          700
+        ],
+        "review": {
+          "status": "verified",
+          "note": "已逐图查看整图轮廓及透明背景特写，未见明显漏分或背景残留",
+          "reviewer": "assistant_visual_review",
+          "evidence_sheet": "review\\early_016.jpg",
+          "evidence_sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+          "mask_sha256": "6608169b5e0386264d1a37b622775063ee41eedd7c5d96a202c17d858d519d72",
+          "reviewed_at": "2026-11-22T21:05:51.855023+08:00"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\review\\early_016.jpg",
+            "sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+            "recorded_sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": null
+      },
+      {
+        "kind": "formal_320_revised_csv_box",
+        "index": 45,
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\index.csv",
+        "catalog_sha256": "d35881fb6bc45025be64520c736dce76d09ef688a8cc1d6bd1cc93bbd82e9d57",
+        "case_id": "wings_low_have_single_0001",
+        "box_xyxy": [
+          705,
+          540,
+          1035,
+          711
+        ],
+        "box_origin": "人工覆盖（暖色最大连通域重定框（原自动框错位/裁切））",
+        "preview_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\boxed\\045_wings_wings_low_have_single_0001.jpg",
+        "preview_sha256": "cfd0c2d1603218227c23b859d2f00f91726452beeff38d0492c0e1003e689ff6",
+        "source_match": "class_and_unique_exact_source_filename_stem",
+        "source_input_sha256": "8eaf5f2a1691caeb206efff97f2c402ea29be8f3539bd68bccecef5c619350a8",
+        "preview_to_original_small_image_MAD": 0.6765,
+        "review_evidence": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\data\\画框标注_其他8类_320张_JSON修订_2026-11-25\\boxes320\\revision\\qa_results_original.json",
+        "corrected_057": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "0363_986948c3e284",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\review\\early_016.jpg",
+        "sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+        "recorded_sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "low",
+    "foil": "with",
+    "latest": {
+      "label": "鸡翅",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\鸡翅\\wings_low_have_single_0001.png",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\鸡翅\\986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5_full.png",
+      "raw_sha256": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+      "input_sha256": "8eaf5f2a1691caeb206efff97f2c402ea29be8f3539bd68bccecef5c619350a8",
+      "source_session": "session-20261104-2c7625390e90",
+      "recorded_session": "session-20261104-2c7625390e90",
+      "source_group": "real|鸡翅|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|wings_low_have_single",
+      "physical_sample_id": "wings_low_have_single",
+      "metadata": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\鸡翅\\wings_low_have_single_0001.json",
+      "metadata_sha256": "cc3db6c7a5fef157e2b68d3ba1ac83e4dac6914208998f8553a1181bc696a95f",
+      "restored": false,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\鸡翅\\wings_low_have_single_0001.png",
+      "sampling_group_original": "session-20261104-2c7625390e90|wings_low_have_single",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "0de2288c730f0d0c6e01f33db630d2195759d1647029bc54c27c58b6f6f74efa",
+      "family_id": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\鸡翅\\986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5.png",
+      "prepared_sha256": "8eaf5f2a1691caeb206efff97f2c402ea29be8f3539bd68bccecef5c619350a8",
+      "prepared_pixel_sha256": "0de2288c730f0d0c6e01f33db630d2195759d1647029bc54c27c58b6f6f74efa"
+    }
+  },
+  {
+    "source_sha256": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+    "label": "薯条",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\原图.png",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_low_no_0004.png",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1.png",
+    "input_sha256": "178a40933d0b945fa70416185eea908c7849e6310d5ce3e04799ebe738fc4b03",
+    "source_group": "real|薯条|session-20261104-2c7625390e90",
+    "sampling_group": "session-20261104-2c7625390e90|chips_single_low_no",
+    "source_session": "session-20261104-2c7625390e90",
+    "physical_sample_id": "chips_single_low_no",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_low_no_0004.png"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\掩码.png",
+    "current_mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+    "box_xyxy": [
+      517,
+      694,
+      1196,
+      837
+    ],
+    "box_evidence": {
+      "kind": "current_mask_extent",
+      "mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+      "id": "0424_ca11d5682ad3"
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "0424_ca11d5682ad3",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+        "catalog_sha256": "2392984b06ee21cdede8c5cdd248a57e4a40a8ca2131dff49d7807060c4928a5",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\掩码.png",
+        "current_mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+        "recorded_mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\原图.png",
+        "source_copy_sha256": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          517,
+          694,
+          1196,
+          837
+        ],
+        "review": {
+          "id": "0424_ca11d5682ad3",
+          "status": "verified",
+          "note": "已实际查看原图及新旧轮廓对照，未见明显食材漏分或背景残留",
+          "mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+          "evidence_sheet": "review\\manual_middle_clipped\\000.jpg",
+          "evidence_sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+          "reviewer": "assistant_visual_review",
+          "training_eligible": false,
+          "user_review_status": "pending"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\review\\manual_middle_clipped\\000.jpg",
+            "sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+            "recorded_sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "0424_ca11d5682ad3",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\review\\manual_middle_clipped\\000.jpg",
+        "sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+        "recorded_sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "low",
+    "foil": "without",
+    "latest": {
+      "label": "薯条",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_low_no_0004.png",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\薯条\\ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1_full.png",
+      "raw_sha256": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+      "input_sha256": "178a40933d0b945fa70416185eea908c7849e6310d5ce3e04799ebe738fc4b03",
+      "source_session": "session-20261104-2c7625390e90",
+      "recorded_session": "session-20261104-2c7625390e90",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_low_no",
+      "physical_sample_id": "chips_single_low_no",
+      "metadata": "",
+      "metadata_sha256": "",
+      "restored": false,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\薯条\\chips_single_low_no_0004.png",
+      "sampling_group_original": "session-20261104-2c7625390e90|chips_single_low_no",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "de6a283adabbbef08de75c851b90f5db3eef1c2d7e996dfb7b95d6219729044f",
+      "family_id": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1.png",
+      "prepared_sha256": "178a40933d0b945fa70416185eea908c7849e6310d5ce3e04799ebe738fc4b03",
+      "prepared_pixel_sha256": "de6a283adabbbef08de75c851b90f5db3eef1c2d7e996dfb7b95d6219729044f"
+    }
+  },
+  {
+    "source_sha256": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+    "label": "薯条",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0421_0f44acdc94ab_chips_single_high_no_0013.png",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_high_no_0013.png",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4.png",
+    "input_sha256": "8a22a4f6b92a64b28066ed3ed01fe560812c1977bccdb3e9053ea926697eeede",
+    "source_group": "real|薯条|session-20261104-2c7625390e90",
+    "sampling_group": "session-20261104-2c7625390e90|chips_single_high_no",
+    "source_session": "session-20261104-2c7625390e90",
+    "physical_sample_id": "chips_single_high_no",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_high_no_0013.png"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0421_0f44acdc94ab.png",
+    "current_mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+    "box_xyxy": [
+      601,
+      310,
+      897,
+      468
+    ],
+    "box_evidence": {
+      "kind": "current_mask_extent",
+      "mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+      "id": "0421_0f44acdc94ab"
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "0421_0f44acdc94ab",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+        "catalog_sha256": "2392984b06ee21cdede8c5cdd248a57e4a40a8ca2131dff49d7807060c4928a5",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0421_0f44acdc94ab.png",
+        "current_mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+        "recorded_mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0421_0f44acdc94ab_chips_single_high_no_0013.png",
+        "source_copy_sha256": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          601,
+          310,
+          897,
+          468
+        ],
+        "review": {
+          "status": "verified",
+          "note": "已逐图查看整图轮廓及透明背景特写，未见明显漏分或背景残留",
+          "reviewer": "assistant_visual_review",
+          "evidence_sheet": "review\\middle_025.jpg",
+          "evidence_sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+          "mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+          "reviewed_at": "2026-11-23T10:10:43.527168+08:00"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_025.jpg",
+            "sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+            "recorded_sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "0421_0f44acdc94ab",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_025.jpg",
+        "sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+        "recorded_sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "high",
+    "foil": "without",
+    "latest": {
+      "label": "薯条",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_high_no_0013.png",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\薯条\\0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4_full.png",
+      "raw_sha256": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+      "input_sha256": "8a22a4f6b92a64b28066ed3ed01fe560812c1977bccdb3e9053ea926697eeede",
+      "source_session": "session-20261104-2c7625390e90",
+      "recorded_session": "session-20261104-2c7625390e90",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_high_no",
+      "physical_sample_id": "chips_single_high_no",
+      "metadata": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_high_no_0013.json",
+      "metadata_sha256": "c837201aa68caad3f363e9324efec498c6437ae4bfbc1ca7033d4c58b50e8e70",
+      "restored": false,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\薯条\\chips_single_high_no_0013.png",
+      "sampling_group_original": "session-20261104-2c7625390e90|chips_single_high_no",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "f3a58a6ce8960f848298b96acf7d84a5b2a21c4e567253e7c80d6f6cf186f4ed",
+      "family_id": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4.png",
+      "prepared_sha256": "8a22a4f6b92a64b28066ed3ed01fe560812c1977bccdb3e9053ea926697eeede",
+      "prepared_pixel_sha256": "f3a58a6ce8960f848298b96acf7d84a5b2a21c4e567253e7c80d6f6cf186f4ed"
+    }
+  },
+  {
+    "source_sha256": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+    "label": "薯条",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0442_3d838010bab5_chips_single_mids_no_0002.png",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_mids_no_0002.png",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1.png",
+    "input_sha256": "7269694f94bd0ee2d515eefce1168129a8d1f731331de3e6a92da6230476df99",
+    "source_group": "real|薯条|session-20261104-2c7625390e90",
+    "sampling_group": "session-20261104-2c7625390e90|chips_single_mids_no",
+    "source_session": "session-20261104-2c7625390e90",
+    "physical_sample_id": "chips_single_mids_no",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_mids_no_0002.png"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0442_3d838010bab5.png",
+    "current_mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+    "box_xyxy": [
+      659,
+      280,
+      1150,
+      375
+    ],
+    "box_evidence": {
+      "kind": "current_mask_extent",
+      "mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+      "id": "0442_3d838010bab5"
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "0442_3d838010bab5",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+        "catalog_sha256": "2392984b06ee21cdede8c5cdd248a57e4a40a8ca2131dff49d7807060c4928a5",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0442_3d838010bab5.png",
+        "current_mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+        "recorded_mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0442_3d838010bab5_chips_single_mids_no_0002.png",
+        "source_copy_sha256": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          659,
+          280,
+          1150,
+          375
+        ],
+        "review": {
+          "status": "verified",
+          "note": "已逐图查看整图轮廓及透明背景特写，未见明显漏分或背景残留",
+          "reviewer": "assistant_visual_review",
+          "evidence_sheet": "review\\middle_026.jpg",
+          "evidence_sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+          "mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+          "reviewed_at": "2026-11-23T10:10:43.622654+08:00"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_026.jpg",
+            "sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+            "recorded_sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "0442_3d838010bab5",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_026.jpg",
+        "sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+        "recorded_sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "medium",
+    "foil": "without",
+    "latest": {
+      "label": "薯条",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_mids_no_0002.png",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\薯条\\3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1_full.png",
+      "raw_sha256": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+      "input_sha256": "7269694f94bd0ee2d515eefce1168129a8d1f731331de3e6a92da6230476df99",
+      "source_session": "session-20261104-2c7625390e90",
+      "recorded_session": "session-20261104-2c7625390e90",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_mids_no",
+      "physical_sample_id": "chips_single_mids_no",
+      "metadata": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\薯条\\chips_single_mids_no_0002.json",
+      "metadata_sha256": "e375fd3e3a81505fd251327f89f1736494b69c83e8b55299d6315f51d73d9c67",
+      "restored": false,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\薯条\\chips_single_mids_no_0002.png",
+      "sampling_group_original": "session-20261104-2c7625390e90|chips_single_mids_no",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "2581d0fd1f06b530c2f77c34dbbdce3f13d66653024873f0ee40ceba43de6c67",
+      "family_id": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_batch2_20261117_234948\\prepared_images\\薯条\\3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1.png",
+      "prepared_sha256": "7269694f94bd0ee2d515eefce1168129a8d1f731331de3e6a92da6230476df99",
+      "prepared_pixel_sha256": "2581d0fd1f06b530c2f77c34dbbdce3f13d66653024873f0ee40ceba43de6c67"
+    }
+  },
+  {
+    "source_sha256": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+    "label": "三文鱼",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1099_44c8a3baed61_salmon-high-without_foil_0009.jpg",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-high-without_foil_0009.jpg",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\prepared_restored\\三文鱼\\44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139.png",
+    "input_sha256": "e841646f9c699556648bc1536a8c85e2398efa5d784c4da821cdc715a8ec6e69",
+    "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+    "sampling_group": "session-20261104-4fe35341516d|salmon-high-without_foil",
+    "source_session": "session-20261104-4fe35341516d",
+    "physical_sample_id": "salmon-high-without_foil",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-high-without_foil_0009.jpg"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1099_44c8a3baed61.png",
+    "current_mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+    "box_xyxy": [
+      419,
+      336,
+      1257,
+      541
+    ],
+    "box_evidence": {
+      "kind": "current_mask_extent",
+      "mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+      "id": "1099_44c8a3baed61"
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "1099_44c8a3baed61",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+        "catalog_sha256": "2392984b06ee21cdede8c5cdd248a57e4a40a8ca2131dff49d7807060c4928a5",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1099_44c8a3baed61.png",
+        "current_mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+        "recorded_mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1099_44c8a3baed61_salmon-high-without_foil_0009.jpg",
+        "source_copy_sha256": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          419,
+          336,
+          1257,
+          541
+        ],
+        "review": {
+          "status": "verified",
+          "note": "已逐图查看整图轮廓及透明背景特写，未见明显漏分或背景残留",
+          "reviewer": "assistant_visual_review",
+          "evidence_sheet": "review\\last_012.jpg",
+          "evidence_sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+          "mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+          "reviewed_at": "2026-11-23T10:35:46.125297+08:00"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_012.jpg",
+            "sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+            "recorded_sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "1099_44c8a3baed61",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_012.jpg",
+        "sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+        "recorded_sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "high",
+    "foil": "without",
+    "latest": {
+      "label": "三文鱼",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-high-without_foil_0009.jpg",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\三文鱼\\44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139_full.png",
+      "raw_sha256": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+      "input_sha256": "e841646f9c699556648bc1536a8c85e2398efa5d784c4da821cdc715a8ec6e69",
+      "source_session": "session-20261104-4fe35341516d",
+      "recorded_session": "session-20261104-4fe35341516d",
+      "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|salmon-high-without_foil",
+      "physical_sample_id": "salmon-high-without_foil",
+      "metadata": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-high-without_foil_0009.json",
+      "metadata_sha256": "60af527065c59c27a778fc56a118b3a0e6f2bf8206192954ec54f9ef65807285",
+      "restored": true,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-high-without_foil_0009.jpg",
+      "sampling_group_original": "session-20261104-4fe35341516d|salmon-high-without_foil",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "b4c8499dfb165a0d8195eadb9a1b14dc19e7e0272591068a697ecdb659c7546f",
+      "family_id": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\prepared_restored\\三文鱼\\44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139.png",
+      "prepared_sha256": "e841646f9c699556648bc1536a8c85e2398efa5d784c4da821cdc715a8ec6e69",
+      "prepared_pixel_sha256": "b4c8499dfb165a0d8195eadb9a1b14dc19e7e0272591068a697ecdb659c7546f"
+    }
+  },
+  {
+    "source_sha256": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+    "label": "三文鱼",
+    "split": "train",
+    "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1124_db0a6b7aede3_salmon-low-without_foil_0004.jpg",
+    "raw_source_path": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-low-without_foil_0004.jpg",
+    "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\prepared_restored\\三文鱼\\db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335.png",
+    "input_sha256": "306db3d6023aaa3b23de77998ca64ba6502891e37f0970fb8ce0c12d1df73b8b",
+    "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+    "sampling_group": "session-20261104-4fe35341516d|salmon-low-without_foil",
+    "source_session": "session-20261104-4fe35341516d",
+    "physical_sample_id": "salmon-low-without_foil",
+    "era": "first_real",
+    "source_inventory_rows": 1,
+    "source_aliases": [
+      "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-low-without_foil_0004.jpg"
+    ],
+    "mask_usage": "full_food_only",
+    "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1124_db0a6b7aede3.png",
+    "current_mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+    "box_xyxy": [
+      758,
+      500,
+      896,
+      989
+    ],
+    "box_evidence": {
+      "kind": "current_mask_extent",
+      "mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+      "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+      "id": "1124_db0a6b7aede3"
+    },
+    "annotation_versions": [
+      {
+        "kind": "mask",
+        "id": "1124_db0a6b7aede3",
+        "catalog": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\分割最终清单.json",
+        "catalog_sha256": "2392984b06ee21cdede8c5cdd248a57e4a40a8ca2131dff49d7807060c4928a5",
+        "status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1124_db0a6b7aede3.png",
+        "current_mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+        "recorded_mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+        "source_copy_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1124_db0a6b7aede3_salmon-low-without_foil_0004.jpg",
+        "source_copy_sha256": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+        "image_size": [
+          1920,
+          1080
+        ],
+        "derived_box_xyxy": [
+          758,
+          500,
+          896,
+          989
+        ],
+        "review": {
+          "status": "verified",
+          "note": "已逐图查看整图轮廓及透明背景特写，未见明显漏分或背景残留",
+          "reviewer": "assistant_visual_review",
+          "evidence_sheet": "review\\last_014.jpg",
+          "evidence_sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+          "mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+          "reviewed_at": "2026-11-23T10:35:46.299771+08:00"
+        },
+        "review_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_014.jpg",
+            "sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+            "recorded_sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+            "current": true
+          }
+        ],
+        "historical_training_eligible": false
+      }
+    ],
+    "is_independent_real_photo_count": 1,
+    "training_eligible": true,
+    "authorization": "Current user explicitly authorized integrated training; historical pending flags retained in evidence.",
+    "mask_id": "1124_db0a6b7aede3",
+    "mask_status": "verified",
+    "mask_evidence": [
+      {
+        "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_014.jpg",
+        "sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+        "recorded_sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+        "current": true
+      }
+    ],
+    "source_copy_sha256": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+    "image_size": [
+      1920,
+      1080
+    ],
+    "height": "low",
+    "foil": "without",
+    "latest": {
+      "label": "三文鱼",
+      "environment": "target",
+      "split": "train",
+      "era": "first_real",
+      "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-low-without_foil_0004.jpg",
+      "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\inputs\\train\\三文鱼\\db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335_full.png",
+      "raw_sha256": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+      "input_sha256": "306db3d6023aaa3b23de77998ca64ba6502891e37f0970fb8ce0c12d1df73b8b",
+      "source_session": "session-20261104-4fe35341516d",
+      "recorded_session": "session-20261104-4fe35341516d",
+      "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|salmon-low-without_foil",
+      "physical_sample_id": "salmon-low-without_foil",
+      "metadata": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-low-without_foil_0004.json",
+      "metadata_sha256": "a1b50a2f0d8a6340464dea9d08e979c7d35064a9a12a959ef633768eb1819e83",
+      "restored": true,
+      "historical_source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\三文鱼\\salmon-low-without_foil_0004.jpg",
+      "sampling_group_original": "session-20261104-4fe35341516d|salmon-low-without_foil",
+      "sampling_group_inferred": false,
+      "sampling_group_reason": "",
+      "pixel_sha256": "fc44392e59144111e5f309355dfe1d3b3bbf2e808088c9cbaa9e79cd9e20165a",
+      "family_id": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+      "kind": "original",
+      "previous_actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\prepared_restored\\三文鱼\\db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335.png",
+      "prepared_sha256": "306db3d6023aaa3b23de77998ca64ba6502891e37f0970fb8ce0c12d1df73b8b",
+      "prepared_pixel_sha256": "fc44392e59144111e5f309355dfe1d3b3bbf2e808088c9cbaa9e79cd9e20165a"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "epoch": 23,
+  "stop": true,
+  "nominal_epochs": 20,
+  "maximum_epochs": 60,
+  "patience_after_extension": 3,
+  "last_three_validation_accuracy": [
+    0.9689119170984456,
+    0.9740932642487047,
+    0.9740932642487047
+  ],
+  "reason": "停止：20轮末段无继续上升、扩展后连续3轮无准确率新高，或达到60轮上限",
+  "test_used_for_decision": false
+}

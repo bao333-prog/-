@@ -1,0 +1,6 @@
+{
+  "experiment_name": "joint_AB_shared_training",
+  "best_validation_accuracy": 0.9948186528497409,
+  "best_validation_loss": 0.20176881154120896,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\selection_B\\best.pt"
+}

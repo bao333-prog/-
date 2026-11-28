@@ -1,0 +1,33 @@
+{
+  "total_reads": 114680,
+  "unique_images": 5734,
+  "minimum_reads": 5,
+  "maximum_reads": 79,
+  "first_epoch_full_coverage": true,
+  "coverage_epochs": [
+    1,
+    5,
+    9,
+    13,
+    17
+  ],
+  "weighted_epochs": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20
+  ],
+  "probability_cap_expected_draws": 4,
+  "deterministic_preview_matched": true
+}

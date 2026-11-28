@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\三文鱼\\验证集\\salmon-high-without_0001.jpg",
+  "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\val\\三文鱼\\6902f441380bd5b8b77fd59cbb64dca7a589b4d1ffb005eb5469b8b31ea0f2a7_0972f77b4faf6427.png",
+  "cpu_batch_size": 1,
+  "gpu_batch_size": 1,
+  "cpu_top1": "三文鱼",
+  "gpu_top1": "三文鱼",
+  "gpu_batch_top1": "三文鱼",
+  "top1_equal": true,
+  "gpu_single_vs_batch_top1_equal": true,
+  "validation_sample_only": true,
+  "same_full_original_source": true
+}

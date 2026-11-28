@@ -1,0 +1,33 @@
+{
+  "mode": "train",
+  "experiment_name": "C_geometry_pumpkin_croissant_quality_only",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_pumpkin_croissant_20261118_160802\\manifest.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_pumpkin_croissant_20261118_160802\\training",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_geometry_eval2_20261118_105452\\training\\best.pt",
+  "train_environments": [
+    "proxy",
+    "target"
+  ],
+  "validation_environments": [
+    "target"
+  ],
+  "augmentation": "oven_geometry",
+  "resize_mode": "letterbox",
+  "class_balanced_loss": true,
+  "target_fraction": null,
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "epochs": 10,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cuda:0",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "backbone_lr_scale": 0.2,
+  "lr_schedule": "cosine",
+  "label_smoothing": 0.05
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\可颂\\croissant-high-without_foil-cooked_0009.jpg",
+    "label": "可颂",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 209
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\可颂\\croissant-high-without_foil-cooked_0017.jpg",
+    "label": "可颂",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 217
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\可颂\\croissant-low-without_foil-cooked_0003.jpg",
+    "label": "可颂",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 240
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\可颂\\croissant-low-without_foil-cooked_0004.jpg",
+    "label": "可颂",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 241
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\可颂\\croissant-mid-without_foil-cooked_0011.jpg",
+    "label": "可颂",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 285
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\培根\\bacon-high-with_foil_0003.jpg",
+    "label": "培根",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 513
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\培根\\bacon-high-with_foil_0004.jpg",
+    "label": "培根",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 514
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\玉米\\corn_one_mid_b_0002.jpg",
+    "label": "玉米",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 841
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\玉米\\corn_one_mid_b_0020.jpg",
+    "label": "玉米",
+    "reason": "手部遮挡食材主体或边缘，原图放大核对",
+    "review_index": 859
+  },
+  {
+    "source": "C:/Users/lenovo/Desktop/项目/食物/第二批训练/按食材分类/薯条/chips_two_no_high_0014.jpg",
+    "label": "薯条",
+    "reason": "手部遮挡两根薯条，已知疑点原图复核",
+    "review_index": "current_known"
+  }
+]

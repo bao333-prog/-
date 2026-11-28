@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "packages": {
+    "A": {
+      "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\采样优化_AB_20261118_202521\\采样优化A_第二批验证_代码与权重.zip",
+      "package_sha256": "bd6db98b03c8cfcb94360175f7636e5d996aa6f6eb6981ca9cd3e4e533f83c69",
+      "model": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\采样优化_AB_20261118_202521\\model_optimized_A.pt",
+      "model_sha256": "001bf3284aa37bd00172eba198e1f081140adce7eed741c95ffab2dfb5213837"
+    },
+    "B": {
+      "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\采样优化_AB_20261118_202521\\采样优化B_第一批验证_代码与权重.zip",
+      "package_sha256": "88705487c35f1a7e5495e36377111208d4b5ab0e8fd44e8b2d6f5a03a5ec0da9",
+      "model": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\采样优化_AB_20261118_202521\\model_optimized_B.pt",
+      "model_sha256": "e7347651a08ac8720c8ddfc0ca9db326d75cd7f8d544e2175670541d400e8b7c"
+    }
+  },
+  "model_reloaded": true,
+  "source_images_unchanged": true
+}

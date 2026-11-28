@@ -1,0 +1,24 @@
+{
+  "arm": "B320",
+  "image_size": 320,
+  "variant": "ema",
+  "epoch": 13,
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "resize_mode": "letterbox",
+  "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14"
+}

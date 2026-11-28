@@ -1,0 +1,1732 @@
+{
+  "version": 1,
+  "chosen": {
+    "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\training\\best_ema.pt",
+    "key": [
+      1.0,
+      1.0,
+      1.0,
+      -0.09935238768245272
+    ],
+    "epoch": 13,
+    "stats": {
+      "correct": 193,
+      "total": 193,
+      "per_class": {
+        "南瓜": {
+          "correct": 15,
+          "total": 15
+        },
+        "吐司": {
+          "correct": 13,
+          "total": 13
+        },
+        "牛排": {
+          "correct": 0,
+          "total": 0
+        },
+        "玉米": {
+          "correct": 18,
+          "total": 18
+        },
+        "西兰花": {
+          "correct": 20,
+          "total": 20
+        },
+        "鸡翅": {
+          "correct": 15,
+          "total": 15
+        },
+        "芦笋": {
+          "correct": 20,
+          "total": 20
+        },
+        "培根": {
+          "correct": 14,
+          "total": 14
+        },
+        "三文鱼": {
+          "correct": 9,
+          "total": 9
+        },
+        "整鸡": {
+          "correct": 0,
+          "total": 0
+        },
+        "土豆": {
+          "correct": 27,
+          "total": 27
+        },
+        "香肠": {
+          "correct": 13,
+          "total": 13
+        },
+        "薯条": {
+          "correct": 18,
+          "total": 18
+        },
+        "可颂": {
+          "correct": 11,
+          "total": 11
+        }
+      },
+      "evaluated_classes": 12,
+      "macro_accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          27,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ]
+      ]
+    },
+    "loss": 0.09935238768245272,
+    "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+    "test_used": false,
+    "arm": "B320",
+    "variant": "ema",
+    "completed_epochs": 20
+  },
+  "arms": {
+    "A224": {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\training\\best_raw.pt",
+      "key": [
+        1.0,
+        1.0,
+        1.0,
+        -0.16751623736607596
+      ],
+      "epoch": 13,
+      "stats": {
+        "correct": 193,
+        "total": 193,
+        "per_class": {
+          "南瓜": {
+            "correct": 15,
+            "total": 15
+          },
+          "吐司": {
+            "correct": 13,
+            "total": 13
+          },
+          "牛排": {
+            "correct": 0,
+            "total": 0
+          },
+          "玉米": {
+            "correct": 18,
+            "total": 18
+          },
+          "西兰花": {
+            "correct": 20,
+            "total": 20
+          },
+          "鸡翅": {
+            "correct": 15,
+            "total": 15
+          },
+          "芦笋": {
+            "correct": 20,
+            "total": 20
+          },
+          "培根": {
+            "correct": 14,
+            "total": 14
+          },
+          "三文鱼": {
+            "correct": 9,
+            "total": 9
+          },
+          "整鸡": {
+            "correct": 0,
+            "total": 0
+          },
+          "土豆": {
+            "correct": 27,
+            "total": 27
+          },
+          "香肠": {
+            "correct": 13,
+            "total": 13
+          },
+          "薯条": {
+            "correct": 18,
+            "total": 18
+          },
+          "可颂": {
+            "correct": 11,
+            "total": 11
+          }
+        },
+        "evaluated_classes": 12,
+        "macro_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            27,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11
+          ]
+        ]
+      },
+      "loss": 0.16751623736607596,
+      "checkpoint_sha256": "f3084bc947d30ed8c68e7cfaa443c7ec0a77c94db265322d2ff35f0115fd8ed3",
+      "test_used": false,
+      "arm": "A224",
+      "variant": "raw",
+      "completed_epochs": 20
+    },
+    "B320": {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\training\\best_ema.pt",
+      "key": [
+        1.0,
+        1.0,
+        1.0,
+        -0.09935238768245272
+      ],
+      "epoch": 13,
+      "stats": {
+        "correct": 193,
+        "total": 193,
+        "per_class": {
+          "南瓜": {
+            "correct": 15,
+            "total": 15
+          },
+          "吐司": {
+            "correct": 13,
+            "total": 13
+          },
+          "牛排": {
+            "correct": 0,
+            "total": 0
+          },
+          "玉米": {
+            "correct": 18,
+            "total": 18
+          },
+          "西兰花": {
+            "correct": 20,
+            "total": 20
+          },
+          "鸡翅": {
+            "correct": 15,
+            "total": 15
+          },
+          "芦笋": {
+            "correct": 20,
+            "total": 20
+          },
+          "培根": {
+            "correct": 14,
+            "total": 14
+          },
+          "三文鱼": {
+            "correct": 9,
+            "total": 9
+          },
+          "整鸡": {
+            "correct": 0,
+            "total": 0
+          },
+          "土豆": {
+            "correct": 27,
+            "total": 27
+          },
+          "香肠": {
+            "correct": 13,
+            "total": 13
+          },
+          "薯条": {
+            "correct": 18,
+            "total": 18
+          },
+          "可颂": {
+            "correct": 11,
+            "total": 11
+          }
+        },
+        "evaluated_classes": 12,
+        "macro_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            27,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11
+          ]
+        ]
+      },
+      "loss": 0.09935238768245272,
+      "checkpoint_sha256": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+      "test_used": false,
+      "arm": "B320",
+      "variant": "ema",
+      "completed_epochs": 20
+    },
+    "C320": {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\training\\best_raw.pt",
+      "key": [
+        1.0,
+        1.0,
+        1.0,
+        -0.13364543854572614
+      ],
+      "epoch": 17,
+      "stats": {
+        "correct": 193,
+        "total": 193,
+        "per_class": {
+          "南瓜": {
+            "correct": 15,
+            "total": 15
+          },
+          "吐司": {
+            "correct": 13,
+            "total": 13
+          },
+          "牛排": {
+            "correct": 0,
+            "total": 0
+          },
+          "玉米": {
+            "correct": 18,
+            "total": 18
+          },
+          "西兰花": {
+            "correct": 20,
+            "total": 20
+          },
+          "鸡翅": {
+            "correct": 15,
+            "total": 15
+          },
+          "芦笋": {
+            "correct": 20,
+            "total": 20
+          },
+          "培根": {
+            "correct": 14,
+            "total": 14
+          },
+          "三文鱼": {
+            "correct": 9,
+            "total": 9
+          },
+          "整鸡": {
+            "correct": 0,
+            "total": 0
+          },
+          "土豆": {
+            "correct": 27,
+            "total": 27
+          },
+          "香肠": {
+            "correct": 13,
+            "total": 13
+          },
+          "薯条": {
+            "correct": 18,
+            "total": 18
+          },
+          "可颂": {
+            "correct": 11,
+            "total": 11
+          }
+        },
+        "evaluated_classes": 12,
+        "macro_accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            27,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11
+          ]
+        ]
+      },
+      "loss": 0.13364543854572614,
+      "checkpoint_sha256": "54922c402b7a4ef7951b9ef681c825989c33fd7ce5605bf98affe8fde82b7d19",
+      "test_used": false,
+      "arm": "C320",
+      "variant": "raw",
+      "completed_epochs": 20
+    }
+  },
+  "test_used_for_selection": false,
+  "selection_rule": "macro_accuracy,min_class_accuracy,overall_accuracy,negative_loss",
+  "tie_break": "A224,B320,C320固定顺序",
+  "integrity_check_sha256": "5f631fad561ee4cd0e0cb8afefa05991de561989e2928a8ab16acdcb03ceadd2",
+  "code_and_configuration_sha256": {
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\config.json": "f3e3c871d2e1454f2c1c348f1c5e7b8a42b0b78b06357e1f875fac70876577c1",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\options.json": "5baa0d9df05c54b366b153c6b29225941ff80fdbce441f2ff0785600a1bf9938",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\training.json": "46b86a540a0a3d925c2cc5f3a0653880e846fd4d00126da524ab43f7340d43d9",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\raw_training.json": "d2431d3e4d69379889eba720d0b0f6372fbf581b68a5ee04d228e99308cf778c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\validation.json": "b2b95ea46d8c4ee2fc6f4312fea1ee2bf3c7c1bcddf655637b325dae675402a8",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\test.json": "b659f96aba70070f90f1d6b5f649630c206859ea790eede0a745a1aec45136c6",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\weights.json": "0f823f279750e22dcee9e85177148be30757ed908f090571589575f7137527f2",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\train_validation.csv": "8f1db8efc45037c3503ceba3653e91cf98814ef16a7de508b14791da0c7b428a",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\test_only.csv": "8edf3356c5cbec6ca2e3a7a9d6043ca1fcdcb05109c901e616236e6126361130",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\preflight.json": "17a36ee989096f7bd441a8f4b20775b0b2c8ee572e84bec5701c7aa7b1de4330",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\selection.json": "f9dc9b9b7e95a809761936fb89b64814953624036a711ab0fd742a98f664a410",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\execution.json": "edd9c7ddce246e7e6d78a246a7d756ea1ed5f11a27ec024a97ff1f43b5339c95",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\best_candidates.json": "340ffa1eb7e68862a06a9f02578bf829d5cddde7b70e7efc87bcc47d56e5fd01",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\sample_counts.json": "13f614b5089cfefca86c98c5f92466b3cce10fd64a42babf1816b651c2a609f2",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\bn_audit.json": "44b34067450d1a22f406ea30ff8663c6c3fe8bcd73de512c33c4cf5090b759b5",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\validation_history.json": "c314495740be660024e9d47f548bf270e4c15260fa4d3baeac0c88ca492aff9c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\A224\\training\\history.json": "3d2df35cdbd84b6011956963df9ddc5c6b80aa4aa7799cd156ea7465b1945265",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\config.json": "8aa9266b2d1e7606253ebfe80e150054054aa62f6edc1aae7c3247171b50a862",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\options.json": "f96fed3f33d7094bdb58e81c156fd6f1c975ca98295d30b61f0c04ee8edff5c2",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\training.json": "2c3104c1f17c36449486d3e786b38dc4466b4d0c5625ff3b51cbe50da3104fff",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\raw_training.json": "dc0112b0db7bb6ef5eedd2c3f3af8d7ecf8c791d835be856485f84c5130d6864",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\validation.json": "6745d566b096e69663d35c8fba8f24949cd4ab7b48edbcd3df9e916b44545b2c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\test.json": "ea420a988261e070ddc653c6cd71a7701d18da9ad7f0548e9b98abd0108de470",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\weights.json": "0f823f279750e22dcee9e85177148be30757ed908f090571589575f7137527f2",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\train_validation.csv": "11080bb84d3ae8a173e1933ae72d904db5727604fdacb1de213925f80d00b57f",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\test_only.csv": "5425e27573f790d2b34289bebbf8dbacc3374ce8768681425396cad0287885a7",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\preflight.json": "77e03dfbb69586ef50b230fd50d213dd5d95e586b632e9535aaa25bf1eed2f05",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\selection.json": "96eb51e104f6dd85754f69ee54714e1796b0ab10e5266c9bf9c5dd68510ea6ac",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\execution.json": "1dbb5f4092c3087fbcf9f836394a8a4a61cbeaa08a18b1a0767c5718f3621e68",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\best_candidates.json": "03d077565b4c02de378562df334dab6c7d8f28b8c4f1ac907b807d1c08c2901c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\sample_counts.json": "e20f2bc0e556753b0ad1bae96013656330928d72081e1342857eccc3893b51be",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\bn_audit.json": "44b34067450d1a22f406ea30ff8663c6c3fe8bcd73de512c33c4cf5090b759b5",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\validation_history.json": "9f1caeabe0e8d8df2fd327bcc7633ad6b537341749dd366c729dd70e3563183c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\B320\\training\\history.json": "a065f571e46d9bba29e05854da919a567083a28f37ef06b16e5c7cfcaa38cae1",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\config.json": "7682a6f8faad1a98057e085f9beea77d2a795fc7215f092cc83bede40182576d",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\options.json": "99323a99d72b9649363468c4cea331af57a4573e5df29f85aa635c156132e93d",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\training.json": "fbcdad93476162e8f9514636041e30418941971a835021e6697323e00c957d12",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\raw_training.json": "dc0112b0db7bb6ef5eedd2c3f3af8d7ecf8c791d835be856485f84c5130d6864",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\validation.json": "6745d566b096e69663d35c8fba8f24949cd4ab7b48edbcd3df9e916b44545b2c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\test.json": "ea420a988261e070ddc653c6cd71a7701d18da9ad7f0548e9b98abd0108de470",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\weights.json": "d8296982b5503b3681a6a43405b9093f778f73451853975f7aed01d19591a993",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\train_validation.csv": "6c9ff5c9ceb74b26c0576428f382c6fbcf3de8cb65e8f51f4e1817b2d6ede7f8",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\test_only.csv": "5425e27573f790d2b34289bebbf8dbacc3374ce8768681425396cad0287885a7",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\preflight.json": "d3fe8f3ab31fe61e9e9ceae36c5d65a41ba5390925bbb24b47fe6277b3fc0a47",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\selection.json": "06351170e03ee0eb02dbd4a5fdc64bff92e12602b593c156ef72256d0cc777e1",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\execution.json": "d6c1d3a4a8dda1e162ea535795bec1b5458b5a0ef267382b5bd1ad997ac7a458",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\best_candidates.json": "18676abfee9deab80ae270363189b57c317b3ecc092582f72a629908dd1bd8cc",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\sample_counts.json": "2f851544c2eb57941f4464fe7b5dfd194dc7d1237899fb46c2ca807f09b92d19",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\bn_audit.json": "44b34067450d1a22f406ea30ff8663c6c3fe8bcd73de512c33c4cf5090b759b5",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\validation_history.json": "8cc6722a4d9ba1aceef635155f28d1904564d74f8821aeab3f0f23337bffc887",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\C320\\training\\history.json": "7a0fb9a586b9aa89f47c8686cae0920a787c90291af01c78508dc933c6882d1c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\build_delivery.py": "125cd5817234f1e9fbcefd097b1dc820ee495085e91eb0e3c1c95f0aff25c09d",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\continuation.py": "0a70fbf86d3209e2068328272d07eacb4285574cf9dacc984562048ca28a74b4",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data_ops.py": "164584afaa8f32ecff7bf2c260181cbd5bc104a02dd3962c0b1e5387eb4f157b",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\family_sampler.py": "33e6b40ec31a27e924f55db0262740ba4ccf3cab47345e3496e36635491d796a",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\finalize_models.py": "1292ee9f620f0f515a552874d5edf8b6cc69d4d4af4960cd8e24ead751b70baa",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground.py": "85a14d37da42f8b2d4915baebf0729b5efcb6b4b8efe602d924fd1cbf3676222",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\joint_support.py": "be34f7a9322db3fed0bd444f3e2bfe12055e91bbaf3c3bea4a8989b1dcb289fa",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\predict.py": "698f2292a427c4a68ec24a439b9286b9004a709092ec1cf62a574f0e43f7f08e",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\prepare_arm.py": "d6d2894a7685a9d8aa7912784821d416507d5f46afcad39b624e489b0480bbe7",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\prepare_data.py": "55d60f6364f295df6d541fb5feb3cc67ddaae5064fa838621783fa3ebe562141",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\review_c_preflight.py": "7767bc913b1d0fa2d21afc121389662d69d9ee017ff97ed1deb90ec75e741e07",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\review_preflight.py": "4cff9300ee9f6716b1b8f520d34f72b0a355a5d34b2ee0ec76098320e9d6fe47",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\review_source_pixels.py": "fb78b472d28e9f0a407f194b38e83dcfbb0e3084f17d80326079bb3d362855c4",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\rng_utils.py": "eecb85ca7d56b3226b701211736fa8235544e6abd2c990ddc364b284a5ea69eb",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\scene_sampler.py": "30469ff10737aa4fa216bcbf5f02d27e833fdfdcf04d855d643e70e953ad32fd",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\selection_ema.py": "623481587380a3f139f9872d96f865037e215d7ed0d08d7cb694daec2ab6ba9d",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\smoke_train.py": "efac4a93b2375cb4767af10a464397539c5f4896f43f58080c86edd82afcd56d",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\support.py": "ce1afb3472f69310b3fda56700620d3ed29254e23859ea33496f81301789f77e",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_continuation.py": "c8b0368b6e091dc72a75bbc8cdee19099186a96f2a71bedfc337caefaf525704",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_data_ops.py": "1af745c6e1c0c865dad6ea9a2885226be1db77ad78e50b1886f6b3ec91aa22c7",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_family_sampler.py": "a2034ced9db0d09c1fec26d7d546329c24a4ac27c2952a896f4c3feffbc7800f",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_final_delivery.py": "a4a35d64adb92517433e90927b58cdfa6d2a5e5a6ea8ebf375127b026c958d94",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_foreground.py": "8ecaaa2ecc0a574bc353575f6b37ff0f5ea8b51680599ba88b34023ecc06ce74",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_geometry_preserve.py": "675e14c4991e9e6e641a93e866914922bec862554114454ee02332340f39153a",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_rng_utils.py": "55db7ba3a5ecc6d6410a1a41f5209a9f3d87ce932a35c327ce6ccaa12ba01127",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_scene_sampler.py": "11782c1cc7abb8b2878d13644552102a5eeab9ebecb1fb60b639186d30cdb014",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\test_selection_ema.py": "36e90794d1a2e9be23ddf8056f1f1db68292e58df94cf5f9bb945152dffcf169",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\train_arm.py": "0c154df489acf3026501fad5e9ff3c767ba62b8ecbd9bd9213b444624206b413",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\validation_monitor.py": "4849007b84a8e9261d712fe8a9d76b9da89fd4dc6d8d8541011fb67cd044256f",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\__init__.py": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\__main__.py": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\augment.py": "75c4a304f877a4758968fb62100e51d76a674bbae3ca5662e6b8089daefac5eb",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\cli.py": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\config.py": "39c81ee5e0079fb210254e88f2c7fc5febba69571cc948198927e6cccc7acfee",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\continual.py": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\corn_rebuild.py": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\dataset.py": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\evaluate.py": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\manifest.py": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\metrics.py": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\model.py": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\report.py": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\split.py": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\train.py": "5fceb1de32a7b22315329cb39d6be640042fda783309f42911aced855d670cba",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\source_snapshot\\oven_food\\video.py": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\official_class_names.json": "2ab546b90b2dbe962cec929f70cce64be02e3ffa819f2c4dca82c93dd5b1b875",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\scene_index.json": "39e605ca0b82f60deee3a01260d8eafc5445ecb97cf8de6b500318f88ce9fcee",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\scene_audit.json": "d74cababfd0650ea9a525f9d1e8f7a901f3ca25609c02a0f66171ed4e0c89835",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_reviewed.json": "0a932da15e717b1ee72a16b979287c10919fd332ae9acbf46cace15359e323d7",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_verification.json": "6188a12610ee19091fb18b99783d394b876a575c1b5810e5b75c01ba47281abd",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_visual_review.json": "ffce366cdef3842b7f32641ad7f5c34625d0ebc4b5b167e9f300d85769e04b5e",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\frozen_external_files.json": "9c057bf7fe6bab1f9b9cbf28a149ceb356e35648a1925e3eb0937ed696e08155",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_frozen_external.json": "2232c489d000c2d5999b140872a1813d41a0a4eef4b33d557c10c3b982d368f5"
+  },
+  "training_read_audit": {
+    "A224": {
+      "training_families": 5590,
+      "read_families": 5590,
+      "original_unique_paths": 5590,
+      "all_original_paths_read": true,
+      "reads": 111800,
+      "foreground_views": 0,
+      "foreground_views_actually_used": 0,
+      "foreground_usage": []
+    },
+    "B320": {
+      "training_families": 5590,
+      "read_families": 5590,
+      "original_unique_paths": 5590,
+      "all_original_paths_read": true,
+      "reads": 111800,
+      "foreground_views": 0,
+      "foreground_views_actually_used": 0,
+      "foreground_usage": []
+    },
+    "C320": {
+      "training_families": 5590,
+      "read_families": 5590,
+      "original_unique_paths": 5590,
+      "all_original_paths_read": true,
+      "reads": 111800,
+      "foreground_views": 59,
+      "foreground_views_actually_used": 51,
+      "foreground_usage": [
+        {
+          "family_id": "0e3df5ce698e3621b3a40e562d657114d30f4c7cab3f36818ac6251d9b5e2d7e",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0e3df5ce698e3621b3a40e562d657114d30f4c7cab3f36818ac6251d9b5e2d7e_30b06e5ec5873400.png",
+          "count": 3,
+          "label": "香肠"
+        },
+        {
+          "family_id": "074bd470c94c521cc0078e6b8b5d43dcb45bde1da0e7d319834a9dfbcc1445ef",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\074bd470c94c521cc0078e6b8b5d43dcb45bde1da0e7d319834a9dfbcc1445ef_4121871693b6c731.png",
+          "count": 2,
+          "label": "香肠"
+        },
+        {
+          "family_id": "0bb7890349b40af06516bd494474647a589948892eb12ba422397182b714f4d1",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0bb7890349b40af06516bd494474647a589948892eb12ba422397182b714f4d1_66112f818eb02c56.png",
+          "count": 2,
+          "label": "香肠"
+        },
+        {
+          "family_id": "0659eef03c7c20e76ddc2420d809b15ec3d5ff9a45da0fca2915f8a6c00f36de",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0659eef03c7c20e76ddc2420d809b15ec3d5ff9a45da0fca2915f8a6c00f36de_bbdf832816fc3ff2.png",
+          "count": 2,
+          "label": "香肠"
+        },
+        {
+          "family_id": "17bca01e103cfa89ee5777e7617be379386edb85b58ebc2ecb0d7c40a73fc0b3",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\17bca01e103cfa89ee5777e7617be379386edb85b58ebc2ecb0d7c40a73fc0b3_fe43aed06f2d98ac.png",
+          "count": 4,
+          "label": "香肠"
+        },
+        {
+          "family_id": "02e775e6824cfbc4a742b5a09fd5193d91688c09da824f21453c6bbc3faa1687",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\02e775e6824cfbc4a742b5a09fd5193d91688c09da824f21453c6bbc3faa1687_c994a52bf71860bd.png",
+          "count": 4,
+          "label": "香肠"
+        },
+        {
+          "family_id": "0043d0f848df066970c00c7c8f7bf592932532c093a56ba8d110352c642e4fdf",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0043d0f848df066970c00c7c8f7bf592932532c093a56ba8d110352c642e4fdf_92e06cd675cebd19.png",
+          "count": 8,
+          "label": "香肠"
+        },
+        {
+          "family_id": "03af2aa91d51037974f06756a08509cd471e172cc49c6cfe5c65bfe7224a04be",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\03af2aa91d51037974f06756a08509cd471e172cc49c6cfe5c65bfe7224a04be_c057a4ca7d05fed2.png",
+          "count": 5,
+          "label": "香肠"
+        },
+        {
+          "family_id": "55214fcf154d170d74a157318a4e126776165141e4cb59c6983b3b086d1b7dee",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\55214fcf154d170d74a157318a4e126776165141e4cb59c6983b3b086d1b7dee_0a509c886f79c50b.png",
+          "count": 6,
+          "label": "香肠"
+        },
+        {
+          "family_id": "02906a5a74e48ce96ccea31bfe85e7b5b1fba400f43d284cd173bea383680a73",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\02906a5a74e48ce96ccea31bfe85e7b5b1fba400f43d284cd173bea383680a73_0d8687f2eb4b083d.png",
+          "count": 7,
+          "label": "香肠"
+        },
+        {
+          "family_id": "0c87812060168b27bfc839491c2e9dcf575417212a5a5651a30e2cb5ad9c44bb",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0c87812060168b27bfc839491c2e9dcf575417212a5a5651a30e2cb5ad9c44bb_9f9f6dfb32d51ef9.png",
+          "count": 3,
+          "label": "香肠"
+        },
+        {
+          "family_id": "0f163cfece382f1d69ad29cfafb8cb9a2e812293ece044512e1651db97ef91b7",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\香肠\\0f163cfece382f1d69ad29cfafb8cb9a2e812293ece044512e1651db97ef91b7_555d185383f332cb.png",
+          "count": 4,
+          "label": "香肠"
+        },
+        {
+          "family_id": "17c838ae87447d5e99497429f3948821eb3b554510573e8a8e2879bd3e2e4a7d",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\17c838ae87447d5e99497429f3948821eb3b554510573e8a8e2879bd3e2e4a7d_db759bb5288df835.png",
+          "count": 4,
+          "label": "可颂"
+        },
+        {
+          "family_id": "05cfc61d2d252d8e9fec4f34d31734e1c0c11e3c20e03f87d6fb8df116fe1f19",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\05cfc61d2d252d8e9fec4f34d31734e1c0c11e3c20e03f87d6fb8df116fe1f19_92e058eae85239da.png",
+          "count": 4,
+          "label": "可颂"
+        },
+        {
+          "family_id": "096aba8d3cd4edecfba6ddf55fac609b8832455f4cfa8169c6c5d5004df63047",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\096aba8d3cd4edecfba6ddf55fac609b8832455f4cfa8169c6c5d5004df63047_5b826d1ccf756bff.png",
+          "count": 1,
+          "label": "可颂"
+        },
+        {
+          "family_id": "2f8e57ef08112f2198b597edc55c6f07e12344ed11275ea24c48c3437642b65c",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\2f8e57ef08112f2198b597edc55c6f07e12344ed11275ea24c48c3437642b65c_cd535dba633df551.png",
+          "count": 2,
+          "label": "可颂"
+        },
+        {
+          "family_id": "787d84108c3f38a641e68778be6a15e7ca1423104e29c602593cc87283126717",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\787d84108c3f38a641e68778be6a15e7ca1423104e29c602593cc87283126717_307957f9f7bbd230.png",
+          "count": 4,
+          "label": "可颂"
+        },
+        {
+          "family_id": "0889b63fa06b65cc18b6c29571a4f2947fe287da30a0f2ddbbe6770e518d8a2f",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\0889b63fa06b65cc18b6c29571a4f2947fe287da30a0f2ddbbe6770e518d8a2f_d9de2a0391ea3fe0.png",
+          "count": 1,
+          "label": "可颂"
+        },
+        {
+          "family_id": "1589f42b7f06ec71cf63403b9d25e889f05c1c48cc3114c17e1b815720e9cb25",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\1589f42b7f06ec71cf63403b9d25e889f05c1c48cc3114c17e1b815720e9cb25_51004920c1c7b380.png",
+          "count": 0,
+          "label": "可颂"
+        },
+        {
+          "family_id": "09c5edeaad28d00a5cdd0348a41812eb5417c9ba6c197808c896b643e3370a1c",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\09c5edeaad28d00a5cdd0348a41812eb5417c9ba6c197808c896b643e3370a1c_93fb33fb08ebf51b.png",
+          "count": 0,
+          "label": "可颂"
+        },
+        {
+          "family_id": "4511f04a69517daea034ac815c49f25548051fcba9c6b33ac944282e71570f8f",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\4511f04a69517daea034ac815c49f25548051fcba9c6b33ac944282e71570f8f_217aae4f9a408480.png",
+          "count": 3,
+          "label": "可颂"
+        },
+        {
+          "family_id": "05df0865a65765247b3ffc374ff01eab3c2eead6d47822bd0352ff5198408274",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\05df0865a65765247b3ffc374ff01eab3c2eead6d47822bd0352ff5198408274_ef24bed0628f5aae.png",
+          "count": 5,
+          "label": "可颂"
+        },
+        {
+          "family_id": "0bcd8541a230279650f1b93c595a8528f053a8dd2b156bb14ad732e216119f3a",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\可颂\\0bcd8541a230279650f1b93c595a8528f053a8dd2b156bb14ad732e216119f3a_632cda48287e9838.png",
+          "count": 0,
+          "label": "可颂"
+        },
+        {
+          "family_id": "06d9b821629b3bb67053b458d0b911456899fffd050d72b1801d082ecfc1aa67",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\06d9b821629b3bb67053b458d0b911456899fffd050d72b1801d082ecfc1aa67_eb5b2e790257e419.png",
+          "count": 4,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "09975c88a48e00417dd877a0a15e93eba8c824c70177351a7c3f832ba60c0934",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\09975c88a48e00417dd877a0a15e93eba8c824c70177351a7c3f832ba60c0934_69e622c5380e7645.png",
+          "count": 5,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5_630a3864fe706ce6.png",
+          "count": 2,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "04c9ea3bddb9ed208ca00798a5c7ceafabc8f111108a192a406472742bf99e10",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\04c9ea3bddb9ed208ca00798a5c7ceafabc8f111108a192a406472742bf99e10_56b6cf3d265f0bea.png",
+          "count": 2,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "01ef93b0e0300aa36821c89404cae5d7d03000861e48e6bed6a5f51e9e353797",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\01ef93b0e0300aa36821c89404cae5d7d03000861e48e6bed6a5f51e9e353797_4e9efdc0c57574da.png",
+          "count": 1,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "0c3aa5f2b5125e61b6c7341db006f51e5d9ecf8b357fe608b2bacdde0c5fe517",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\0c3aa5f2b5125e61b6c7341db006f51e5d9ecf8b357fe608b2bacdde0c5fe517_1f301b1f7db4f2b8.png",
+          "count": 1,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "0a7020477a13e42ace578d580cc8ebcad4c48e4173366ebb352ff794d1e9b78d",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\0a7020477a13e42ace578d580cc8ebcad4c48e4173366ebb352ff794d1e9b78d_710982b51787643b.png",
+          "count": 4,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "06d6dd83e5d36a997e730e63abb2fd0bfe11942006029205d1458198901296d1",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\06d6dd83e5d36a997e730e63abb2fd0bfe11942006029205d1458198901296d1_036836bb7108631a.png",
+          "count": 0,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "02f0d07c2e270e89203907e0bdb2742f7dd5b4e5644cfeda2245e2aa4644a72b",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\02f0d07c2e270e89203907e0bdb2742f7dd5b4e5644cfeda2245e2aa4644a72b_0e31e3b90ad59fda.png",
+          "count": 2,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "0006e45c75c973af9e3339c1b062e523d406b5188c445627599471a4da96b0a5",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\0006e45c75c973af9e3339c1b062e523d406b5188c445627599471a4da96b0a5_8214627c0002c657.png",
+          "count": 1,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "20597e4474d31962fd1a55497d857190e08e00fd48dfefb1b0de6a6a9552c8f9",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\20597e4474d31962fd1a55497d857190e08e00fd48dfefb1b0de6a6a9552c8f9_7b773b9d107907ae.png",
+          "count": 3,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "04b60ba9ac30651a3366e1dce42db49c24845f23ae2b35db3362f855fd2912c6",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\鸡翅\\04b60ba9ac30651a3366e1dce42db49c24845f23ae2b35db3362f855fd2912c6_d10dcfc6535a662e.png",
+          "count": 4,
+          "label": "鸡翅"
+        },
+        {
+          "family_id": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4_8945e5c03c17abb9.png",
+          "count": 2,
+          "label": "薯条"
+        },
+        {
+          "family_id": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1_7760001766e50030.png",
+          "count": 3,
+          "label": "薯条"
+        },
+        {
+          "family_id": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1_da9ca9f4dd0cc018.png",
+          "count": 4,
+          "label": "薯条"
+        },
+        {
+          "family_id": "02a1ea03f92baeb0eac90dfc89521c72b0b51b5eb4b056c88418206bda33802f",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\02a1ea03f92baeb0eac90dfc89521c72b0b51b5eb4b056c88418206bda33802f_1c261bdcd4c0f236.png",
+          "count": 0,
+          "label": "薯条"
+        },
+        {
+          "family_id": "018e02ae92da2fcb002e84de1373f7ea3ca0137a23272fd7eef7d3d0b765caf2",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\018e02ae92da2fcb002e84de1373f7ea3ca0137a23272fd7eef7d3d0b765caf2_074ba05217231a29.png",
+          "count": 1,
+          "label": "薯条"
+        },
+        {
+          "family_id": "03926e819dbec2aeaeaaf4599e6b180cab5f5e4b06e83454fa2b437da6c1b988",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\薯条\\03926e819dbec2aeaeaaf4599e6b180cab5f5e4b06e83454fa2b437da6c1b988_db4cfa568dab25e0.png",
+          "count": 0,
+          "label": "薯条"
+        },
+        {
+          "family_id": "0dcba4ff58e5f769708dc87e4fb615d1c091e1ebcfe472b72e85dd6ff019cedc",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\0dcba4ff58e5f769708dc87e4fb615d1c091e1ebcfe472b72e85dd6ff019cedc_afa8ba2b44ac9249.png",
+          "count": 2,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "0d054bbf0b1f460761d4305c0f7eae58df794c4d0cd9e6a909e637294bc94f67",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\0d054bbf0b1f460761d4305c0f7eae58df794c4d0cd9e6a909e637294bc94f67_24af8f3dcc46ffc0.png",
+          "count": 2,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "32764285b2d6d62c79980683d710bb6ec55e99c6cbbe64812c2fafd7d42bd336",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\32764285b2d6d62c79980683d710bb6ec55e99c6cbbe64812c2fafd7d42bd336_bf368a6203ba71ee.png",
+          "count": 1,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "1616e45c60aa970b4b6eb2aa4969118b19e8ce88f217c24a2ad67bfbdc39540a",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\1616e45c60aa970b4b6eb2aa4969118b19e8ce88f217c24a2ad67bfbdc39540a_49e8114f14a6931e.png",
+          "count": 7,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "2747596999920088dbd887e76c88b6a8e7d6d4d37f7d0dd69a6040f6033824cc",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\2747596999920088dbd887e76c88b6a8e7d6d4d37f7d0dd69a6040f6033824cc_852dfeed737f94e5.png",
+          "count": 1,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "0b3c9f2d1e326e683ea264d2bdc83862c2767964c1b6e366ecb8fa71fb649a33",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\芦笋\\0b3c9f2d1e326e683ea264d2bdc83862c2767964c1b6e366ecb8fa71fb649a33_968460f5f1bc60d1.png",
+          "count": 1,
+          "label": "芦笋"
+        },
+        {
+          "family_id": "0c63ec8b3d0464b698c300883e51beb9ef6703fe36c3bc8c51686dbe9831b192",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\0c63ec8b3d0464b698c300883e51beb9ef6703fe36c3bc8c51686dbe9831b192_6eb6e8768f36ec4e.png",
+          "count": 0,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "1346e15687618f9944cb13552791d35eea565a915f784269ea482e4322805d45",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\1346e15687618f9944cb13552791d35eea565a915f784269ea482e4322805d45_235a0c217dd344b9.png",
+          "count": 4,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "22a8d0af0c89770d0d33ed3daad3c4fa91e5fa94cf4b916ff2b19a2c4d7b3de3",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\22a8d0af0c89770d0d33ed3daad3c4fa91e5fa94cf4b916ff2b19a2c4d7b3de3_ad40849407a10455.png",
+          "count": 1,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "06bc825570357cdf07c981942c1af19278078d0b056c7a04ca1965266240d863",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\06bc825570357cdf07c981942c1af19278078d0b056c7a04ca1965266240d863_4658e969fedf021c.png",
+          "count": 0,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "0c5ad8008693dc9e130c6de051b7fc7b0acd9b58d7ca24d63e6158154f4eecf1",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\0c5ad8008693dc9e130c6de051b7fc7b0acd9b58d7ca24d63e6158154f4eecf1_5114d6b52a1f3009.png",
+          "count": 1,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "02d41492b92d8a9bf369fb420dec2e64ec5d4a34a5612398e354a16b013d3a18",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\西兰花\\02d41492b92d8a9bf369fb420dec2e64ec5d4a34a5612398e354a16b013d3a18_2f17c657f7408ee3.png",
+          "count": 1,
+          "label": "西兰花"
+        },
+        {
+          "family_id": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139_96aa45f4aad8ab02.png",
+          "count": 10,
+          "label": "三文鱼"
+        },
+        {
+          "family_id": "12fcebd8a60af1aa4e81162b0da2ba1d9dd768c73015585a004c4495c55dbd9f",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\12fcebd8a60af1aa4e81162b0da2ba1d9dd768c73015585a004c4495c55dbd9f_0c47fa57d37e3551.png",
+          "count": 1,
+          "label": "三文鱼"
+        },
+        {
+          "family_id": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335_33505194c0ff3379.png",
+          "count": 5,
+          "label": "三文鱼"
+        },
+        {
+          "family_id": "09389c9a3fdb2b197321d478fae21ca82f1d4f83345afebd7a4d5f46e3bccc7a",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\09389c9a3fdb2b197321d478fae21ca82f1d4f83345afebd7a4d5f46e3bccc7a_869fb3d95451f49b.png",
+          "count": 7,
+          "label": "三文鱼"
+        },
+        {
+          "family_id": "0e150cca931d4ab1d62df453d6f53d8f935e35885f1d68cf7cf0ad05cc825da4",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\0e150cca931d4ab1d62df453d6f53d8f935e35885f1d68cf7cf0ad05cc825da4_9ecaf11c8d25a0f0.png",
+          "count": 6,
+          "label": "三文鱼"
+        },
+        {
+          "family_id": "03ea41e1def33d51ffcf54d83655d5efd130bc187f127a0b90f12bffccd6a92e",
+          "actual_input": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\data\\320\\inputs\\train\\三文鱼\\03ea41e1def33d51ffcf54d83655d5efd130bc187f127a0b90f12bffccd6a92e_705b93c6ab3d6cc2.png",
+          "count": 5,
+          "label": "三文鱼"
+        }
+      ]
+    }
+  },
+  "previous_report_read_for_selection": false,
+  "source_preflight_sha256": {
+    "A224": "17a36ee989096f7bd441a8f4b20775b0b2c8ee572e84bec5701c7aa7b1de4330",
+    "B320": "77e03dfbb69586ef50b230fd50d213dd5d95e586b632e9535aaa25bf1eed2f05",
+    "C320": "d3fe8f3ab31fe61e9e9ceae36c5d65a41ba5390925bbb24b47fe6277b3fc0a47"
+  }
+}

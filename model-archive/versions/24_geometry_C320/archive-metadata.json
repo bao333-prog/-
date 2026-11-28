@@ -1,0 +1,60 @@
+{
+  "id": "24_geometry_C320",
+  "title": "框架与增强优化C320前景候选",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": null,
+  "initialization": "official_imagenet_backbone_random_14_class_head",
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "run_id": "geometry_upgrade_20261128_092947",
+  "directory": "versions/24_geometry_C320",
+  "source_directory": "code",
+  "checkpoint": "versions/24_geometry_C320/model.pt",
+  "checkpoint_sha256": "54922c402b7a4ef7951b9ef681c825989c33fd7ce5605bf98affe8fde82b7d19",
+  "checkpoint_bytes": 6265495,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 320,
+  "best_epoch": 17,
+  "epochs": 20,
+  "validation_accuracy": 1.0,
+  "validation_loss": 0.13364543854572614,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "320输入、前景几何与场景抽样候选，raw第17轮，验证193/193；未运行本分支测试，未被选为最终模型。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": null,
+  "original_retained_file_count": 28,
+  "arm": "C320",
+  "test_scored": false,
+  "shared_experiment_directory": "experiments/geometry_upgrade_20261128"
+}

@@ -1,0 +1,782 @@
+{
+  "schema": "foreground-rotation-candidates-v1",
+  "sources": [
+    {
+      "id": "fg_001_55214fcf154d",
+      "source_sha256": "55214fcf154d170d74a157318a4e126776165141e4cb59c6983b3b086d1b7dee",
+      "label": "香肠",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\香肠\\原图副本\\0043_55214fcf154d_sausage-have-low_0014.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\香肠\\掩码\\0043_55214fcf154d.png",
+      "mask_sha256": "e40a63dae74f51861cb443b3788db9c63d4dbf8fcf734fefa089b501f322178d",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_001_55214fcf154d.png",
+      "output_sha256": "e3988e2db556cc1547ca5b74d13048b0e38c182f00d859c7641bc200f3d4985c",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "second_real",
+      "height": "low",
+      "foil": "with",
+      "source_group": "real|香肠|session-20261111-60dfe4d862ad",
+      "sampling_group": "session-20261111-60dfe4d862ad|sausage-have-low",
+      "source_session": "session-20261111-60dfe4d862ad",
+      "physical_sample_id": "sausage-have-low",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0043_55214fcf154d",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\review\\early_003.jpg",
+            "sha256": "b8a2db70b709e49f02a402068de51520604cdb08fb8e3ee0a87eb5b9dd92fc49",
+            "recorded_sha256": "b8a2db70b709e49f02a402068de51520604cdb08fb8e3ee0a87eb5b9dd92fc49",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          919.5,
+          708.0
+        ],
+        "source_box": [
+          840,
+          529,
+          999,
+          887
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_001_55214fcf154d_erase.png",
+        "erase_mask_sha256": "7edf4f4064b77d5bc95367ceecf8a40cf666b1c49fba65db45db603623e18ac5",
+        "erased_pixels": 96350,
+        "changed_pixels": 96253,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          -302,
+          32
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_002_986948c3e284",
+      "source_sha256": "986948c3e28437e463c276fbd03cec70b11d9ebf8d40389f4001cdc4039ccdf5",
+      "label": "鸡翅",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\原图副本\\0363_986948c3e284_wings_low_have_single_0001.png",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\鸡翅\\掩码\\0363_986948c3e284.png",
+      "mask_sha256": "6608169b5e0386264d1a37b622775063ee41eedd7c5d96a202c17d858d519d72",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_002_986948c3e284.png",
+      "output_sha256": "9c81670f2d32fae976af3ac3f6c6fa93967d115a5b00168d8d7bb967242616df",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "low",
+      "foil": "with",
+      "source_group": "real|鸡翅|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|wings_low_have_single",
+      "source_session": "session-20261104-2c7625390e90",
+      "physical_sample_id": "wings_low_have_single",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0363_986948c3e284",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\review\\early_016.jpg",
+            "sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+            "recorded_sha256": "6c8323b0385323e9d4eb082d2ca1939cd787c18296b41dfa179fe58fc078b416",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          869.0,
+          615.5
+        ],
+        "source_box": [
+          714,
+          531,
+          1024,
+          700
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_002_986948c3e284_erase.png",
+        "erase_mask_sha256": "a746024e00e1986aeb7778cd09d9dd54500a73a70327f40649d143fefff547e6",
+        "erased_pixels": 66852,
+        "changed_pixels": 66988,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          -384,
+          96
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_003_ca11d5682ad3",
+      "source_sha256": "ca11d5682ad32fdada7b51cb8cb2e0e4500e0db4e8403cae7a3ddff80149fbc1",
+      "label": "薯条",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\原图.png",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\薯条\\0424_ca11d5682ad3\\掩码.png",
+      "mask_sha256": "1ce065fbcf45099231ceaf6425c98a90b520b7d2ef6365929d06945148bee4da",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_003_ca11d5682ad3.png",
+      "output_sha256": "993a3362069a83226bbf7edc90737929ce5d071ff9e17ff72fa2155db3b5c496",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "low",
+      "foil": "without",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_low_no",
+      "source_session": "session-20261104-2c7625390e90",
+      "physical_sample_id": "chips_single_low_no",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0424_ca11d5682ad3",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\review\\manual_middle_clipped\\000.jpg",
+            "sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+            "recorded_sha256": "e6343e790014a2e17edd99a0c763f5ee1f2f4e1b6428b74105c4c69d6f60e371",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          856.5,
+          765.5
+        ],
+        "source_box": [
+          517,
+          694,
+          1196,
+          837
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_003_ca11d5682ad3_erase.png",
+        "erase_mask_sha256": "3e7a59d30c147f5a67033fd5d984e75370417ef7463aca912eb65de30c538842",
+        "erased_pixels": 93278,
+        "changed_pixels": 93468,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          110,
+          -265
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_004_0f44acdc94ab",
+      "source_sha256": "0f44acdc94abd5f64783d86927d61a312c863b9ea051dea265fe5a59862175b4",
+      "label": "薯条",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0421_0f44acdc94ab_chips_single_high_no_0013.png",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0421_0f44acdc94ab.png",
+      "mask_sha256": "0f51014a362dd1e642ee1860268a52cb80a7db330d3e36ad735c888c33061bf2",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_004_0f44acdc94ab.png",
+      "output_sha256": "fd64235a25edb93294ef4be8e3bce4be36d21f9fd6aa57973dd480a0bd168715",
+      "angle": 90,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "high",
+      "foil": "without",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_high_no",
+      "source_session": "session-20261104-2c7625390e90",
+      "physical_sample_id": "chips_single_high_no",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0421_0f44acdc94ab",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_025.jpg",
+            "sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+            "recorded_sha256": "abc893c6d2d188947a942dd76df22e522a1e4a2fd9c0904db4fee39507e27e9c",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          749.0,
+          389.0
+        ],
+        "source_box": [
+          601,
+          310,
+          897,
+          468
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_004_0f44acdc94ab_erase.png",
+        "erase_mask_sha256": "3e7d80315c0cd294a4985560f664bafbb855b5dfee5e33103f451f924528e8cb",
+        "erased_pixels": 51593,
+        "changed_pixels": 57711,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": null,
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_005_3d838010bab5",
+      "source_sha256": "3d838010bab5a065809c8e56ddd33ab520dcf43125b0e674312fb50940c008a1",
+      "label": "薯条",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\原图副本\\0442_3d838010bab5_chips_single_mids_no_0002.png",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\薯条\\掩码\\0442_3d838010bab5.png",
+      "mask_sha256": "d25e77fdfcf4c7125b69308bd6408eb6379a776b19eb9ee1c5ce583d277384a0",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_005_3d838010bab5.png",
+      "output_sha256": "8138cc87c2d7aa04baa3b056cebd9d09b957dfd626175c6ddbcb327bdb48a2ff",
+      "angle": -60,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "medium",
+      "foil": "without",
+      "source_group": "real|薯条|session-20261104-2c7625390e90",
+      "sampling_group": "session-20261104-2c7625390e90|chips_single_mids_no",
+      "source_session": "session-20261104-2c7625390e90",
+      "physical_sample_id": "chips_single_mids_no",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0442_3d838010bab5",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_026.jpg",
+            "sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+            "recorded_sha256": "c0eaa41ea89ed83f887d6552b67c86364cea07a0e594cc7f3c5f51e73d8219ce",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          904.5,
+          327.5
+        ],
+        "source_box": [
+          659,
+          280,
+          1150,
+          375
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_005_3d838010bab5_erase.png",
+        "erase_mask_sha256": "bbe436767a48b8e04701271d889e66de86c9d24cb4c1d65e78231e41306c4e5c",
+        "erased_pixels": 72491,
+        "changed_pixels": 90523,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": null,
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_006_44c8a3baed61",
+      "source_sha256": "44c8a3baed615db3f370fb22382a38593ba0ea63a5fcbd7dee03da2d521d8139",
+      "label": "三文鱼",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1099_44c8a3baed61_salmon-high-without_foil_0009.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1099_44c8a3baed61.png",
+      "mask_sha256": "524fd7ef28655ffad53b2a476da9c141dd387060f4fa08e429b104ff4c7cc3a7",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_006_44c8a3baed61.png",
+      "output_sha256": "09377183f45990a8e37df5f90742eab317e54cc512c1f170341e74a223223fe2",
+      "angle": 90,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "high",
+      "foil": "without",
+      "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|salmon-high-without_foil",
+      "source_session": "session-20261104-4fe35341516d",
+      "physical_sample_id": "salmon-high-without_foil",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "1099_44c8a3baed61",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_012.jpg",
+            "sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+            "recorded_sha256": "c2932dde2864092307b6c471c6b6fb838b30495ce51ac883a6cd0f190d59f61b",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          838.0,
+          438.5
+        ],
+        "source_box": [
+          419,
+          336,
+          1257,
+          541
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_006_44c8a3baed61_erase.png",
+        "erase_mask_sha256": "84679ab327a28d9a672175de6e0a593fdcf22ca7bb9e643b1d26d0d461891dc1",
+        "erased_pixels": 236932,
+        "changed_pixels": 305349,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          10,
+          324
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_007_db0a6b7aede3",
+      "source_sha256": "db0a6b7aede3ecf507d741b28fc72b4ab5ecaff59d5db18bf4a4cd288745e335",
+      "label": "三文鱼",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\原图副本\\1124_db0a6b7aede3_salmon-low-without_foil_0004.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\三文鱼\\掩码\\1124_db0a6b7aede3.png",
+      "mask_sha256": "539dbf141018f02d4d9ff8cdf535cf6a9293ad0adaac0edb2a9fcdffc743ad3e",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_007_db0a6b7aede3.png",
+      "output_sha256": "9b083908d0aedca87b270b51a0c429f53cbcaa02be4edaf59c1c2ea58a2a95fe",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "low",
+      "foil": "without",
+      "source_group": "real|三文鱼|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|salmon-low-without_foil",
+      "source_session": "session-20261104-4fe35341516d",
+      "physical_sample_id": "salmon-low-without_foil",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "1124_db0a6b7aede3",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\last_014.jpg",
+            "sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+            "recorded_sha256": "f38be01a059bb4bd27426523aa07a0b5b1c5309603d4eaf0b8f7fdda316f89cc",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          827.0,
+          744.5
+        ],
+        "source_box": [
+          758,
+          500,
+          896,
+          989
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_007_db0a6b7aede3_erase.png",
+        "erase_mask_sha256": "009617ca1120648ac4530bab8c2df5fb0d2c32fbdde19e3aebe833ebe3adc81a",
+        "erased_pixels": 91863,
+        "changed_pixels": 90164,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": null,
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_008_0666d5e988f4",
+      "source_sha256": "0666d5e988f40ea7d47e1fb09fd59be11e376e1ced9b58a8998746f38006ee8e",
+      "label": "可颂",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\可颂\\原图副本\\0646_0666d5e988f4_croissant-mid-with_foil-cooked_0008.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\可颂\\掩码\\0646_0666d5e988f4.png",
+      "mask_sha256": "a357fbb4134a6c19bccc30f74986acf0bdff66c2dc98d638ac3f4797365acc36",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_008_0666d5e988f4.png",
+      "output_sha256": "7caa5aae06a55a2d47a7028118642937c1eb713b29181b353e11b5dbae59d677",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "medium",
+      "foil": "with",
+      "source_group": "real|可颂|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|croissant-mid-with_foil-cooked",
+      "source_session": "session-20261104-4fe35341516d",
+      "physical_sample_id": "croissant-mid-with_foil-cooked",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0646_0666d5e988f4",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\三类食材分割_20261122_203914\\review\\refined_017.jpg",
+            "sha256": "22ec86f238d483152f094f46fd7658b6f4d5ae7f44609b18b4080dfdd932c966",
+            "recorded_sha256": "22ec86f238d483152f094f46fd7658b6f4d5ae7f44609b18b4080dfdd932c966",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          895.0,
+          593.5
+        ],
+        "source_box": [
+          631,
+          403,
+          1159,
+          784
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_008_0666d5e988f4_erase.png",
+        "erase_mask_sha256": "59f53910298faf967661962a204c294f50ff2b8f59de49fad8fdc25ae2b80af1",
+        "erased_pixels": 207682,
+        "changed_pixels": 207674,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          590,
+          -7
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_009_0dcba4ff58e5",
+      "source_sha256": "0dcba4ff58e5f769708dc87e4fb615d1c091e1ebcfe472b72e85dd6ff019cedc",
+      "label": "芦笋",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\画框调整_20261124_194553\\01_原图\\芦笋\\1179_0dcba4ff58e5.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\修正分割\\芦笋\\1179_0dcba4ff58e5\\掩码.png",
+      "mask_sha256": "5c592efbfc3a5bc2a5ccde7a3db427fbb14bcd0e82d8b93d8d366cb0376da206",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_009_0dcba4ff58e5.png",
+      "output_sha256": "c6d957391c625642525a4e9fbdeca8ab932a9c77abcbec5e4830bf8c30a216ef",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "first_real",
+      "height": "high",
+      "foil": "with",
+      "source_group": "real|芦笋|session-20261104-4fe35341516d",
+      "sampling_group": "session-20261104-4fe35341516d|asparagus-high-with_foil-long",
+      "source_session": "session-20261104-4fe35341516d",
+      "physical_sample_id": "asparagus-high-with_foil-long",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "1179_0dcba4ff58e5",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\review\\asparagus_overlay\\010.jpg",
+            "sha256": "9dc47cd0fe69e055fa6846b6ae408298576b27629ad137aa4dee2625bb7be593",
+            "recorded_sha256": "9dc47cd0fe69e055fa6846b6ae408298576b27629ad137aa4dee2625bb7be593",
+            "current": true
+          },
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\数据清理与分割修正_20261123_202414\\review\\asparagus_final\\005.jpg",
+            "sha256": "bf5e8316c7c3bbbf054a505678b53a8d7f885dbf5c2a5887e2718404a9b7c8ad",
+            "recorded_sha256": "bf5e8316c7c3bbbf054a505678b53a8d7f885dbf5c2a5887e2718404a9b7c8ad",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          852.5,
+          638.5
+        ],
+        "source_box": [
+          302,
+          230,
+          1403,
+          1047
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_009_0dcba4ff58e5_erase.png",
+        "erase_mask_sha256": "0f4bc0fc503722d2059a04f791beec26f92e605a5e0a9bf3a9e2ca2e684e00d1",
+        "erased_pixels": 218329,
+        "changed_pixels": 235411,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          -170,
+          -98
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_010_1616e45c60aa",
+      "source_sha256": "1616e45c60aa970b4b6eb2aa4969118b19e8ce88f217c24a2ad67bfbdc39540a",
+      "label": "芦笋",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\芦笋\\原图副本\\0125_1616e45c60aa_asparagus-no-high_0012.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\芦笋\\掩码\\0125_1616e45c60aa.png",
+      "mask_sha256": "eb8ef85afae7677bdb4e99508e95b21c5b7a7a3e6aa0afb0202654fdc8baf523",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_010_1616e45c60aa.png",
+      "output_sha256": "37ce5c55a7a56cb9a06991cc26049acefd8d721023135608ed63a7d26e7c1b09",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "second_real",
+      "height": "high",
+      "foil": "without",
+      "source_group": "real|芦笋|session-20261117-53ca8081ddc7",
+      "sampling_group": "session-20261117-53ca8081ddc7|asparagus-no-high",
+      "source_session": "session-20261117-53ca8081ddc7",
+      "physical_sample_id": "asparagus-no-high",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0125_1616e45c60aa",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_002.jpg",
+            "sha256": "332ddad0e3912f958dd6268ecc6f1591323f58bdbe2bbf6574fd57bb3c9722ac",
+            "recorded_sha256": "332ddad0e3912f958dd6268ecc6f1591323f58bdbe2bbf6574fd57bb3c9722ac",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          710.0,
+          468.5
+        ],
+        "source_box": [
+          173,
+          135,
+          1247,
+          802
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_010_1616e45c60aa_erase.png",
+        "erase_mask_sha256": "81a8c08639d69b2433f148db1999ad82ce1d27b18538f1fc5f1ca40fe1b18c6b",
+        "erased_pixels": 196480,
+        "changed_pixels": 195690,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": [
+          124,
+          129
+        ],
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "fg_011_0b3c9f2d1e32",
+      "source_sha256": "0b3c9f2d1e326e683ea264d2bdc83862c2767964c1b6e366ecb8fa71fb649a33",
+      "label": "芦笋",
+      "source_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\芦笋\\原图副本\\0131_0b3c9f2d1e32_asparagus-no-low_0003.jpg",
+      "mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\芦笋\\掩码\\0131_0b3c9f2d1e32.png",
+      "mask_sha256": "85a4dd8d96feb42ffd0b3c3af894e974217fc6f8b4457581e49e736f28ee5135",
+      "output": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_011_0b3c9f2d1e32.png",
+      "output_sha256": "2202450a1cb92f78a66ab4e8050eab4ae197ab6e7ec73a986453c493e4032934",
+      "angle": 180,
+      "split": "train",
+      "review_status": "pending",
+      "user_review_status": "pending",
+      "assistant_visual_status": "pending",
+      "training_eligible": false,
+      "era": "second_real",
+      "height": "low",
+      "foil": "without",
+      "source_group": "real|芦笋|session-20261117-53ca8081ddc7",
+      "sampling_group": "session-20261117-53ca8081ddc7|asparagus-no-low",
+      "source_session": "session-20261117-53ca8081ddc7",
+      "physical_sample_id": "asparagus-no-low",
+      "kind": "foreground_rotation",
+      "evidence": {
+        "annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\segmentation_inputs.json",
+        "effective_annotation_source": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\整合训练模型_20261126_115154\\数据与隔离记录\\effective_annotation_sources.json",
+        "mask_status": "verified",
+        "mask_usage": "full_food_only",
+        "mask_id": "0131_0b3c9f2d1e32",
+        "prior_mask_evidence": [
+          {
+            "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\四类食材核查与增强预览_20261123_093654\\review\\middle_002.jpg",
+            "sha256": "332ddad0e3912f958dd6268ecc6f1591323f58bdbe2bbf6574fd57bb3c9722ac",
+            "recorded_sha256": "332ddad0e3912f958dd6268ecc6f1591323f58bdbe2bbf6574fd57bb3c9722ac",
+            "current": true
+          }
+        ],
+        "current_train_membership": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+        "source_file_unchanged": true,
+        "mask_file_unchanged": true,
+        "output_image_size": [
+          1920,
+          1080
+        ],
+        "center": [
+          746.0,
+          670.5
+        ],
+        "source_box": [
+          448,
+          357,
+          1044,
+          984
+        ],
+        "erase_mask_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_replacements\\fg_011_0b3c9f2d1e32_erase.png",
+        "erase_mask_sha256": "dee75196817e6e8a130f315af019e2722968a92405afce3936e251b6a119573e",
+        "erased_pixels": 102190,
+        "changed_pixels": 97205,
+        "outside_allowed_changed_pixels": 0,
+        "halo_pixels": 6,
+        "reflection_radius": 81.0,
+        "texture_source_offset": null,
+        "background_method": "same-train-frame reflection exclusion, harmonic illumination and clean translated tray texture",
+        "food_photometric_transform": "none",
+        "scale": 1.0
+      }
+    }
+  ],
+  "skipped": [],
+  "policy": {
+    "review_status": "pending",
+    "training_eligible": false,
+    "original_files_modified": false,
+    "heldout_usage": "manifest hashes for exclusion only",
+    "fixed_background": true,
+    "color_or_lighting_change": false
+  },
+  "contact_sheets": [
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_replacements_01.jpg",
+    "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_replacements_02.jpg"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "source_training_rows": 5470,
+  "unique_source_families": 5469,
+  "validation_originals": 193,
+  "test_originals": 167,
+  "integrated_train_views": 7575,
+  "view_counts": {
+    "original": 5470,
+    "annotation_roi": 2011,
+    "reviewed_food_geometry": 94
+  },
+  "roi_per_class": {
+    "三文鱼": 118,
+    "可颂": 132,
+    "吐司": 40,
+    "土豆": 38,
+    "培根": 37,
+    "玉米": 40,
+    "芦笋": 219,
+    "薯条": 554,
+    "西兰花": 409,
+    "香肠": 184,
+    "鸡翅": 240
+  },
+  "new_320_accepted": 266,
+  "new_320_excluded": 54,
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "training_pixel_or_parent_overlap_with_eval": 0,
+  "weighted_epoch_family_mass_preserved": true,
+  "full_coverage_epochs": [
+    1,
+    5,
+    9,
+    13,
+    17
+  ],
+  "cropped_eval_images": 0,
+  "new_unreviewed_food_synthesis": 0,
+  "historical_pending_materials_authorized_by_current_request": true,
+  "sampling_unit": "original_source_family",
+  "steps_per_epoch": 5469,
+  "weighted_and_coverage_family_contribution_independent_of_view_count": true,
+  "all_views_seen_in_20_epoch_deterministic_preview": true,
+  "expected_total_reads": 109380,
+  "expected_min_view_reads": 1
+}

@@ -1,0 +1,8 @@
+{
+  "total_reads": 114680,
+  "unique_images": 5734,
+  "minimum_reads": 1,
+  "maximum_reads": 588,
+  "first_epoch_full_coverage": true,
+  "replacement_from_epoch2": true
+}

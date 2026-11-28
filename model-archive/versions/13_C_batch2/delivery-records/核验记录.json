@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "epochs": 10,
+  "training_images": 3516,
+  "each_image_reads": 10,
+  "class_count": 14,
+  "source_images_unchanged": true,
+  "model_reloaded_in_new_process": true,
+  "parent_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+  "checkpoint_sha256": "664a397e796479a7e1638e880a25347d1dcdb4f9e18051ba4048b44cfa2f39f6",
+  "package": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C第二批实拍训练_20261117_234948\\十四类食材识别_第二批实拍_代码与权重.zip",
+  "package_sha256": "03fd6d6d7ddf56e2c58501ac8940b002342ff7cac60f528fd3e9f11955a924b4",
+  "report": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\C第二批实拍训练_20261117_234948\\第二批训练结果.md",
+  "new_test_candidate_scored": false
+}

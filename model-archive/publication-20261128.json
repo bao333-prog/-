@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-28",
+  "base_commit": "505ea5ccff7622de88b1bd0b2f536abba894cd2c",
+  "account": "DRderder-dudulu",
+  "new_trained_versions": 12,
+  "total_trained_versions": 25,
+  "current_selected_version": "23_geometry_B320_ema",
+  "scope": "selected_final_checkpoints_and_matching_code_config_reports",
+  "source_images_uploaded": false,
+  "food_test_scored": false,
+  "training_performed": false,
+  "source_weight_sha256": {
+    "13_C_batch2": "664a397e796479a7e1638e880a25347d1dcdb4f9e18051ba4048b44cfa2f39f6",
+    "14_C_geometry": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+    "15_C_pumpkin_croissant": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
+    "16_joint_A": "6194eed2636895f0f6af58e81615c9b51d476a8475fc4b878c9bef4e05165ebd",
+    "17_joint_B": "a7a49ca21f7f1bf810d4ab7a3371b1e3bc86a9e69e695c40c6abf7a41341ff3b",
+    "18_sampling_A": "001bf3284aa37bd00172eba198e1f081140adce7eed741c95ffab2dfb5213837",
+    "19_sampling_B": "e7347651a08ac8720c8ddfc0ca9db326d75cd7f8d544e2175670541d400e8b7c",
+    "20_integrated_mask_box": "1d9a83de53d1a4b144d93bd57eb36071afaa9cfe3443a383fd7875f43f2c5bf8",
+    "21_asparagus_half": "e2e6c3199fba10dc3ab52df6159f7043b9f05b529aa1009dc5ba1856d7102460",
+    "22_geometry_A224": "f3084bc947d30ed8c68e7cfaa443c7ec0a77c94db265322d2ff35f0115fd8ed3",
+    "23_geometry_B320_ema": "843e1fa02c36197c90b463eb10539514ed3b8cd730495d11a11dbf661d1dcd14",
+    "24_geometry_C320": "54922c402b7a4ef7951b9ef681c825989c33fd7ce5605bf98affe8fde82b7d19"
+  },
+  "excluded_categories": [
+    "per_epoch_or_last_optimizer_checkpoints",
+    "official_initialization_not_counted_as_trained",
+    "synthetic_smoke_models",
+    "duplicate_repackages",
+    "image_and_html_previews"
+  ]
+}

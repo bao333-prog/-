@@ -1,0 +1,58 @@
+{
+  "id": "14_C_geometry",
+  "title": "第二批固定光照几何增强",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": "12_C_pumpkin_supplement",
+  "initialization": "12_C_pumpkin_supplement",
+  "initialization_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+  "run_id": "C_geometry_eval2_20261118_105452",
+  "directory": "versions/14_C_geometry",
+  "source_directory": "src",
+  "checkpoint": "versions/14_C_geometry/models/model_C_geometry_eval2.pt",
+  "checkpoint_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+  "checkpoint_bytes": 6264407,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 10,
+  "epochs": 10,
+  "validation_accuracy": 0.9577464788732394,
+  "validation_loss": 0.3297839710410212,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "新验证68/71；开发测试70/72（97.22%）。验证/测试有11个拍摄组交叉；此历史版本仍有第一批牛排。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": "outputs/C第二批几何增强_20261118_105452/十四类食材识别_第二批几何增强_代码与权重.zip",
+  "original_retained_file_count": 58,
+  "delivery_archive_sha256": "2f2faa4a0979995529d3c17dfdd7bc5205d3103e3ef6eae51676ad2eb70d14ed"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "13_C_batch2",
+  "title": "第二批实拍训练",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": "12_C_pumpkin_supplement",
+  "initialization": "12_C_pumpkin_supplement",
+  "initialization_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b",
+  "run_id": "C_batch2_20261117_234948",
+  "directory": "versions/13_C_batch2",
+  "source_directory": "src",
+  "checkpoint": "versions/13_C_batch2/models/model_C_batch2.pt",
+  "checkpoint_sha256": "664a397e796479a7e1638e880a25347d1dcdb4f9e18051ba4048b44cfa2f39f6",
+  "checkpoint_bytes": 6260951,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 1,
+  "epochs": 10,
+  "validation_accuracy": 0.9252336448598131,
+  "validation_loss": 0.36439137801388716,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "旧实拍验证198/214；旧复用测试187/213（87.79%）。历史版本含第一批牛排及光照增强，仅供追溯。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": "outputs/C第二批实拍训练_20261117_234948/十四类食材识别_第二批实拍_代码与权重.zip",
+  "original_retained_file_count": 44,
+  "delivery_archive_sha256": "03fd6d6d7ddf56e2c58501ac8940b002342ff7cac60f528fd3e9f11955a924b4"
+}

@@ -1,0 +1,17 @@
+{
+  "images": 121,
+  "metadata": 121,
+  "sessions": {
+    "session-20261111-60dfe4d862ad": 121
+  },
+  "prefixes": {
+    "asparagus-have-high": 60,
+    "asparagus-have-low": 30,
+    "asparagus-have-mid": 31
+  },
+  "existing_file_matches": 0,
+  "cross_eval_file_rgb_session_overlap": 0,
+  "unique_file_sha256": 121,
+  "unique_full_rgb_sha256": 121,
+  "physical_individual_independence_proven": false
+}

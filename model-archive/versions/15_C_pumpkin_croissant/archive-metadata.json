@@ -1,0 +1,58 @@
+{
+  "id": "15_C_pumpkin_croissant",
+  "title": "南瓜可颂补充",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": "14_C_geometry",
+  "initialization": "14_C_geometry",
+  "initialization_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+  "run_id": "C_pumpkin_croissant_20261118_160802",
+  "directory": "versions/15_C_pumpkin_croissant",
+  "source_directory": "src",
+  "checkpoint": "versions/15_C_pumpkin_croissant/models/model_C_pumpkin_croissant.pt",
+  "checkpoint_sha256": "9db30ce0eedee1fe8d53843eaff34d3b49e435c3f2222417ce79db21584c674a",
+  "checkpoint_bytes": 6264407,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 10,
+  "epochs": 10,
+  "validation_accuracy": 0.961038961038961,
+  "validation_loss": 0.2684697083064488,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "选模验证77张；完整验证80/83（另6张南瓜仅诊断）；开发测试82/84（97.62%）。南瓜评测与训练存在同源关联。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": "outputs/C南瓜可颂补充_20261118_160802/十四类食材识别_南瓜可颂补充_代码与权重.zip",
+  "original_retained_file_count": 54,
+  "delivery_archive_sha256": "925bb3feac481a1eb0310bdd50f6fd75355a49eddcb76dd4bc6708019ca021d9"
+}

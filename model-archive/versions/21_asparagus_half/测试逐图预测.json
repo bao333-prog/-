@@ -1,0 +1,1338 @@
+[
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0009.png",
+    "source_sha256": "89fe47d784e4a9e8aecf3288a9f9de674363269b345bc56b91a0b81d84c268fd",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9898866415023804,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0002.png",
+    "source_sha256": "4dc0ae14e566b49fb4a39eeea3db8544cffe4bf0c890f70c36afcceb17b8bc48",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9864134788513184,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0008.png",
+    "source_sha256": "38769d7b648d9fae4a46c1a83f4b1ebb7e4ea633eb6c84f431947d7cfd4129a2",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9134142994880676,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0007.png",
+    "source_sha256": "a7897a17493d034e7f85b7b4eb9cfe7a6dc1193aa9cd1877e29bc77e9e95f968",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9302324056625366,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0011.png",
+    "source_sha256": "baae072c1ca8d06e9a64f7c18a029624d88b4f0cd8ce4a409b8d913cf7005bbc",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9579883813858032,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0012.png",
+    "source_sha256": "154dbc7832e2369f5dfbf3d7f65a7e2571c7c42256ba8ffb00ccde1903b43690",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9798275232315063,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0006.png",
+    "source_sha256": "0c4be2c874a1b0e50cfd3dc24c0acb57fe3d92ef7890b7b3541a093e45837ee8",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9544853568077087,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0003.png",
+    "source_sha256": "56261a56ee89a626e6ace69d695e4f8649603017ad66999f4759bfbbabee5ae3",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9868502616882324,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0010.png",
+    "source_sha256": "3b92a551b9143371edb6ca5a6f26cafe6ec4f634c31382e907ecc02b6225afa5",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9791948795318604,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0004.png",
+    "source_sha256": "cdbf44a04cb30bbe74498e141e26660be126e1e286d6847816804775bda1f3f1",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9763391017913818,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0005.png",
+    "source_sha256": "e982fcee4fb78bbe9ec406d487f1cd6f5a9132573b25290740b80f7ad8799fde",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9813717603683472,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\toast_test02_0001.png",
+    "source_sha256": "6e29cab1e6e7a8d86f37dd4654362bc4a861cfd951a5fd2ce08ef1bd8a637945",
+    "true_label": "吐司",
+    "predicted_label": "吐司",
+    "confidence": 0.9727452993392944,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0002.png",
+    "source_sha256": "46412304c5790433e52564be145fffc7c929e23a757c272ad46f2519542390a1",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.7868151068687439,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0003.png",
+    "source_sha256": "9e34ae39dfa1045b6a1b4ff0466722762df9f5e25a5c21e5adfc2e764b5979b2",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.9493046998977661,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0004.png",
+    "source_sha256": "718c9f45a9e9ddac917f7340f998ab1afd13b8376d30f8d9036f52b360d4718d",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.9509745240211487,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0005.png",
+    "source_sha256": "2a0541d4f53d113a4710541ca52acb1c2cc0ea0ce49e1a0d135f264a35bdcbaa",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.9132252931594849,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0006.png",
+    "source_sha256": "f556f8bd14c151e3c652df39fedb28655d745de37971c2cc013cae3b0a71c694",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.9573348164558411,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\beef_test02_0001.png",
+    "source_sha256": "1c4d8c569a4f260ec88d94bf322dfed7a83058adb85de4bc8637220fec4d04a2",
+    "true_label": "牛排",
+    "predicted_label": "牛排",
+    "confidence": 0.9201498031616211,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0003.png",
+    "source_sha256": "3fcdb6de9411fd0eb14797875a1df7abf9de19f2a17dad1c055dc855067dd6ad",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9552780389785767,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0002.png",
+    "source_sha256": "122dac753c40b7ca7596078716f0b6d874a8f50679cf0edede63420046e355c3",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9227085113525391,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0023.png",
+    "source_sha256": "2bce9974ec49c702fbc27df7180a7cd0041b1a74e6db2705c79460e54571986d",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9124523401260376,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0020.png",
+    "source_sha256": "d0fdb917227b27261b86b26ddcc1e59a065d8a9c1fdf53e810aa497ed5b42ece",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9775977730751038,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0005.png",
+    "source_sha256": "5932b3e5cece80145327ebf85fba7f6139723d8d157fb5a4ad06f8d9b4a0b983",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9811790585517883,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0019.png",
+    "source_sha256": "684f64941186d39e6900d1a01576e25818627528b6d533f4160142c14f5e89bd",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9459748864173889,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0006.png",
+    "source_sha256": "d5bcab045a25bc866db1fbe318c053146ef64255ea98c7ab29ebe3bb8114cdd9",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9657589197158813,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0004.png",
+    "source_sha256": "0a10ccd771741bbde16ea2e6752cab4caefdb30a23df6c5dd43c2f9a6d968165",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9681071639060974,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0024.png",
+    "source_sha256": "b30ae1cf065efd6a86c50ba6ddfb056a4eff18dfdcbaf7e1d7806138fc065f6c",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9123436212539673,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0001.png",
+    "source_sha256": "43869735dc59eb1f92165b4aab973a9be67e9d1d84fae3d67bed2232f67868e5",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.8762187361717224,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0022.png",
+    "source_sha256": "eb215f1025c4f92db5fd6eb4ecc3efac45da9c1d7db72e58080ac52dfd82ede1",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.9740826487541199,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\corn_test02_0021.png",
+    "source_sha256": "21b2893f1f031c8a95e84e21ce45c5701ca309b1384191ef9f42e99e5395c6af",
+    "true_label": "玉米",
+    "predicted_label": "玉米",
+    "confidence": 0.951524555683136,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0013.png",
+    "source_sha256": "c7f8fd72435ab0b11cdfd70e8ba202f2e160360389c358ebc2ecfba0821150b6",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9593226313591003,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0008.png",
+    "source_sha256": "2b3471a4b67d70d677399bc974b4fe1911c59cc35e4b7ec4fc4d4e7a7bdef197",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9811850190162659,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0021.png",
+    "source_sha256": "956b9f2ec2b05972f235e0af21fb4887328e59b93f9045bf98ceccd46ad7824b",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9848572015762329,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0012.png",
+    "source_sha256": "b4d0f471b5137f64acf62e916adb244b8706cf539cb0cf124a63ec82a1fd87d5",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9724045395851135,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0015.png",
+    "source_sha256": "59d6a225edcd51e216a044d5e3e9168c5fa735bb2d7d61c9209b47d8b30c69e7",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9781362414360046,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0020.png",
+    "source_sha256": "91c7c208d982d0fcb8835394ecc219973dfd5492029f82690038e0d2a090a746",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9723291397094727,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0017.png",
+    "source_sha256": "c6c005f4111aeaecd7b4ff20b2bd5cca36f831aa6389bc4fd5363607f4cc4726",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9862093329429626,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0010.png",
+    "source_sha256": "5417e963ff75b0c95ec2a75809053387255e9554774fe36d787c633b19ee3578",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9416439533233643,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0007.png",
+    "source_sha256": "43d08f5cd3a180224b2c1f659c41de6b4fce375fc24a9241370638b50fdf762f",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9373852610588074,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0016.png",
+    "source_sha256": "2855dc87c7b57706958d8cf973d8ccdd15002877e0993382f641f230e3349810",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.977672278881073,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0002.png",
+    "source_sha256": "09e5a99aa928d23439e4f263f882cfa2b676dfab224e1b7905c628ecf3deed37",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9803243279457092,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0018.png",
+    "source_sha256": "7d99dec3f23ce4d9a0091c55051455d68934fd297e93af0b8c2b7ca58640fd23",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9772182703018188,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0004.png",
+    "source_sha256": "a8167760ade0fbeba0a8326ad1c0c4f714daa1f7115ac0c478cf2987aaa25894",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.8696175813674927,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0003.png",
+    "source_sha256": "ee08241946088a3c67513a1829bb5640442d3a58d14616fbcec3268eb5d0b53f",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9545208811759949,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0005.png",
+    "source_sha256": "928e30b5364d96eed79c8b0ea14fd293cafb712bcb228e392e74222401202089",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9580888152122498,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0011.png",
+    "source_sha256": "9e0d27c0e3aacdb8e7de469f3919c97da219079c08bd515def38d420055365b6",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9135002493858337,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0014.png",
+    "source_sha256": "e94596cb1885b5b1db21f58cd5b0991f4383a9fd7f44c4f35c064f2584256e85",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9842545986175537,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0006.png",
+    "source_sha256": "9aaad983122059c3888ea16e724500bc6214b8cd608e653266e787e9eb40e8b7",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9367425441741943,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0001.png",
+    "source_sha256": "fcaffc17a935bb5773426b796b91cbd410183c3c88a0a2695d8f1b295344ac0f",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9617422223091125,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0009.png",
+    "source_sha256": "ffd6205a97d52a20d70c349a7ead645717d19654703915a7572b28e97a484742",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9622558951377869,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\broccoli_verify02_0019.png",
+    "source_sha256": "a3aa71cf05acc93137e7fce3bde4fc04e4682f856c9f5fbeb291feb4b6830521",
+    "true_label": "西兰花",
+    "predicted_label": "西兰花",
+    "confidence": 0.9536041617393494,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0003.png",
+    "source_sha256": "dbb262c0ad5c256ae89099ed71d27682aa641ea72f7d61ebd68547cc49907b38",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9923521876335144,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0002.png",
+    "source_sha256": "f6a0b404f2d66bbd82bfa11e48c9f011f9335d81393de79cdf7098c9a015cc7d",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9818192720413208,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0006.png",
+    "source_sha256": "f8fbf351a360640ba7382b57cf3b6cf02a86d3831f6ebf46fad3cb72d62704eb",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9270049929618835,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0004.png",
+    "source_sha256": "9b2c01b4cd83c1b3db125c81237b991c715358e0db5f6235533999ac0d7753e1",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9895187020301819,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0001.png",
+    "source_sha256": "fcc2203b7e0c5fd73ea9dee8e60dd0e2b7d17cffed58283d69ba7c71e7210182",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9890108704566956,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\chicken_test02_0005.png",
+    "source_sha256": "424176f2d57290d5b25ba51a2baa7a2b8333ae566fd59ed8e56bcd6d3a69cb7f",
+    "true_label": "鸡翅",
+    "predicted_label": "鸡翅",
+    "confidence": 0.9900715351104736,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0015.png",
+    "source_sha256": "6c9504c44ff7861666fc5cad5e803c3647aff00c60c0910af060954606f91169",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9845274686813354,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0016.png",
+    "source_sha256": "92b353214bcaee8105468785900d24b664bddaef8370ee07279b96a22d830990",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9851566553115845,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0014.png",
+    "source_sha256": "9945fa0b2574c6c629ed762ea0d081da4c85e89367dbaafc471ad147ccaff683",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9707605838775635,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0001.png",
+    "source_sha256": "1ffa532b7312a60768858feabe2ab5d623e30c08ce2e61112a8258d3e93461c8",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.5127814412117004,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0024.png",
+    "source_sha256": "53f8aaa4daf2ed01d9827c9108bc08c118caca07a1ac8c5cf1dd8538942f72ac",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9317728281021118,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0013.png",
+    "source_sha256": "fd625be648fd7f3956e00a63b404721d36ff4ed9a72fd8ff9c8ee4154938b245",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9619274735450745,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0028.png",
+    "source_sha256": "8f8a8e4df106ec2cf22db639b5ed2b6b048ab720cdc1c4544a9ce40cefb8bf16",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9175397157669067,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0009.png",
+    "source_sha256": "33d397984c99abef17d73fc71ff75728395be8336f34a0c2f2f7e15733e9e990",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9320712685585022,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0025.png",
+    "source_sha256": "49b2faa1727e31522c125d800726621763541441d58f5b8d806382a36ed66aa5",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.936930775642395,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0018.png",
+    "source_sha256": "482322a147fd95dc8a7b9ecddd072405183dd3a3ed91ff52586d90b37c78b908",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9530346393585205,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0006.png",
+    "source_sha256": "b63dbdec38584dde62232d816563870f81daa6095a9f62991308d87e649645fd",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.6351181864738464,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0011.png",
+    "source_sha256": "185f09329ce2ce0f03b5da90c3f4fe9eb329a8d96c1f9a6c6ff219f6987e20a8",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9049702286720276,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0017.png",
+    "source_sha256": "765116e4dd5426262d83768dcbb99a196e3b1667294bed74cfd5d3ee82604008",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9523497223854065,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0005.png",
+    "source_sha256": "8902e856bb4071adca99ca8e535f3c7013d08ccebdc6aed522e75f45c7b2dea2",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.8824546933174133,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0023.png",
+    "source_sha256": "f724203cdc24f5f502b99e39cf144ac54f21a356b9a08ba31dc766cecf1f4fd8",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9827860593795776,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0004.png",
+    "source_sha256": "03da1b2e147f1dcb48f1a61e0a8883bed5d81f92db63d599d996f823a74bd56a",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.7643568515777588,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0026.png",
+    "source_sha256": "f19e79720c9b4bf444c240c458920df820ff297f47de9e62570471cf277e0cec",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9340331554412842,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0022.png",
+    "source_sha256": "e6e2184ac5271cc7f85a9cf3b7ce5a666264972ec407114132f062967f9e6123",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9631975889205933,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0010.png",
+    "source_sha256": "e2d01736e29f54a99eef2ad86f240ac2fbc4b9c3d8e2f3909161d8df65019104",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9340217113494873,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0008.png",
+    "source_sha256": "34a3bef129c7975e80bc9237b3155cf786cd6564f621efc1074d4c4ea81d55f7",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.939581573009491,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0002.png",
+    "source_sha256": "48c4ae552be995a0042fd03069e9dfa7a6fe8c24a2411efefda7c8f34c81aaf6",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.7262111306190491,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0003.png",
+    "source_sha256": "6c536210a9d5ba1a1264bf7505661287a26d684fe3846fe513d956f51213df42",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.7587732076644897,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0007.png",
+    "source_sha256": "225947963245d7cb09e14f5f2e878543e96e684d80857fec754bcba30314f597",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9269452691078186,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0019.png",
+    "source_sha256": "8fcff3e77bfeaf09d511983dad580782493a91e520f47b7c9eaf48f56225a01f",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9483168721199036,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0012.png",
+    "source_sha256": "edc164b9f01acda07c3e1b7e75a786871234af805677b2086793a37f68eb9a3b",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.9622328877449036,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0020.png",
+    "source_sha256": "a2aecaf91e4f5b79a3fdf96f53f5af446feb9927d0ccc0373deab734fc94c1cb",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.963605523109436,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0021.png",
+    "source_sha256": "ecca82abb046afa6029867b1d11a626db3c1de16ce70c5a96ee465b5a1f959a2",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.8895443677902222,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0027.png",
+    "source_sha256": "12554d78d1ece4b3b8dc0a6ce4a4c504c9006bab3f985d2a1f76b11f67f3c283",
+    "true_label": "芦笋",
+    "predicted_label": "芦笋",
+    "confidence": 0.957253634929657,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0001.png",
+    "source_sha256": "7bbc1c5d36ee347a3d6dc869b6e38f1e4a4a39629e7530ad9918527920a4be8b",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.9796859622001648,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0003.png",
+    "source_sha256": "540ccc059a83a61e0a82c757a4836416a01d88462e31f545dedf06881c80e8e9",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.8446080088615417,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0004.png",
+    "source_sha256": "777f4dc8e4d176b42cafdd149235ea9005303e3e35015647cd339abf8c2b4d8c",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.9913437366485596,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0006.png",
+    "source_sha256": "1698112ae18314d6a32550a65140ffc542e60d714d5c0444b6f7a5a8aa408d8f",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.5633779764175415,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0002.png",
+    "source_sha256": "136c399272ed38f7a3fec6d0adc6558f7b0715b580d83c3de3ca2b51841c5739",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.9835785627365112,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\peigen_test02_0005.png",
+    "source_sha256": "90cdff0b1e4171d0e7c05404175c4675e2c339385ec33fe403ff1c07d432b5d7",
+    "true_label": "培根",
+    "predicted_label": "培根",
+    "confidence": 0.9068969488143921,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0001.png",
+    "source_sha256": "21b18b7f9047d9979aec0626ed5612ff9dcdf683c41fe52c3e0a59442dbd8bcb",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.9287732839584351,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0004.png",
+    "source_sha256": "548212b700bec29d2cba212798f3d7e8a1735c593dd7da0174aaa838c375fa02",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.9820881485939026,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0006.png",
+    "source_sha256": "34c5ea4c5b6df5516cd379b07e8aa57f02b8dfd95c21a385c47648e3ff69ba58",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.7033558487892151,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0002.png",
+    "source_sha256": "239254dfaae5ebf70a45561f4bb41a3656cdfe8d542740b4e9b549a12cbe5e9b",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.856476366519928,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0005.png",
+    "source_sha256": "aa10d16361685ba42cfedcff1bf454157f723fb7b61a482f228143cc4786a5e5",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.9410051107406616,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sanwenyu_test02_0003.png",
+    "source_sha256": "fac89b54b4f9ea31bdb25d31a3577d79424ee47bc263b5122db336e6461f1617",
+    "true_label": "三文鱼",
+    "predicted_label": "三文鱼",
+    "confidence": 0.963542103767395,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0013.png",
+    "source_sha256": "87a34d9ffc40c214bcf607df3b5a18ab2b02fb785af0436fbde44bdb427c66ad",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.8033978343009949,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0007.png",
+    "source_sha256": "5a11252ad25121d1174e2679b25feeea8bee7f230f648ef26c0dd8367c50d8ed",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9115250110626221,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0011.png",
+    "source_sha256": "f366a603c53324e5d73ee91015989ca77aa608aaa2b1d8caa779155e47bb2d22",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.7419735193252563,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0010.png",
+    "source_sha256": "5d81dab463e30a10a23f7c69ab36eec395e1acc56195361ac90ef71ec3b30c71",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9505121111869812,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0003.png",
+    "source_sha256": "5a6944b30640476baf53ad700e4c14717b0cfa3de0249eef1d39a8c277c58189",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9700688123703003,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0012.png",
+    "source_sha256": "ec278ce694561c2512dff7d3b73f82e3297753a20df499f4b941f9121d78bbee",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.94806969165802,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0004.png",
+    "source_sha256": "c46cbf557179508fa0a502579a94ba2844f8aad238567a28d573ff7349b6d8e7",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9699453115463257,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0009.png",
+    "source_sha256": "593749b19fb96d531596aba5ef265f635814a41372be784313d5c9089b72e9d4",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9528171420097351,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0008.png",
+    "source_sha256": "56b013e937ca97411745bc301face25c61ff5a022e29de541edda485cd96f26b",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9331262111663818,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0014.png",
+    "source_sha256": "62121f3d1db50e94e3ae0cb933a97fbd425dddf00b311d4695feecd3538b6e9e",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9393711686134338,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0005.png",
+    "source_sha256": "1f690be5f07be0d7080e9c6b4bfeb1bbd9f73b773f524b11b4291e358cac5f83",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9467691779136658,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0001.png",
+    "source_sha256": "a2bbbb046bb4b008ff46d9bfc0db55503390c6cbca76b38ed753097824b73ede",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.9733264446258545,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\potato_test02_0015.png",
+    "source_sha256": "08bb26676d1434cd5b01e5e15418597c1959043d3ed88313d1de9a61f7241a0c",
+    "true_label": "土豆",
+    "predicted_label": "土豆",
+    "confidence": 0.7544723153114319,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0001.png",
+    "source_sha256": "fba98381423261fc5e137ad4727c125b7725f8dd829c85c9ba7ce983a9ef9e14",
+    "true_label": "香肠",
+    "predicted_label": "鸡翅",
+    "confidence": 0.48787757754325867,
+    "correct": false
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0006.png",
+    "source_sha256": "f111f5922b50ccc5e363384311611561ba2ce58dfe4133e637b12f64547895c2",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.8414873480796814,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0004.png",
+    "source_sha256": "0a5b5e862a47adc6f29dd6843e2e9bd6b57c9fb332e242f053a6ffd3e2b4980c",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.9777827262878418,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0009.png",
+    "source_sha256": "c98b2f73125835d2aaef6b7f4c0ce1539f451e28db70fd81988b1f9eb2c6dc33",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.7928476333618164,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0010.png",
+    "source_sha256": "88f1519b2e1d8bbd59b3792f9b342d4abd0ffe02e951c80b40abdc06ea72566f",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.9401858448982239,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0012.png",
+    "source_sha256": "91b299c98ead54f8d06178e708a598ba20a13c427506d7283ac7ab84e7c71bfe",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.5555568933486938,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0002.png",
+    "source_sha256": "0c702fb11b9c2793cbbdee3b07287e72854f6098a1ce8af14207b1372491ebd4",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.6903828382492065,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0005.png",
+    "source_sha256": "eb10a415896a4abb8ad7871b46c804c52073b0069518461db52069098b928dd4",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.9458982944488525,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0003.png",
+    "source_sha256": "ecbb1fec537a659f05a3f4d4689b02c3362427a8f6e8017bf8a98cdce075411d",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.9799286723136902,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0008.png",
+    "source_sha256": "306d5fc487a94dfc460f3690d3c4aa3413604df7dbb84da5d671f287ad12adf4",
+    "true_label": "香肠",
+    "predicted_label": "鸡翅",
+    "confidence": 0.7931482791900635,
+    "correct": false
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0011.png",
+    "source_sha256": "0db3dd6ee7105b8b67dd9fec97237ddf6db772f5f9ec3aeaf89813dd581ed445",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.886508047580719,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0007.png",
+    "source_sha256": "c5368fb1d6cbc93e4dfa96d02908a62d94afe4bbd3eeaa1c0ed937f09925e690",
+    "true_label": "香肠",
+    "predicted_label": "香肠",
+    "confidence": 0.8526294231414795,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0027.png",
+    "source_sha256": "0502660bdf70f1a54cac2aefdb671c1e5baa01a6c48b211df834fa7c37eacd24",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9155302047729492,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0031.png",
+    "source_sha256": "beca1caba5105c6099fa87640b6b37b79b15d5c41d7f6923dc0f1c10f177455d",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9487612247467041,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0023.png",
+    "source_sha256": "05cfeecd8bdab993c5fbf7767dcf0c0beb29083d5b578b01a791a0b76c37cf96",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9616179466247559,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0018.png",
+    "source_sha256": "08fe59c7f35cf708473bdfebac7123fe69583d1ffd49cd465c8307088703e187",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.8194251656532288,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0030.png",
+    "source_sha256": "219636854cfa387e0d51daca414c6371c44049bd509258c5e3a9dd18444f3c76",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9682509899139404,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0022.png",
+    "source_sha256": "c9c97cc1ca5b25bdc133abc507b111ded096c8e5d6f6113578220e6135a8cb27",
+    "true_label": "薯条",
+    "predicted_label": "芦笋",
+    "confidence": 0.6128948926925659,
+    "correct": false
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0016.png",
+    "source_sha256": "55f19ab256b02c9babc486b01b2145a4914d38b223d97d627816db8f3077b9cc",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9548929929733276,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0034.png",
+    "source_sha256": "2433fc5053e578e12316942d5a236ae6445c84dfda217b19c57092b6afc3f5a2",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9734485149383545,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0020.png",
+    "source_sha256": "561903e0d745934d44baf98c719131113ec3b6d8c2fc2bb9908d825df62fb233",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.4236387312412262,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0024.png",
+    "source_sha256": "e9257374fd0e84e65b4587f5c47aaa14c84a6449ffd95563a8df60cacbfcff7c",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9768742918968201,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0015.png",
+    "source_sha256": "74a85305b1fa8090458bbc9087c27741fc89a31ce2f87c215c1820c7e987810e",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9351125955581665,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0028.png",
+    "source_sha256": "399a6d597afedad269c124f85ffbe5bae932348f2f2476782ba6b8e66fe2e986",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9319618344306946,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0013.png",
+    "source_sha256": "141462968c80cc802ec9d83ecb5dcd4bc1eee9e1e8f775a9ba5e7185add783a0",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.468649685382843,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0033.png",
+    "source_sha256": "904174fe637236c4a914d780bcb26fe84ac6f09caa3b7fa1010a273644bc0b79",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9345719218254089,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0014.png",
+    "source_sha256": "f70088367024bfe9b054e462bcb965a2bb1f1d968065e2a181c63d8a3a91817e",
+    "true_label": "薯条",
+    "predicted_label": "芦笋",
+    "confidence": 0.476706326007843,
+    "correct": false
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0029.png",
+    "source_sha256": "2031a3a407f23805a4a5881a5a15974bed900d28655fc8479a76d7471092d6b2",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9791892766952515,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0017.png",
+    "source_sha256": "16b7d6073715a12bd69c13951da3b1619a43b9cfdf1098fc633d0593e077f501",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.8582286834716797,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0021.png",
+    "source_sha256": "6195fecac5d186120b84b70ce6f8765b769a8efcf61f99935e88318c24f93388",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.5795603394508362,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0025.png",
+    "source_sha256": "21d21ee91c6ab50c0639569ea3b1445768d3c6f9423503e66daed7edd15c4efa",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.8368794918060303,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0026.png",
+    "source_sha256": "745a60bfb0d9437a3a1be84903b11b8026c9cd2631812e3222c039dfdfd3a201",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.9494017362594604,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0032.png",
+    "source_sha256": "2fd702bb5ba5a0ba917e5c77e3cb58ada4b60afc43e52149188d49397bbd44bc",
+    "true_label": "薯条",
+    "predicted_label": "薯条",
+    "confidence": 0.954387903213501,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0008.png",
+    "source_sha256": "fcd97b718e52133359dc5203d2e8407c0abe0bc186c9904a42db881b9b4429c8",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.6111747026443481,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0006.png",
+    "source_sha256": "be25e0db061693e1ca44140e81d5f09c97336418a458b708be0664f239febde0",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.8175225853919983,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0003.png",
+    "source_sha256": "dced1e21827dd01221aa106b51a8175727c5fea9f1400c2b3dbf5a6d08a83cc4",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.7716146111488342,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0009.png",
+    "source_sha256": "12f4f89a52e8a200f3389c9fb362da9c570641ece03b4396c59a7de1b83a4cb6",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.6210334300994873,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0010.png",
+    "source_sha256": "357fd24874f5e75de9af147d62f640d33ab9ab3261b5e63b3c63803c5dd3d068",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.655110776424408,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0007.png",
+    "source_sha256": "eaf6f35698aefd18fd9dc1ae8e922096f8cce4a408f5a4d5a93bcf61f8a940b6",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.8110686540603638,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0012.png",
+    "source_sha256": "78e65f3aa007a5408ba12ec2c8d09e5863ccc6c2e9a5f2fbc7b0142eea73f0cb",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.7343222498893738,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0004.png",
+    "source_sha256": "67a5df3831ff9e87db8bc3dcb15fcfa0d06baa8ed7526eff7b62a035b9841f2c",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.7471987009048462,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0005.png",
+    "source_sha256": "47489b388e5a69dba2baadda8eb2c7877866cdd816f96dc6b15b315c297513eb",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.8325585126876831,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0001.png",
+    "source_sha256": "cfdf93a9d06019cc80a386b7d9ba595872146898874c9c9fd136ab6dde2ac5cc",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.6836410164833069,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0002.png",
+    "source_sha256": "fef4c804bc792665ab4aea6a63f8466dfaca52c0ac29ec2771396ce52320a4c7",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.5728453993797302,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0011.png",
+    "source_sha256": "3b854b5352f79e18ec9f2d4a0e658f05017f4b9860a09708b8662a7bb89fb2c4",
+    "true_label": "南瓜",
+    "predicted_label": "南瓜",
+    "confidence": 0.5351104140281677,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0006.png",
+    "source_sha256": "b830cb670f58f64f1011eb8e83c4f37c4c5e0be9ba82f481292c697d903665e1",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9619731903076172,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0008.png",
+    "source_sha256": "659a4b472a7093d398d1429f57ceba887092a34cc6ba72f01592015af37f1e8a",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9887802600860596,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0003.png",
+    "source_sha256": "b2bdd39cfa7ae64e3052c9adcab7fad470182b3ebaaf2a27c2382390353d398a",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.8924079537391663,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0010.png",
+    "source_sha256": "7997099a4d6da671b70b39f12f4c0c263416c9cc3fe6c8fd440dd8ee2bbcc86f",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.981871485710144,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0011.png",
+    "source_sha256": "3483672d70775f358e4ec4c7be33e333aa58c424641c872de2402bb9c1e4fce7",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9625440239906311,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0007.png",
+    "source_sha256": "07c97f0e326befa2fb358facd2663f97892c2a8d341b837cd73ce8438e112549",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9577236771583557,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0005.png",
+    "source_sha256": "bcaa6f76beafe6d0102fdd05d4e9c30df0fd34d06d1f54b01a8dcb19f4a51e08",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9515489339828491,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0009.png",
+    "source_sha256": "3db7953827d51cfc80cddad0e826d80079e314b172d3bfd265b6a39585351d81",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9601777195930481,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0004.png",
+    "source_sha256": "64d889d988d17fa416092809ebc7cdad559e283454972c115d8863de7598ee4a",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.8856117129325867,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0002.png",
+    "source_sha256": "0304a7ff3beeb857c57a26dd34e1a6709626c3a7584a75bdc551ccb9ea988372",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9763651490211487,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0012.png",
+    "source_sha256": "a0f55f5a4e52735cf7e377c6c57362febd27aff9296b4b617d11b47868c33fa6",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9484648108482361,
+    "correct": true
+  },
+  {
+    "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0001.png",
+    "source_sha256": "3f8cc75e8fa84f96eb8f1c62330add4342e52139f55f960de47958f8ada66c50",
+    "true_label": "可颂",
+    "predicted_label": "可颂",
+    "confidence": 0.9722665548324585,
+    "correct": true
+  }
+]

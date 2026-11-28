@@ -1,0 +1,462 @@
+{
+  "train_original_rows": 5591,
+  "unique_families": 5590,
+  "duplicate_family_rows": 1,
+  "scene_count": 5482,
+  "multi_family_scenes": 69,
+  "singleton_scenes": 5413,
+  "largest_scene_families": 16,
+  "scene_size_histogram": {
+    "1": 5413,
+    "2": 53,
+    "3": 9,
+    "4": 3,
+    "5": 2,
+    "6": 1,
+    "16": 1
+  },
+  "per_label": {
+    "三文鱼": {
+      "original_rows": 272,
+      "families": 272,
+      "scenes": 271,
+      "target_scenes": 138,
+      "proxy_scenes": 133,
+      "largest_scene_families": 2
+    },
+    "南瓜": {
+      "original_rows": 226,
+      "families": 226,
+      "scenes": 226,
+      "target_scenes": 88,
+      "proxy_scenes": 138,
+      "largest_scene_families": 1
+    },
+    "可颂": {
+      "original_rows": 346,
+      "families": 345,
+      "scenes": 331,
+      "target_scenes": 217,
+      "proxy_scenes": 114,
+      "largest_scene_families": 5
+    },
+    "吐司": {
+      "original_rows": 453,
+      "families": 453,
+      "scenes": 444,
+      "target_scenes": 306,
+      "proxy_scenes": 138,
+      "largest_scene_families": 4
+    },
+    "土豆": {
+      "original_rows": 376,
+      "families": 376,
+      "scenes": 360,
+      "target_scenes": 221,
+      "proxy_scenes": 139,
+      "largest_scene_families": 5
+    },
+    "培根": {
+      "original_rows": 312,
+      "families": 312,
+      "scenes": 311,
+      "target_scenes": 172,
+      "proxy_scenes": 139,
+      "largest_scene_families": 2
+    },
+    "整鸡": {
+      "original_rows": 140,
+      "families": 140,
+      "scenes": 140,
+      "target_scenes": 0,
+      "proxy_scenes": 140,
+      "largest_scene_families": 1
+    },
+    "牛排": {
+      "original_rows": 198,
+      "families": 198,
+      "scenes": 196,
+      "target_scenes": 196,
+      "proxy_scenes": 0,
+      "largest_scene_families": 2
+    },
+    "玉米": {
+      "original_rows": 712,
+      "families": 712,
+      "scenes": 708,
+      "target_scenes": 592,
+      "proxy_scenes": 116,
+      "largest_scene_families": 2
+    },
+    "芦笋": {
+      "original_rows": 480,
+      "families": 480,
+      "scenes": 454,
+      "target_scenes": 316,
+      "proxy_scenes": 138,
+      "largest_scene_families": 16
+    },
+    "薯条": {
+      "original_rows": 727,
+      "families": 727,
+      "scenes": 717,
+      "target_scenes": 580,
+      "proxy_scenes": 137,
+      "largest_scene_families": 4
+    },
+    "西兰花": {
+      "original_rows": 555,
+      "families": 555,
+      "scenes": 543,
+      "target_scenes": 404,
+      "proxy_scenes": 139,
+      "largest_scene_families": 3
+    },
+    "香肠": {
+      "original_rows": 331,
+      "families": 331,
+      "scenes": 328,
+      "target_scenes": 189,
+      "proxy_scenes": 139,
+      "largest_scene_families": 2
+    },
+    "鸡翅": {
+      "original_rows": 463,
+      "families": 463,
+      "scenes": 453,
+      "target_scenes": 319,
+      "proxy_scenes": 134,
+      "largest_scene_families": 3
+    }
+  },
+  "target_families": 3846,
+  "proxy_families": 1744,
+  "target_scenes": 3738,
+  "proxy_scenes": 1744,
+  "singleton_reason_counts": {
+    "missing_session_or_capture_metadata": 2,
+    "proxy_family_singleton": 1744
+  },
+  "settings": {
+    "max_adjacent_capture_gap_seconds": 2.0,
+    "max_full_rgb_mae_normalized": 0.00784313725490196,
+    "max_dhash_hamming": 3,
+    "rgb_size": [
+      224,
+      224
+    ],
+    "dhash_size": [
+      9,
+      8
+    ],
+    "resize": "whole_frame_lanczos",
+    "compare_to": "fixed_scene_representative",
+    "proxy_policy": "one_scene_per_family",
+    "missing_or_conflicting_metadata": "singleton",
+    "input_path_key": "source"
+  },
+  "only_training_originals_read": true,
+  "validation_test_images_or_predictions_read": false,
+  "physical_individual_independence_proven": false,
+  "limitations": "仅时间相邻且全图近似的保守摆放组；不同scene仍可能是同一物理食材，无法据此声称个体泛化。",
+  "largest_scenes": [
+    {
+      "scene_id": "scene_e7316e65edb53ed2f94d",
+      "label": "芦笋",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-60dfe4d862ad|asparagus-have-high",
+      "families": 16,
+      "max_rgb_mae_to_representative": 0.004432554271708683,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T14:14:40.593356+08:00",
+      "last_capture": "2026-11-11T14:14:49.680270+08:00"
+    },
+    {
+      "scene_id": "scene_3aeeecf63b0108020516",
+      "label": "芦笋",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-60dfe4d862ad|asparagus-have-high",
+      "families": 6,
+      "max_rgb_mae_to_representative": 0.007115580607242897,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T14:14:11.937438+08:00",
+      "last_capture": "2026-11-11T14:14:14.959186+08:00"
+    },
+    {
+      "scene_id": "scene_25c0d2c6f063fab1c155",
+      "label": "可颂",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-03c86d9e2934|croissant-have-low",
+      "families": 5,
+      "max_rgb_mae_to_representative": 0.004899668200613578,
+      "max_dhash_to_representative": 2,
+      "first_capture": "2026-11-11T16:03:27.058786+08:00",
+      "last_capture": "2026-11-11T16:03:29.492458+08:00"
+    },
+    {
+      "scene_id": "scene_a71c5239ea8abf3c7e48",
+      "label": "土豆",
+      "environment": "target",
+      "era": "first_real",
+      "sampling_group": "session-20261104-4fe35341516d|potato-low-without_foil-whole_unpeeled",
+      "families": 5,
+      "max_rgb_mae_to_representative": 0.00399391527444311,
+      "max_dhash_to_representative": 3,
+      "first_capture": "2026-11-04T18:22:08.810810+08:00",
+      "last_capture": "2026-11-04T18:22:15.278876+08:00"
+    },
+    {
+      "scene_id": "scene_485e38e6537a1a8b02e5",
+      "label": "可颂",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-03c86d9e2934|croissant-no-high",
+      "families": 4,
+      "max_rgb_mae_to_representative": 0.0034311641323195945,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T16:06:31.543708+08:00",
+      "last_capture": "2026-11-11T16:06:33.350695+08:00"
+    },
+    {
+      "scene_id": "scene_90b9698f646659e6afe5",
+      "label": "吐司",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-60dfe4d862ad|toast-have-high",
+      "families": 4,
+      "max_rgb_mae_to_representative": 0.005454238987261571,
+      "max_dhash_to_representative": 1,
+      "first_capture": "2026-11-11T14:17:56.787309+08:00",
+      "last_capture": "2026-11-11T14:17:58.611885+08:00"
+    },
+    {
+      "scene_id": "scene_c563ee9637c65b1f17a6",
+      "label": "薯条",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-c177db99c5e5|chips_two_yes_high",
+      "families": 4,
+      "max_rgb_mae_to_representative": 0.005849084425436841,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T20:39:59.381242+08:00",
+      "last_capture": "2026-11-11T20:40:00.289793+08:00"
+    },
+    {
+      "scene_id": "scene_c0f73eb796b9fc068ac6",
+      "label": "可颂",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-03c86d9e2934|croissant-have-high",
+      "families": 3,
+      "max_rgb_mae_to_representative": 0.006190236511271175,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T16:01:49.583875+08:00",
+      "last_capture": "2026-11-11T16:01:50.801152+08:00"
+    },
+    {
+      "scene_id": "scene_81be6da17ceafbb98bc0",
+      "label": "可颂",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-03c86d9e2934|croissant-no-low",
+      "families": 3,
+      "max_rgb_mae_to_representative": 0.002222920418167267,
+      "max_dhash_to_representative": 1,
+      "first_capture": "2026-11-11T16:04:18.134203+08:00",
+      "last_capture": "2026-11-11T16:04:19.332690+08:00"
+    },
+    {
+      "scene_id": "scene_dec0f4c515013f03ac5c",
+      "label": "吐司",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-60dfe4d862ad|toast-have-high",
+      "families": 3,
+      "max_rgb_mae_to_representative": 0.004901075013338669,
+      "max_dhash_to_representative": 0,
+      "first_capture": "2026-11-11T14:18:07.686377+08:00",
+      "last_capture": "2026-11-11T14:18:08.900802+08:00"
+    },
+    {
+      "scene_id": "scene_ac573c13b998e3b03e93",
+      "label": "吐司",
+      "environment": "target",
+      "era": "second_real",
+      "sampling_group": "session-20261111-60dfe4d862ad|toast-have-low",
+      "families": 3,
+      "max_rgb_mae_to_representative": 0.00512311695511538,
+      "max_dhash_to_representative": 1,
+      "first_capture": "2026-11-11T14:21:37.607658+08:00",
+      "last_capture": "2026-11-11T14:21:38.823188+08:00"
+    },
+    {
+      "scene_id": "scene_eca8283b26fd19220899",
+      "label": "土豆",
+      "environment": "target",
+      "era": "first_real",
+      "sampling_group": "session-20261104-4fe35341516d|potato-low-without_foil-whole_unpeeled",
+      "families": 3,
+      "max_rgb_mae_to_representative": 0.0051143634537148186,
+      "max_dhash_to_representative": 3,
+      "first_capture": "2026-11-04T18:22:00.735795+08:00",
+      "last_capture": "2026-11-04T18:22:03.965439+08:00"
+    }
+  ],
+  "sampling_audit": {
+    "input_view_rows": 7696,
+    "unique_family_paths": 7695,
+    "epoch_length": 5590,
+    "branch_count": 1301,
+    "input_weight_total": 1.0,
+    "max_absolute_branch_mass_error": 1.734723475976807e-17,
+    "first_epoch_families": 5590,
+    "first_epoch_original_only": true,
+    "checkpoint_mid_epoch_and_next_epoch_exact_match": true,
+    "later_epoch_diagnostics": [
+      {
+        "length": 5590,
+        "unique_families": 3040,
+        "kind_counts": {
+          "original": 5087,
+          "annotation_roi": 499,
+          "reviewed_food_geometry": 4
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3051,
+        "kind_counts": {
+          "original": 5106,
+          "annotation_roi": 483,
+          "reviewed_food_geometry": 1
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3051,
+        "kind_counts": {
+          "annotation_roi": 491,
+          "original": 5095,
+          "reviewed_food_geometry": 4
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3063,
+        "kind_counts": {
+          "original": 5046,
+          "annotation_roi": 539,
+          "reviewed_food_geometry": 5
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3093,
+        "kind_counts": {
+          "annotation_roi": 528,
+          "original": 5058,
+          "reviewed_food_geometry": 4
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3077,
+        "kind_counts": {
+          "original": 5100,
+          "annotation_roi": 486,
+          "reviewed_food_geometry": 4
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3074,
+        "kind_counts": {
+          "original": 5071,
+          "annotation_roi": 515,
+          "reviewed_food_geometry": 4
+        }
+      },
+      {
+        "length": 5590,
+        "unique_families": 3018,
+        "kind_counts": {
+          "original": 5079,
+          "annotation_roi": 503,
+          "reviewed_food_geometry": 8
+        }
+      }
+    ],
+    "no_periodic_coverage": true,
+    "duplicate_path_policy": "sum_already_split_weights_keep_one_sampling_index",
+    "physical_individual_independence_proven": false
+  },
+  "training_base": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training_base.json",
+  "training_base_sha256": "d8791a72f87fd3c6881c7375d42bf8b879c6bdb62d3bbccb7b6be581f11615d5",
+  "contact_sheets": [
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_01.jpg",
+      "scene_id": "scene_e7316e65edb53ed2f94d",
+      "scene_families": 16,
+      "shown_families": 16
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_02.jpg",
+      "scene_id": "scene_3aeeecf63b0108020516",
+      "scene_families": 6,
+      "shown_families": 6
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_03.jpg",
+      "scene_id": "scene_25c0d2c6f063fab1c155",
+      "scene_families": 5,
+      "shown_families": 5
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_04.jpg",
+      "scene_id": "scene_a71c5239ea8abf3c7e48",
+      "scene_families": 5,
+      "shown_families": 5
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_05.jpg",
+      "scene_id": "scene_485e38e6537a1a8b02e5",
+      "scene_families": 4,
+      "shown_families": 4
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_06.jpg",
+      "scene_id": "scene_90b9698f646659e6afe5",
+      "scene_families": 4,
+      "shown_families": 4
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_07.jpg",
+      "scene_id": "scene_c563ee9637c65b1f17a6",
+      "scene_families": 4,
+      "shown_families": 4
+    },
+    {
+      "path": "runs\\geometry_upgrade_20261128_092947\\scene_contact_08.jpg",
+      "scene_id": "scene_c0f73eb796b9fc068ac6",
+      "scene_families": 3,
+      "shown_families": 3
+    }
+  ],
+  "test_verification": {
+    "specialized_command": ".venv-gpu/Scripts/python.exe -m unittest discover -s runs/geometry_upgrade_20261128_092947 -p test_scene_sampler.py -v",
+    "specialized_result": "Ran 16 tests; OK",
+    "project_command": ".venv-gpu/Scripts/python.exe -m unittest discover -s tests -v",
+    "project_result": "Ran 140 tests in 9.360s; OK",
+    "red_before_implementation": "14 failures: missing scene_sampler module; subsequently 2 edge-case failures before their fixes",
+    "synthetic_fixture_only": true
+  },
+  "largest_contact_visual_review": {
+    "reviewer": "scene sampler implementation agent",
+    "sheet_count": 8,
+    "result": "已目视8张最大组接触表，相同组均为相似摆放；未据此宣称组间个体独立。",
+    "all_sources_are_train_originals": true
+  }
+}

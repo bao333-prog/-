@@ -1,0 +1,72 @@
+{
+  "parent_sha256": "c4e8e054e11c42a874e432ee803413a6b7f026e39a1b94a74e3eb391f7dd02c3",
+  "parent_run": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_geometry_eval2_20261118_105452",
+  "data_delivery": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\南瓜可颂清理交付_20261118_154721",
+  "package_delivered_first": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\outputs\\南瓜可颂清理交付_20261118_154721\\南瓜可颂_仅剔除遮挡_数据包.zip",
+  "train_images": 3651,
+  "real_train_images": 2811,
+  "replay_images": 840,
+  "new_croissant_training": 143,
+  "retained_pumpkin_training": 172,
+  "removed_pumpkin_training": 8,
+  "removed_sources": [
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_high_no_0010.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_high_no_0017.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_high_no_0025.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_high_no_0026.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_high_no_0027.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_low_no_0020.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_mid_no_0012.png",
+    "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批训练\\按食材分类\\南瓜\\pumpkin02_mid_no_0025.png"
+  ],
+  "epochs": 10,
+  "validation_selection": 77,
+  "validation_diagnostic_only": 6,
+  "validation_report_total": 83,
+  "test_images": 84,
+  "training_eval_shared_class_sessions": [
+    "南瓜|session-20261117-2fc02ecc9c09"
+  ],
+  "pumpkin_validation_in_selection": false,
+  "independent_test": false,
+  "validation_test_shared_classes": 13,
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "missing_evaluation_classes": [
+    "整鸡"
+  ],
+  "per_class_training": {
+    "三文鱼": 109,
+    "南瓜": 232,
+    "吐司": 283,
+    "土豆": 187,
+    "培根": 145,
+    "玉米": 415,
+    "芦笋": 170,
+    "薯条": 674,
+    "西兰花": 362,
+    "香肠": 155,
+    "鸡翅": 391,
+    "牛排": 265,
+    "整鸡": 60,
+    "可颂": 203
+  },
+  "duplicate_croissant_pair_retained": true,
+  "source_images_unchanged": true,
+  "parent_previously_trained_removed_images": true,
+  "decision": "用户允许两类原内容，按质量清理后补充最新14类模型。原测试各6验证/6测试；南瓜验证同训练来源，后评诊断，不进选模。无测试图参与梯度。"
+}

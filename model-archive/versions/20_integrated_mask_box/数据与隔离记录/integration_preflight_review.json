@@ -1,0 +1,428 @@
+{
+  "schema": "independent-integration-preflight-v1",
+  "started_at": "2026-11-26T04:21:07.741612+00:00",
+  "file_sha256": {
+    "prepare_data.py": "e2faf5163a10966684decb02e7f45393869dc0e3949d1af47bff35f2a157f3d8",
+    "prepare_integrated.py": "f6e9a603de10cb2eceff8dd920eaa978ef24294eeb34c4a1a7fc4c05da2c1e7b",
+    "train_integrated.py": "6d5fb2b1aa96142d645710ad8d02bb46ccff51139661a8eb03a619d9715fc653",
+    "joint_support.py": "be34f7a9322db3fed0bd444f3e2bfe12055e91bbaf3c3bea4a8989b1dcb289fa",
+    "validation_monitor.py": "4849007b84a8e9261d712fe8a9d76b9da89fd4dc6d8d8541011fb67cd044256f",
+    "training_base.json": "5342e4f237ed6d6f70bb75a1694e0be5ac174e5d5b7bb6477cda6dca983be2ba",
+    "validation_base.json": "94fe4c4e158cff43ab88c59ac436d47e5106c5a8115c138bf2e4fc39fc76baaa",
+    "test_base.json": "3868359de7e90d0f843bf7df9e25737ead87467642480253127c7fe879ee2a22",
+    "training_integrated.json": "8a4e71f706650cb055105c9b88b7c53541d705653e4db639f8b4d3f7962f7724",
+    "train_validation.csv": "fef1b2038f99050b10215c12dd597c005bf7de06d12617a39a56681ea688451d",
+    "test_only.csv": "cbd772eaa1bf73c759ea09404edc216905bfb601af396465688a6cc0a8d12c81",
+    "prepared_data_audit.json": "4790024427746b321d78a6b861f3f1839a9cc401bef94760fc539f38cd519b27",
+    "sampling_weights.json": "b5df7bbf789459788e8d98fd654cc4913e2c2586345affeb9c27392f1d4f0f01",
+    "train_config.json": "e2d4d9e43bc802fd1be5eee88074cf598ec7ead908dd4c21f47052bca17977f1",
+    "official_class_names.json": "2ab546b90b2dbe962cec929f70cce64be02e3ffa819f2c4dca82c93dd5b1b875",
+    "official_initialization.pt": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+    "boxes320_matches.json": "296c3c1966d18a3bdd8ee894119a0bd0e1828c52935c7e80a49ea9bcb9a859f8",
+    "effective_annotation_sources.json": "de25d99c5fdeb6392197da339080c0e7599444cefddec0444d56c80e2f3859c5",
+    "segmentation_inputs.json": "40df8de1c39f999bc7bfcc3aa789f7680bac66ff9a8454cdafa8cddcc8cf5b11",
+    "family_sampler.py": "33e6b40ec31a27e924f55db0262740ba4ccf3cab47345e3496e36635491d796a",
+    "expected_sampling_counts.json": "59040f157edfc66651b68b72b2bdd96e9f830994bc35c256a341d9d17dca7ccb"
+  },
+  "checks": {
+    "base_frozen_source_ownership": {
+      "counts": {
+        "train": 5470,
+        "val": 193,
+        "test": 167
+      },
+      "errors": []
+    },
+    "integrated_counts": {
+      "rows": 7575,
+      "kinds": {
+        "original": 5470,
+        "annotation_roi": 2011,
+        "reviewed_food_geometry": 94
+      },
+      "all_train": true
+    },
+    "all_derived_inherit_train_family": {
+      "errors": []
+    },
+    "manifest_partitions": {
+      "train_validation_rows": 7768,
+      "splits": {
+        "train": 7575,
+        "val": 193
+      },
+      "test_only_rows": 167,
+      "test_splits": {
+        "test": 167
+      },
+      "train_order_matches_integrated": true,
+      "val_order_matches_base": true,
+      "test_paths_in_train_validation": 0
+    },
+    "family_cross_split": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "resolved_training_modules": {
+      "entry": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\train_integrated.py",
+      "training": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\source_snapshot\\oven_food\\train.py",
+      "augment": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\source_snapshot\\oven_food\\augment.py"
+    },
+    "snapshot_sha256": {
+      "augment.py": "0b20a11843ea0d660e712f263b91cd371ca6615414baf15e6930419700566b3f",
+      "cli.py": "3271a68621a9cfc16ebea36ef8994d813f65a0555756c5f6ad89a9e1c429c54a",
+      "config.py": "443e45e1a6ffbbda01fecada4b1695f1c52f3a146bfe53f0a4ffac74e4f8e60e",
+      "continual.py": "07606ed2f2b5ba523f0010359ebae56d1f89a3dbb3e58f3d2844eac77cf4d2ce",
+      "corn_rebuild.py": "e83a4ac6050aad8e5260de4a83e7d4b37299569c4c69a7a6e519e953ece0b54e",
+      "dataset.py": "4f5fd650a14a478a65007e9918c0a06300b0fbc6a8aadb5ab623a14087e00bc9",
+      "evaluate.py": "2ffa1fc3a67a3fe6d4fac63cc1653b627ca869b74b569cc5892bb35503d5bb4c",
+      "manifest.py": "d465181513d80a3223e940fc72eb64c281cc8c2ceb87d84c817a9d39d1b8dc93",
+      "metrics.py": "53122428ba2618c349f5746dfac18a9df409d3f5c62649279eafc6bfafc30635",
+      "model.py": "f9f7654e3411be4d54203ff2a953a5ab4a08423fd0a2457fffe514d17013b669",
+      "report.py": "0efebcaf67e5f7b91bd6d11aa85e556cc0192296bf06c486926b64f916ae45aa",
+      "split.py": "2cf8103c73ba88ccd22477715ff190e26ba235b3db6a711612129729763b7b94",
+      "train.py": "20be5139d6a85a3eef52950bc426574151a1dfec369a0ab9fbe5013ea1f4885d",
+      "video.py": "044818c2f0dfc0cddceb5d0d021bef562266ba72970dfe9575a31ab12d9bfb3b",
+      "__init__.py": "a5c7d4222c0756ab81298522e38e48dcecdd7d3a6cbac63c93cd6e4e59cdabbd",
+      "__main__.py": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b"
+    },
+    "snapshot_matches_shared_src": true,
+    "all_current_cached_views_integrity": {
+      "rows_checked": 7935,
+      "errors": []
+    },
+    "current_pixel_cross_split": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "validation_full_frame_reproduction": {
+      "rows_checked": 193,
+      "errors": []
+    },
+    "latest_50_explicit_boxes_preserved": {
+      "count": 50,
+      "changed_source_sha256": []
+    },
+    "final_320_overrides": {
+      "manifest_sha256": "296c3c1966d18a3bdd8ee894119a0bd0e1828c52935c7e80a49ea9bcb9a859f8",
+      "accepted": 266,
+      "unique_sources": 266,
+      "excluded": 54,
+      "effective_box_mismatches": [],
+      "corrected": [
+        {
+          "id": 42,
+          "case_id": "wings_low_have_much_0009",
+          "effective_box_xyxy": [
+            620,
+            610,
+            1420,
+            1080
+          ],
+          "box_adjustment_reason": "原框明显截掉最左一整块鸡翅及右侧部分食材。"
+        },
+        {
+          "id": 51,
+          "case_id": "wings_mid_no_much_0004",
+          "effective_box_xyxy": [
+            320,
+            400,
+            1420,
+            800
+          ],
+          "box_adjustment_reason": "原框漏掉最左整块鸡翅，并截掉中间一块下端。"
+        },
+        {
+          "id": 55,
+          "case_id": "wings_high_no_much_0015",
+          "effective_box_xyxy": [
+            320,
+            210,
+            1540,
+            665
+          ],
+          "box_adjustment_reason": "原框漏掉最左整块鸡翅，并截掉第二块左半部分。"
+        },
+        {
+          "id": 57,
+          "case_id": "wings_mid_have_single_0004",
+          "effective_box_xyxy": [
+            964,
+            632,
+            1222,
+            1042
+          ],
+          "box_adjustment_reason": "采用2026-11-25 JSON修订版：原框落在左侧空锡纸上。"
+        },
+        {
+          "id": 60,
+          "case_id": "wings_mid_no_single_0005",
+          "effective_box_xyxy": [
+            540,
+            360,
+            850,
+            620
+          ],
+          "box_adjustment_reason": "原框截掉单块鸡翅左侧约三分之一主体。"
+        },
+        {
+          "id": 62,
+          "case_id": "wings_mid_no_much_0003",
+          "effective_box_xyxy": [
+            390,
+            250,
+            1300,
+            535
+          ],
+          "box_adjustment_reason": "原框漏掉最左整块鸡翅。"
+        },
+        {
+          "id": 69,
+          "case_id": "wings_high_have_much_0010",
+          "effective_box_xyxy": [
+            1220,
+            150,
+            1920,
+            1050
+          ],
+          "box_adjustment_reason": "原框漏掉右下整块鸡翅，并截掉右侧一块部分主体。"
+        },
+        {
+          "id": 71,
+          "case_id": "wings_low_have_much_0002",
+          "effective_box_xyxy": [
+            450,
+            460,
+            1180,
+            975
+          ],
+          "box_adjustment_reason": "原框漏掉右上整块鸡翅，并截掉中间偏右一块上端。"
+        },
+        {
+          "id": 72,
+          "case_id": "wings_mid_have_much_0002",
+          "effective_box_xyxy": [
+            440,
+            420,
+            1350,
+            960
+          ],
+          "box_adjustment_reason": "原框漏掉右上整块鸡翅，并截掉中间偏右一块上端。"
+        },
+        {
+          "id": 74,
+          "case_id": "wings_mid_no_much_0005",
+          "effective_box_xyxy": [
+            290,
+            400,
+            1420,
+            800
+          ],
+          "box_adjustment_reason": "原框漏掉最左整块鸡翅，并截掉最右一块右缘。"
+        },
+        {
+          "id": 255,
+          "case_id": "sausage_high_have_001_0013",
+          "effective_box_xyxy": [
+            510,
+            380,
+            1220,
+            690
+          ],
+          "box_adjustment_reason": "原框截掉香肠右端约五分之一。"
+        },
+        {
+          "id": 260,
+          "case_id": "sausage_high_have_001_0009",
+          "effective_box_xyxy": [
+            570,
+            260,
+            1160,
+            850
+          ],
+          "box_adjustment_reason": "原框截掉香肠左下端约五分之一。"
+        },
+        {
+          "id": 266,
+          "case_id": "sausage_high_have_001_0005",
+          "effective_box_xyxy": [
+            786,
+            117,
+            1190,
+            920
+          ],
+          "box_adjustment_reason": "原框截掉香肠右下部分主体。"
+        },
+        {
+          "id": 279,
+          "case_id": "sausage_high_have_001_0012",
+          "effective_box_xyxy": [
+            510,
+            330,
+            1200,
+            750
+          ],
+          "box_adjustment_reason": "原框截掉香肠右端约五分之一及少量上缘。"
+        }
+      ]
+    },
+    "roi_full_resolution_crop_reproduction": {
+      "rows_checked": 2011,
+      "errors": []
+    },
+    "reviewed_synthetic_reproduction": {
+      "rows_checked": 94,
+      "errors": []
+    },
+    "independent_initialization": {
+      "sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+      "epoch": 0,
+      "official_sha256": "047dcff4addef86ea5bc2eff13c9614dc11f47ab1160d0a71a25e7db994f4e1f",
+      "official_metadata_matches": true,
+      "non_final_head_tensor_count": 242,
+      "non_final_head_official_tensor_mismatches": [],
+      "head_shape": [
+        14,
+        1024
+      ],
+      "class_names": [
+        "南瓜",
+        "吐司",
+        "牛排",
+        "玉米",
+        "西兰花",
+        "鸡翅",
+        "芦笋",
+        "培根",
+        "三文鱼",
+        "整鸡",
+        "土豆",
+        "香肠",
+        "薯条",
+        "可颂"
+      ],
+      "checkpoint_is_only_configured_initialization": true,
+      "new_classes": [],
+      "distillation_weight": 0
+    },
+    "weighted_sampling_family_mass": {
+      "views": 7575,
+      "finite_positive": true,
+      "sum": 1.0,
+      "max_family_mass_error": 5.421010862427522e-20,
+      "share_errors": [],
+      "shares": "original .75 + ROI .25; with synthetic original .65 + ROI .25 + synthetic .10 divided over same-kind views"
+    },
+    "sampler_20_epoch_dry_run": {
+      "class": "FamilyCoverageSampler",
+      "coverage_epochs": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ],
+      "weighted_epochs": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "all_unique_input_paths_seen": true,
+      "minimum_unique_input_path_draws": 1,
+      "total_draws": 109380,
+      "draws_per_epoch": 5469,
+      "coverage_family_errors": [],
+      "expected_sampling_counts_match": true
+    },
+    "coverage_epoch_family_mass": {
+      "loss_weighting_implemented_in_entrypoint": false,
+      "family_view_count_distribution": {
+        "1": 3458,
+        "2": 1963,
+        "4": 47,
+        "3": 1
+      },
+      "policy": "FamilyCoverageSampler yields one view per family per coverage epoch and cycles views; adding derivatives does not increase coverage-epoch family count. Weighted epochs preserve hierarchical family mass and conditional view shares. Coverage epochs use uniform family mass and cyclic view shares; they do not promise exact .75/.25/.10 shares in every epoch."
+    },
+    "fixed_training_config": {
+      "epochs": 20,
+      "batch_size": 32,
+      "learning_rate": 0.0003,
+      "backbone_lr_scale": 0.2,
+      "augmentation": "oven_geometry",
+      "resize_mode": "letterbox",
+      "class_balanced_loss": false,
+      "num_workers": 0,
+      "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\official_initialization.pt",
+      "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\integrated_food_20261126_115154\\train_validation.csv"
+    },
+    "class_coverage": {
+      "model_classes": 14,
+      "training_classes": 14,
+      "validation_classes": 12,
+      "classes_without_validation": [
+        "牛排",
+        "整鸡"
+      ],
+      "limitation": "Validation can select the model on the represented classes; it does not establish performance on classes without validation examples."
+    }
+  },
+  "findings": [],
+  "classifier_forward_passes": 0,
+  "gpu_used": false,
+  "source_files_or_manifests_modified": false,
+  "test_isolation_code_review": {
+    "training_manifest_has_no_test_rows": true,
+    "selection_rule": "validation accuracy, tie-break validation loss; eval uses model.eval()+inference_mode",
+    "training_module_reads_test_images": false,
+    "training_entry_reads_test_details_via_source_audit_json": true,
+    "note": "The entrypoint loads the independent audit JSON (includes test provenance rows) but never uses it to build datasets or select checkpoints. Preparation hashes test images for source-isolation only; no model inference performed."
+  },
+  "files_unchanged_during_review": {
+    "prepare_data.py": true,
+    "prepare_integrated.py": true,
+    "train_integrated.py": true,
+    "joint_support.py": true,
+    "validation_monitor.py": true,
+    "training_base.json": true,
+    "validation_base.json": true,
+    "test_base.json": true,
+    "training_integrated.json": true,
+    "train_validation.csv": true,
+    "test_only.csv": true,
+    "prepared_data_audit.json": true,
+    "sampling_weights.json": true,
+    "train_config.json": true,
+    "official_class_names.json": true,
+    "official_initialization.pt": true,
+    "boxes320_matches.json": true,
+    "effective_annotation_sources.json": true,
+    "segmentation_inputs.json": true,
+    "family_sampler.py": true,
+    "expected_sampling_counts.json": true
+  },
+  "snapshot_unchanged_during_review": true,
+  "mandatory_checks_passed": true,
+  "resolved_prior_findings": [
+    "F1: fresh-process imports resolve to RUN/source_snapshot; training startup asserts module path.",
+    "F2: source-family coverage emits each family once and cycles views; weighted epochs retain family mass.",
+    "F3: duplicate-source cache writes are deduplicated and both prepared SHA records match current PNG."
+  ],
+  "can_start": true,
+  "review_status": "APPROVED",
+  "completed_at": "2026-11-26T04:21:51.085977+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "seed": 42,
+  "train_images": 3516,
+  "real_train_images": 2676,
+  "replay_images": 840,
+  "validation_images": 71,
+  "test_images": 72,
+  "evaluation_classes": 11,
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "missing_evaluation_classes": [
+    "南瓜",
+    "整鸡",
+    "可颂"
+  ],
+  "per_class_counts": [
+    {
+      "category": "南瓜",
+      "validation": 0,
+      "test": 0
+    },
+    {
+      "category": "吐司",
+      "validation": 6,
+      "test": 6
+    },
+    {
+      "category": "牛排",
+      "validation": 3,
+      "test": 3
+    },
+    {
+      "category": "玉米",
+      "validation": 6,
+      "test": 6
+    },
+    {
+      "category": "西兰花",
+      "validation": 10,
+      "test": 11
+    },
+    {
+      "category": "鸡翅",
+      "validation": 3,
+      "test": 3
+    },
+    {
+      "category": "芦笋",
+      "validation": 14,
+      "test": 14
+    },
+    {
+      "category": "培根",
+      "validation": 3,
+      "test": 3
+    },
+    {
+      "category": "三文鱼",
+      "validation": 3,
+      "test": 3
+    },
+    {
+      "category": "整鸡",
+      "validation": 0,
+      "test": 0
+    },
+    {
+      "category": "土豆",
+      "validation": 7,
+      "test": 6
+    },
+    {
+      "category": "香肠",
+      "validation": 6,
+      "test": 6
+    },
+    {
+      "category": "薯条",
+      "validation": 10,
+      "test": 11
+    },
+    {
+      "category": "可颂",
+      "validation": 0,
+      "test": 0
+    }
+  ],
+  "validation_test_shared_source_groups": [
+    "batch2_eval|三文鱼|session-20261113-fbd4754982ed|sanwenyu_test02",
+    "batch2_eval|吐司|session-20261113-fbd4754982ed|toast_test02",
+    "batch2_eval|土豆|session-20261113-fbd4754982ed|potato_test02",
+    "batch2_eval|培根|session-20261113-fbd4754982ed|peigen_test02",
+    "batch2_eval|牛排|session-20261113-fbd4754982ed|beef_test02",
+    "batch2_eval|玉米|session-20261113-fbd4754982ed|corn_test02",
+    "batch2_eval|芦笋|session-20261113-fbd4754982ed|lusun_test02",
+    "batch2_eval|薯条|session-20261113-fbd4754982ed|kesong_test02",
+    "batch2_eval|西兰花|session-20261112-0ff2e29b65a8|broccoli_verify02",
+    "batch2_eval|香肠|session-20261113-fbd4754982ed|sausage_test02",
+    "batch2_eval|鸡翅|session-20261113-fbd4754982ed|chicken_test02"
+  ],
+  "independent_test": false,
+  "split_type": "user_requested_per_class_approximately_half_development_split",
+  "training_eval_exact_overlap": 0,
+  "training_eval_same_class_source_session_overlap": 0,
+  "original_test_candidate_images": 143,
+  "held_images_restored": 0,
+  "user_request": "用第二次数据再训练，并将第二次测试候选逐类近1:1划分验证和测试。每类只有一来源组，已告知不能实现组隔离，按临时开发对照执行。",
+  "split_directory": "C:\\Users\\lenovo\\Desktop\\项目\\食物\\第二批数据_验证测试1比1_20261118_105452",
+  "selection": "new validation71 only; test72 after checkpoint fixed; old214/proxy407 diagnostics after training only",
+  "parent_sha256": "503a5fdb2090cc166135f026047d70f84e577057de39dd0bbc425a224570406b"
+}

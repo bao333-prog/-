@@ -1,0 +1,6 @@
+{
+  "protocol": "A",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\selection_A\\best.pt",
+  "best_validation_accuracy": 0.9759036144578314,
+  "best_validation_loss": 0.20547542119600687
+}

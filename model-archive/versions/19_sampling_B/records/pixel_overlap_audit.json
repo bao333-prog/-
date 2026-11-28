@@ -1,0 +1,7 @@
+{
+  "train_images": 5734,
+  "second_images": 167,
+  "first_validation_images": 193,
+  "train_second_pixel_overlap": 0,
+  "train_first_validation_pixel_overlap": 0
+}

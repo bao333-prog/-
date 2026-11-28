@@ -1,0 +1,41 @@
+{
+  "mode": "train",
+  "experiment_name": "asparagus_half_20261126_172248",
+  "manifest": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\train_validation.csv",
+  "data_root": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目",
+  "output_dir": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\training",
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\asparagus_half_20261126_172248\\official_initialization.pt",
+  "train_environments": [
+    "proxy",
+    "target"
+  ],
+  "validation_environments": [
+    "target"
+  ],
+  "evaluation_environments": [],
+  "train_split": "train",
+  "validation_split": "val",
+  "evaluation_split": "test",
+  "augmentation": "oven_geometry",
+  "model_name": "mobilenet_v3_small",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "epochs": 20,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "device": "cuda:0",
+  "pretrained": false,
+  "freeze_backbone": false,
+  "target_fraction": 0.75,
+  "resize_mode": "letterbox",
+  "class_balanced_loss": false,
+  "label_smoothing": 0.05,
+  "new_classes": [],
+  "replay_per_class": 20,
+  "distillation_weight": 0.0,
+  "distillation_temperature": 2.0,
+  "backbone_lr_scale": 0.2,
+  "lr_schedule": "cosine"
+}

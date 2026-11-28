@@ -1,0 +1,43 @@
+{
+  "results": {
+    "A224_cpu": {
+      "image_size": 224,
+      "batch_size": 4,
+      "repeats": 8,
+      "ms_per_batch": 24.580499999501626,
+      "ms_per_image": 6.1451249998754065,
+      "includes_preprocessing_or_io": false,
+      "validation_samples_only": true
+    },
+    "A224_cuda:0": {
+      "image_size": 224,
+      "batch_size": 4,
+      "repeats": 8,
+      "ms_per_batch": 10.11001250026311,
+      "ms_per_image": 2.5275031250657776,
+      "includes_preprocessing_or_io": false,
+      "validation_samples_only": true
+    },
+    "B320_cpu": {
+      "image_size": 320,
+      "batch_size": 4,
+      "repeats": 8,
+      "ms_per_batch": 33.096774999648915,
+      "ms_per_image": 8.274193749912229,
+      "includes_preprocessing_or_io": false,
+      "validation_samples_only": true
+    },
+    "B320_cuda:0": {
+      "image_size": 320,
+      "batch_size": 4,
+      "repeats": 8,
+      "ms_per_batch": 9.911437499795284,
+      "ms_per_image": 2.477859374948821,
+      "includes_preprocessing_or_io": false,
+      "validation_samples_only": true
+    }
+  },
+  "cpu_threads": 4,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "note": "本机小批验证样本推理耗时；不含磁盘/预处理，非板卡实际测速，不能代表部署延迟。"
+}

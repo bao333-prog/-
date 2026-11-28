@@ -1,0 +1,94 @@
+{
+  "validation": [
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\土豆\\验证集\\potato_verify_0003.png",
+      "true_label": "土豆",
+      "previous_prediction": "南瓜",
+      "new_prediction": "土豆",
+      "previous_confidence": 0.24270328879356384,
+      "new_confidence": 0.22664210200309753
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\土豆\\验证集\\potato_verify_0012.png",
+      "true_label": "土豆",
+      "previous_prediction": "可颂",
+      "new_prediction": "土豆",
+      "previous_confidence": 0.30719926953315735,
+      "new_confidence": 0.3202632963657379
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\薯条\\验证集\\chips_varify_0030.png",
+      "true_label": "薯条",
+      "previous_prediction": "薯条",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.39708200097084045,
+      "new_confidence": 0.4096720814704895
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_verify\\分类与划分_每类1比1\\香肠\\验证集\\sausage_middle_001_0005.png",
+      "true_label": "香肠",
+      "previous_prediction": "香肠",
+      "new_prediction": "鸡翅",
+      "previous_confidence": 0.5045338273048401,
+      "new_confidence": 0.45893195271492004
+    }
+  ],
+  "test": [
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0024.png",
+      "true_label": "芦笋",
+      "previous_prediction": "西兰花",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.42693066596984863,
+      "new_confidence": 0.9317728281021118
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0028.png",
+      "true_label": "芦笋",
+      "previous_prediction": "薯条",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.38280820846557617,
+      "new_confidence": 0.9175397157669067
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\lusun_test02_0021.png",
+      "true_label": "芦笋",
+      "previous_prediction": "西兰花",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.5677258372306824,
+      "new_confidence": 0.8895443677902222
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\sausage_test02_0001.png",
+      "true_label": "香肠",
+      "previous_prediction": "香肠",
+      "new_prediction": "鸡翅",
+      "previous_confidence": 0.4483247995376587,
+      "new_confidence": 0.48787757754325867
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0022.png",
+      "true_label": "薯条",
+      "previous_prediction": "薯条",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.663460910320282,
+      "new_confidence": 0.6128948926925659
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\kesong_test02_0014.png",
+      "true_label": "薯条",
+      "previous_prediction": "薯条",
+      "new_prediction": "芦笋",
+      "previous_confidence": 0.6717228293418884,
+      "new_confidence": 0.476706326007843
+    },
+    {
+      "source": "C:\\Users\\lenovo\\Desktop\\中转站\\food_test02\\pumpkin_test02_0011.png",
+      "true_label": "南瓜",
+      "previous_prediction": "三文鱼",
+      "new_prediction": "南瓜",
+      "previous_confidence": 0.5096374750137329,
+      "new_confidence": 0.5351104140281677
+    }
+  ]
+}

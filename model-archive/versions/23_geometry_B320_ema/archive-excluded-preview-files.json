@@ -1,0 +1,317 @@
+[
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/model.pt",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支权重/A224_raw.pt",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支权重/B320_ema.pt",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支权重/C320_raw.pt",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/augmentation_preserve_preview.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_01.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_02.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_03.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_04.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_05.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_06.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_07.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_08.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_09.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_data_10.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_01.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_02.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_03.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_04.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_05.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_06.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_07.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_08.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_09.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_final_10.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_replacements_01.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_replacements_02.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/foreground_representatives_01.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_01.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_02.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_03.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_04.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_05.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_06.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_07.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/审核预览/scene_contact_08.jpg",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/best_candidates.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/bn_audit.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/config.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/execution.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/options.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/sample_counts.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/selection.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/validation_history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/best_candidates.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/bn_audit.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/config.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/execution.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/options.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/sample_counts.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/selection.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/validation_history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/best_candidates.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/bn_audit.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/config.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/execution.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/options.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/sample_counts.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/selection.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/validation_history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/A224/training/history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/B320/training/history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  },
+  {
+    "version": "23_geometry_B320_ema",
+    "source": "outputs/模型框架与增强优化_20261128_092947/分支记录/C320/training/history.json",
+    "reason": "preview_or_other_checkpoint_or_arm_record"
+  }
+]

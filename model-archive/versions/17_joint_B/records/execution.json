@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "epochs": 20,
+  "seconds": 565.4923445000022,
+  "checkpoint_A": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\selection_A\\best.pt",
+  "checkpoint_B": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\joint_AB_20261118_193929\\selection_B\\best.pt",
+  "shared_training_trajectory": true
+}

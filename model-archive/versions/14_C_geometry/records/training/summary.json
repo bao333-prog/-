@@ -1,0 +1,6 @@
+{
+  "experiment_name": "C_geometry_second_batch_new_validation",
+  "best_validation_accuracy": 0.9577464788732394,
+  "best_validation_loss": 0.3297839710410212,
+  "checkpoint": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_geometry_eval2_20261118_105452\\training\\best.pt"
+}

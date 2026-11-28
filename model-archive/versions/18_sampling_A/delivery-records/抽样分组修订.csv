@@ -1,0 +1,4 @@
+﻿source,label,source_session_unchanged,old_group,new_group,reason
+C:\Users\lenovo\Desktop\项目\食物\第二批训练\按食材分类\土豆\土豆__sausage-have-hiah_0031.jpg,土豆,session-20261111-60dfe4d862ad,session-20261111-60dfe4d862ad|sausage-have-hiah,session-20261111-60dfe4d862ad|potato-have-high,文件沿用香肠前缀，图为土豆；同session高位有锡纸组，仅修订抽样归组
+C:\Users\lenovo\Desktop\项目\数据二次\南瓜(1)\南瓜\pumkin_no_high_data_0015.jpg,南瓜,missing_metadata,missing_metadata|pumkin_no_high_data,session-20261105-783733b73476|pumkin_no_high_data,缺JSON；同目录相邻序号和视觉组推断，仅修订抽样归组，source_session仍missing_metadata
+C:\Users\lenovo\Desktop\项目\数据二次\按食材分类\培根\bacon-mid-with_foil_0010.jpg,培根,missing,missing|bacon-mid-with_foil,session-20261104-4fe35341516d|bacon-mid-with_foil,缺JSON；同目录相邻序号和视觉组推断，仅修订抽样归组，source_session仍missing

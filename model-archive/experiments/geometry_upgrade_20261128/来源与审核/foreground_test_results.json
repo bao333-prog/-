@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "32a249",
+        "wall_time_seconds": 4.1668414,
+        "exit_code": 0,
+        "original_token_count": 51,
+        "output": "SKIPPED outside-curr source or mask is not an exact verified member of current train pool\r\n........\r\n----------------------------------------------------------------------\r\nRan 8 tests in 3.265s\r\n\r\nOK\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "2afff9",
+        "wall_time_seconds": 1.6489322,
+        "exit_code": 0,
+        "original_token_count": 26,
+        "output": ".\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.031s\r\n\r\nOK\r\n"
+      }
+    }
+  ]
+}

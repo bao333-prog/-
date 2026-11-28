@@ -1,0 +1,669 @@
+{
+  "sources": 59,
+  "unique_source_sha256": 59,
+  "all_original_source_files_unchanged": true,
+  "all_masks_unchanged": true,
+  "all_output_hashes_current": true,
+  "outside_allowed_changed_pixels": 0,
+  "all_outputs_same_dimensions": true,
+  "heldout_sha_overlap": 0,
+  "heldout_images_opened": 0,
+  "all_user_review_status_pending": true,
+  "count_by_label": {
+    "香肠": 12,
+    "可颂": 11,
+    "鸡翅": 12,
+    "薯条": 6,
+    "芦笋": 6,
+    "西兰花": 6,
+    "三文鱼": 6
+  },
+  "source_eras": {
+    "first_real": 29,
+    "second_real": 30
+  },
+  "source_heights": {
+    "high": 18,
+    "medium": 19,
+    "low": 20,
+    "other": 2
+  },
+  "angles": {
+    "90": 9,
+    "-60": 10,
+    "180": 13,
+    "60": 9,
+    "-90": 9,
+    "30": 9
+  },
+  "details": [
+    {
+      "id": "fg_001_0e3df5ce698e",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_002_074bd470c94c",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_003_0bb7890349b4",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_004_0659eef03c7c",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_005_17bca01e103c",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_006_02e775e6824c",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_007_0043d0f848df",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_008_03af2aa91d51",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_001_55214fcf154d",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_010_02906a5a74e4",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_011_0c8781206016",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_012_0f163cfece38",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_013_17c838ae8744",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_014_05cfc61d2d25",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_015_096aba8d3cd4",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_016_2f8e57ef0811",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_018_787d84108c3f",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_019_0889b63fa06b",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_020_1589f42b7f06",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_021_09c5edeaad28",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_022_4511f04a6951",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_023_05df0865a657",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_024_0bcd8541a230",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_025_06d9b821629b",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_026_09975c88a48e",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_002_986948c3e284",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_028_04c9ea3bddb9",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_029_01ef93b0e030",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_030_0c3aa5f2b512",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_031_0a7020477a13",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_032_06d6dd83e5d3",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_033_02f0d07c2e27",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_034_0006e45c75c9",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_035_20597e4474d3",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_036_04b60ba9ac30",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_004_0f44acdc94ab",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_005_3d838010bab5",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_003_ca11d5682ad3",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_040_02a1ea03f92b",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_041_018e02ae92da",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_042_03926e819dbe",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_009_0dcba4ff58e5",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_044_0d054bbf0b1f",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_045_32764285b2d6",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_010_1616e45c60aa",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_047_274759699992",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_011_0b3c9f2d1e32",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_049_0c63ec8b3d04",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_050_1346e1568761",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_051_22a8d0af0c89",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_052_06bc82557035",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_053_0c5ad8008693",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_054_02d41492b92d",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_006_44c8a3baed61",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_056_12fcebd8a60a",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_007_db0a6b7aede3",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_058_09389c9a3fdb",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_059_0e150cca931d",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    },
+    {
+      "id": "fg_060_03ea41e1def3",
+      "source_unchanged": true,
+      "mask_unchanged": true,
+      "output_hash_current": true,
+      "same_size": true,
+      "outside_allowed_changed_pixels": 0,
+      "current_original_train_member": true,
+      "heldout_sha_overlap": false
+    }
+  ],
+  "tdd_record": [
+    {
+      "phase": "red",
+      "result": "5 assertion failures: implementation missing; observed before foreground.py existed"
+    },
+    {
+      "phase": "green",
+      "result": "5 tests passed"
+    },
+    {
+      "phase": "red_texture",
+      "result": "texture std 0.8544 < expected >8; flat repair blob reproduced"
+    },
+    {
+      "phase": "green_texture",
+      "result": "6 tests passed after same-frame texture repair"
+    },
+    {
+      "phase": "red_strata",
+      "result": "first batch count 6 instead of required 3"
+    },
+    {
+      "phase": "green_strata",
+      "result": "7 tests passed after balancing eras"
+    },
+    {
+      "phase": "red_generator_gate",
+      "result": "nonmember reached file-open stage rather than current-train rejection"
+    },
+    {
+      "phase": "green_generator_gate",
+      "result": "8 tests passed after canonical-source gate"
+    }
+  ],
+  "targeted_foreground_tests_passed": 8,
+  "legacy_background_repair_tests_passed": 1,
+  "final_contact_sheets_inspected": 10,
+  "visual_review_path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\foreground_visual_review.json"
+}

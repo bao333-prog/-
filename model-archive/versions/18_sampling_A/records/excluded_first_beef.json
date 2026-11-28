@@ -1,0 +1,1424 @@
+[
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0001.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0001.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "53a8abee6475321c2d4750add535497cd6e5374943011f82707184b886970b5d",
+    "prepared_sha256": "ab86d6f151a8c7d5647873b23b25977afc4c5998ee808e7a702aeb0a9b1012ad",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 164.4345238095238,
+    "image_std": 92.35333473754854,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0002.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0002.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "fed10b963ed1f7892421cf1e646bfc44bb8880dbbb0ce38e40a1ba1e595cbbb5",
+    "prepared_sha256": "26effa7d9009dab74c75a2098f042e83c1488a49bd872d9dda287e12a49ff0b5",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 163.028532897534,
+    "image_std": 92.11528520448496,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0003.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0003.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "014283da9b259ed88b3f387d05613d1df7282a089fbd5b0dcc47fe7ff4dfa55d",
+    "prepared_sha256": "f5fe08c65439563a99eb7fabaff377980e48ac424b5acdd558944f2498cb2995",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 160.25780585671768,
+    "image_std": 94.18439243826705,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0004.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0004.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "8d93941409bfedf8c3c361309579f45d7351c8379199d194ff15d6c297e5ef8b",
+    "prepared_sha256": "d8627dddbfba633e36e5ded5b9c70a041d8d138941b3682b9297f8a0599c3c7e",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 160.66928411989795,
+    "image_std": 94.67989365111032,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0005.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0005.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "2583f7a985dd73b681c38636408de1256063ef74772dfba78f983a76f59d28c5",
+    "prepared_sha256": "b984f27720c5a84ef975ab4c2ff8fffaa8ca000d9ca1e0cc917a8b0c6cee7a89",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 155.70721061862244,
+    "image_std": 97.69203561652651,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0006.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0006.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "47b6c51bec61cc4e4f9f34de3e2165222ab2b82e24361864a5eec6b528d1afdb",
+    "prepared_sha256": "bab4727993c24f3acdeb918409ae61767089ec4357e42b6362a1f086a5c0adee",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 156.54465614370747,
+    "image_std": 96.49757340981995,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0007.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0007.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "c1c1fc7d7cb4a4f1f696402edec448bc510e3ceedd60622e7122620177d88975",
+    "prepared_sha256": "4bb892d7ed59032f93a8bc5a02d9a2bb63b34c6055dbe3778f86c4b23ee5c11d",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 156.41438137755102,
+    "image_std": 95.84631407070165,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0008.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0008.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "48db2a3e907015e533c2f05c29fcc734207180785bc2c32a694db3b1e338942c",
+    "prepared_sha256": "eeb0843f9e76f9c513ce2295a612cd74477dc3b33a36a8bb208297483ae19c72",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 158.75633104804422,
+    "image_std": 94.05908231448805,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0009.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0009.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "708d14c3cea3eeca2c0f67efaed5541eeb8ba6ad14dc8b1342ec913e945a9345",
+    "prepared_sha256": "d1807f16f6a03a4f6369271cade335d9c55d6091f37a7befa6de4788740e371e",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 161.7018494897959,
+    "image_std": 92.22550694552076,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0010.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0010.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "10db1a68a596ebb408e8be3bf3ba86bf9130ef98df888eea2bd432f435d5f2a2",
+    "prepared_sha256": "11dac0c66cc068ad63a3997e5cc82efe40b62f898fa270c9a894e6587f881fee",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 168.24942203443877,
+    "image_std": 91.15157371803386,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0011.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0011.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "7a3b888d384114df914796effbd6ce98b341cfa973b9294c78218103442f2db7",
+    "prepared_sha256": "87fc03ee19f6732717e6976f0f2f5a87fd74edf4526e8d5489b6e4de14b2a7a3",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 165.51698687287416,
+    "image_std": 90.53940988764198,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0012.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0012.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "3b196c0993b8debd61a19f350bf33d7666c760cbe228eb8de6566c8928928a93",
+    "prepared_sha256": "1ce13ed2f076f86290dda699ee0b418e9c2806411ef95eef457d5b7aedf69f0c",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 164.27012914540816,
+    "image_std": 91.13009555610802,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0013.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0013.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b23ec4cbe58d1a7b5c1dadda9088d6891a11b8eee586f65fca2f2fb2e0d83f53",
+    "prepared_sha256": "69e188099b89530df0cb31786cfa9e4b899cb5bab5104a88b03a62dd1e20f990",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 169.98796237244898,
+    "image_std": 89.53233863606569,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0014.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0014.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "2c0c90897984263da22685411d997332e197d1ef1822ab8c2d45ad49bc34754f",
+    "prepared_sha256": "38b0195ce9b94b99030ff7b05d3a68906040916fbb9a5ca7955d13748b6935d4",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 168.46461787840136,
+    "image_std": 90.22683967067401,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_have_have_001_0015.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_have_have_001_0015.png",
+    "label": "牛排",
+    "sequence": "beef_have_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "6c81e9b13f2949cbaffd053f7bf93b3296eede80cdbfdea0abdf9c1d4b8468c6",
+    "prepared_sha256": "5d98983a80a970fe78553a175ee88a930fd2d53bc56b27c36ac339eb9111e909",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 160.81000212585033,
+    "image_std": 96.58208370243632,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0001.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0001.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "61087e8747d5f9f46f364ed3d735cc5eb2881ec7637c3c2a34becd8fcab1be67",
+    "prepared_sha256": "f65d352ec1bba1eef87b54f7cad03ac2b8d6fbca49a95c5d75ec8087131f04aa",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.36259699192178,
+    "image_std": 101.96637730365033,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0002.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0002.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "809dd9aead70cabbf709b15ca6d101b6f7c7b6770c10d31311be1d08440ce188",
+    "prepared_sha256": "73e1bdb0b1812fe99bd5d488245529fd686d601e391e0790da8d417753e8ded4",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.47878799957482,
+    "image_std": 101.86033678115803,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0003.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0003.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "427c0f544f9e43bf7c466232974d16a9e51277afe9168672041fb33a9654a8bd",
+    "prepared_sha256": "c30ef5cd5f7c5aedfb75bee7e4360167fa0c18a5d01af2e1998d9214d08261e6",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 151.66351775085033,
+    "image_std": 101.46504937422138,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0004.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0004.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "381fa8b2ff9dd96775bb15ea345f0eb9f48483fa900dc9436e1728880ad9a4aa",
+    "prepared_sha256": "590369220e7e5a10c74678bd4e895ef1b9a7faec2ec9048e24d20923d4486f50",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 151.51502046130952,
+    "image_std": 101.9032585449826,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0005.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0005.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "f64b4b3b3a700ef4f398defdcdf917e4ea97faf55946ebe6947cc723cebb678f",
+    "prepared_sha256": "08b3ab7bc58241e4eeceb918c706434f2276ed0572faa86443b7a10dd62d8bfa",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.64282392644557,
+    "image_std": 102.73706387218652,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0006.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0006.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d70d3461c8fda90736daef94fa4a6782c9db753d08666856efb659e92ec7b651",
+    "prepared_sha256": "4b35722a1f636c15a7e60f8898846ca252132e2f2bbfac52ee1895982f71663d",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 149.62681361607142,
+    "image_std": 103.57838977705957,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0007.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0007.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "62f1d7961d430b21795e5bfee6caf02c33544a30368fd6fb66ca19aa7d8d6d6d",
+    "prepared_sha256": "8ff32730eb7384e95984aeb126467f3eb290cf1cc28de4f1b80efc491a8a17dc",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 148.0768494897959,
+    "image_std": 104.4230307161372,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0008.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0008.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d3abe7280204b6df9c2411a2074de987fe9c15ea8f839fe551a9425dc509e096",
+    "prepared_sha256": "4d7a1c6453cf4c387f91484516c982c6403695bfcfb0639950a3980018d9b0cb",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 146.59222204506804,
+    "image_std": 105.04742883341753,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0009.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0009.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "73013b212ccac127303b7fc42166173e0d3827b0361338d0dd25fbdd16d5f3c3",
+    "prepared_sha256": "2d7e8afd85a56f184436e14db224820fa33ac058ed08705100cac2097fba01a6",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 145.43011267006804,
+    "image_std": 105.49219359582928,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0010.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0010.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "526ac86817ca2a0df156c25fc6f062d9d3afff482368ff0dc5cd62f869405e89",
+    "prepared_sha256": "f53838e8d1763853e038c727cba7cf3cbc653983c4269dd0f82208edb2bf6294",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.59236819727892,
+    "image_std": 105.80952903260899,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0011.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0011.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "c60fdc7f9abce1210bed54b84089ed247e39e7a3b1619246375359308cad901a",
+    "prepared_sha256": "1a3feb427f024d0dabd8587790e02d753da785381fdd0c2adb7a45c4c044d362",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.16438802083334,
+    "image_std": 105.92959289674609,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0012.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0012.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "4e0cd22f4dff5750b3eadadb7f6bfdc798fdd590b9c6a763b884e79ee60e24bb",
+    "prepared_sha256": "f7836050be76b5edaff61ae18c0983e9a66814d40bba52bbcb76129f6bec8ece",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 143.84217554209184,
+    "image_std": 106.10505036111918,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0013.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0013.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "12a52440b47942f9b7f42292d8392d11fa1d018e37e3e19dc06a885eb1e1aec8",
+    "prepared_sha256": "f533a10141ba20eed9c2feb193e017a43b495cd17b40f5d2f9442743391e7685",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.52771577380952,
+    "image_std": 105.73433691311745,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0014.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0014.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "889db40d1224b4e30516c42ffa64385ba676dd4efa623af968e697914cd0e44f",
+    "prepared_sha256": "03b7a517041dc7233284b5ba6ce6d954c3c30b28a20a308a8669e45dec44a593",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 145.92374176232994,
+    "image_std": 104.90101651073351,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0015.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0015.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "0f39110f6d2eadcc1f01330874fbf648eed4310168b1056bc993b8e1911a9f47",
+    "prepared_sha256": "d163372ef7a280fed4db28a94051839b5292ff99bb7e0ba3dc0e53c9c5e68f3b",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.24808673469389,
+    "image_std": 104.04422385299796,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0016.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0016.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "31eacdd39419b845a6cbd551a561ccd273a8fc62e30cad65ec65ccaa8ff48440",
+    "prepared_sha256": "86929425f35cc42d5912c25995712978ddcc1cd424737e6a4a8ebf2310517284",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.3581393494898,
+    "image_std": 104.00429698769001,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0017.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0017.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "4877256e9b0ade63e70b5b930bb9672c9dee427e0d281a7eec39f5468b115266",
+    "prepared_sha256": "cb96c443feaabf006e290aa925b1d1edf42fc4c25dda53deb0bb242a5c474bec",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.74816645408163,
+    "image_std": 104.02099191494014,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0018.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0018.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "5acb8567b9980f7668a7e4adf868f4a771c012ad75a0897756aac65ce308b7f4",
+    "prepared_sha256": "c9167c6714179af655b667bd49e138dcee962f05f9d3c4fdf8b97c13f0cae332",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 148.76100791879253,
+    "image_std": 102.91167346294034,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0019.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0019.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "c6e05f225d9439020e6affd43e44dd816e1317abe95c12969bd87a828c4cbe74",
+    "prepared_sha256": "fc91b144f129529e6aa3af57ce7347cef4b9a068aebf7fcb4864a0c54c540ea5",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.90334688562925,
+    "image_std": 103.22719100538862,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0020.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0020.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "7ac4cee4bc2b2bc091bc90ba39fa25dcc7c111b051bc03699af281382ff6359b",
+    "prepared_sha256": "8d1a2cf1c36768dcc6d0ab61d183fea02b854a67fe707f1cf06e5a39882e2e10",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.6213461947279,
+    "image_std": 103.41836626738406,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0021.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0021.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b35f3da1b840895ebc73b259e0dafa0adf665e801c55d19c500b85ababccd1ca",
+    "prepared_sha256": "a9815f215ecb48f9334c7491c6ce6e9f9b8e8e5dfff3f29a7920ea23b96ebc41",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 146.24950839710885,
+    "image_std": 104.2719287764634,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0022.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0022.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "275a3e2213b8c02ff2892cb96e2f666bcbbad12805f0b54f2056aa1ea5b9c5c1",
+    "prepared_sha256": "da8716dcfc21da652d3572c59bc23ea3db21816b0ecbc142c8a7696e0e878ca3",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.26215720663265,
+    "image_std": 105.4356871756921,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0023.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0023.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b05a39ce0c5d9f8ade4783de9488c6bf659adc3eca61950136dce57e87b24524",
+    "prepared_sha256": "4c4d1c9e39079103513d5e966e02cb699d25e9ca4ea798ef6f7c79c094d13175",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 142.44611633715985,
+    "image_std": 106.49304937004884,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0024.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0024.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d8d73fef901143fb7acf9bb349735d445717c7aa5b128834f57b02ff6971cb74",
+    "prepared_sha256": "5564396aac40c7d78fccd84d7eb972bdee719026a61e000d1f95480cd5fe44c9",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 140.6515199829932,
+    "image_std": 107.3254900577772,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0025.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0025.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "96a20749f721ec52a4548c175d6d42a28079f9486e7c49cc4507aa6dd35b3cc9",
+    "prepared_sha256": "177e50e6f9bc5665c2ef2337ded919ea703d6221d2c36dd4fa0554bc57a14cec",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 138.5519571109694,
+    "image_std": 108.3947472047865,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0026.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0026.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "13b720454f95209328f62f423d94d8fbd43ee0722d0e6a39d6be41b4fab059c9",
+    "prepared_sha256": "8dd64b4d3b2e4831e4fded3a64bed50c1a895fc3000f34c799d8b8cbb696cf60",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 136.18407870960885,
+    "image_std": 109.5757113803994,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0027.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0027.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "5682c963bfb22b10dd423cd6dca49cbdf311387218679cb19e501a770ea97a31",
+    "prepared_sha256": "3164da51c78e57069e8f7f8e0a56de1231cb1bdfb5fd0cb49d650050ed7adf31",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 135.26093484268708,
+    "image_std": 110.01475014770264,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0028.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0028.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "ece15dc4ba7e50dc3bc80c9ceae32401896aa4ff7473fac34b9c747754746c30",
+    "prepared_sha256": "58337671c522e9fd7c7ced419d656718c1a65b50f52e9adedcd639988bbdd954",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 135.42137011054422,
+    "image_std": 109.91919735044927,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0029.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0029.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "21448f6ebc31b9d0f6a28125a247d7a2a4bbe352f249cd262094a432731f226c",
+    "prepared_sha256": "652ad982e9aa18e7f2f3798c9095182df7af406a4b435079553bfc0b2fdc5e1e",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 135.91377683886054,
+    "image_std": 109.81948156634019,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0030.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0030.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "8471b6c57407ae6e2c7a0562d4a89a2553a91e5bed9ba63509e444369c204419",
+    "prepared_sha256": "d58751df5ffb1064964741a81b5ef3e5af14ee9255a7fbd8eef1fd00c3afb705",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 137.0513990752551,
+    "image_std": 109.28897781358626,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0031.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0031.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "9980b3c9fae4293988c6bcd29c7a300f5134f4d3b3013a69e6a2657022464c22",
+    "prepared_sha256": "539436b29a19db1d45570427aac9901d951ef597e7d24bd999321bc3ea35991e",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 139.94493383290816,
+    "image_std": 107.84265613192404,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0032.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0032.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "dab9ae67636ebd88eb533ba1074d24cd1f0f974ecd99e25cefe0cfd056803ce3",
+    "prepared_sha256": "cb6cbe933b44efff4dc4280049d9411923930e8ce87ed82c79a8dfe9b17fadf4",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 139.7923442814626,
+    "image_std": 107.93474027054532,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_low_have_001_0033.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_low_have_001_0033.png",
+    "label": "牛排",
+    "sequence": "beef_low_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "12f955135f85f9474ca746f7f119c4ddd2e3c599f4c4af09c83e53a05011a04b",
+    "prepared_sha256": "e2982a723514526f1cbd5726bcb169af1037d7f5db161eb7c09594a7bafdc099",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 142.40610384778913,
+    "image_std": 106.52726798999922,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0001.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0001.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d6440327f13dfb625d53fd69391b1b843dda4327418eca264459d280433c3c5f",
+    "prepared_sha256": "804989a4de6371ac0c8f1327e904270870b98c43a5a1919a997e9a8e8f4d045b",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 152.74720982142858,
+    "image_std": 99.41288314777073,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0002.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0002.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "29badf62823d4c50db6f96db37ca0f9dbd27e68f98ec20c0608af48c8e37817c",
+    "prepared_sha256": "dd432359fc90de80309dc73531357c19ce1fed0f6822d3512fad79b1d82b9272",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 156.59351084183675,
+    "image_std": 97.21550119886108,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0003.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0003.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "88d7232654cc9a8cfb628aed2cc0801f2d18b6c837ce5ebd94e4387cf670837e",
+    "prepared_sha256": "30887e36f0cc7edeeae51921d5f6e039c0d424453c847a03e0cfcd710a475b2c",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 158.25644398384352,
+    "image_std": 96.81875797551798,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0004.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0004.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "9030857336d181a2e94890f90e3893a8a012064a2c20f5c94324ee8a37bde129",
+    "prepared_sha256": "4bcf595f765410690e4924a0a0a4ad85738bf89d754cd36e35cff12313c885f8",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 154.8406675170068,
+    "image_std": 98.58678833788917,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0005.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0005.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "a6d4c8738ffe12630742d29626c299b35569f190297a60e25b7ca486f26fb84e",
+    "prepared_sha256": "7ad18dc61f07fc19d39ed709f8ea48a78155fe6f1846504dc002ff959ff5613b",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.88083280187075,
+    "image_std": 100.98756703500673,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0006.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0006.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "4076c0a7ab5f372b3d7beffd0f70d0d924eb6373d521c1495f949e9d2d845a7f",
+    "prepared_sha256": "11699cb27a4c4462f8d20591d9e88513b8749e7ae08792d939148047ca2fc3ab",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.22807716836735,
+    "image_std": 102.943009175554,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0007.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0007.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "74ca410cea7cd2d0dbc73841d398239beac4f6cf561af3ac947f064312d14890",
+    "prepared_sha256": "e50659d3820e3c6416a48a44317be77052d2001e0e8f36ade44bd9ee0f4ba80f",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 145.28702301232994,
+    "image_std": 103.8953876850919,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0008.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0008.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d9e5e77202a13208ca55bf90549ab65c3cf0f3d9987c62b8d96f770abcc3bb3e",
+    "prepared_sha256": "47d20035a7c1e64efc28c8f4aafd14efe0698c8a59b058aebc2c9c3dc0f1141a",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.4368290284864,
+    "image_std": 101.47976108167833,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0009.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0009.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "cfed3d8075a67497d3b0880b19c493e81d83939b57180e98a25a7ed542337fff",
+    "prepared_sha256": "ca9c8cfcce6fcf61336eba970e4f46c21931af8dc5d1f623cb40d12d39e83e6f",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.1162707270408,
+    "image_std": 101.67388819267546,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0010.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0010.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b4bd4390f5f9ce76027c3bf229a90b78bc86529b14ada2a2f1ff771c8af46d2a",
+    "prepared_sha256": "3e69e5d01edb8c8dd74b8ae78b76a2d08472a150ed3ca661b957a1fb64280119",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.5928730867347,
+    "image_std": 101.39565683674556,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0011.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0011.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b557276c3188062bf635bc5aee40a8cf55056a6cc217fd8283c4ea74e43daa84",
+    "prepared_sha256": "0a7524c655c41fe0995758a905dcce11af2585eebbee27ec068dcb98f940bdcb",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 150.95899766156464,
+    "image_std": 101.07317289233272,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0012.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0012.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d04de11088990d213b6f0a0f7487be6dc50d980fb8fcf912b397693f7743933d",
+    "prepared_sha256": "354d4f8fd4fa19f942d75c661df706797bedf3ef1720a4a47728a0bb2cffca7c",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 153.61021869685374,
+    "image_std": 100.05808479165863,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0013.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0013.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "199681d6131f5aab5a2b1cea22e9be04dfd5ac8d9e45b9f4b35e85ee6c566c20",
+    "prepared_sha256": "38d32ce948bf5d0b6b6b9717df24ad02192dbdedfd94b8012c512f3599e670b6",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 152.01620296556123,
+    "image_std": 101.28473140482895,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0014.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0014.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "1902aee93a9fec3fc0f0db71740ef816b51a6736de2dc533e81b025b6cf5720c",
+    "prepared_sha256": "544eb9a56615d1ce5025b94dbf9ebf41f94fdb0af24771ee57833d6a027e0057",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 151.7690795068027,
+    "image_std": 101.50579438699883,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0015.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0015.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "d40b9820126eb6a0c4236576fc13a00b5e0c020cbcb858a44d2f59980804fbce",
+    "prepared_sha256": "7de53de7ac7d4f774442526ff6c395c09ce3d33be2a1d02f4c1fc0c2855c4272",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 152.41022932610545,
+    "image_std": 101.20177229039398,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0016.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0016.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "35ab6ca17bbefffd563b57fd50eeb8965a22995f2f68ccb3c5ba6a353417fbd9",
+    "prepared_sha256": "05c65a4c0a4bf51472aa1e0e4ee5a9bfe1282fd5124bffa4470f9732b13bf958",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 148.48507918792518,
+    "image_std": 101.84311118250857,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0017.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0017.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "b276eba880a194ed143ec370c03c3dc580fe15d155023835ec68d11afad94378",
+    "prepared_sha256": "d481fa6e476c5248e65e224f9341a702d93f0313265c681101446ed375a6e851",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 148.69178491709184,
+    "image_std": 101.81772077191884,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0018.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0018.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "6b1e81150c3b29584d89ed139e06f404eb45b57ddb4c7235eee45358717d508a",
+    "prepared_sha256": "8bf8a755b05b03ae9d6e830728a7061e0464449fe793e4c170caad53cf8c40f0",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 148.2543579931973,
+    "image_std": 101.86923171157738,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0019.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0019.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "2218819706c5e4574fa6fb8ff48b2f430b07965c37c272756a182ba0cd4d9c2a",
+    "prepared_sha256": "a402442728a50e89a0b42afcb0e28aa39080f3446e4270e9c717d1a106cfc8e5",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.12705941751702,
+    "image_std": 103.01666438536652,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0020.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0020.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "1d511d1e2ce168ff1d4c0be23f6517f0f7cd16e7d26573244f44f95a0e19c3e5",
+    "prepared_sha256": "a0efe82175578c612140338dfec4d62be5386c80a768ba2d7dfc01d5e0123db7",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.81101854804422,
+    "image_std": 104.35633938207697,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0021.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0021.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "008527a6c5d34c50aaf94ee4dce63f6f57abde5212fddb938fd1f087d8f0459c",
+    "prepared_sha256": "e45ef628fb001e1d6a6061a6f3bc99322e3b08d847758965f7c434f6ae18b40c",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 142.33666826105443,
+    "image_std": 105.68802820290182,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0022.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0022.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "e341962b827903f1c25cef99af9e589308de975aed65c8361d6e73016d848e60",
+    "prepared_sha256": "c3b680e93f4283430a7bfd0b30f5c465dcf8a7b93c0201b33088e1dc1c8ca18f",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 141.9513246704932,
+    "image_std": 105.99518960155388,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0023.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0023.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "a3ee330de3509a086f188877f9e9c8980ed555498a43428f5b321d729bf65211",
+    "prepared_sha256": "038038366edd0c7f981eb55847ba8cbe02ff7455f41112a0423aaaa306e3d10e",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 144.44792330994898,
+    "image_std": 104.86201788303617,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0024.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0024.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "779d9b914d1f81f2e81063213487db0b658561f842fd119d539537531fa4a399",
+    "prepared_sha256": "e4f5e7723f17e3d24e17ead29a23cd973bf05acd18599d8630db6e521f3ed164",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 152.70548336522108,
+    "image_std": 100.28633697963248,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0025.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0025.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "6ea9a8afcf589edc57794722bb4bda14619119a2fce667d0fa8ffcff13dc2c9d",
+    "prepared_sha256": "02b5fb7e824df863a6704616e0943400eef60e92fdd7df095ed8afd5803975a8",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 154.4578085140306,
+    "image_std": 99.08141725726168,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0026.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0026.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "1c63b8e66c0f746b95fb8df3fbb941d1ede03ac5227dd23caf9eb47eaaa3d565",
+    "prepared_sha256": "e5b6c854124eff93fc1a7068b167aeb1fcc0a6f86699cda7725bc1918d38fa9f",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 152.15400457057822,
+    "image_std": 100.39343244360698,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0027.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0027.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "da838d84d1c9749858080b2e8e6c277afe0fff070a3bcabdd3a6b987a9934f07",
+    "prepared_sha256": "a7fe0929b37e46ad9cc44cffcc5aca7b938853184e1675c978a3e05beddbcb4a",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 147.8026214392007,
+    "image_std": 103.30762524089567,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0028.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0028.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "51655a533763541cd85b125c9651f458922e3a91585b010af37bc44f9c4f94cf",
+    "prepared_sha256": "7fc211f48d55988021ed5efb62500b9f1499105fdd901644016a120fe622c30b",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 145.9577487244898,
+    "image_std": 104.37447411427966,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0029.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0029.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "ecfd5e77239969865de61a5b32615aabf28149e8d229e3d35095cabe85085f9c",
+    "prepared_sha256": "734950f971017e784e74b65c879b8d894fd80d29ba3b2fa42025c6eae7aaaef5",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 146.44703975340136,
+    "image_std": 104.1972665875822,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0030.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0030.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "18d08f863e6deb64a11233b2ea46acdf23cba939b125181281c425e6605c87aa",
+    "prepared_sha256": "6a654979fe61f0c8ddcb4aa7be80227925e9eeb3bd17b8c93495d309ecf49510",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 146.8102346407313,
+    "image_std": 103.98581889443922,
+    "selected_for_training": true
+  },
+  {
+    "image": "C:\\Users\\lenovo\\Desktop\\项目\\数据二次\\按食材分类\\牛排\\beef_mid_have_001_0031.jpg",
+    "prepared": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\C_real_adapt_20261105\\prepared_images\\牛排\\beef_mid_have_001_0031.png",
+    "label": "牛排",
+    "sequence": "beef_mid_have_001",
+    "session": "session-20261105-783733b73476",
+    "raw_sha256": "e5257e611363d6910b32b530eb76edb5b73c44f1a287df4733fd9b92e1321bc6",
+    "prepared_sha256": "412da18f6bdc629cae8ed2c64af24ae0a62ac5434b7601f815af4c603410a1ca",
+    "size": [
+      1920,
+      1080
+    ],
+    "metadata_present": true,
+    "metadata_candidate": null,
+    "mean_pixel": 146.78491044855443,
+    "image_std": 103.88129533996118,
+    "selected_for_training": true
+  }
+]

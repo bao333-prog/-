@@ -1,0 +1,66 @@
+{
+  "reviewer": "assistant_visual_review",
+  "final_contact_sheets_inspected": 10,
+  "images_inspected": 59,
+  "user_review_status": "pending",
+  "training_eligible": false,
+  "selection": "Only sources in foreground_manifest.json; old initial/replacement/representative outputs are evidence, not final candidates.",
+  "sheets": [
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_01.jpg",
+      "sha256": "394a56bd0326077a0d0ed6901b2e6945e0b810261ada64f703ea6c303808e0eb",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_02.jpg",
+      "sha256": "d62cfd7f0ad5068144cae64477a67c0e7553276abdd24ab65a7b7d9c2a8fc9d0",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_03.jpg",
+      "sha256": "6e89a7ab72f9df60340c8817ca32b5b72df91cd4483ea7964a7b50ac5d08a613",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_04.jpg",
+      "sha256": "a5ebddcb54cb64ce048329967e1880c2da3e629bf916aa38eee7f8df8d531573",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_05.jpg",
+      "sha256": "82ef6d50a1729c4fd07cfc5071df1f4f86682f078649c9e7d5534f413b6e6b9c",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_06.jpg",
+      "sha256": "9d0cfddf5c0311109d8a6ebd890845dd59cc536e0ee00c07058c424fad099578",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_07.jpg",
+      "sha256": "e47429744f6b50c8d7411c13a06e071498a4e8e862e724e55cbca985487696ff",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_08.jpg",
+      "sha256": "efa0a3b73cc2961991a46971406d9aac74a02637e11c4e4c1bd63159a46c5de4",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_09.jpg",
+      "sha256": "0ab62755c4da0bdef198edb8fb5e82569eb7d6c9aad98d7d6dce64aaf4160ee6",
+      "status": "inspected"
+    },
+    {
+      "path": "C:\\Users\\lenovo\\Documents\\ChatGPT\\微波炉_小组项目\\runs\\geometry_upgrade_20261128_092947\\preview\\foreground_final_10.jpg",
+      "sha256": "c2fbbe25047aa7d482f8acbff6bb92cdf92ac2c3c9bceca50825f51e4ea081e3",
+      "status": "inspected"
+    }
+  ],
+  "notes": [
+    "Initial foil flat patches were replaced with safer verified sources; one croissant was rejected after its repair still showed a gray corner.",
+    "Two original source-height metadata values are unknown; remaining sources cover high, medium and low.",
+    "Some filename foil flags disagree with visible foil. The ca11d5682ad3 record preserves original metadata and records observed foil in evidence.",
+    "No user approval is asserted. Root review is still required."
+  ]
+}

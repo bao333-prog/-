@@ -1,0 +1,13 @@
+{
+  "arm": "C320",
+  "input_size": 320,
+  "ema_decay": 0.99,
+  "scene_balanced": true,
+  "foreground_rotation": true,
+  "fixed_target_background": true,
+  "selection": "macro_min_overall_negative_loss",
+  "nominal_epochs": 20,
+  "maximum_epochs": 60,
+  "foreground_review_sha256": "0a932da15e717b1ee72a16b979287c10919fd332ae9acbf46cace15359e323d7",
+  "foreground_views": 59
+}

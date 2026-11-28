@@ -1,0 +1,58 @@
+{
+  "id": "17_joint_B",
+  "title": "联合训练B：第一批验证选模",
+  "status": "historical_or_comparison",
+  "trained": true,
+  "parent_version": null,
+  "initialization": "official_imagenet_backbone_random_14_class_head",
+  "initialization_sha256": "5562ddb1fe6d07123b9d0a57fd49c150216f3fd66fa2dffecf0e51487797ed9d",
+  "run_id": "joint_AB_20261118_193929",
+  "directory": "versions/17_joint_B",
+  "source_directory": "src",
+  "checkpoint": "versions/17_joint_B/models/model_joint_B.pt",
+  "checkpoint_sha256": "a7a49ca21f7f1bf810d4ab7a3371b1e3bc86a9e69e695c40c6abf7a41341ff3b",
+  "checkpoint_bytes": 6264279,
+  "model_name": "mobilenet_v3_small",
+  "class_names": [
+    "南瓜",
+    "吐司",
+    "牛排",
+    "玉米",
+    "西兰花",
+    "鸡翅",
+    "芦笋",
+    "培根",
+    "三文鱼",
+    "整鸡",
+    "土豆",
+    "香肠",
+    "薯条",
+    "可颂"
+  ],
+  "class_count": 14,
+  "image_size": 224,
+  "best_epoch": 19,
+  "epochs": 20,
+  "validation_accuracy": 0.9948186528497409,
+  "validation_loss": 0.20176881154120896,
+  "preprocessing": {
+    "resize_mode": "letterbox",
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "variant": "raw",
+  "result_summary": "第一批验证192/193；第二批开发测试161/167（96.41%）。与联合A共用一次训练；第一批及网图牛排全部排除。",
+  "real_oven_acceptance": "reused_development_sets_not_new_blind_acceptance",
+  "board_acceptance": "not_verified",
+  "delivery_archive": "outputs/联合训练_AB_20261118_193929/联合模型B_第一批验证_代码与权重.zip",
+  "original_retained_file_count": 74,
+  "delivery_archive_sha256": "5356a04f011dc38deadde1e18d62db0f18c8d493b8df6ab0fc31d9581e54f272"
+}
